@@ -1,0 +1,74 @@
+/* QQ秀展示区域样式 - 经典Aqua风格 */
+.qq-show-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* 填满父容器宽度 */
+}
+
+.qq-show-display {
+  position: relative;
+  width: 210px;
+  height: 339px;
+  background: #F8F8F8;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.qq-show-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.qq-show-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.qq-show-empty {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 11px;
+  font-family: 'Unifont', monospace;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 0px #cccccc;
+}
+
+/* 响应式设计 */
+@media (max-width: 900px) {
+  .qq-show-container {
+    height: auto; /* 适应内容高度 */
+    width: auto; /* 适应内容宽度 */
+    min-height: auto; /* 移除最小高度限制 */
+  }
+  
+  .qq-show-display {
+    width: 210px; /* 固定宽度 */
+    height: 339px; /* 固定高度 */
+  }
+}
+
+

@@ -1,0 +1,239 @@
+/* 物品缩略图样式 - 经典Aqua风格 */
+.item-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 12px 8px 12px ; /* 备用简写形式 */
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #ffffff;
+  width: fit-content; /* 根据内容自适应宽度 */
+  height: fit-content;
+  transition: none;
+}
+
+/* 更具体的样式规则，确保ItemThumbnail组件使用正确的尺寸 */
+.item-thumbnail.item-thumbnail-component {
+  width: fit-content !important; /* 根据内容自适应宽度 */
+  max-width: 118px !important;
+  padding: 12px 12px 8px 12px ; /* 备用简写形式 */
+}
+
+/* 最强制性的样式规则 - 使用ID选择器级别的特异性 */
+div.item-thumbnail.item-thumbnail-component {
+  width: fit-content !important;
+  padding: 12px 12px 8px 12px ;
+  box-sizing: border-box !important;
+}
+
+.item-thumbnail:hover {
+  background: #433AE7;
+  border: 1px solid #d0d0d0;
+}
+
+.item-thumbnail:hover .item-name {
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #333333;
+}
+
+.item-thumbnail.selected {
+  background: #433AE7;
+  border: 1px solid #d0d0d0;
+}
+
+.item-thumbnail.selected .item-name {
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #333333;
+}
+
+.item-thumbnail:focus {
+  background: #433AE7;
+  border: 1px solid #d0d0d0;
+  outline: none;
+}
+
+.item-thumbnail:focus .item-name {
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #333333;
+}
+
+.item-thumbnail-image-container {
+  position: relative;
+  width: auto; /* 自适应宽度 */
+  height: auto; /* 自适应高度 */
+  max-width: 150px; /* 最大宽度限制 */
+  max-height: 150px; /* 最大高度限制 */
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 6px;
+  background: #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-thumbnail-image {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* 按原始比例展示 */
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* 发型预览容器 */
+.hair-preview-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hair-preview-placeholder {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  opacity: 0; /* 隐藏占位元素 */
+}
+
+.hair-preview-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  z-index: 1;
+}
+
+.hair-preview-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  z-index: 2;
+}
+
+
+.item-name {
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Unifont', monospace;
+  line-height: 1.2;
+  width: 100%; /* 使用100%宽度，与父容器一致 */
+  max-width: 150px; /* 最大宽度限制 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow: 1px 1px 0px #cccccc;
+  margin-top: 4px;
+  box-sizing: border-box;
+  word-break: break-all; /* 强制英文单词在任意位置断开 */
+  word-wrap: break-word; /* 额外的单词换行支持 */
+  hyphens: none; /* 禁用连字符 */
+  overflow-wrap: break-word; /* 现代浏览器的单词换行 */
+  display: block; /* 确保是块级元素 */
+}
+
+/* 响应式设计 */
+@media (max-width: 900px) {
+  .item-thumbnail {
+    padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
+
+    height: 100%; /* 填充父容器高度 */
+    display: flex; /* 使用flex布局 */
+    flex-direction: column; /* 垂直布局 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+  }
+  
+  .item-thumbnail-component {
+    
+    padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
+  }
+
+
+  
+  /* 允许flex项目按比例增长 */
+  .item-thumbnail {
+    flex-shrink: 0 !important;
+    flex-grow: 1 !important; /* 允许按比例增长 */
+    min-width: 60px; /* 设置最小宽度 */
+    max-width: none; /* 移除最大宽度限制 */
+    
+  }
+  
+  .item-thumbnail-image-container {
+    
+    width: 100%; /* 填充父容器宽度 */
+    max-width: none; /* 移除最大宽度限制 */
+    margin-bottom: 2px; /* 减少底部边距 */
+    height: 100%; /* 填充父容器高度 */
+    flex: 1; /* 填充剩余空间 */
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+  }
+  
+  .hair-preview-container {
+    width: 100%; /* 填充父容器宽度 */
+    max-width: none; /* 移除最大宽度限制 */
+    height: 100%; /* 填充父容器高度 */
+    max-height: none; /* 移除最大高度限制 */
+  }
+  
+  .item-thumbnail-image {
+    width: 100%; /* 填充父容器宽度 */
+    max-width: none; /* 移除最大宽度限制 */
+    height: 100%; /* 填充父容器高度 */
+    max-height: none; /* 移除最大高度限制 */
+  }
+  
+  .hair-preview-placeholder,
+  .hair-preview-back,
+  .hair-preview-front {
+    width: 100%; /* 填充父容器宽度 */
+    max-width: none; /* 移除最大宽度限制 */
+    height: 100%; /* 填充父容器高度 */
+    max-height: none; /* 移除最大高度限制 */
+  }
+  
+  .item-name {
+    font-size: 10px; /* 进一步减少字体大小 */
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    hyphens: none;
+    overflow-wrap: break-word;
+  }
+
+}
+
