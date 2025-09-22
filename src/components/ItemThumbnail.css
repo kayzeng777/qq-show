@@ -165,8 +165,8 @@ div.item-thumbnail.item-thumbnail-component {
 @media (max-width: 900px) {
   .item-thumbnail {
     padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
-
-    height: 100%; /* 填充父容器高度 */
+    width: fit-content !important; /* 根据内容自适应宽度 */
+    height: fit-content !important; /* 填充父容器高度 */
     display: flex; /* 使用flex布局 */
     flex-direction: column; /* 垂直布局 */
     align-items: center; /* 水平居中 */
@@ -174,27 +174,32 @@ div.item-thumbnail.item-thumbnail-component {
   }
   
   .item-thumbnail-component {
-    
     padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
   }
 
+  .item-thumbnail.item-thumbnail-component {
+    max-width: none !important;
+    max-height: none !important;
+    width: auto !important;
+    height: auto !important;
+    
+  }
 
   
   /* 允许flex项目按比例增长 */
   .item-thumbnail {
     flex-shrink: 0 !important;
     flex-grow: 1 !important; /* 允许按比例增长 */
-    min-width: 60px; /* 设置最小宽度 */
-    max-width: none; /* 移除最大宽度限制 */
+   
     
   }
   
   .item-thumbnail-image-container {
-    
-    width: 100%; /* 填充父容器宽度 */
-    max-width: none; /* 移除最大宽度限制 */
+    width: auto !important; /* 根据图片尺寸自适应 */
+    max-width: none !important; /* 移除最大宽度限制 */
+    max-height: none !important; /* 移除最大高度限制 */
     margin-bottom: 2px; /* 减少底部边距 */
-    height: 100%; /* 填充父容器高度 */
+    height: auto !important; /* 填充父容器高度 */
     flex: 1; /* 填充剩余空间 */
     display: flex; /* 使用flex布局 */
     align-items: center; /* 垂直居中 */
@@ -202,31 +207,34 @@ div.item-thumbnail.item-thumbnail-component {
   }
   
   .hair-preview-container {
-    width: 100%; /* 填充父容器宽度 */
+    width: auto !important; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
-    height: 100%; /* 填充父容器高度 */
+    height: auto !important; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
   
   .item-thumbnail-image {
-    width: 100%; /* 填充父容器宽度 */
-    max-width: none; /* 移除最大宽度限制 */
-    height: 100%; /* 填充父容器高度 */
-    max-height: none; /* 移除最大高度限制 */
+    width:  140px !important; /* 根据图片原始比例 */
+    max-width: none !important; /* 不超过容器宽度 */
+    height: 226px !important; /* 根据图片原始比例 */
+    max-height: none !important; /* 不超过容器高度 */
+    object-fit: contain; /* 保持比例，完整显示 */
   }
   
   .hair-preview-placeholder,
   .hair-preview-back,
   .hair-preview-front {
-    width: 100%; /* 填充父容器宽度 */
-    max-width: none; /* 移除最大宽度限制 */
-    height: 100%; /* 填充父容器高度 */
-    max-height: none; /* 移除最大高度限制 */
+    width: 140px !important; /* 根据图片原始比例 */
+    max-width: 100%; /* 不超过容器宽度 */
+    height: 226px !important; /* 根据图片原始比例 */
+    max-height: 100%; /* 不超过容器高度 */
+    object-fit: contain; /* 保持比例，完整显示 */
   }
   
   .item-name {
     font-size: 10px; /* 进一步减少字体大小 */
-    max-width: 100%;
+    width: auto; /* 根据内容自适应宽度 */
+    max-width: 140px !important; /* 限制最大宽度，防止文字过宽 */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
