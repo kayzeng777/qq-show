@@ -470,33 +470,31 @@
 .qq-show-panel {
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* 响应式设计 */
 @media (max-width: 900px) {
   .qq-show-layout {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto; /* 让display占满剩余空间，menus适应内容 */
+    grid-template-rows: 1fr auto; /* display填充剩余空间，menus适应内容 */
     grid-template-areas: 
       "display"
       "menus";
     gap: 16px; /* col-display和下方menu之间的间距 */
     height: 100%; /* 填充app-content的剩余高度 */
-    align-items: center;
+    align-items: stretch; /* 让子元素填满高度 */
   }
   
   .menus-container {
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-      "items"
-      "categories";
+    display: flex; /* 改为flex布局 */
+    flex-direction: column; /* 垂直布局 */
+    justify-content: flex-start; /* 内容从顶部开始排列 */
     gap: 12px; /* menu之间的固定间距 */
-    justify-items: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
     overflow: visible; /* 确保容器本身不滚动 */
-    height: auto; /* 适应内容高度 */
+    height: fit-content; /* 根据内容自适应高度 */
     width: 100%; /* 填充父容器宽度 */
+    min-height: 0; /* 防止flex溢出 */
   }
   
   /* 确保item menu在小屏幕下保持横向排布 */
@@ -504,11 +502,10 @@
     width: 100% !important;
     min-width: auto !important; /* 移除最小宽度限制 */
     overflow: visible; /* 容器不滚动 */
-    height: 100% !important; /* 填充父容器高度 */
+    height: auto !important; 
     display: flex !important; /* 使用flex布局 */
     flex-direction: row !important; /* 水平布局 - title在左边 */
     align-items: center !important; /* 垂直居中 */
-    min-height: 200px !important; /* 确保最小高度 */
   }
   
   .col-items .item-grid {
@@ -544,39 +541,66 @@
   }
   
   .col-items {
-    height: 100%; /* 填充剩余高度 */
+    flex: 1; /* 填充剩余空间 */
+    height: auto; /* 改为auto，让flex控制高度 */
     width: 100vw; /* 适应窗口宽度 */
     max-width: none;
     overflow: visible; /* 不滚动 */
     padding: 0 20px; /* 添加20px左右内边距 */
+    display: flex; /* 确保是flex容器 */
+    flex-direction: column; /* 垂直布局 */
+    min-height: 0; /* 防止flex子元素溢出 */
+    flex-shrink: 1; /* 允许收缩 */
   }
   
   .col-categories {
+    flex: 0 0 auto; /* 不增长，不收缩，保持内容高度 */
     height: auto;
     width: 100vw; /* 适应窗口宽度 */
     max-width: none;
     overflow: visible; /* 不滚动 */
     padding: 0 20px; /* 添加20px左右内边距 */
+    min-height: 0; /* 防止flex子元素溢出 */
   }
   
   .app-content {
     padding: 20px 8px;
-    align-items: stretch; /* 恢复stretch让子元素填满高度 */
+    align-items: center; /* 恢复stretch让子元素填满高度 */
     height: auto; /* 允许适应内容高度 */
   }
   
   .display-controls {
-    width: 210px; /* 与qq-show-display宽度一致 */
+    width: 190px; /* 与qq-show-display宽度一致 */
     max-width: none; /* 移除最大宽度限制 */
     padding: 0; /* 去掉padding */
+  }
+  
+  .clear-button {
+    font-size: 14px;
+    height: 28px;
+    width: auto
+  }
+
+  .action-button{
+    font-size: 22px;
+    height: 28px;
+    width: 28px;
+
+  }
+
+  .random-button{
+    font-size: 22px;
+    height: 28px;
+    width: 28px;
+
   }
   
   .col-display {
     gap: 10px; /* display-controls和qq-show-container之间的间距 */
     width: auto; /* 适应内容宽度 */
-    height: fit-content; /* 适应内容高度 */
+    height: 100%; /* 适应内容高度 */
     max-width: none; /* 移除最大宽度限制 */
-    justify-content: flex-start; /* 内容从顶部开始 */
+    justify-content: center; /* 内容从顶部开始 */
   }
 }
 

@@ -129,7 +129,7 @@
 /* 响应式设计 */
 @media (max-width: 900px) {
   .item-selector {
-    height: 100%; /* 填充父容器高度 */
+    height: auto; /* 填充父容器高度 */
     padding: 4px 0; /* 减少内边距，移除左右内边距因为容器已有20px */
     overflow: visible; /* 容器不滚动 */
     width: 100%; /* 小屏幕下使用100%宽度 */

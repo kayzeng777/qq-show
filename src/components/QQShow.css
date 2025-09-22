@@ -14,7 +14,7 @@
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -66,8 +66,8 @@
   }
   
   .qq-show-display {
-    width: 210px; /* 固定宽度 */
-    height: 339px; /* 固定高度 */
+    width: 190px; /* 固定宽度 */
+    height: 305px; /* 固定高度 */
   }
 }
 

@@ -209,24 +209,24 @@ div.item-thumbnail.item-thumbnail-component {
   }
   
   .item-thumbnail-image {
-    width: 100%; /* 填充父容器宽度 */
+    width: 90px; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
-    height: 100%; /* 填充父容器高度 */
+    height: 145px; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
   
   .hair-preview-placeholder,
   .hair-preview-back,
   .hair-preview-front {
-    width: 100%; /* 填充父容器宽度 */
+    width: 90px; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
-    height: 100%; /* 填充父容器高度 */
+    height: 145px; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
   
   .item-name {
     font-size: 10px; /* 进一步减少字体大小 */
-    max-width: 100%;
+    max-width: 90px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
