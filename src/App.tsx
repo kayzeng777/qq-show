@@ -344,13 +344,16 @@ function AppContent() {
             <div className="modal-body">
               <div>
                 <div className="about-section about-description">
-                  <p style={{ whiteSpace: 'pre-line' }}>{t.about.description}</p>
+                  <p style={{ whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: t.about.description }}></p>
+                </div>
+                <div className="about-section about-colophon">
+                  <p style={{ whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: t.about.colophon }}></p>
                 </div>
                 <div className="about-section about-disclaimers">
                   <p style={{ whiteSpace: 'pre-line' }}>{t.about.disclaimers}</p>
                 </div>
-                <div className="about-section about-colophon">
-                  <p style={{ whiteSpace: 'pre-line' }}>{t.about.colophon}</p>
+                <div className="about-section about-timeline">
+                  <p style={{ whiteSpace: 'pre-line' }}>{t.about.timeline}</p>
                 </div>
               </div>
             </div>

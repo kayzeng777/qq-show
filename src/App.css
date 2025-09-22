@@ -775,6 +775,19 @@
   margin: 4px 0;
 }
 
+.about-divider {
+  height: 1px;
+  background: repeating-linear-gradient(
+    to right,
+    #ccc 0px,
+    #ccc 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  margin: 20px 0;
+  border: none;
+}
+
 .about-description {
   font-size: 16px;
   font-family: 'Arial Narrow', sans-serif;
@@ -783,16 +796,36 @@
 }
 
 .about-disclaimers {
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Arial Narrow', sans-serif;
   color: #5953F1;
   line-height: 1.1;
 }
 
 .about-colophon {
-  font-size: 12px;
-  font-family: 'Inter', sans-serif;
-  color: #000000;
-  line-height: 1.1;
-  
+  font-size: 16px;
+  font-family: 'Arial Narrow', sans-serif;
+  color: #333;
+  line-height: 1.2;
+}
+
+.about-timeline {
+  font-size: 8px;
+  font-family: 'Arial', sans-serif;
+  color: #8a8a8a;
+  line-height: 1;
+  text-align: left;
+}
+
+/* About modal links */
+.about-section a {
+  color: #5953F1;
+  text-decoration: underline;
+  text-decoration-color: #5953F1;
+  text-underline-offset: 2px;
+}
+
+.about-section a:hover {
+  color: #333;
+  text-decoration-color: #333;
 }
