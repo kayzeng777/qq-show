@@ -214,9 +214,9 @@ div.item-thumbnail.item-thumbnail-component {
   }
   
   .item-thumbnail-image {
-    width:  100px !important; /* 根据图片原始比例 */
+    width:  90px !important; /* 根据图片原始比例 */
     max-width: none !important; /* 不超过容器宽度 */
-    height: 161px !important; /* 根据图片原始比例 */
+    height: 145px !important; /* 根据图片原始比例 */
     max-height: none !important; /* 不超过容器高度 */
     object-fit: fill; /* 保持比例，完整显示 */
   }
@@ -224,9 +224,9 @@ div.item-thumbnail.item-thumbnail-component {
   .hair-preview-placeholder,
   .hair-preview-back,
   .hair-preview-front {
-    width: 100px !important; /* 根据图片原始比例 */
+    width: 90px !important; /* 根据图片原始比例 */
     max-width: 100%; /* 不超过容器宽度 */
-    height: 161px !important; /* 根据图片原始比例 */
+    height: 145px !important; /* 根据图片原始比例 */
     max-height: 100%; /* 不超过容器高度 */
     object-fit: contain; /* 保持比例，完整显示 */
   }
