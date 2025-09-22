@@ -344,8 +344,8 @@ function AppContent() {
             <div className="modal-body">
               <div>
                 <p>{t.about.description}</p>
-                <p dangerouslySetInnerHTML={{ __html: t.about.disclaimers }}></p>
-                <p dangerouslySetInnerHTML={{ __html: t.about.colophon }}></p>
+                <p>{t.about.disclaimers}</p>
+                <p>{t.about.colophon}</p>
               </div>
             </div>
           </div>
