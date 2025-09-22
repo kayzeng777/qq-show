@@ -43,9 +43,9 @@ const translations = {
     },
     about: {
       title: '关于 QQ秀2000',
-      description: '<a href="https://en.wikipedia.org/wiki/Tencent_QQ" target="_blank" rel="noopener noreferrer">QQ</a> 是腾讯于1999年创建的中国聊天社交平台。在2003年，腾讯推出了虚拟形象装扮产品QQ秀，用户可以为自己在QQ世界中的数字化身搭配服装和配饰。直至2021年，QQ秀被腾讯下架。\n\nQQ秀的创建借鉴了Sayclub，2000年代韩国最大的聊天平台之一。Sayclub在后来由于竞争和未能适应新兴的智能手机时代而在韩国逐渐失去了市场地位。腾讯则走向了不同的轨迹，凭借其技术和产品策略赢得了本土市场竞争。QQ秀在中国取得了巨大成功，吸引了超过1亿用户，并确立了虚拟商品作为主要收入来源的商业模式。\n\n其美学风格具有2000年代初期亚洲流行的"大头贴"和"闪图"特色——闪闪发光的图形、明亮的色彩和极繁主义设计元素，这些都是更广泛的Y2K文化运动的一部分。\n\n尽管QQ秀影响了中国数亿用户和早期的中国互联网文化审美，但在中文互联网以外仍相对不为人知。此项目使用从<a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive Wayback Machine</a>恢复收集的gif素材重现QQ秀，旨在让中国互联网历史上的这一印记被更广阔的互联网社区看见。',
+      description: '<a href="https://en.wikipedia.org/wiki/Tencent_QQ" target="_blank" rel="noopener noreferrer">QQ</a>是腾讯于1999年创建的中国聊天社交平台。在2003年，腾讯推出了虚拟形象装扮产品QQ秀，用户可以为自己在QQ世界中的数字化身搭配服装和配饰。直至2021年，QQ秀被腾讯下架。\n\nQQ秀的创建借鉴了Sayclub，2000年代韩国最大的聊天平台之一。Sayclub在后来由于竞争和未能适应新兴的智能手机时代而在韩国逐渐失去了市场地位。腾讯则走向了不同的轨迹，凭借其技术和产品策略赢得了本土市场竞争。QQ秀在中国取得了巨大成功，吸引了超过1亿用户，并确立了虚拟商品作为主要收入来源的商业模式。\n\n其美学风格具有2000年代初期亚洲流行的"大头贴"和"闪图"特色——闪闪发光的图形、明亮的色彩和极繁主义设计元素，这些都是更广泛的Y2K文化运动的一部分。\n\n尽管QQ秀影响了中国数亿用户和早期的中国互联网文化审美，但在中文互联网以外仍相对不为人知。此项目使用从<a href="https://archive.org/" target="_blank" rel="noopener noreferrer">Internet Archive Wayback Machine</a>恢复收集的gif素材重现QQ秀，旨在让中国互联网历史上的这一印记被更广阔的互联网社区看见。',
       disclaimers: '这是一个非官方、非营利的数字档案项目，仅用于艺术、教育和研究目的。所有素材均从Internet Archive Wayback Machine中恢复收集。版权归腾讯控股有限公司所有。如需删除下架，请联系qqshow2000project@gmail.com。',
-      colophon: 'qqshow2000.com由 <a href="https://www.instagram.com/kayzeng777/" target="_blank" rel="noopener noreferrer">Kay Zeng</a> 设计制作。时至今日，她已经忘记了自己曾在QQ秀和各种钻石会员上花了多少钱。',
+      colophon: 'qqshow2000.com由<a href="https://www.instagram.com/kayzeng777/" target="_blank" rel="noopener noreferrer">Kay Zeng</a>设计制作。时至今日，她已经忘记了自己曾在QQ秀和各种钻石会员上花了多少钱。',
       timeline: '最近更新：2025年9月23日，上线时间：2025年9月22日',
     },
   },
