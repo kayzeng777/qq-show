@@ -829,3 +829,21 @@
   color: #333;
   text-decoration-color: #333;
 }
+
+
+@media (max-width: 900px) {
+
+
+  .about-description {
+    font-size: 14px;
+  }
+  
+  .about-disclaimers {
+    font-size: 12px;
+  }
+  
+  .about-colophon {
+    font-size: 14px;
+  }
+
+}
