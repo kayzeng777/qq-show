@@ -42,15 +42,13 @@ export const en = {
   // About modal
   about: {
     title: 'About QQ Show 2000',
-    description: 'QQ Show 2000 is a retro-style virtual avatar styling tool, inspired by the classic QQ Show system.',
-    features: 'Features:',
+    description: 'QQ Show was a virtual avatar dress-up feature launched by Tencent in 2003 and shut down in 2021. Users could customize their digital personas with clothing and accessories that appeared in QQ chats.',
+    features: 'QQ Show was directly inspired by Sayclub, one of Korea\'s biggest chat platforms in the 2000s, which lost its ground 10 years later. In a different trajectory, Tencent won its home market with its technology and product strategy. QQ Show achieved massive scale in China, attracting over 100 million users and establishing virtual goods as a major revenue stream.',
     featureList: [
-      'Multiple clothing and accessory options',
-      'Real-time preview of styling effects',
-      'Undo/Redo functionality',
-      'Random styling feature',
-      'One-click clear function',
+      'The aesthetic featured the "purikura" and "blingee" style popular in early 2000s Asia—sparkly graphics, bright colors, and maximalist design elements that were part of the broader Y2K cultural movement.',
+      'Despite shaping the internet culture and aesthetic for hundreds of millions of users in China, QQ Show remains relatively unknown outside the Chinese internet spheres.',
+      'This project recreates QQ Show using gif assets recovered from the Internet Archive Wayback Machine, aiming to make its mark on internet history visible to the global internet community.',
     ],
-    conclusion: 'Enjoy the fun of styling and create your unique avatar!',
+    conclusion: 'All assets recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent. Made by <a href="https://www.instagram.com/kayzeng777" target="_blank" rel="noopener noreferrer">Kay Zeng</a>, thinking about the QQ Show she bought with her snack money.',
   },
 };

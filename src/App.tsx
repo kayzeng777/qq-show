@@ -347,10 +347,10 @@ function AppContent() {
                 <p>{t.about.features}</p>
                 <ul>
                   {t.about.featureList.map((feature, index) => (
-                    <li key={index}>{feature}</li>
+                    <li key={index} dangerouslySetInnerHTML={{ __html: feature }}></li>
                   ))}
                 </ul>
-                <p>{t.about.conclusion}</p>
+                <p dangerouslySetInnerHTML={{ __html: t.about.conclusion }}></p>
               </div>
             </div>
           </div>
