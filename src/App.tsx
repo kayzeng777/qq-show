@@ -344,11 +344,8 @@ function AppContent() {
             <div className="modal-body">
               <div>
                 <p>{t.about.description}</p>
-                <p>{t.about.features}</p>
-                {t.about.featureList.map((feature, index) => (
-                  <p key={index} dangerouslySetInnerHTML={{ __html: feature }}></p>
-                ))}
-                <p dangerouslySetInnerHTML={{ __html: t.about.conclusion }}></p>
+                <p dangerouslySetInnerHTML={{ __html: t.about.disclaimers }}></p>
+                <p dangerouslySetInnerHTML={{ __html: t.about.colophon }}></p>
               </div>
             </div>
           </div>
