@@ -120,6 +120,18 @@
   outline: none;
 }
 
+/* 只在键盘导航时显示焦点样式 */
+.language-button:focus-visible,
+.about-button:focus-visible {
+  background: #433AE7;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #333333;
+  border: 1px solid #c0c0c0;
+  box-shadow: 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
 .language-button:hover:not(.active),
 .about-button:hover {
   background: #433AE7;
@@ -246,6 +258,17 @@
   outline: none;
 }
 
+/* 只在键盘导航时显示焦点样式 */
+.clear-button:focus-visible {
+  background: #FC1B1B;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000000;
+  border: 1px solid #c0c0c0;
+  box-shadow: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .clear-button:hover {
   background: #FC1B1B;
   color: #fff;
@@ -287,6 +310,11 @@
 }
 
 .action-button:focus {
+  outline: none;
+}
+
+/* 只在键盘导航时显示焦点样式 */
+.action-button:focus-visible {
   background: #433AE7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
@@ -294,7 +322,6 @@
   box-shadow: 
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
 
 .action-button:hover:not(:disabled) {
@@ -347,6 +374,11 @@
 }
 
 .random-button:focus {
+  outline: none;
+}
+
+/* 只在键盘导航时显示焦点样式 */
+.random-button:focus-visible {
   background: #433AE7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
@@ -354,7 +386,6 @@
   box-shadow: 
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
 
 .random-button:hover {
@@ -473,8 +504,33 @@
   overflow: hidden;
 }
 
-/* 响应式设计 */
+/* 移动设备触摸优化 */
 @media (max-width: 900px) {
+  /* 移除触摸设备上的焦点样式 */
+  .language-button:focus,
+  .about-button:focus,
+  .clear-button:focus,
+  .action-button:focus,
+  .random-button:focus {
+    background: inherit;
+    color: inherit;
+    text-shadow: inherit;
+    border: inherit;
+    box-shadow: inherit;
+  }
+  
+  /* 确保触摸后不会保持焦点状态 */
+  .language-button:active,
+  .about-button:active,
+  .clear-button:active,
+  .action-button:active,
+  .random-button:active {
+    background: #d0d0d0;
+    border: 1px solid #c0c0c0;
+    box-shadow: 
+      inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+      inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+  }
   .qq-show-layout {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto; /* display填充剩余空间，menus适应内容 */

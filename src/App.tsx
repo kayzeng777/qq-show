@@ -206,14 +206,20 @@ function AppContent() {
           <div className="language-buttons">
             <button 
               className={`language-button ${language === 'zh' ? 'active' : ''}`}
-              onClick={() => setLanguage('zh')}
+              onClick={(e) => {
+                setLanguage('zh');
+                e.currentTarget.blur();
+              }}
               title="中文"
             >
               中文
             </button>
             <button 
               className={`language-button ${language === 'en' ? 'active' : ''}`}
-              onClick={() => setLanguage('en')}
+              onClick={(e) => {
+                setLanguage('en');
+                e.currentTarget.blur();
+              }}
               title="English"
             >
               EN
@@ -221,7 +227,10 @@ function AppContent() {
           </div>
           <button 
             className="about-button"
-            onClick={() => setShowAbout(true)}
+            onClick={(e) => {
+              setShowAbout(true);
+              e.currentTarget.blur();
+            }}
             title={t.app.about}
           >
             {t.app.about}
@@ -236,12 +245,14 @@ function AppContent() {
               <div className="left-controls">
                 <button
                   className="clear-button"
-                  onClick={() => {
+                  onClick={(e) => {
                     setOutfit({});
                     // 在下一个tick保存到历史记录，确保outfit已经更新
                     setTimeout(() => {
                       saveToHistory({});
                     }, 0);
+                    // 点击后自动失焦
+                    e.currentTarget.blur();
                   }}
                 >
                   {t.app.clearAll}
@@ -250,7 +261,10 @@ function AppContent() {
               <div className="center-controls">
                 <button
                   className="action-button undo-button"
-                  onClick={handleUndo}
+                  onClick={(e) => {
+                    handleUndo();
+                    e.currentTarget.blur();
+                  }}
                   disabled={historyIndex === 0}
                   title={t.app.undo}
                 >
@@ -258,7 +272,10 @@ function AppContent() {
                 </button>
                 <button
                   className="action-button redo-button"
-                  onClick={handleRedo}
+                  onClick={(e) => {
+                    handleRedo();
+                    e.currentTarget.blur();
+                  }}
                   disabled={historyIndex >= history.length - 1}
                   title={t.app.redo}
                 >
@@ -268,7 +285,10 @@ function AppContent() {
               <div className="right-controls">
                 <button
                   className="random-button"
-                  onClick={handleRandomOutfit}
+                  onClick={(e) => {
+                    handleRandomOutfit();
+                    e.currentTarget.blur();
+                  }}
                   title={t.app.randomStyle}
                 >
                   ⚂
@@ -313,7 +333,10 @@ function AppContent() {
               <h2>{t.about.title}</h2>
               <button 
                 className="modal-close"
-                onClick={() => setShowAbout(false)}
+                onClick={(e) => {
+                  setShowAbout(false);
+                  e.currentTarget.blur();
+                }}
               >
                 ×
               </button>

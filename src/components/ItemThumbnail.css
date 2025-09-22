@@ -48,12 +48,16 @@ div.item-thumbnail.item-thumbnail-component {
 }
 
 .item-thumbnail:focus {
-  background: #433AE7;
-  border: 1px solid #d0d0d0;
   outline: none;
 }
 
-.item-thumbnail:focus .item-name {
+/* 只在键盘导航时显示焦点样式 */
+.item-thumbnail:focus-visible {
+  background: #433AE7;
+  border: 1px solid #d0d0d0;
+}
+
+.item-thumbnail:focus-visible .item-name {
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -161,8 +165,29 @@ div.item-thumbnail.item-thumbnail-component {
   display: block; /* 确保是块级元素 */
 }
 
-/* 响应式设计 */
+/* 移动设备触摸优化 */
 @media (max-width: 900px) {
+  /* 移除触摸设备上的焦点样式 */
+  .item-thumbnail:focus {
+    background: inherit;
+    border: inherit;
+  }
+  
+  .item-thumbnail:focus .item-name {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  
+  /* 确保触摸后不会保持焦点状态 */
+  .item-thumbnail:active {
+    background: #d0d0d0;
+    border: 1px solid #d0d0d0;
+  }
+  
+  .item-thumbnail:active .item-name {
+    color: #000;
+    text-shadow: 1px 1px 0px #cccccc;
+  }
   .item-thumbnail {
     padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
 

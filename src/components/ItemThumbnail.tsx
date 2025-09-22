@@ -18,12 +18,14 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
   onRemove,
 }) => {
   const { language } = useLanguage();
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (isSelected && onRemove) {
       onRemove();
     } else {
       onSelect(item);
     }
+    // 点击后自动失焦
+    e.currentTarget.blur();
   };
 
   // 检查是否是发型item（包含前后头发）

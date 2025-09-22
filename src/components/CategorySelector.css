@@ -95,12 +95,16 @@
 }
 
 .category-item:focus {
-  background: #433AE7;
-  border: 1px solid #d0d0d0;
   outline: none;
 }
 
-.category-item:focus .category-name {
+/* 只在键盘导航时显示焦点样式 */
+.category-item:focus-visible {
+  background: #433AE7;
+  border: 1px solid #d0d0d0;
+}
+
+.category-item:focus-visible .category-name {
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -196,8 +200,29 @@
   }
 }
 
-/* 响应式设计 */
+/* 移动设备触摸优化 */
 @media (max-width: 900px) {
+  /* 移除触摸设备上的焦点样式 */
+  .category-item:focus {
+    background: inherit;
+    border: inherit;
+  }
+  
+  .category-item:focus .category-name {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  
+  /* 确保触摸后不会保持焦点状态 */
+  .category-item:active {
+    background: #d0d0d0;
+    border: 1px solid #d0d0d0;
+  }
+  
+  .category-item:active .category-name {
+    color: #000;
+    text-shadow: 1px 1px 0px #cccccc;
+  }
   .category-selector {
     height: auto;
     max-height: 120px;

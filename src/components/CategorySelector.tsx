@@ -23,7 +23,10 @@ const CategorySelector: React.FC<CategorySelectorProps> = ({
           <div
             key={category.id}
             className={`category-item ${selectedCategory === category.id ? 'selected' : ''}`}
-            onClick={() => onCategorySelect(category.id)}
+            onClick={(e) => {
+              onCategorySelect(category.id);
+              e.currentTarget.blur();
+            }}
           >
             <div className="category-thumbnail">
               <img
