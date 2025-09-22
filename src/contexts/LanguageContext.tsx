@@ -50,7 +50,7 @@ const translations = {
         'Despite shaping the internet culture and aesthetic for hundreds of millions of users in China, QQ Show remains relatively unknown outside the Chinese internet spheres.',
         'This project recreates QQ Show using gif assets recovered from the Internet Archive Wayback Machine, aiming to make its mark on internet history visible to the global internet community.',
       ],
-      conclusion: 'All assets recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent. Made by <a href="https://www.instagram.com/kayzeng777" target="_blank" rel="noopener noreferrer">Kay Zeng</a>, thinking about the QQ Show she bought with her snack money.',
+      conclusion: 'All assets recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent. Made by <a href="https://www.instagram.com/kayzeng777" target="_blank" rel="noopener noreferrer">Kay Zeng</a>, thinking about the QQ Show she bought with her snack money. Last updated: September 22, 2025.',
     },
   },
   en: {
@@ -98,7 +98,7 @@ const translations = {
         'Despite shaping the internet culture and aesthetic for hundreds of millions of users in China, QQ Show remains relatively unknown outside the Chinese internet spheres.',
         'This project recreates QQ Show using gif assets recovered from the Internet Archive Wayback Machine, aiming to make its mark on internet history visible to the global internet community.',
       ],
-      conclusion: 'All assets recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent. Made by <a href="https://www.instagram.com/kayzeng777" target="_blank" rel="noopener noreferrer">Kay Zeng</a>, thinking about the QQ Show she bought with her snack money.',
+      conclusion: 'All assets recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent. Made by <a href="https://www.instagram.com/kayzeng777" target="_blank" rel="noopener noreferrer">Kay Zeng</a>, thinking about the QQ Show she bought with her snack money. Last updated: September 22, 2025.',
     },
   },
 };
