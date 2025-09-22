@@ -504,6 +504,10 @@
   overflow: hidden;
 }
 
+
+
+
+
 /* 移动设备触摸优化 */
 @media (max-width: 900px) {
   /* 移除触摸设备上的焦点样式 */
@@ -769,4 +773,26 @@
 
 .modal-body li {
   margin: 4px 0;
+}
+
+.about-description {
+  font-size: 16px;
+  font-family: 'Arial Narrow', sans-serif;
+  color: #333;
+  line-height: 1.1;
+}
+
+.about-disclaimers {
+  font-size: 12px;
+  font-family: 'Arial Narrow', sans-serif;
+  color: #5953F1;
+  line-height: 1.1;
+}
+
+.about-colophon {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  line-height: 1.1;
+  
 }
