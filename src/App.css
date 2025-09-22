@@ -790,21 +790,21 @@
 
 .about-description {
   font-size: 16px;
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
   color: #333;
   line-height: 1.1;
 }
 
 .about-disclaimers {
   font-size: 14px;
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
   color: #5953F1;
   line-height: 1.1;
 }
 
 .about-colophon {
   font-size: 16px;
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
   color: #333;
   line-height: 1.2;
 }
