@@ -570,18 +570,33 @@
   }
   
   .display-controls {
-    width: 210px; /* 与qq-show-display宽度一致 */
+    width: 180px; /* 与qq-show-display宽度一致 */
     max-width: none; /* 移除最大宽度限制 */
     padding: 0; /* 去掉padding */
     
   }
   
+  .action-button {
+    height: 26px;
+    width: 26px;
+  }
+  
+  .random-button {
+    height: 26px;
+    width: 26px;
+  }
+  
+  .clear-button {
+    height: 26px;
+    padding: 4px 8px;
+  }
+  
   .col-display {
     gap: 10px; /* display-controls和qq-show-container之间的间距 */
     width: auto; /* 适应内容宽度 */
-    height: fit-content; /* 适应内容高度 */
+    height: 100%; /* 适应内容高度 */
     max-width: none; /* 移除最大宽度限制 */
-    justify-content: flex-start; /* 内容从顶部开始 */
+    justify-content: center; /* 内容从顶部开始 */
   }
 }
 
