@@ -343,7 +343,7 @@ function AppContent() {
             </div>
             <div className="modal-body">
               <div>
-                <p>{t.about.description}</p>
+                <p style={{ whiteSpace: 'pre-line' }}>{t.about.description}</p>
                 <p>{t.about.disclaimers}</p>
                 <p>{t.about.colophon}</p>
               </div>
