@@ -11,7 +11,7 @@ import './App.css';
 const categories: QQShowCategory[] = generatedCategories as unknown as QQShowCategory[];
 
 function AppContent() {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>('background');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [outfit, setOutfit] = useState<QQShowOutfit>({});
   const [history, setHistory] = useState<QQShowOutfit[]>([{}]);
   const [historyIndex, setHistoryIndex] = useState(0);
