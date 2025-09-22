@@ -470,12 +470,6 @@
 .qq-show-panel {
   display: flex;
   flex-direction: column;
-  overflow: visible;
-}
-
-/* 针对menu区域的qq-show-panel，需要高度控制 */
-.menus-container .qq-show-panel {
-  height: 100%;
   overflow: hidden;
 }
 
@@ -488,7 +482,7 @@
       "display"
       "menus";
     gap: 16px; /* col-display和下方menu之间的间距 */
-    height: auto; /* 填充app-content的剩余高度 */
+    height: 100%; /* 填充app-content的剩余高度 */
     align-items: stretch; /* 让子元素填满高度 */
   }
   
@@ -547,7 +541,7 @@
   }
   
   .col-items {
-    flex: 0 0 auto; /* 不增长，不收缩，保持内容高度 */
+    flex: 1; /* 填充剩余空间 */
     height: auto; /* 改为auto，让flex控制高度 */
     width: 100vw; /* 适应窗口宽度 */
     max-width: none;
@@ -556,6 +550,7 @@
     display: flex; /* 确保是flex容器 */
     flex-direction: column; /* 垂直布局 */
     min-height: 0; /* 防止flex子元素溢出 */
+    flex-shrink: 1; /* 允许收缩 */
   }
   
   .col-categories {
