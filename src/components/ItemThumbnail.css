@@ -214,19 +214,19 @@ div.item-thumbnail.item-thumbnail-component {
   }
   
   .item-thumbnail-image {
-    width:  140px !important; /* 根据图片原始比例 */
+    width:  100px !important; /* 根据图片原始比例 */
     max-width: none !important; /* 不超过容器宽度 */
-    height: 226px !important; /* 根据图片原始比例 */
+    height: 161px !important; /* 根据图片原始比例 */
     max-height: none !important; /* 不超过容器高度 */
-    object-fit: contain; /* 保持比例，完整显示 */
+    object-fit: fill; /* 保持比例，完整显示 */
   }
   
   .hair-preview-placeholder,
   .hair-preview-back,
   .hair-preview-front {
-    width: 140px !important; /* 根据图片原始比例 */
+    width: 100px !important; /* 根据图片原始比例 */
     max-width: 100%; /* 不超过容器宽度 */
-    height: 226px !important; /* 根据图片原始比例 */
+    height: 161px !important; /* 根据图片原始比例 */
     max-height: 100%; /* 不超过容器高度 */
     object-fit: contain; /* 保持比例，完整显示 */
   }
@@ -234,7 +234,7 @@ div.item-thumbnail.item-thumbnail-component {
   .item-name {
     font-size: 10px; /* 进一步减少字体大小 */
     width: auto; /* 根据内容自适应宽度 */
-    max-width: 140px !important; /* 限制最大宽度，防止文字过宽 */
+    max-width: 100px !important; /* 限制最大宽度，防止文字过宽 */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

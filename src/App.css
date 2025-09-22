@@ -470,7 +470,13 @@
 .qq-show-panel {
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow: visible;
+}
+
+/* 针对menu区域的qq-show-panel，需要高度控制 */
+.menus-container .qq-show-panel {
+  height: 100%;
+  overflow: hidden;
 }
 
 /* 响应式设计 */
@@ -482,7 +488,7 @@
       "display"
       "menus";
     gap: 16px; /* col-display和下方menu之间的间距 */
-    height: 100%; /* 填充app-content的剩余高度 */
+    height: auto; /* 填充app-content的剩余高度 */
     align-items: stretch; /* 让子元素填满高度 */
   }
   
@@ -541,7 +547,7 @@
   }
   
   .col-items {
-    flex: 1; /* 填充剩余空间 */
+    flex: 0 0 auto; /* 不增长，不收缩，保持内容高度 */
     height: auto; /* 改为auto，让flex控制高度 */
     width: 100vw; /* 适应窗口宽度 */
     max-width: none;
@@ -550,7 +556,6 @@
     display: flex; /* 确保是flex容器 */
     flex-direction: column; /* 垂直布局 */
     min-height: 0; /* 防止flex子元素溢出 */
-    flex-shrink: 1; /* 允许收缩 */
   }
   
   .col-categories {
@@ -565,7 +570,7 @@
   
   .app-content {
     padding: 20px 8px;
-    align-items: stretch; /* 恢复stretch让子元素填满高度 */
+    align-items: center; /* 恢复stretch让子元素填满高度 */
     height: auto; /* 允许适应内容高度 */
   }
   
@@ -573,6 +578,7 @@
     width: 210px; /* 与qq-show-display宽度一致 */
     max-width: none; /* 移除最大宽度限制 */
     padding: 0; /* 去掉padding */
+    
   }
   
   .col-display {
