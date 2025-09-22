@@ -470,7 +470,7 @@
 .qq-show-panel {
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* 响应式设计 */
@@ -565,7 +565,7 @@
   
   .app-content {
     padding: 20px 8px;
-    align-items: stretch; /* 恢复stretch让子元素填满高度 */
+    align-items: center; /* 恢复stretch让子元素填满高度 */
     height: auto; /* 允许适应内容高度 */
   }
   
@@ -573,6 +573,7 @@
     width: 210px; /* 与qq-show-display宽度一致 */
     max-width: none; /* 移除最大宽度限制 */
     padding: 0; /* 去掉padding */
+    
   }
   
   .col-display {
