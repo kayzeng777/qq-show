@@ -207,15 +207,15 @@
   }
 
   .qq-window:not(.share-page) .category-thumbnail-image {
-    width: 46px;
-    height: 46px;
+    width: 60px;
+    height: 60px;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
   }
 
   .qq-window:not(.share-page) .category-name {
-    max-width: 46px;
+    max-width: 60px;
   }
 
 .qq-titlebar-right {
