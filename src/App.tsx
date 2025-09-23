@@ -280,24 +280,12 @@ function AppContent() {
   }, [saveToHistory]);
 
   const generateUniqueId = useCallback(() => {
-    // 生成短而唯一的ID：时间戳(36进制) + 随机数 + 计数器
-    const timestamp = Date.now().toString(36); // 转换为36进制，约8位
+    // 生成超短ID：使用更短的格式
+    // 使用时间戳的后4位 + 4位随机字符，总共约8位
+    const timestamp = Date.now().toString(36).slice(-4); // 取时间戳后4位
     const randomId = Math.random().toString(36).substring(2, 6); // 4位随机字符
-    const sessionId =
-      sessionStorage.getItem("qqshow_session") ||
-      Math.random().toString(36).substring(2, 4);
-
-    // 如果没有session ID，创建一个新的
-    if (!sessionStorage.getItem("qqshow_session")) {
-      sessionStorage.setItem("qqshow_session", sessionId);
-    }
-
-    // 添加计数器确保唯一性
-    const counter = sessionStorage.getItem("qqshow_counter") || "0";
-    const newCounter = (parseInt(counter) + 1).toString(36);
-    sessionStorage.setItem("qqshow_counter", newCounter);
-
-    return `${timestamp}${randomId}${sessionId}${newCounter}`;
+    
+    return `${timestamp}${randomId}`;
   }, []);
 
   const handleShareOutfit = useCallback(async () => {
