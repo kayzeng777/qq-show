@@ -199,24 +199,24 @@
     max-width: none;
     height: 104px;
     max-height: none;
-}
-}
+  }
 
   .qq-window:not(.share-page) .menus-container {
     gap: 8px;
   }
 
   .qq-window:not(.share-page) .category-thumbnail-image {
-    width: 60px;
-    height: 60px;
+    width: 46px;
+    height: 46px;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
   }
 
   .qq-window:not(.share-page) .category-name {
-    max-width: 60px;
+    max-width: 46px;
   }
+}
 
 .qq-titlebar-right {
   display: flex;
