@@ -310,13 +310,8 @@ function AppContent() {
       console.log("当前语言:", language);
       console.log("生成的分享链接:", shareUrl);
 
-      // 复制链接到剪贴板并提示用户
-      navigator.clipboard.writeText(shareUrl).then(() => {
-        alert('分享链接已复制到剪贴板！');
-      }).catch(() => {
-        // 如果复制失败，直接跳转
-        window.location.href = shareUrl;
-      });
+      // 在新标签页中打开分享链接
+      window.open(shareUrl, '_blank', 'noopener,noreferrer');
     } else {
       console.error("保存分享数据失败");
     }
