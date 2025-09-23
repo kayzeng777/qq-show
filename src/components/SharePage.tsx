@@ -11,7 +11,7 @@ interface SharePageProps {
 const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const { language, setLanguage, t } = useLanguage();
   const [showAbout, setShowAbout] = useState(false);
-  const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
+  const [outfitName, setOutfitName] = useState("My Outfit");
   const [isEditing, setIsEditing] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [hasUserInput, setHasUserInput] = useState(false);
@@ -151,6 +151,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     e.preventDefault(); // 防止触发input的blur事件
   };
 
+  // 根据语言设置默认名称
+  useEffect(() => {
+    const defaultName = language === "zh" ? "我的装扮" : "My Outfit";
+    setOutfitName(defaultName);
+  }, [language]);
+
   // 从数据库加载名称
   useEffect(() => {
     const loadShareName = async () => {
@@ -168,7 +174,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
           if (!error && data && data.name) {
             console.log('从数据库加载名称:', data.name);
             setOutfitName(data.name);
-            setHasUserInput(data.name !== t.app.defaultOutfitName);
+            setHasUserInput(data.name !== (language === "zh" ? "我的装扮" : "My Outfit"));
           }
         }
       } catch (error) {
@@ -180,7 +186,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     };
     
     loadShareName();
-  }, [t.app.defaultOutfitName]);
+  }, [language]);
 
   // 更新页面标题
   useEffect(() => {
