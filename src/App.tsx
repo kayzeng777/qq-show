@@ -1,18 +1,21 @@
-import { useState, useCallback, useEffect } from 'react';
-import QQShow from './components/QQShow';
-import CategorySelector from './components/CategorySelector';
-import ItemSelector from './components/ItemSelector';
-import SharePage from './components/SharePage';
-import type { QQShowCategory, QQShowItem, QQShowOutfit } from './types/qqShow';
-import { categories as generatedCategories } from './data/categories';
-import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
-import './App.css';
+import { useState, useCallback, useEffect } from "react";
+import QQShow from "./components/QQShow";
+import CategorySelector from "./components/CategorySelector";
+import ItemSelector from "./components/ItemSelector";
+import SharePage from "./components/SharePage";
+import type { QQShowCategory, QQShowItem, QQShowOutfit } from "./types/qqShow";
+import { categories as generatedCategories } from "./data/categories";
+import { LanguageProvider, useLanguage } from "./contexts/LanguageContext";
+import "./App.css";
 
 // 使用自动生成的全量分类（已含背景与新分类）
-const categories: QQShowCategory[] = generatedCategories as unknown as QQShowCategory[];
+const categories: QQShowCategory[] =
+  generatedCategories as unknown as QQShowCategory[];
 
 function AppContent() {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>('background');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(
+    "background",
+  );
   const [outfit, setOutfit] = useState<QQShowOutfit>({});
   const [history, setHistory] = useState<QQShowOutfit[]>([{}]);
   const [historyIndex, setHistoryIndex] = useState(0);
@@ -23,33 +26,36 @@ function AppContent() {
   // 从URL参数加载装扮
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    const outfitParam = urlParams.get('outfit');
-    const shareId = urlParams.get('id');
-    
+    const outfitParam = urlParams.get("outfit");
+    const shareId = urlParams.get("id");
+
     if (outfitParam) {
       try {
         const decodedData = decodeURIComponent(outfitParam);
         const loadedOutfit = JSON.parse(decodedData);
-        
+
         // 验证装扮数据的有效性
-        if (loadedOutfit && typeof loadedOutfit === 'object') {
+        if (loadedOutfit && typeof loadedOutfit === "object") {
           setOutfit(loadedOutfit);
           // 保存到历史记录
           setHistory([loadedOutfit]);
           setHistoryIndex(0);
           // 显示分享页面
           setIsSharePage(true);
-          
+
           // 如果有分享ID，记录到控制台（用于调试）
           if (shareId) {
-            console.log('分享ID:', shareId);
-            console.log('装扮数据加载成功，包含项目:', Object.keys(loadedOutfit));
+            console.log("分享ID:", shareId);
+            console.log(
+              "装扮数据加载成功，包含项目:",
+              Object.keys(loadedOutfit),
+            );
           }
         } else {
-          console.warn('装扮数据格式无效');
+          console.warn("装扮数据格式无效");
         }
       } catch (error) {
-        console.error('加载装扮数据失败:', error);
+        console.error("加载装扮数据失败:", error);
         // 如果数据损坏，显示空装扮而不是错误
         setOutfit({});
         setHistory([{}]);
@@ -66,7 +72,10 @@ function AppContent() {
       if (e.target instanceof HTMLElement) {
         // 延迟移除焦点，确保点击事件先执行
         setTimeout(() => {
-          if (document.activeElement && document.activeElement !== document.body) {
+          if (
+            document.activeElement &&
+            document.activeElement !== document.body
+          ) {
             (document.activeElement as HTMLElement).blur();
           }
         }, 100);
@@ -74,28 +83,34 @@ function AppContent() {
     };
 
     // 检测是否为移动设备
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-                     ('ontouchstart' in window) || 
-                     (navigator.maxTouchPoints > 0);
+    const isMobile =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent,
+      ) ||
+      "ontouchstart" in window ||
+      navigator.maxTouchPoints > 0;
 
     if (isMobile) {
-      document.addEventListener('touchend', handleTouchEnd, { passive: true });
-      
+      document.addEventListener("touchend", handleTouchEnd, { passive: true });
+
       return () => {
-        document.removeEventListener('touchend', handleTouchEnd);
+        document.removeEventListener("touchend", handleTouchEnd);
       };
     }
   }, []);
 
-  const saveToHistory = useCallback((newOutfit: QQShowOutfit) => {
-    setHistory(prev => {
-      const newHistory = prev.slice(0, historyIndex + 1);
-      newHistory.push(newOutfit);
-      const finalHistory = newHistory.slice(-50); // 限制历史记录最多50条
-      setHistoryIndex(finalHistory.length - 1);
-      return finalHistory;
-    });
-  }, [historyIndex]);
+  const saveToHistory = useCallback(
+    (newOutfit: QQShowOutfit) => {
+      setHistory((prev) => {
+        const newHistory = prev.slice(0, historyIndex + 1);
+        newHistory.push(newOutfit);
+        const finalHistory = newHistory.slice(-50); // 限制历史记录最多50条
+        setHistoryIndex(finalHistory.length - 1);
+        return finalHistory;
+      });
+    },
+    [historyIndex],
+  );
 
   const handleUndo = useCallback(() => {
     if (historyIndex > 0) {
@@ -118,50 +133,52 @@ function AppContent() {
   };
 
   const handleItemSelect = (item: QQShowItem) => {
-    setOutfit(prev => {
+    setOutfit((prev) => {
       const newOutfit = { ...prev };
-      
+
       // 添加新选择的item
       newOutfit[item.category as keyof QQShowOutfit] = item;
-      
+
       // 互斥逻辑1: 全头 vs 发型/前头发/后头发/全脸
-      if (item.category === 'fullHead') {
+      if (item.category === "fullHead") {
         // 选择全头时，移除发型、前头发、后头发、全脸
         delete newOutfit.hair;
         delete newOutfit.frontHair;
         delete newOutfit.backHair;
         delete newOutfit.fullFace;
-      } else if (['hair', 'frontHair', 'backHair', 'fullFace'].includes(item.category)) {
+      } else if (
+        ["hair", "frontHair", "backHair", "fullFace"].includes(item.category)
+      ) {
         // 选择发型/前头发/后头发/全脸时，移除全头
         delete newOutfit.fullHead;
       }
-      
+
       // 发型组合逻辑
-      if (item.category === 'hair') {
+      if (item.category === "hair") {
         // 选择发型时，移除单独的前头发和后头发
         delete newOutfit.frontHair;
         delete newOutfit.backHair;
-      } else if (['frontHair', 'backHair'].includes(item.category)) {
+      } else if (["frontHair", "backHair"].includes(item.category)) {
         // 选择单独的前头发或后头发时，移除发型
         delete newOutfit.hair;
       }
-      
+
       // 互斥逻辑2: 衣服全身 vs 衣服上身/衣服下身
-      if (item.category === 'outfit') {
+      if (item.category === "outfit") {
         // 选择衣服全身时，移除衣服上身、衣服下身
         delete newOutfit.top;
         delete newOutfit.bottom;
-      } else if (['top', 'bottom'].includes(item.category)) {
+      } else if (["top", "bottom"].includes(item.category)) {
         // 选择衣服上身/衣服下身时，移除衣服全身
         delete newOutfit.outfit;
       }
-      
+
       return newOutfit;
     });
-    
+
     // 在下一个tick保存到历史记录，确保outfit已经更新
     setTimeout(() => {
-      setOutfit(currentOutfit => {
+      setOutfit((currentOutfit) => {
         saveToHistory(currentOutfit);
         return currentOutfit;
       });
@@ -170,15 +187,15 @@ function AppContent() {
 
   const handleItemRemove = () => {
     if (selectedCategory) {
-      setOutfit(prev => {
+      setOutfit((prev) => {
         const newOutfit = { ...prev };
         delete newOutfit[selectedCategory as keyof QQShowOutfit];
         return newOutfit;
       });
-      
+
       // 在下一个tick保存到历史记录，确保outfit已经更新
       setTimeout(() => {
-        setOutfit(currentOutfit => {
+        setOutfit((currentOutfit) => {
           saveToHistory(currentOutfit);
           return currentOutfit;
         });
@@ -186,11 +203,11 @@ function AppContent() {
     }
   };
 
-  const selectedCategoryData = selectedCategory 
-    ? categories.find(cat => cat.id === selectedCategory) || null
+  const selectedCategoryData = selectedCategory
+    ? categories.find((cat) => cat.id === selectedCategory) || null
     : null;
 
-  const selectedItem = selectedCategory 
+  const selectedItem = selectedCategory
     ? outfit[selectedCategory as keyof QQShowOutfit] || null
     : null;
 
@@ -199,65 +216,88 @@ function AppContent() {
 
     // 1. 随机选择头部：全头 或者 发型+脸
     const headChoice = Math.random() < 0.5; // 50% 概率选择全头
-    
+
     if (headChoice) {
       // 选择全头
-      const fullHeadCategory = categories.find(cat => cat.id === 'fullHead');
+      const fullHeadCategory = categories.find((cat) => cat.id === "fullHead");
       if (fullHeadCategory && fullHeadCategory.items.length > 0) {
-        const randomFullHead = fullHeadCategory.items[Math.floor(Math.random() * fullHeadCategory.items.length)];
+        const randomFullHead =
+          fullHeadCategory.items[
+            Math.floor(Math.random() * fullHeadCategory.items.length)
+          ];
         newOutfit.fullHead = randomFullHead;
       }
     } else {
       // 选择发型+脸
-      const hairCategory = categories.find(cat => cat.id === 'hair');
-      const faceCategory = categories.find(cat => cat.id === 'fullFace');
-      
+      const hairCategory = categories.find((cat) => cat.id === "hair");
+      const faceCategory = categories.find((cat) => cat.id === "fullFace");
+
       if (hairCategory && hairCategory.items.length > 0) {
-        const randomHair = hairCategory.items[Math.floor(Math.random() * hairCategory.items.length)];
+        const randomHair =
+          hairCategory.items[
+            Math.floor(Math.random() * hairCategory.items.length)
+          ];
         newOutfit.hair = randomHair;
       }
-      
+
       if (faceCategory && faceCategory.items.length > 0) {
-        const randomFace = faceCategory.items[Math.floor(Math.random() * faceCategory.items.length)];
+        const randomFace =
+          faceCategory.items[
+            Math.floor(Math.random() * faceCategory.items.length)
+          ];
         newOutfit.fullFace = randomFace;
       }
     }
 
     // 2. 随机选择衣服：全身 或者 上身+下身
     const outfitChoice = Math.random() < 0.5; // 50% 概率选择全身衣服
-    
+
     if (outfitChoice) {
       // 选择全身衣服
-      const outfitCategory = categories.find(cat => cat.id === 'outfit');
+      const outfitCategory = categories.find((cat) => cat.id === "outfit");
       if (outfitCategory && outfitCategory.items.length > 0) {
-        const randomOutfit = outfitCategory.items[Math.floor(Math.random() * outfitCategory.items.length)];
+        const randomOutfit =
+          outfitCategory.items[
+            Math.floor(Math.random() * outfitCategory.items.length)
+          ];
         newOutfit.outfit = randomOutfit;
       }
     } else {
       // 选择上身+下身
-      const topCategory = categories.find(cat => cat.id === 'top');
-      const bottomCategory = categories.find(cat => cat.id === 'bottom');
-      
+      const topCategory = categories.find((cat) => cat.id === "top");
+      const bottomCategory = categories.find((cat) => cat.id === "bottom");
+
       if (topCategory && topCategory.items.length > 0) {
-        const randomTop = topCategory.items[Math.floor(Math.random() * topCategory.items.length)];
+        const randomTop =
+          topCategory.items[
+            Math.floor(Math.random() * topCategory.items.length)
+          ];
         newOutfit.top = randomTop;
       }
-      
+
       if (bottomCategory && bottomCategory.items.length > 0) {
-        const randomBottom = bottomCategory.items[Math.floor(Math.random() * bottomCategory.items.length)];
+        const randomBottom =
+          bottomCategory.items[
+            Math.floor(Math.random() * bottomCategory.items.length)
+          ];
         newOutfit.bottom = randomBottom;
       }
     }
 
     // 3. 随机选择背景
-    const backgroundCategory = categories.find(cat => cat.id === 'background');
+    const backgroundCategory = categories.find(
+      (cat) => cat.id === "background",
+    );
     if (backgroundCategory && backgroundCategory.items.length > 0) {
-      const randomBackground = backgroundCategory.items[Math.floor(Math.random() * backgroundCategory.items.length)];
+      const randomBackground =
+        backgroundCategory.items[
+          Math.floor(Math.random() * backgroundCategory.items.length)
+        ];
       newOutfit.background = randomBackground;
     }
 
     setOutfit(newOutfit);
-    
+
     // 在下一个tick保存到历史记录，确保outfit已经更新
     setTimeout(() => {
       saveToHistory(newOutfit);
@@ -268,35 +308,40 @@ function AppContent() {
     // 生成短而唯一的ID：时间戳(36进制) + 随机数
     const timestamp = Date.now().toString(36); // 转换为36进制，约8位
     const randomId = Math.random().toString(36).substring(2, 6); // 4位随机字符
-    const sessionId = sessionStorage.getItem('qqshow_session') || Math.random().toString(36).substring(2, 4);
-    
+    const sessionId =
+      sessionStorage.getItem("qqshow_session") ||
+      Math.random().toString(36).substring(2, 4);
+
     // 如果没有session ID，创建一个新的
-    if (!sessionStorage.getItem('qqshow_session')) {
-      sessionStorage.setItem('qqshow_session', sessionId);
+    if (!sessionStorage.getItem("qqshow_session")) {
+      sessionStorage.setItem("qqshow_session", sessionId);
     }
-    
+
     return `${timestamp}${randomId}${sessionId}`;
   }, []);
 
   const handleShareOutfit = useCallback(() => {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
-    
+
     // 生成当前装扮的分享链接，使用唯一ID
     const outfitData = JSON.stringify(outfit);
     const encodedData = encodeURIComponent(outfitData);
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${encodedData}`;
-    
+
     // 尝试在新标签页中打开分享页面
-    const newWindow = window.open(shareUrl, '_blank', 'noopener,noreferrer');
-    
+    const newWindow = window.open(shareUrl, "_blank", "noopener,noreferrer");
+
     // 如果新窗口被阻止，回退到当前窗口跳转
-    if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+    if (
+      !newWindow ||
+      newWindow.closed ||
+      typeof newWindow.closed === "undefined"
+    ) {
       // 浏览器阻止了弹窗，回退到当前窗口跳转
       window.location.href = shareUrl;
     }
   }, [outfit, generateUniqueId]);
-
 
   // 如果是分享页面，渲染分享页面组件
   if (isSharePage) {
@@ -307,16 +352,16 @@ function AppContent() {
     <div className="qq-window">
       <div className="qq-titlebar">
         <div className="qq-titlebar-left">
-          <img 
-            src="/assets/icons/qqshow_icon.PNG" 
-            alt="QQ秀" 
+          <img
+            src="/assets/icons/qqshow_icon.PNG"
+            alt="QQ秀"
             className="qq-icon clickable-icon"
-            onClick={() => window.open('https://qqshow2000.com', '_blank')}
+            onClick={() => window.open("https://qqshow2000.com", "_blank")}
             title="访问主站"
           />
-          <span 
+          <span
             className="qq-title clickable-title"
-            onClick={() => window.open('https://qqshow2000.com', '_blank')}
+            onClick={() => window.open("https://qqshow2000.com", "_blank")}
             title="访问主站"
           >
             {t.app.title}
@@ -324,20 +369,20 @@ function AppContent() {
         </div>
         <div className="qq-titlebar-right">
           <div className="language-buttons">
-            <button 
-              className={`language-button ${language === 'zh' ? 'active' : ''}`}
+            <button
+              className={`language-button ${language === "zh" ? "active" : ""}`}
               onClick={(e) => {
-                setLanguage('zh');
+                setLanguage("zh");
                 e.currentTarget.blur();
               }}
               title="中文"
             >
               中文
             </button>
-            <button 
-              className={`language-button ${language === 'en' ? 'active' : ''}`}
+            <button
+              className={`language-button ${language === "en" ? "active" : ""}`}
               onClick={(e) => {
-                setLanguage('en');
+                setLanguage("en");
                 e.currentTarget.blur();
               }}
               title="English"
@@ -345,7 +390,7 @@ function AppContent() {
               EN
             </button>
           </div>
-          <button 
+          <button
             className="about-button"
             onClick={(e) => {
               setShowAbout(true);
@@ -355,8 +400,8 @@ function AppContent() {
           >
             {t.app.about}
           </button>
-          <button 
-            className={`share-button ${language === 'en' ? 'english' : ''}`}
+          <button
+            className={`share-button ${language === "en" ? "english" : ""}`}
             onClick={(e) => {
               handleShareOutfit();
               e.currentTarget.blur();
@@ -367,10 +412,13 @@ function AppContent() {
           </button>
         </div>
       </div>
-      
+
       <div className="app-content">
         <div className="qq-show-layout">
-          <div className="qq-show-panel col-display" style={{ justifySelf: 'center' }}>
+          <div
+            className="qq-show-panel col-display"
+            style={{ justifySelf: "center" }}
+          >
             <div className="display-controls">
               <div className="left-controls">
                 <button
@@ -425,13 +473,16 @@ function AppContent() {
                 </button>
               </div>
             </div>
-            <QQShow outfit={outfit} onItemChange={(_category, item) => {
-              if (item) {
-                handleItemSelect(item);
-              } else {
-                handleItemRemove();
-              }
-            }} />
+            <QQShow
+              outfit={outfit}
+              onItemChange={(_category, item) => {
+                if (item) {
+                  handleItemSelect(item);
+                } else {
+                  handleItemRemove();
+                }
+              }}
+            />
           </div>
 
           <div className="menus-container">
@@ -454,14 +505,14 @@ function AppContent() {
           </div>
         </div>
       </div>
-      
+
       {/* About Modal */}
       {showAbout && (
         <div className="modal-overlay" onClick={() => setShowAbout(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
               <h2>{t.about.title}</h2>
-              <button 
+              <button
                 className="modal-close"
                 onClick={(e) => {
                   setShowAbout(false);
@@ -474,16 +525,24 @@ function AppContent() {
             <div className="modal-body">
               <div>
                 <div className="about-section about-description">
-                  <p style={{ whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: t.about.description }}></p>
+                  <p
+                    style={{ whiteSpace: "pre-line" }}
+                    dangerouslySetInnerHTML={{ __html: t.about.description }}
+                  ></p>
                 </div>
                 <div className="about-section about-colophon">
-                  <p style={{ whiteSpace: 'pre-line' }} dangerouslySetInnerHTML={{ __html: t.about.colophon }}></p>
+                  <p
+                    style={{ whiteSpace: "pre-line" }}
+                    dangerouslySetInnerHTML={{ __html: t.about.colophon }}
+                  ></p>
                 </div>
                 <div className="about-section about-disclaimers">
-                  <p style={{ whiteSpace: 'pre-line' }}>{t.about.disclaimers}</p>
+                  <p style={{ whiteSpace: "pre-line" }}>
+                    {t.about.disclaimers}
+                  </p>
                 </div>
                 <div className="about-section about-timeline">
-                  <p style={{ whiteSpace: 'pre-line' }}>{t.about.timeline}</p>
+                  <p style={{ whiteSpace: "pre-line" }}>{t.about.timeline}</p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 export type NameOverrides = Record<string, string>; // key: item.id, value: name
 
-const STORAGE_KEY = 'qqshow_name_overrides';
+const STORAGE_KEY = "qqshow_name_overrides";
 
 export function loadOverrides(): NameOverrides {
   try {
@@ -15,14 +15,14 @@ export function saveOverrides(overrides: NameOverrides): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(overrides));
 }
 
-export function applyOverridesToCategories<T extends { id: string; items: { id: string; name: string }[] }>(
-  categories: T[],
-  overrides: NameOverrides
-): T[] {
+export function applyOverridesToCategories<
+  T extends { id: string; items: { id: string; name: string }[] },
+>(categories: T[], overrides: NameOverrides): T[] {
   return categories.map((cat) => ({
     ...cat,
-    items: cat.items.map((it) => ({ ...it, name: overrides[it.id] ?? it.name })),
+    items: cat.items.map((it) => ({
+      ...it,
+      name: overrides[it.id] ?? it.name,
+    })),
   }));
 }
-
-

@@ -1,8 +1,8 @@
-import React from 'react';
-import type { QQShowCategory, QQShowItem } from '../types/qqShow';
-import ItemThumbnail from './ItemThumbnail';
-import { useLanguage } from '../contexts/LanguageContext';
-import './ItemSelector.css';
+import React from "react";
+import type { QQShowCategory, QQShowItem } from "../types/qqShow";
+import ItemThumbnail from "./ItemThumbnail";
+import { useLanguage } from "../contexts/LanguageContext";
+import "./ItemSelector.css";
 
 interface ItemSelectorProps {
   category: QQShowCategory | null;
@@ -30,11 +30,14 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
 
   return (
     <div className="item-selector">
-      <h3 className="item-selector-title">{t.categories[category.id as keyof typeof t.categories] || category.name}</h3>
+      <h3 className="item-selector-title">
+        {t.categories[category.id as keyof typeof t.categories] ||
+          category.name}
+      </h3>
       <div className="item-grid">
         {/* 添加"无"选项 */}
         <div
-          className={`item-thumbnail ${!selectedItem ? 'selected' : ''}`}
+          className={`item-thumbnail ${!selectedItem ? "selected" : ""}`}
           onClick={onItemRemove}
         >
           <div className="item-thumbnail-image-container">
@@ -47,7 +50,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
           </div>
           <span className="item-name">{t.app.none}</span>
         </div>
-        
+
         {/* 显示该分类的所有物品 */}
         {category.items.map((item) => (
           <ItemThumbnail

@@ -10,7 +10,7 @@
   position: relative;
   width: 210px;
   height: 339px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   overflow: hidden;
@@ -50,7 +50,7 @@
   justify-content: center;
   color: #666;
   font-size: 11px;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
@@ -64,11 +64,10 @@
     width: auto; /* 适应内容宽度 */
     min-height: auto; /* 移除最小高度限制 */
   }
-  
+
   .qq-show-display {
     width: 190px; /* 固定宽度 */
     height: 305px; /* 固定高度 */
-
   }
 
   .qq-show-item-image {
@@ -76,7 +75,6 @@
     height: 305px;
     object-fit: fill;
   }
-
 }
 
 /* 分享页面展示区独立样式 - 使用全新的class名称，保持原有样式设置 */
@@ -87,7 +85,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: #F8F8F8;
+  background: #f8f8f8;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   box-shadow: none;
@@ -137,4 +135,3 @@
   font-size: 14px;
   z-index: 0;
 }
-

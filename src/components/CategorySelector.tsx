@@ -1,7 +1,7 @@
-import React from 'react';
-import type { QQShowCategory } from '../types/qqShow';
-import { useLanguage } from '../contexts/LanguageContext';
-import './CategorySelector.css';
+import React from "react";
+import type { QQShowCategory } from "../types/qqShow";
+import { useLanguage } from "../contexts/LanguageContext";
+import "./CategorySelector.css";
 
 interface CategorySelectorProps {
   categories: QQShowCategory[];
@@ -22,7 +22,7 @@ const CategorySelector: React.FC<CategorySelectorProps> = ({
         {categories.map((category) => (
           <div
             key={category.id}
-            className={`category-item ${selectedCategory === category.id ? 'selected' : ''}`}
+            className={`category-item ${selectedCategory === category.id ? "selected" : ""}`}
             onClick={(e) => {
               onCategorySelect(category.id);
               e.currentTarget.blur();
@@ -35,7 +35,10 @@ const CategorySelector: React.FC<CategorySelectorProps> = ({
                 className="category-thumbnail-image"
               />
             </div>
-            <span className="category-name">{t.categories[category.id as keyof typeof t.categories] || category.name}</span>
+            <span className="category-name">
+              {t.categories[category.id as keyof typeof t.categories] ||
+                category.name}
+            </span>
           </div>
         ))}
       </div>

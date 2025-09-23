@@ -1,16 +1,18 @@
 /* 物品选择器样式 - 经典Aqua风格 */
 .item-selector {
   padding: 12px;
-  background: linear-gradient(180deg, 
-    #3633D2 10%, 
-    #C6C3FF 35%, 
-    #B4B1FC 78%, 
-    #0F0FAB 100%);
-  border: 1px solid #5953F1;
+  background: linear-gradient(
+    180deg,
+    #3633d2 10%,
+    #c6c3ff 35%,
+    #b4b1fc 78%,
+    #0f0fab 100%
+  );
+  border: 1px solid #5953f1;
   border-radius: 7px;
   height: 100%;
   overflow-y: auto;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -21,16 +23,18 @@
 }
 
 .item-selector::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0.4) 0%, 
-    rgba(255, 255, 255, 0.1) 50%, 
-    transparent 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -42,7 +46,7 @@
   height: 200px;
   color: #ffffff;
   font-size: 14px;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   text-shadow: 1px 1px 0px #333333;
   position: relative;
   z-index: 2;
@@ -53,7 +57,7 @@
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   font-weight: bold;
   text-shadow: 1px 1px 0px #333333;
   position: relative;
@@ -136,9 +140,8 @@
     display: flex; /* 改为flex布局 */
     flex-direction: row; /* 水平布局 */
     align-items: center; /* 垂直居中 */
-
   }
-  
+
   .item-grid {
     display: flex;
     flex-direction: row;
@@ -151,20 +154,20 @@
     flex: 1; /* 填充剩余空间 */
     align-items: center; /* 垂直居中 */
   }
-  
+
   .item-selector-placeholder {
     height: auto;
     font-size: 12px;
   }
-  
+
   .item-selector-title {
     writing-mode: vertical-rl; /* 垂直文字 */
     text-orientation: mixed; /* 保持文字方向 */
     margin: 0; /* 移除默认margin */
+    padding-left: 1px;
+    padding-right: 1px;
     font-size: 12px; /* 稍微减小字体 */
     white-space: nowrap; /* 防止换行 */
     flex-shrink: 0; /* 防止标题收缩 */
   }
 }
-
-

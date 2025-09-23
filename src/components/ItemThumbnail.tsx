@@ -1,8 +1,8 @@
-import React from 'react';
-import type { QQShowItem } from '../types/qqShow';
-import { useLanguage } from '../contexts/LanguageContext';
-import { translateItemName } from '../utils/translations';
-import './ItemThumbnail.css';
+import React from "react";
+import type { QQShowItem } from "../types/qqShow";
+import { useLanguage } from "../contexts/LanguageContext";
+import { translateItemName } from "../utils/translations";
+import "./ItemThumbnail.css";
 
 interface ItemThumbnailProps {
   item: QQShowItem;
@@ -29,15 +29,15 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
   };
 
   // 检查是否是发型item（包含前后头发）
-  const isHairItem = item.category === 'hair' && (item as any).frontHair;
+  const isHairItem = item.category === "hair" && (item as any).frontHair;
   const hairItem = isHairItem ? (item as any) : null;
 
   return (
     <div
-      className={`item-thumbnail item-thumbnail-component ${isSelected ? 'selected' : ''}`}
+      className={`item-thumbnail item-thumbnail-component ${isSelected ? "selected" : ""}`}
       style={{
-        padding: '12px 12px 8px 12px',
-        boxSizing: 'border-box'
+        padding: "12px 12px 8px 12px",
+        boxSizing: "border-box",
       }}
       onClick={handleClick}
     >
@@ -62,7 +62,7 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
             {/* 前头发 */}
             <img
               src={hairItem.frontHair.image}
-                alt={translateItemName(hairItem.frontHair.name, language)}
+              alt={translateItemName(hairItem.frontHair.name, language)}
               className="hair-preview-front"
             />
           </div>
@@ -75,7 +75,9 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
           />
         )}
       </div>
-      <span className="item-name">{translateItemName(item.name, language)}</span>
+      <span className="item-name">
+        {translateItemName(item.name, language)}
+      </span>
     </div>
   );
 };

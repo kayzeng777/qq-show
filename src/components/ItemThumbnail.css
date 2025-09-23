@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px 12px 8px 12px ; /* 备用简写形式 */
+  padding: 12px 12px 8px 12px; /* 备用简写形式 */
   border: 1px solid #d0d0d0;
   border-radius: 6px;
   cursor: pointer;
@@ -17,18 +17,18 @@
 .item-thumbnail.item-thumbnail-component {
   width: fit-content !important; /* 根据内容自适应宽度 */
   max-width: 118px !important;
-  padding: 12px 12px 8px 12px ; /* 备用简写形式 */
+  padding: 12px 12px 8px 12px; /* 备用简写形式 */
 }
 
 /* 最强制性的样式规则 - 使用ID选择器级别的特异性 */
 div.item-thumbnail.item-thumbnail-component {
   width: fit-content !important;
-  padding: 12px 12px 8px 12px ;
+  padding: 12px 12px 8px 12px;
   box-sizing: border-box !important;
 }
 
 .item-thumbnail:hover {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -38,7 +38,7 @@ div.item-thumbnail.item-thumbnail-component {
 }
 
 .item-thumbnail.selected {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -53,7 +53,7 @@ div.item-thumbnail.item-thumbnail-component {
 
 /* 只在键盘导航时显示焦点样式 */
 .item-thumbnail:focus-visible {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -71,7 +71,7 @@ div.item-thumbnail.item-thumbnail-component {
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 6px;
-  background: #EBEBEB;
+  background: #ebebeb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,13 +142,12 @@ div.item-thumbnail.item-thumbnail-component {
   z-index: 2;
 }
 
-
 .item-name {
   font-size: 11px;
   color: #000;
   text-align: center;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   line-height: 1.2;
   width: 100%; /* 使用100%宽度，与父容器一致 */
   max-width: 150px; /* 最大宽度限制 */
@@ -172,18 +171,18 @@ div.item-thumbnail.item-thumbnail-component {
     background: inherit;
     border: inherit;
   }
-  
+
   .item-thumbnail:focus .item-name {
     color: inherit;
     text-shadow: inherit;
   }
-  
+
   /* 确保触摸后不会保持焦点状态 */
   .item-thumbnail:active {
     background: #d0d0d0;
     border: 1px solid #d0d0d0;
   }
-  
+
   .item-thumbnail:active .item-name {
     color: #000;
     text-shadow: 1px 1px 0px #cccccc;
@@ -197,25 +196,20 @@ div.item-thumbnail.item-thumbnail-component {
     align-items: center; /* 水平居中 */
     justify-content: center; /* 垂直居中 */
   }
-  
+
   .item-thumbnail-component {
-    
     padding: 8px 8px 4px 8px !important; /* 强制应用减少的padding */
   }
 
-
-  
   /* 允许flex项目按比例增长 */
   .item-thumbnail {
     flex-shrink: 0 !important;
     flex-grow: 1 !important; /* 允许按比例增长 */
     min-width: 60px; /* 设置最小宽度 */
     max-width: none; /* 移除最大宽度限制 */
-    
   }
-  
+
   .item-thumbnail-image-container {
-    
     width: 100%; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
     margin-bottom: 2px; /* 减少底部边距 */
@@ -225,21 +219,21 @@ div.item-thumbnail.item-thumbnail-component {
     align-items: center; /* 垂直居中 */
     justify-content: center; /* 水平居中 */
   }
-  
+
   .hair-preview-container {
     width: 100%; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
     height: 100%; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
-  
+
   .item-thumbnail-image {
     width: 90px; /* 填充父容器宽度 */
     max-width: none; /* 移除最大宽度限制 */
     height: 145px; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
-  
+
   .hair-preview-placeholder,
   .hair-preview-back,
   .hair-preview-front {
@@ -248,7 +242,7 @@ div.item-thumbnail.item-thumbnail-component {
     height: 145px; /* 填充父容器高度 */
     max-height: none; /* 移除最大高度限制 */
   }
-  
+
   .item-name {
     font-size: 10px; /* 进一步减少字体大小 */
     max-width: 90px;
@@ -259,6 +253,4 @@ div.item-thumbnail.item-thumbnail-component {
     hyphens: none;
     overflow-wrap: break-word;
   }
-
 }
-

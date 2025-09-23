@@ -6,14 +6,18 @@
   margin: 0;
   padding: 0;
   background: #c0c0c0;
-  background-image: 
-    linear-gradient(45deg, #d0d0d0 25%, transparent 25%), 
-    linear-gradient(-45deg, #d0d0d0 25%, transparent 25%), 
-    linear-gradient(45deg, transparent 75%, #d0d0d0 75%), 
+  background-image:
+    linear-gradient(45deg, #d0d0d0 25%, transparent 25%),
+    linear-gradient(-45deg, #d0d0d0 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #d0d0d0 75%),
     linear-gradient(-45deg, transparent 75%, #d0d0d0 75%);
   background-size: 20px 20px;
-  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-  font-family: 'Unifont', monospace;
+  background-position:
+    0 0,
+    0 10px,
+    10px -10px,
+    -10px 0px;
+  font-family: "Unifont", monospace;
   position: relative;
   overflow: visible;
   box-sizing: border-box;
@@ -35,16 +39,14 @@
 
 /* QQ风格标题栏 */
 .qq-titlebar {
-  background: linear-gradient(180deg, 
-    #0F0FAB 0%, 
-    #8381E5 100%);
+  background: linear-gradient(180deg, #0f0fab 0%, #8381e5 100%);
   color: #ffffff;
   height: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
-  border-bottom: 1px solid #5953F1;
+  border-bottom: 1px solid #5953f1;
   position: relative;
   user-select: none;
   text-shadow: 1px 1px 0px #333333;
@@ -75,7 +77,7 @@
 .qq-title {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -89,27 +91,27 @@
   .share-page .qq-title {
     font-size: 18px;
   }
-  
+
   /* 小屏幕下语言按钮宽度减少6px */
   .language-button {
     width: 36px !important; /* 38px - 2px */
     white-space: nowrap !important;
   }
-  
+
   /* 小屏幕下所有header按钮字体大小和宽度调整 */
   .qq-titlebar-right button {
     font-size: 11px !important;
   }
-  
+
   .share-button {
     width: 68px !important; /* 72px - 4px */
   }
-  
+
   .share-button.english {
     width: 88px !important; /* 96px - 8px */
     white-space: nowrap !important;
   }
-  
+
   /* 分享页面按钮在小屏幕下也保持自适应 */
   .share-page .share-button {
     width: fit-content !important;
@@ -117,7 +119,7 @@
     padding-right: 6px !important;
     white-space: nowrap !important;
   }
-  
+
   .about-button {
     width: 44px !important; /* 48px - 4px */
   }
@@ -131,57 +133,59 @@
     height: 26px !important;
     width: 26px !important;
   }
-  
+
   .qq-window:not(.share-page) .action-button {
     font-size: 20px !important;
     height: 26px !important;
     width: 26px !important;
   }
-  
+
   .qq-window:not(.share-page) .clear-button {
     font-size: 12px !important;
     height: 26px !important;
     width: auto !important;
     white-space: nowrap !important;
   }
-  
+
   .qq-window:not(.share-page) .qq-show-item-image {
     width: 190px !important;
     height: 305px !important;
     object-fit: fill !important;
   }
+
   
+
   .qq-window:not(.share-page) .qq-show-display {
     width: 190px !important;
     height: 305px !important;
   }
-  
+
   .qq-window:not(.share-page) .display-controls {
     width: 190px !important;
     max-width: none !important;
     padding: 0 !important;
   }
-  
+
   .qq-window:not(.share-page) .qq-show-layout {
     gap: 10px;
   }
-  
+
   .qq-window:not(.share-page) .app-content {
     padding: 16px 8px;
   }
-  
+
   .qq-window:not(.share-page) .col-items {
     padding: 0 16px;
   }
-  
+
   .qq-window:not(.share-page) .col-categories {
     padding: 0 16px;
   }
-  
+
   .qq-window:not(.share-page) .item-name {
     max-width: 65px;
   }
-  
+
   .qq-window:not(.share-page) .item-thumbnail-image {
     width: 65px;
     height: 104px;
@@ -189,11 +193,19 @@
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
   }
-  
+
+  .hair-preview-placeholder, .hair-preview-back, .hair-preview-front {
+    width: 65px;
+    max-width: none;
+    height: 104px;
+    max-height: none;
+}
+}
+
   .qq-window:not(.share-page) .menus-container {
     gap: 8px;
   }
-  
+
   .qq-window:not(.share-page) .category-thumbnail-image {
     width: 46px;
     height: 46px;
@@ -201,12 +213,10 @@
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
   }
-  
+
   .qq-window:not(.share-page) .category-name {
     max-width: 46px;
   }
-}
-
 
 .qq-titlebar-right {
   display: flex;
@@ -228,7 +238,7 @@
   color: #333;
   font-size: 12px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -236,7 +246,7 @@
   text-shadow: 1px 1px 0px #cccccc;
   white-space: nowrap;
   outline: none;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
   width: 48px;
@@ -325,7 +335,7 @@
 .outfit-name-display {
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   color: #333;
   flex: 1;
   text-align: center;
@@ -338,7 +348,7 @@
 .outfit-name-input {
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   color: #333;
   background: transparent;
   border: none;
@@ -364,14 +374,14 @@
   color: #333;
   font-size: 12px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   text-shadow: 1px 1px 0px #cccccc;
   outline: none;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
   width: 40px;
@@ -382,11 +392,11 @@
 }
 
 .outfit-name-button:hover {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -394,13 +404,13 @@
 .outfit-name-button:active {
   background: #d0d0d0;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .language-button.active {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -415,11 +425,11 @@
 .language-button:focus-visible,
 .about-button:focus-visible,
 .share-button:focus-visible {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -427,17 +437,17 @@
 .language-button:hover:not(.active),
 .about-button:hover,
 .share-button:hover {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .language-button.active:hover {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -447,13 +457,13 @@
 .share-button:active {
   background: #d0d0d0;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .language-button.active:active {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
 }
@@ -473,18 +483,18 @@
   color: #333;
   font-size: 12px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   text-shadow: 1px 1px 0px #cccccc;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .tab-button:hover {
-  background: #AEF3FF;
+  background: #aef3ff;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -494,7 +504,7 @@
   color: #000;
   border: 1px solid #c0c0c0;
   text-shadow: 1px 1px 0px #cccccc;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -534,10 +544,10 @@
   color: #333;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   text-shadow: 1px 1px 0px #cccccc;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -554,21 +564,21 @@
 
 /* 只在键盘导航时显示焦点样式 */
 .clear-button:focus-visible {
-  background: #FC1B1B;
+  background: #fc1b1b;
   color: #fff;
   text-shadow: 1px 1px 0px #000000;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .clear-button:hover {
-  background: #FC1B1B;
+  background: #fc1b1b;
   color: #fff;
   text-shadow: 1px 1px 0px #000000;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -576,7 +586,7 @@
 .clear-button:active {
   background: #d0d0d0;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -591,10 +601,10 @@
   color: #333;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   text-shadow: 1px 1px 0px #cccccc;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -609,31 +619,31 @@
 
 /* 只在键盘导航时显示焦点样式 */
 .action-button:focus-visible {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .action-button:hover:not(:disabled) {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .action-button:active:not(:disabled) {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -655,10 +665,10 @@
   color: #333;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   cursor: pointer;
   text-shadow: 1px 1px 0px #cccccc;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -673,35 +683,34 @@
 
 /* 只在键盘导航时显示焦点样式 */
 .random-button:focus-visible {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .random-button:hover {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .random-button:active {
-  background: #433AE7;
+  background: #433ae7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
   border: 1px solid #c0c0c0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 .app-content {
   padding: 48px 12px 48px 12px;
@@ -713,12 +722,12 @@
   box-sizing: border-box;
   position: relative;
   z-index: 2;
-  background: linear-gradient(180deg, #7F7DE3 0%, #0F0FAB 100%);
+  background: linear-gradient(180deg, #7f7de3 0%, #0f0fab 100%);
   background-clip: padding-box;
 }
 
 .app-content::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 8px;
   left: 8px;
@@ -765,7 +774,7 @@
   grid-area: categories;
 }
 
-.col-display { 
+.col-display {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -776,14 +785,14 @@
   max-width: none; /* 移除最大宽度限制 */
   height: auto; /* 适应内容高度 */
 }
-.col-items { 
+.col-items {
   display: flex;
   flex-direction: column;
   height: 100%; /* 填满父容器高度 */
   flex-shrink: 0;
   width: auto;
 }
-.col-categories { 
+.col-categories {
   display: flex;
   flex-direction: column;
   height: 100%; /* 填满父容器高度 */
@@ -796,10 +805,6 @@
   flex-direction: column;
   overflow: hidden;
 }
-
-
-
-
 
 /* 移动设备触摸优化 */
 @media (max-width: 900px) {
@@ -819,7 +824,7 @@
     box-shadow: inherit !important;
     outline: none !important;
   }
-  
+
   /* 确保触摸后不会保持焦点状态 */
   .language-button:active,
   .about-button:active,
@@ -831,11 +836,11 @@
   .item-thumbnail:active {
     background: #d0d0d0;
     border: 1px solid #c0c0c0;
-    box-shadow: 
+    box-shadow:
       inset 1px 1px 2px rgba(255, 255, 255, 0.3),
       inset -1px -1px 2px rgba(0, 0, 0, 0.2);
   }
-  
+
   /* 移动端触摸后强制移除焦点 */
   .language-button:focus:not(:focus-visible),
   .about-button:focus:not(:focus-visible),
@@ -852,7 +857,7 @@
     box-shadow: inherit !important;
     outline: none !important;
   }
-  
+
   /* 触摸设备上的通用焦点移除 */
   *:focus:not(:focus-visible) {
     outline: none !important;
@@ -860,14 +865,14 @@
   .qq-show-layout {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto; /* display填充剩余空间，menus适应内容 */
-    grid-template-areas: 
+    grid-template-areas:
       "display"
       "menus";
     gap: 16px; /* col-display和下方menu之间的间距 */
     height: 100%; /* 填充app-content的剩余高度 */
     align-items: stretch; /* 让子元素填满高度 */
   }
-  
+
   .menus-container {
     display: flex; /* 改为flex布局 */
     flex-direction: column; /* 垂直布局 */
@@ -878,18 +883,18 @@
     width: 100%; /* 填充父容器宽度 */
     min-height: 0; /* 防止flex溢出 */
   }
-  
+
   /* 确保item menu在小屏幕下保持横向排布 */
   .col-items .item-selector {
     width: 100% !important;
     min-width: auto !important; /* 移除最小宽度限制 */
     overflow: hidden; /* 容器不滚动 */
-    height: auto !important; 
+    height: auto !important;
     display: flex !important; /* 使用flex布局 */
     flex-direction: row !important; /* 水平布局 - title在左边 */
     align-items: center !important; /* 垂直居中 */
   }
-  
+
   .col-items .item-grid {
     display: flex !important;
     flex-direction: row !important;
@@ -899,18 +904,16 @@
     height: 100%; /* 填充父容器高度 */
     overflow-x: auto !important; /* 横向滚动 */
     overflow-y: hidden !important;
-    padding: 4px; /* 减少内边距 */
     flex: 1; /* 填充剩余空间 */
     align-items: center; /* 垂直居中 */
   }
-  
+
   .col-categories .category-selector {
     width: 100% !important;
     overflow: hidden; /* 容器不滚动 */
     height: auto; /* 自适应高度 */
-    padding: 0 !important; /* 完全移除内边距 */
   }
-  
+
   .col-categories .category-grid {
     display: flex !important;
     flex-direction: row !important;
@@ -919,9 +922,8 @@
     width: 100% !important; /* 占满容器宽度 */
     overflow-x: auto !important; /* 横向滚动 */
     overflow-y: hidden !important;
-    padding: 4px; /* 减少内边距 */
   }
-  
+
   .col-items {
     flex: 1; /* 填充剩余空间 */
     height: auto; /* 改为auto，让flex控制高度 */
@@ -934,7 +936,7 @@
     min-height: 0; /* 防止flex子元素溢出 */
     flex-shrink: 1; /* 允许收缩 */
   }
-  
+
   .col-categories {
     flex: 0 0 auto; /* 不增长，不收缩，保持内容高度 */
     height: auto;
@@ -944,54 +946,52 @@
     padding: 0 20px; /* 添加20px左右内边距 */
     min-height: 0; /* 防止flex子元素溢出 */
   }
-  
+
   .app-content {
     padding: 20px 8px;
     align-items: center; /* 恢复stretch让子元素填满高度 */
     height: auto; /* 允许适应内容高度 */
   }
-  
+
   .display-controls {
     width: 190px; /* 与qq-show-display宽度一致 */
     max-width: none; /* 移除最大宽度限制 */
     padding: 0; /* 去掉padding */
   }
 
-  .qq-icon{
+  .qq-icon {
     width: 22px;
     height: 22px;
   }
-  
-  .qq-titlebar{
+
+  .qq-titlebar {
     padding-left: 8px;
     padding-right: 8px;
     height: 36px;
   }
-  
+
   .qq-title {
     font-size: 16px;
   }
-  
+
   .clear-button {
     font-size: 14px;
     height: 28px;
-    width: auto
+    width: auto;
   }
 
-  .action-button{
+  .action-button {
     font-size: 22px;
     height: 28px;
     width: 28px;
-
   }
 
-  .random-button{
+  .random-button {
     font-size: 22px;
     height: 28px;
     width: 28px;
-
   }
-  
+
   .col-display {
     gap: 10px; /* display-controls和qq-show-container之间的间距 */
     width: auto; /* 适应内容宽度 */
@@ -1000,9 +1000,6 @@
     justify-content: center; /* 内容从顶部开始 */
   }
 }
-
-
-
 
 /* Modal Styles */
 .modal-overlay {
@@ -1022,26 +1019,24 @@
   background: #f0f0f0;
   border: 2px solid #c0c0c0;
   border-radius: 8px;
-  box-shadow: 
+  box-shadow:
     4px 4px 8px rgba(0, 0, 0, 0.3),
     inset 1px 1px 2px rgba(255, 255, 255, 0.3);
   max-width: 500px;
   width: 90%;
   max-height: 80vh;
   overflow: hidden;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
 }
 
 .modal-header {
-  background: linear-gradient(180deg, 
-    #0F0FAB 0%, 
-    #8381E5 100%);
+  background: linear-gradient(180deg, #0f0fab 0%, #8381e5 100%);
   color: #ffffff;
   padding: 12px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #5953F1;
+  border-bottom: 1px solid #5953f1;
 }
 
 .modal-header h2 {
@@ -1065,13 +1060,13 @@
   justify-content: center;
   text-shadow: 1px 1px 0px #cccccc;
   outline: none;
-  box-shadow: 
+  box-shadow:
     inset 1px 1px 2px rgba(255, 255, 255, 0.3),
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close:hover {
-  background: #FC1B1B;
+  background: #fc1b1b;
   color: #fff;
   text-shadow: 1px 1px 0px #000000;
 }
@@ -1112,28 +1107,28 @@
 
 .about-description {
   font-size: 16px;
-  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial Narrow", "Arial", "Helvetica", sans-serif;
   color: #333;
   line-height: 1.1;
 }
 
 .about-disclaimers {
   font-size: 14px;
-  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
-  color: #5953F1;
+  font-family: "Arial Narrow", "Arial", "Helvetica", sans-serif;
+  color: #5953f1;
   line-height: 1.1;
 }
 
 .about-colophon {
   font-size: 16px;
-  font-family: 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial Narrow", "Arial", "Helvetica", sans-serif;
   color: #333;
   line-height: 1.2;
 }
 
 .about-timeline {
   font-size: 8px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   color: #8a8a8a;
   line-height: 1;
   text-align: left;
@@ -1141,9 +1136,9 @@
 
 /* About modal links */
 .about-section a {
-  color: #5953F1;
+  color: #5953f1;
   text-decoration: underline;
-  text-decoration-color: #5953F1;
+  text-decoration-color: #5953f1;
   text-underline-offset: 2px;
 }
 
@@ -1152,20 +1147,16 @@
   text-decoration-color: #333;
 }
 
-
 @media (max-width: 900px) {
-
-
   .about-description {
     font-size: 14px;
   }
-  
+
   .about-disclaimers {
     font-size: 12px;
   }
-  
+
   .about-colophon {
     font-size: 14px;
   }
-
 }

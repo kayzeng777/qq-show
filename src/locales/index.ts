@@ -1,7 +1,7 @@
-import { zh } from './zh';
-import { en } from './en';
+import { zh } from "./zh";
+import { en } from "./en";
 
-export type Language = 'zh' | 'en';
+export type Language = "zh" | "en";
 
 export const translations = {
   zh,

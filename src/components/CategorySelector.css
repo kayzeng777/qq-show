@@ -1,15 +1,17 @@
 /* 分类选择器样式 - 经典Aqua风格 */
 .category-selector {
   padding: 12px;
-  background: linear-gradient(180deg, 
-    #3633D2 10%, 
-    #C6C3FF 35%, 
-    #B4B1FC 78%, 
-    #0F0FAB 100%);
-  border: 1px solid #5953F1;
+  background: linear-gradient(
+    180deg,
+    #3633d2 10%,
+    #c6c3ff 35%,
+    #b4b1fc 78%,
+    #0f0fab 100%
+  );
+  border: 1px solid #5953f1;
   border-radius: 7px;
   margin-bottom: 0;
-  box-shadow: 
+  box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
   height: 100%;
@@ -22,16 +24,18 @@
 }
 
 .category-selector::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0.4) 0%, 
-    rgba(255, 255, 255, 0.1) 50%, 
-    transparent 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -41,7 +45,7 @@
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   font-weight: bold;
   text-shadow: 1px 1px 0px #333333;
   position: relative;
@@ -75,7 +79,7 @@
 }
 
 .category-item:hover {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -85,7 +89,7 @@
 }
 
 .category-item.selected {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -100,7 +104,7 @@
 
 /* 只在键盘导航时显示焦点样式 */
 .category-item:focus-visible {
-  background: #433AE7;
+  background: #433ae7;
   border: 1px solid #d0d0d0;
 }
 
@@ -115,7 +119,7 @@
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 6px;
-  background: #EBEBEB;
+  background: #ebebeb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,7 +144,7 @@
   color: #000;
   text-align: center;
   font-weight: bold;
-  font-family: 'Unifont', monospace;
+  font-family: "Unifont", monospace;
   text-shadow: 1px 1px 0px #cccccc;
   line-height: 1;
   overflow: hidden;
@@ -207,18 +211,18 @@
     background: inherit;
     border: inherit;
   }
-  
+
   .category-item:focus .category-name {
     color: inherit;
     text-shadow: inherit;
   }
-  
+
   /* 确保触摸后不会保持焦点状态 */
   .category-item:active {
     background: #d0d0d0;
     border: 1px solid #d0d0d0;
   }
-  
+
   .category-item:active .category-name {
     color: #000;
     text-shadow: 1px 1px 0px #cccccc;
@@ -234,7 +238,7 @@
     align-items: center; /* 垂直居中 */
     gap: 0px; /* 减少标题和内容之间的间距 */
   }
-  
+
   .category-grid {
     display: flex;
     flex-direction: row;
@@ -244,15 +248,15 @@
     overflow-x: auto; /* 横向滚动 */
     overflow-y: hidden;
   }
-  
+
   .category-item {
     flex-shrink: 0 !important;
     flex-grow: 0 !important;
-    width:auto;
+    width: auto;
     height: auto;
     padding: 8px 8px 4px 8px !important; /* 小屏幕下的padding设置 */
   }
-  
+
   .category-thumbnail {
     width: auto;
     height: auto;
@@ -263,7 +267,7 @@
     width: 50px;
     height: 50px;
   }
-  
+
   .category-name {
     justify-content: left !important;
     font-size: 10px;
@@ -275,15 +279,15 @@
     hyphens: none;
     overflow-wrap: break-word;
   }
-  
+
   .category-title {
     writing-mode: vertical-rl; /* 垂直文字 */
     text-orientation: mixed; /* 保持文字方向 */
     margin: 0; /* 移除默认margin */
+    padding-left: 1px;
+    padding-right: 1px;
     font-size: 12px; /* 稍微减小字体 */
     white-space: nowrap; /* 防止换行 */
     flex-shrink: 0; /* 防止标题收缩 */
   }
 }
-
-
