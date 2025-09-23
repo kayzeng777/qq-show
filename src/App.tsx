@@ -33,7 +33,7 @@ function AppContent() {
     if (shareId && outfitParam) {
       try {
         // 从URL参数中读取装扮数据
-        const decodedData = atob(outfitParam); // 解码Base64
+        const decodedData = decodeURIComponent(outfitParam); // 解码URI组件
         const loadedOutfit = JSON.parse(decodedData);
 
         // 验证装扮数据的有效性
@@ -288,7 +288,8 @@ function AppContent() {
 
     // 将装扮数据压缩并编码到URL中
     const outfitData = JSON.stringify(outfit);
-    const compressedData = btoa(outfitData); // 使用Base64编码
+    // 使用encodeURIComponent来安全编码包含Unicode字符的数据
+    const compressedData = encodeURIComponent(outfitData);
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${compressedData}`;
 
     // 调试信息
