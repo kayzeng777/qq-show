@@ -64,32 +64,39 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
         {allDisplayItems.map((item) => {
           const layerValue = LAYER_ORDER[item.category as keyof typeof LAYER_ORDER] ?? 0;
           
-          // 处理发型的前后头发分离显示
-          if (item.category === 'hair' && item.backHair && item.frontHair) {
+          // 如果是发型组合，需要渲染前头发和后头发
+          if (item.category === 'hair' && (item as any).frontHair) {
+            const hairItem = item as any;
             return (
               <React.Fragment key={`${item.category}-${item.id}`}>
-                <div
-                  className="share-display-layer"
-                  style={{ zIndex: LAYER_ORDER.backHair }}
-                >
-                  <img
-                    src={item.backHair.image}
-                    alt={item.backHair.name}
-                    className="share-display-image"
-                    draggable={false}
-                  />
-                </div>
-                <div
-                  className="share-display-layer"
-                  style={{ zIndex: LAYER_ORDER.frontHair }}
-                >
-                  <img
-                    src={item.frontHair.image}
-                    alt={item.frontHair.name}
-                    className="share-display-image"
-                    draggable={false}
-                  />
-                </div>
+                {/* 后头发 */}
+                {hairItem.backHair && (
+                  <div
+                    className="share-display-layer"
+                    style={{ zIndex: LAYER_ORDER.backHair }}
+                  >
+                    <img
+                      src={hairItem.backHair.image}
+                      alt={hairItem.backHair.name}
+                      className="share-display-image"
+                      draggable={false}
+                    />
+                  </div>
+                )}
+                {/* 前头发 */}
+                {hairItem.frontHair && (
+                  <div
+                    className="share-display-layer"
+                    style={{ zIndex: LAYER_ORDER.frontHair }}
+                  >
+                    <img
+                      src={hairItem.frontHair.image}
+                      alt={hairItem.frontHair.name}
+                      className="share-display-image"
+                      draggable={false}
+                    />
+                  </div>
+                )}
               </React.Fragment>
             );
           }
