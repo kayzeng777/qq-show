@@ -362,13 +362,22 @@ function AppContent() {
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-                e.currentTarget.href = shareUrl;
-                e.currentTarget.target = '_blank';
-                e.currentTarget.rel = 'noopener noreferrer';
-                // 触发点击以打开新标签页
-                setTimeout(() => {
-                  e.currentTarget.click();
-                }, 0);
+                // 使用Ctrl+点击的方式在新标签页中打开
+                const newEvent = new MouseEvent('click', {
+                  ctrlKey: true,
+                  metaKey: true, // 支持Mac的Cmd键
+                  button: 0,
+                  buttons: 1
+                });
+                
+                // 创建临时链接
+                const tempLink = document.createElement('a');
+                tempLink.href = shareUrl;
+                tempLink.target = '_blank';
+                tempLink.rel = 'noopener noreferrer';
+                document.body.appendChild(tempLink);
+                tempLink.dispatchEvent(newEvent);
+                document.body.removeChild(tempLink);
               }
             }}
             title={t.app.shareOutfit}
