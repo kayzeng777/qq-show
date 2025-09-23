@@ -32,7 +32,10 @@ function AppContent() {
 
       // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
       if (shareId) {
-        // 立即显示分享页面，避免先显示主页面
+        // 添加短暂延迟，确保页面完全加载后再显示分享页面
+        await new Promise(resolve => setTimeout(resolve, 100));
+        
+        // 显示分享页面
         setIsSharePage(true);
         
         try {
