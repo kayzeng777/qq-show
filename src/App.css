@@ -352,7 +352,6 @@
   color: #333;
   background: transparent;
   border: none;
-  outline: none;
   flex: 1;
   text-align: center;
   padding: 0;
@@ -816,6 +815,10 @@
   
   .outfit-name-input {
     font-size: 14px; /* 手机端稍微减小字体 */
+    -webkit-appearance: none; /* 移除iOS默认样式 */
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0; /* 移除圆角 */
   }
   
   .outfit-name-display {
