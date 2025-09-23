@@ -32,11 +32,14 @@ function AppContent() {
 
       // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
       if (shareId) {
+        console.log("检测到分享ID:", shareId);
+        console.log("当前URL:", window.location.href);
         // 添加短暂延迟，确保页面完全加载后再显示分享页面
         await new Promise(resolve => setTimeout(resolve, 100));
         
         // 显示分享页面
         setIsSharePage(true);
+        console.log("设置为分享页面模式");
         
         try {
           // 从Supabase中读取装扮数据和语言设置
@@ -363,6 +366,10 @@ function AppContent() {
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
+                console.log("生成的分享链接:", shareUrl);
+                console.log("分享ID:", uniqueId);
+                console.log("装扮数据:", outfit);
+                console.log("语言设置:", language);
                 // 设置href并让浏览器自然处理
                 e.currentTarget.href = shareUrl;
               } else {
