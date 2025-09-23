@@ -68,12 +68,20 @@
   object-fit: contain;
 }
 
+.clickable-icon {
+  cursor: pointer;
+}
+
 .qq-title {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Unifont', monospace;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
+}
+
+.clickable-title {
+  cursor: pointer;
 }
 
 .qq-titlebar-right {
@@ -88,7 +96,8 @@
 }
 
 .language-button,
-.about-button {
+.about-button,
+.share-button {
   padding: 4px 8px;
   border: 1px solid #c0c0c0;
   background: #ffffff;
@@ -109,6 +118,154 @@
   height: 20px;
 }
 
+.share-button {
+  width: 72px;
+}
+
+/* 英文版分享按钮需要更宽 */
+.share-button.english {
+  width: 92px;
+}
+
+/* 分享页面样式 */
+.share-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 45px); /* 减去标题栏高度 */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.share-page-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.share-page-display {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  height: 100%;
+}
+
+.share-page-display .qq-show-container {
+  width: 210px;
+  height: 339px;
+}
+
+.share-page-display .qq-show-display {
+  width: 210px;
+  height: 339px;
+}
+
+.share-page-display .qq-show-item-image {
+  width: 210px;
+  height: 339px;
+}
+
+/* 装扮名称编辑区域样式 */
+.outfit-name-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.outfit-name-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 210px;
+}
+
+.outfit-name-display {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Unifont', monospace;
+  color: #333;
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.outfit-name-input {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Unifont', monospace;
+  color: #333;
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.outfit-name-input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.outfit-name-button {
+  padding: 4px 8px;
+  border: 1px solid #c0c0c0;
+  background: #ffffff;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Unifont', monospace;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 0px #cccccc;
+  outline: none;
+  box-shadow: 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 24px;
+  white-space: nowrap;
+  transition: all 0.1s ease;
+  flex-shrink: 0;
+}
+
+.outfit-name-button:hover {
+  background: #433AE7;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px #333333;
+  border: 1px solid #c0c0c0;
+  box-shadow: 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.outfit-name-button:active {
+  background: #d0d0d0;
+  border: 1px solid #c0c0c0;
+  box-shadow: 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
 .language-button.active {
   background: #433AE7;
   color: #ffffff;
@@ -116,13 +273,15 @@
 }
 
 .language-button:focus,
-.about-button:focus {
+.about-button:focus,
+.share-button:focus {
   outline: none;
 }
 
 /* 只在键盘导航时显示焦点样式 */
 .language-button:focus-visible,
-.about-button:focus-visible {
+.about-button:focus-visible,
+.share-button:focus-visible {
   background: #433AE7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
@@ -133,7 +292,8 @@
 }
 
 .language-button:hover:not(.active),
-.about-button:hover {
+.about-button:hover,
+.share-button:hover {
   background: #433AE7;
   color: #ffffff;
   text-shadow: 1px 1px 0px #333333;
@@ -150,7 +310,8 @@
 }
 
 .language-button:active:not(.active),
-.about-button:active {
+.about-button:active,
+.share-button:active {
   background: #d0d0d0;
   border: 1px solid #c0c0c0;
   box-shadow: 
@@ -513,6 +674,7 @@
   /* 移除触摸设备上的焦点样式 */
   .language-button:focus,
   .about-button:focus,
+  .share-button:focus,
   .clear-button:focus,
   .action-button:focus,
   .random-button:focus,
@@ -529,6 +691,7 @@
   /* 确保触摸后不会保持焦点状态 */
   .language-button:active,
   .about-button:active,
+  .share-button:active,
   .clear-button:active,
   .action-button:active,
   .random-button:active,
@@ -544,6 +707,7 @@
   /* 移动端触摸后强制移除焦点 */
   .language-button:focus:not(:focus-visible),
   .about-button:focus:not(:focus-visible),
+  .share-button:focus:not(:focus-visible),
   .clear-button:focus:not(:focus-visible),
   .action-button:focus:not(:focus-visible),
   .random-button:focus:not(:focus-visible),

@@ -9,6 +9,8 @@ const translations = {
     app: {
       title: 'QQ秀2000',
       about: '关于',
+      shareOutfit: '分享装扮',
+      createYourOwn: '创建装扮',
       clearAll: '一键清空',
       undo: '撤销',
       redo: '重做',
@@ -16,6 +18,8 @@ const translations = {
       selectCategory: '选择一个分类来查看装扮物品',
       none: '无',
       categoryTitle: '装扮分类',
+      defaultOutfitName: '我的QQ秀',
+      save: '保存',
     },
     categories: {
       background: '背景',
@@ -53,6 +57,8 @@ const translations = {
     app: {
       title: 'QQ Show 2000',
       about: 'About',
+      shareOutfit: 'Share Outfit',
+      createYourOwn: 'Create Outfit',
       clearAll: 'Clear all',
       undo: 'Undo',
       redo: 'Redo',
@@ -60,6 +66,8 @@ const translations = {
       selectCategory: 'Select a category to view styling items',
       none: 'None',
       categoryTitle: 'Categories',
+      defaultOutfitName: 'My QQ Show',
+      save: 'Save',
     },
     categories: {
       background: 'Background',

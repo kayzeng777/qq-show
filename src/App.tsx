@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import QQShow from './components/QQShow';
 import CategorySelector from './components/CategorySelector';
 import ItemSelector from './components/ItemSelector';
+import SharePage from './components/SharePage';
 import type { QQShowCategory, QQShowItem, QQShowOutfit } from './types/qqShow';
 import { categories as generatedCategories } from './data/categories';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
@@ -16,7 +17,47 @@ function AppContent() {
   const [history, setHistory] = useState<QQShowOutfit[]>([{}]);
   const [historyIndex, setHistoryIndex] = useState(0);
   const [showAbout, setShowAbout] = useState(false);
+  const [isSharePage, setIsSharePage] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+
+  // 从URL参数加载装扮
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const outfitParam = urlParams.get('outfit');
+    const shareId = urlParams.get('id');
+    
+    if (outfitParam) {
+      try {
+        const decodedData = decodeURIComponent(outfitParam);
+        const loadedOutfit = JSON.parse(decodedData);
+        
+        // 验证装扮数据的有效性
+        if (loadedOutfit && typeof loadedOutfit === 'object') {
+          setOutfit(loadedOutfit);
+          // 保存到历史记录
+          setHistory([loadedOutfit]);
+          setHistoryIndex(0);
+          // 显示分享页面
+          setIsSharePage(true);
+          
+          // 如果有分享ID，记录到控制台（用于调试）
+          if (shareId) {
+            console.log('分享ID:', shareId);
+            console.log('装扮数据加载成功，包含项目:', Object.keys(loadedOutfit));
+          }
+        } else {
+          console.warn('装扮数据格式无效');
+        }
+      } catch (error) {
+        console.error('加载装扮数据失败:', error);
+        // 如果数据损坏，显示空装扮而不是错误
+        setOutfit({});
+        setHistory([{}]);
+        setHistoryIndex(0);
+        setIsSharePage(true);
+      }
+    }
+  }, []);
 
   // 移动端焦点处理
   useEffect(() => {
@@ -223,12 +264,57 @@ function AppContent() {
     }, 0);
   }, [saveToHistory]);
 
+  const generateUniqueId = useCallback(() => {
+    // 生成短而唯一的ID：时间戳(36进制) + 随机数
+    const timestamp = Date.now().toString(36); // 转换为36进制，约8位
+    const randomId = Math.random().toString(36).substring(2, 6); // 4位随机字符
+    const sessionId = sessionStorage.getItem('qqshow_session') || Math.random().toString(36).substring(2, 4);
+    
+    // 如果没有session ID，创建一个新的
+    if (!sessionStorage.getItem('qqshow_session')) {
+      sessionStorage.setItem('qqshow_session', sessionId);
+    }
+    
+    return `${timestamp}${randomId}${sessionId}`;
+  }, []);
+
+  const handleShareOutfit = useCallback(() => {
+    // 生成唯一的分享ID
+    const uniqueId = generateUniqueId();
+    
+    // 生成当前装扮的分享链接，使用唯一ID
+    const outfitData = JSON.stringify(outfit);
+    const encodedData = encodeURIComponent(outfitData);
+    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${encodedData}`;
+    
+    // 跳转到分享页面
+    window.location.href = shareUrl;
+  }, [outfit, generateUniqueId]);
+
+
+  // 如果是分享页面，渲染分享页面组件
+  if (isSharePage) {
+    return <SharePage outfit={outfit} />;
+  }
+
   return (
     <div className="qq-window">
       <div className="qq-titlebar">
         <div className="qq-titlebar-left">
-          <img src="/assets/icons/qqshow_icon.PNG" alt="QQ秀" className="qq-icon" />
-          <span className="qq-title">{t.app.title}</span>
+          <img 
+            src="/assets/icons/qqshow_icon.PNG" 
+            alt="QQ秀" 
+            className="qq-icon clickable-icon"
+            onClick={() => window.open('https://qqshow2000.com', '_blank')}
+            title="访问主站"
+          />
+          <span 
+            className="qq-title clickable-title"
+            onClick={() => window.open('https://qqshow2000.com', '_blank')}
+            title="访问主站"
+          >
+            {t.app.title}
+          </span>
         </div>
         <div className="qq-titlebar-right">
           <div className="language-buttons">
@@ -262,6 +348,16 @@ function AppContent() {
             title={t.app.about}
           >
             {t.app.about}
+          </button>
+          <button 
+            className={`share-button ${language === 'en' ? 'english' : ''}`}
+            onClick={(e) => {
+              handleShareOutfit();
+              e.currentTarget.blur();
+            }}
+            title={t.app.shareOutfit}
+          >
+            {t.app.shareOutfit}
           </button>
         </div>
       </div>
