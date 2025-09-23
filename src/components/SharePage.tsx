@@ -24,6 +24,28 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     setInputValue(e.target.value);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      // 回车键保存
+      e.preventDefault();
+      const newName = inputValue.trim() || t.app.defaultOutfitName;
+      setOutfitName(newName);
+      setHasUserInput(inputValue.trim() !== "");
+      
+      // 更新URL参数
+      const urlParams = new URLSearchParams(window.location.search);
+      urlParams.set('name', newName);
+      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+      window.history.replaceState({}, '', newUrl);
+      
+      setIsEditing(false);
+    } else if (e.key === 'Escape') {
+      // ESC键退出编辑
+      e.preventDefault();
+      setIsEditing(false);
+    }
+  };
+
   const handleEditClick = () => {
     setIsEditing(true);
     // 如果有用户输入，显示用户内容；否则显示空（placeholder）
@@ -203,6 +225,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                     type="text"
                     value={inputValue}
                     onChange={handleNameChange}
+                    onKeyDown={handleKeyDown}
                     onBlur={handleBlur}
                     placeholder={t.app.defaultOutfitName}
                     className="outfit-name-input"
