@@ -12,6 +12,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const [showAbout, setShowAbout] = useState(false);
   const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
   const [isEditing, setIsEditing] = useState(false);
+  const [inputValue, setInputValue] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
@@ -19,16 +20,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   };
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value.trim();
-    if (value) {
-      setOutfitName(value);
-    } else {
-      setOutfitName(t.app.defaultOutfitName);
-    }
+    setInputValue(e.target.value);
   };
 
   const handleEditClick = () => {
     setIsEditing(true);
+    setInputValue(""); // 清空input，只显示placeholder
     // 等待状态更新后再聚焦输入框
     setTimeout(() => {
       if (inputRef.current) {
@@ -42,6 +39,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleBlur = () => {
     // 延迟退出编辑模式，避免与按钮点击冲突
     setTimeout(() => {
+      // 如果input为空，保存默认名称
+      if (inputValue.trim()) {
+        setOutfitName(inputValue.trim());
+      } else {
+        setOutfitName(t.app.defaultOutfitName);
+      }
       setIsEditing(false);
     }, 150);
   };
@@ -49,6 +52,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleSaveClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+    // 如果input为空，保存默认名称
+    if (inputValue.trim()) {
+      setOutfitName(inputValue.trim());
+    } else {
+      setOutfitName(t.app.defaultOutfitName);
+    }
     // 立即退出编辑模式
     setIsEditing(false);
   };
@@ -142,13 +151,13 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             <ShareQQShow outfit={outfit} />
 
             {/* 装扮名称编辑区域 */}
-            <div className="outfit-name-section" style={{ width: '100%' }}>
-              <div className="outfit-name-container" style={{ width: '100%', maxWidth: 'none' }}>
+            <div className="outfit-name-section" style={{ width: '210px' }}>
+              <div className="outfit-name-container" style={{ width: '100%' }}>
                 {isEditing ? (
                   <input
                     ref={inputRef}
                     type="text"
-                    value={outfitName}
+                    value={inputValue}
                     onChange={handleNameChange}
                     onBlur={handleBlur}
                     placeholder={t.app.defaultOutfitName}
