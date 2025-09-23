@@ -178,8 +178,25 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             <ShareQQShow outfit={outfit} />
 
             {/* 装扮名称编辑区域 */}
-            <div className="outfit-name-section" style={{ width: '210px', height: '40px' }}>
-              <div className="outfit-name-container" style={{ width: '100%', height: '100%' }}>
+            <div className="outfit-name-section" style={{ 
+              width: '210px', 
+              height: '40px !important',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginTop: '5px'
+            }}>
+              <div className="outfit-name-container" style={{ 
+                width: '100%', 
+                height: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                background: '#ffffff',
+                border: '1px solid #c0c0c0',
+                borderRadius: '5px',
+                padding: '8px 12px'
+              }}>
                 {isEditing ? (
                   <input
                     ref={inputRef}
@@ -198,10 +215,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                       border: 'none',
                       flex: 1,
                       textAlign: 'center',
-                      padding: 0,
+                      padding: '0 !important',
                       width: '100%',
-                      height: '24px',
-                      lineHeight: '24px'
+                      height: '24px !important',
+                      lineHeight: '24px !important',
+                      margin: '0 !important',
+                      boxSizing: 'border-box'
                     }}
                   />
                 ) : (
@@ -214,12 +233,14 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                       color: '#333',
                       flex: 1,
                       textAlign: 'center',
-                      padding: 0,
-                      height: '24px',
-                      lineHeight: '24px',
+                      padding: '0 !important',
+                      height: '24px !important',
+                      lineHeight: '24px !important',
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'center'
+                      justifyContent: 'center',
+                      margin: '0 !important',
+                      boxSizing: 'border-box'
                     }}
                   >
                     {outfitName}
