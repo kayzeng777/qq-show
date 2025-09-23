@@ -93,6 +93,11 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         return null
       }
       
+      // 更新访问记录
+      if (data) {
+        await updateShareAccess(id)
+      }
+      
       return data
     } else {
       // 使用localStorage获取
@@ -113,5 +118,16 @@ export async function getShareData(id: string): Promise<ShareData | null> {
   } catch (error) {
     console.error('获取分享数据失败:', error)
     return null
+  }
+}
+
+// 更新分享访问记录
+export async function updateShareAccess(id: string): Promise<void> {
+  try {
+    if (supabase) {
+      await supabase.rpc('update_share_access', { share_id: id })
+    }
+  } catch (error) {
+    console.error('更新访问记录失败:', error)
   }
 }
