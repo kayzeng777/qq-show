@@ -22,12 +22,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleEditName = () => {
     setTempName(outfitName);
     setIsEditingName(true);
-    // 延迟focus，避免手机端立即触发blur
-    setTimeout(() => {
-      if (inputRef.current) {
-        inputRef.current.focus();
-      }
-    }, 100);
   };
 
   const handleSaveName = () => {
@@ -74,6 +68,18 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       setOutfitName(t.app.defaultOutfitName);
     }
   }, [language, outfitName, t.app.defaultOutfitName]);
+
+  // 当进入编辑模式时，自动focus输入框
+  useEffect(() => {
+    if (isEditingName && inputRef.current) {
+      // 使用requestAnimationFrame确保DOM更新后再focus
+      requestAnimationFrame(() => {
+        if (inputRef.current) {
+          inputRef.current.focus();
+        }
+      });
+    }
+  }, [isEditingName]);
 
 
   return (
