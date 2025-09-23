@@ -230,7 +230,7 @@
 
 .language-buttons {
   display: flex;
-  gap: 1px;
+  gap: 2px;
   margin-right: 10px;
 }
 
@@ -258,6 +258,10 @@
   width: 48px;
   height: 20px;
   text-decoration: none; /* 移除a标签的下划线 */
+}
+
+.about-button {
+  margin-right: 1px;
 }
 
 .share-button {
