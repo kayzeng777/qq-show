@@ -287,8 +287,14 @@ function AppContent() {
     const encodedData = encodeURIComponent(outfitData);
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${encodedData}`;
     
-    // 在新标签页中打开分享页面
-    window.open(shareUrl, '_blank');
+    // 尝试在新标签页中打开分享页面
+    const newWindow = window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    
+    // 如果新窗口被阻止，回退到当前窗口跳转
+    if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+      // 浏览器阻止了弹窗，回退到当前窗口跳转
+      window.location.href = shareUrl;
+    }
   }, [outfit, generateUniqueId]);
 
 
