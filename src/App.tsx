@@ -31,8 +31,9 @@ function AppContent() {
     // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
     if (shareId) {
       try {
-        // 从sessionStorage中读取装扮数据
+        // 从sessionStorage中读取装扮数据和语言设置
         const outfitData = sessionStorage.getItem(`outfit_${shareId}`);
+        const savedLanguage = sessionStorage.getItem(`language_${shareId}`);
         
         if (outfitData) {
           const loadedOutfit = JSON.parse(outfitData);
@@ -43,11 +44,18 @@ function AppContent() {
             // 保存到历史记录
             setHistory([loadedOutfit]);
             setHistoryIndex(0);
+            
+            // 恢复语言设置（如果存在）
+            if (savedLanguage && (savedLanguage === "zh" || savedLanguage === "en")) {
+              setLanguage(savedLanguage);
+            }
+            
             // 显示分享页面
             setIsSharePage(true);
 
             // 记录到控制台（用于调试）
             console.log("分享ID:", shareId);
+            console.log("恢复的语言设置:", savedLanguage);
             console.log(
               "装扮数据加载成功，包含项目:",
               Object.keys(loadedOutfit),
@@ -295,14 +303,16 @@ function AppContent() {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
 
-    // 将装扮数据存储到sessionStorage中，使用短ID作为key
+    // 将装扮数据和语言设置存储到sessionStorage中
     sessionStorage.setItem(`outfit_${uniqueId}`, JSON.stringify(outfit));
+    sessionStorage.setItem(`language_${uniqueId}`, language);
 
     // 生成简短的分享链接，只包含ID
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
 
     // 调试信息
     console.log("当前装扮数据:", outfit);
+    console.log("当前语言:", language);
     console.log("生成的分享链接:", shareUrl);
 
     // 尝试在新标签页中打开分享页面
@@ -312,7 +322,7 @@ function AppContent() {
     if (!newWindow) {
       // 静默处理，不显示任何提示
     }
-  }, [outfit, generateUniqueId]);
+  }, [outfit, language, generateUniqueId]);
 
   // 如果是分享页面，渲染分享页面组件
   if (isSharePage) {
