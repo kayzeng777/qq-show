@@ -38,6 +38,23 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     }
   };
 
+  // 更新数据库中的语言
+  const updateShareLanguage = async (newLanguage: string) => {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const shareId = urlParams.get('id');
+      
+      if (shareId && supabase) {
+        await supabase
+          .from('shares')
+          .update({ language: newLanguage })
+          .eq('id', shareId);
+      }
+    } catch (error) {
+      console.error('更新分享语言失败:', error);
+    }
+  };
+
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
   };
@@ -163,6 +180,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
               className={`language-button ${language === "zh" ? "active" : ""}`}
               onClick={(e) => {
                 setLanguage("zh");
+                updateShareLanguage("zh");
                 e.currentTarget.blur();
               }}
               title="中文"
@@ -173,6 +191,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
               className={`language-button ${language === "en" ? "active" : ""}`}
               onClick={(e) => {
                 setLanguage("en");
+                updateShareLanguage("en");
                 e.currentTarget.blur();
               }}
               title="English"
