@@ -299,14 +299,14 @@ function AppContent() {
     // 尝试在新标签页中打开分享页面
     const newWindow = window.open(shareUrl, "_blank", "noopener,noreferrer");
 
-    // 如果新窗口被阻止，回退到当前窗口跳转
+    // 如果新窗口被阻止，显示提示信息而不是跳转当前页面
     if (
       !newWindow ||
       newWindow.closed ||
       typeof newWindow.closed === "undefined"
     ) {
-      // 浏览器阻止了弹窗，回退到当前窗口跳转
-      window.location.href = shareUrl;
+      // 浏览器阻止了弹窗，显示提示信息
+      alert("请允许弹窗以打开分享页面，或手动复制链接：\n" + shareUrl);
     }
   }, [outfit, generateUniqueId]);
 
