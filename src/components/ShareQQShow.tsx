@@ -1,7 +1,6 @@
 import React from "react";
 import type { QQShowItem, QQShowOutfit } from "../types/qqShow";
 import { LAYER_ORDER } from "../types/qqShow";
-import OptimizedImage from "./OptimizedImage";
 
 interface ShareQQShowProps {
   outfit: QQShowOutfit;
@@ -148,7 +147,7 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
                     className="share-display-layer"
                     style={{ zIndex: LAYER_ORDER.backHair }}
                   >
-                    <OptimizedImage
+                    <img
                       src={hairItem.backHair.image}
                       alt={hairItem.backHair.name}
                       className="share-display-image"
@@ -162,7 +161,7 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
                     className="share-display-layer"
                     style={{ zIndex: LAYER_ORDER.frontHair }}
                   >
-                    <OptimizedImage
+                    <img
                       src={hairItem.frontHair.image}
                       alt={hairItem.frontHair.name}
                       className="share-display-image"
@@ -180,7 +179,7 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
               className="share-display-layer"
               style={{ zIndex: layerValue }}
             >
-              <OptimizedImage
+              <img
                 src={item.image}
                 alt={item.name}
                 className="share-display-image"
