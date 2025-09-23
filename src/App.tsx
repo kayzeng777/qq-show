@@ -367,15 +367,8 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 创建隐藏的a标签来避免弹窗阻止
-                const link = document.createElement('a');
-                link.href = shareUrl;
-                link.target = '_blank';
-                link.rel = 'noopener noreferrer';
-                link.style.display = 'none';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+                // 直接跳转到分享页面
+                window.location.href = shareUrl;
               } else {
                 console.error("保存分享数据失败");
               }
