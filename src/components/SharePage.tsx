@@ -187,8 +187,19 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
           
           if (!error && data && data.name) {
             console.log('从数据库加载名称:', data.name);
-            setOutfitName(data.name);
-            setHasUserInput(data.name !== (language === "zh" ? "我的装扮" : "My Outfit"));
+            
+            // 检查名称是否是默认名称，如果是则根据当前语言设置正确的默认名称
+            const isDefaultName = data.name === "My Outfit" || data.name === "我的装扮";
+            if (isDefaultName) {
+              const correctDefaultName = language === "zh" ? "我的装扮" : "My Outfit";
+              console.log('检测到默认名称，使用正确的语言版本:', correctDefaultName);
+              setOutfitName(correctDefaultName);
+              setHasUserInput(false);
+            } else {
+              // 用户自定义的名称，直接使用
+              setOutfitName(data.name);
+              setHasUserInput(true);
+            }
           } else {
             console.log('数据库中没有名称，使用默认名称');
           }
