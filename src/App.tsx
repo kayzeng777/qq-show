@@ -355,6 +355,8 @@ function AppContent() {
           <a
             className={`share-button ${language === "en" ? "english" : ""}`}
             href="#"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={async (e) => {
               e.preventDefault();
               const uniqueId = generateUniqueId();
@@ -362,12 +364,9 @@ function AppContent() {
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-                // 直接使用window.open，因为这是用户直接点击触发的
-                const newWindow = window.open(shareUrl, '_blank', 'noopener,noreferrer');
-                if (!newWindow) {
-                  // 如果被阻止，提示用户
-                  alert('请允许弹出窗口以打开分享页面');
-                }
+                // 直接设置href并触发点击
+                e.currentTarget.href = shareUrl;
+                e.currentTarget.click();
               }
             }}
             title={t.app.shareOutfit}
