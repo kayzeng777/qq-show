@@ -291,6 +291,10 @@ function AppContent() {
     const compressedData = btoa(outfitData); // 使用Base64编码
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${compressedData}`;
 
+    // 调试信息
+    console.log("当前装扮数据:", outfit);
+    console.log("生成的分享链接:", shareUrl);
+
     // 尝试在新标签页中打开分享页面
     const newWindow = window.open(shareUrl, "_blank");
     
