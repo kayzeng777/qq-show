@@ -808,6 +808,26 @@
 
 /* 移动设备触摸优化 */
 @media (max-width: 900px) {
+  /* 装扮名称编辑区域在手机端的优化 */
+  .outfit-name-container {
+    width: 180px; /* 在手机端稍微缩小宽度 */
+    padding: 6px 10px; /* 减少内边距 */
+  }
+  
+  .outfit-name-input {
+    font-size: 14px; /* 手机端稍微减小字体 */
+  }
+  
+  .outfit-name-display {
+    font-size: 14px; /* 手机端稍微减小字体 */
+  }
+  
+  .outfit-name-button {
+    width: 36px; /* 手机端稍微缩小按钮 */
+    height: 22px;
+    font-size: 11px;
+  }
+  
   /* 移除触摸设备上的焦点样式 */
   .language-button:focus,
   .about-button:focus,
