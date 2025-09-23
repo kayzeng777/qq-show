@@ -291,3 +291,15 @@
     flex-shrink: 0; /* 防止标题收缩 */
   }
 }
+
+/* 小屏幕且高度大于700px时的特殊样式 */
+@media (max-width: 900px) and (min-height: 701px) {
+  .category-thumbnail-image {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .category-name {
+    max-width: 50px !important;
+  }
+}
