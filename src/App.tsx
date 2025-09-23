@@ -371,8 +371,16 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 直接跳转到分享页面
-                window.location.href = shareUrl;
+                // 设置href并让浏览器自然处理新标签页打开
+                e.currentTarget.href = shareUrl;
+                // 创建一个新的点击事件来触发新标签页打开
+                const clickEvent = new MouseEvent('click', {
+                  ctrlKey: true,
+                  metaKey: true,
+                  button: 0,
+                  buttons: 1
+                });
+                e.currentTarget.dispatchEvent(clickEvent);
               } else {
                 console.error("保存分享数据失败");
               }
