@@ -65,39 +65,6 @@ function AppContent() {
     }
   }, []);
 
-  // 移动端焦点处理
-  useEffect(() => {
-    const handleTouchEnd = (e: TouchEvent) => {
-      // 在移动端触摸结束后移除焦点
-      if (e.target instanceof HTMLElement) {
-        // 延迟移除焦点，确保点击事件先执行
-        setTimeout(() => {
-          if (
-            document.activeElement &&
-            document.activeElement !== document.body
-          ) {
-            (document.activeElement as HTMLElement).blur();
-          }
-        }, 100);
-      }
-    };
-
-    // 检测是否为移动设备
-    const isMobile =
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent,
-      ) ||
-      "ontouchstart" in window ||
-      navigator.maxTouchPoints > 0;
-
-    if (isMobile) {
-      document.addEventListener("touchend", handleTouchEnd, { passive: true });
-
-      return () => {
-        document.removeEventListener("touchend", handleTouchEnd);
-      };
-    }
-  }, []);
 
   const saveToHistory = useCallback(
     (newOutfit: QQShowOutfit) => {
