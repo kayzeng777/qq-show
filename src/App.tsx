@@ -307,13 +307,8 @@ function AppContent() {
       console.log("当前语言:", language);
       console.log("生成的分享链接:", shareUrl);
 
-      // 尝试在新标签页中打开分享页面
-      const newWindow = window.open(shareUrl, "_blank");
-      
-      // 如果新窗口被阻止，静默处理，不显示任何提示
-      if (!newWindow) {
-        // 静默处理，不显示任何提示
-      }
+      // 直接在新标签页中打开分享页面
+      window.open(shareUrl, "_blank", "noopener,noreferrer");
     } else {
       console.error("保存分享数据失败");
     }
