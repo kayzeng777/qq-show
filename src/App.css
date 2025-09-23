@@ -89,6 +89,11 @@
   .share-page .qq-title {
     font-size: 18px;
   }
+  
+  /* 小屏幕下语言按钮宽度减少6px */
+  .language-button {
+    width: 42px;
+  }
 }
 
 .qq-titlebar-right {
