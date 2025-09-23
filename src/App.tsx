@@ -358,8 +358,6 @@ function AppContent() {
           <a
             className={`share-button ${language === "en" ? "english" : ""}`}
             href="#"
-            target="_blank"
-            rel="noopener noreferrer"
             onClick={async (e) => {
               e.preventDefault();
               const uniqueId = generateUniqueId();
@@ -367,14 +365,7 @@ function AppContent() {
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-                console.log("生成的分享链接:", shareUrl);
-                console.log("分享ID:", uniqueId);
-                console.log("装扮数据:", outfit);
-                console.log("语言设置:", language);
-                // 直接修改当前页面的href，避免弹窗阻止器
                 window.location.href = shareUrl;
-              } else {
-                console.error("保存分享数据失败");
               }
             }}
             title={t.app.shareOutfit}
