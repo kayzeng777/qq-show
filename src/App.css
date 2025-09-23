@@ -84,6 +84,13 @@
   cursor: pointer;
 }
 
+/* 分享页面标题在小屏幕下的响应式样式 */
+@media (max-width: 900px) {
+  .share-page .qq-title {
+    font-size: 18px;
+  }
+}
+
 .qq-titlebar-right {
   display: flex;
   gap: 2px;
@@ -124,7 +131,12 @@
 
 /* 英文版分享按钮需要更宽 */
 .share-button.english {
-  width: 92px;
+  width: 90px;
+}
+
+/* 分享页面英文版Create Outfit按钮需要更宽 */
+.share-page .share-button.english {
+  width: 98px;
 }
 
 /* 分享页面样式 */
@@ -132,7 +144,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 45px); /* 减去标题栏高度 */
   padding: 20px;
   box-sizing: border-box;
 }

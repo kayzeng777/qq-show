@@ -65,6 +65,13 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     document.title = `${outfitName} - ${t.app.title}`;
   }, [outfitName, t.app.title]);
 
+  // 当语言改变时，更新装扮名称的默认值
+  useEffect(() => {
+    if (outfitName === (language === 'zh' ? 'My QQ Show' : '我的QQ秀')) {
+      setOutfitName(t.app.defaultOutfitName);
+    }
+  }, [language, outfitName, t.app.defaultOutfitName]);
+
   return (
     <div className="qq-window">
       <div className="qq-titlebar">
