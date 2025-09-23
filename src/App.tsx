@@ -294,28 +294,6 @@ function AppContent() {
     return `${timestamp}${randomId}`;
   }, []);
 
-  const handleShareOutfit = useCallback(async () => {
-    // 生成唯一的分享ID
-    const uniqueId = generateUniqueId();
-
-    // 将装扮数据和语言设置存储到Supabase中
-    const success = await saveShareData(uniqueId, outfit, language);
-    
-    if (success) {
-      // 生成简短的分享链接，只包含ID
-      const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-
-      // 调试信息
-      console.log("当前装扮数据:", outfit);
-      console.log("当前语言:", language);
-      console.log("生成的分享链接:", shareUrl);
-
-      // 直接跳转到分享页面
-      window.location.href = shareUrl;
-    } else {
-      console.error("保存分享数据失败");
-    }
-  }, [outfit, language, generateUniqueId]);
 
   // 如果是分享页面，渲染分享页面组件
   if (isSharePage) {
@@ -374,16 +352,29 @@ function AppContent() {
           >
             {t.app.about}
           </button>
-          <button
+          <a
             className={`share-button ${language === "en" ? "english" : ""}`}
-            onClick={(e) => {
-              handleShareOutfit();
-              e.currentTarget.blur();
+            href="#"
+            onClick={async (e) => {
+              e.preventDefault();
+              const uniqueId = generateUniqueId();
+              const success = await saveShareData(uniqueId, outfit, language);
+              
+              if (success) {
+                const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
+                e.currentTarget.href = shareUrl;
+                e.currentTarget.target = '_blank';
+                e.currentTarget.rel = 'noopener noreferrer';
+                // 触发点击以打开新标签页
+                setTimeout(() => {
+                  e.currentTarget.click();
+                }, 0);
+              }
             }}
             title={t.app.shareOutfit}
           >
             {t.app.shareOutfit}
-          </button>
+          </a>
         </div>
       </div>
 
