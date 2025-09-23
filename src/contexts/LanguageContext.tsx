@@ -23,7 +23,7 @@ const translations = {
       selectCategory: "选择一个分类来查看装扮物品",
       none: "无",
       categoryTitle: "装扮分类",
-      defaultOutfitName: "我的QQ秀",
+      defaultOutfitName: "我的装扮",
       save: "保存",
     },
     categories: {
@@ -74,7 +74,7 @@ const translations = {
       selectCategory: "Select a category to view styling items",
       none: "None",
       categoryTitle: "Categories",
-      defaultOutfitName: "My QQ Show",
+      defaultOutfitName: "My Outfit",
       save: "Save",
     },
     categories: {

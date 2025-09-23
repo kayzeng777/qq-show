@@ -252,6 +252,7 @@
   width: 48px;
   height: 20px;
   text-decoration: none; /* 移除a标签的下划线 */
+  border-radius: 0; /* 确保与button样式一致，无圆角 */
 }
 
 .share-button {
