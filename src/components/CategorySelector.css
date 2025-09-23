@@ -206,16 +206,6 @@
 
 /* 移动设备触摸优化 */
 @media (max-width: 900px) {
-  /* 移除触摸设备上的焦点样式 */
-  .category-item:focus {
-    background: inherit;
-    border: inherit;
-  }
-
-  .category-item:focus .category-name {
-    color: inherit;
-    text-shadow: inherit;
-  }
 
   /* 确保触摸后不会保持焦点状态 */
   .category-item:active {

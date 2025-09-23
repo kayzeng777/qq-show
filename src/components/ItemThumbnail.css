@@ -166,16 +166,6 @@ div.item-thumbnail.item-thumbnail-component {
 
 /* 移动设备触摸优化 */
 @media (max-width: 900px) {
-  /* 移除触摸设备上的焦点样式 */
-  .item-thumbnail:focus {
-    background: inherit;
-    border: inherit;
-  }
-
-  .item-thumbnail:focus .item-name {
-    color: inherit;
-    text-shadow: inherit;
-  }
 
   /* 确保触摸后不会保持焦点状态 */
   .item-thumbnail:active {
