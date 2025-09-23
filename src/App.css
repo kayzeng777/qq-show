@@ -103,6 +103,11 @@
     font-size: 11px !important;
   }
 
+  /* 小屏幕下分享按钮字体大小调整 */
+  .qq-titlebar-right .share-button {
+    font-size: 11px !important;
+  }
+
   .share-button {
     width: 68px !important; /* 72px - 4px */
   }
