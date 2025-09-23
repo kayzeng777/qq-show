@@ -74,16 +74,19 @@ export async function saveShareData(id: string, outfit: any, language: string, n
 export async function getShareData(id: string): Promise<ShareData | null> {
   try {
     console.log('正在获取分享数据，ID:', id)
+    console.log('Supabase配置:', { supabaseUrl, hasValidConfig })
     
     if (supabase) {
-      // 使用Supabase获取
+      console.log('开始Supabase查询...')
+      
+      // 使用更简单的查询
       const { data, error } = await supabase
         .from('shares')
-        .select('*')
+        .select('id, outfit, language, name, created_at')
         .eq('id', id)
-        .maybeSingle()
       
       console.log('Supabase查询结果:', { data, error })
+      console.log('查询到的数据数量:', data?.length)
       
       if (error) {
         console.error('Supabase获取失败，回退到localStorage:', error)
@@ -105,13 +108,32 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         return null
       }
       
-      // 更新访问记录
-      if (data) {
+      // 检查是否有数据
+      if (data && data.length > 0) {
+        const shareData = data[0]
+        console.log('找到分享数据:', shareData)
+        
+        // 更新访问记录
         await updateShareAccess(id)
+        
+        return shareData
+      } else {
+        console.log('未找到分享数据，回退到localStorage')
+        // 回退到localStorage
+        const outfitData = localStorage.getItem(`outfit_${id}`)
+        const languageData = localStorage.getItem(`language_${id}`)
+        
+        if (outfitData) {
+          return {
+            id,
+            outfit: JSON.parse(outfitData),
+            language: languageData || 'zh',
+            created_at: new Date().toISOString()
+          }
+        }
+        
+        return null
       }
-      
-      console.log('成功获取分享数据:', data)
-      return data
     } else {
       console.log('Supabase未配置，使用localStorage')
       // 使用localStorage获取
