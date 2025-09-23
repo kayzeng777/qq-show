@@ -81,7 +81,7 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         .from('shares')
         .select('*')
         .eq('id', id)
-        .single()
+        .maybeSingle()
       
       console.log('Supabase查询结果:', { data, error })
       
@@ -139,7 +139,17 @@ export async function getShareData(id: string): Promise<ShareData | null> {
 export async function updateShareAccess(id: string): Promise<void> {
   try {
     if (supabase) {
-      await supabase.rpc('update_share_access', { share_id: id })
+      // 直接更新记录，不使用RPC函数
+      const { error } = await supabase
+        .from('shares')
+        .update({ 
+          last_accessed_at: new Date().toISOString()
+        })
+        .eq('id', id)
+      
+      if (error) {
+        console.error('更新访问记录失败:', error)
+      }
     }
   } catch (error) {
     console.error('更新访问记录失败:', error)
