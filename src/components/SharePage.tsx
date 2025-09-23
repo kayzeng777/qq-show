@@ -25,7 +25,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   const handleEditClick = () => {
     setIsEditing(true);
-    setInputValue(""); // 清空input，只显示placeholder
+    setInputValue(outfitName); // 显示当前保存的名称
     // 等待状态更新后再聚焦输入框
     setTimeout(() => {
       if (inputRef.current) {
