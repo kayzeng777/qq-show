@@ -162,12 +162,13 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       timestamp: new Date().toISOString()
     });
     
-    // 只有在没有用户输入的名称时才设置默认名称
-    if (!hasUserInput) {
+    // 只有在没有用户输入的名称且当前名称是默认名称时才设置
+    const isCurrentNameDefault = outfitName === "My Outfit" || outfitName === "我的装扮";
+    if (!hasUserInput && isCurrentNameDefault) {
       console.log('设置新的默认名称:', defaultName);
       setOutfitName(defaultName);
     } else {
-      console.log('保持用户输入的名称:', outfitName);
+      console.log('保持当前名称:', outfitName);
     }
   }, [language, hasUserInput, outfitName]);
 
