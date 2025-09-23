@@ -31,19 +31,19 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
         // 防止软键盘遮挡，滚动到可视区域
         inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 100); // 增加延迟时间确保DOM更新
+    }, 100); // 增加延迟时间确保DOM更新完成
   };
 
   const handleBlur = () => {
-    setIsEditing(false);
+    // 延迟退出编辑模式，避免与按钮点击冲突
+    setTimeout(() => {
+      setIsEditing(false);
+    }, 150);
   };
 
   const handleSaveClick = () => {
+    // 立即退出编辑模式
     setIsEditing(false);
-    // 确保按钮失去焦点
-    if (document.activeElement instanceof HTMLElement) {
-      document.activeElement.blur();
-    }
   };
 
   // 更新页面标题
