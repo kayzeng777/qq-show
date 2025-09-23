@@ -307,8 +307,14 @@ function AppContent() {
       console.log("当前语言:", language);
       console.log("生成的分享链接:", shareUrl);
 
-      // 直接跳转到分享页面
-      window.location.href = shareUrl;
+      // 使用动态链接在新标签页中打开分享页面
+      const link = document.createElement('a');
+      link.href = shareUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     } else {
       console.error("保存分享数据失败");
     }
