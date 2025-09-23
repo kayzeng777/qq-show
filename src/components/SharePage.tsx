@@ -31,11 +31,19 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
         // 防止软键盘遮挡，滚动到可视区域
         inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-    }, 0);
+    }, 100); // 增加延迟时间确保DOM更新
   };
 
   const handleBlur = () => {
     setIsEditing(false);
+  };
+
+  const handleSaveClick = () => {
+    setIsEditing(false);
+    // 确保按钮失去焦点
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
   };
 
   // 更新页面标题
@@ -169,7 +177,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 )}
                 <button
                   className="outfit-name-button"
-                  onClick={isEditing ? handleBlur : handleEditClick}
+                  onClick={isEditing ? handleSaveClick : handleEditClick}
                   title={isEditing ? "完成" : "编辑名称"}
                   style={{
                     padding: '4px 8px',
