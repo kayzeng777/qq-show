@@ -153,15 +153,14 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   // 根据语言设置默认名称
   useEffect(() => {
-    // 延迟设置默认名称，确保语言已经正确设置
-    const timer = setTimeout(() => {
-      const defaultName = language === "zh" ? "我的装扮" : "My Outfit";
-      console.log('设置默认名称:', { language, defaultName });
-      setOutfitName(defaultName);
-    }, 100);
+    const defaultName = language === "zh" ? "我的装扮" : "My Outfit";
+    console.log('设置默认名称:', { language, defaultName, currentOutfitName: outfitName });
     
-    return () => clearTimeout(timer);
-  }, [language]);
+    // 只有在没有用户输入的名称时才设置默认名称
+    if (!hasUserInput) {
+      setOutfitName(defaultName);
+    }
+  }, [language, hasUserInput]);
 
   // 从数据库加载名称
   useEffect(() => {

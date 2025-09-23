@@ -307,14 +307,13 @@ function AppContent() {
       console.log("当前语言:", language);
       console.log("生成的分享链接:", shareUrl);
 
-      // 使用动态链接在新标签页中打开分享页面
-      const link = document.createElement('a');
-      link.href = shareUrl;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // 复制链接到剪贴板并提示用户
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        alert('分享链接已复制到剪贴板！');
+      }).catch(() => {
+        // 如果复制失败，直接跳转
+        window.location.href = shareUrl;
+      });
     } else {
       console.error("保存分享数据失败");
     }
