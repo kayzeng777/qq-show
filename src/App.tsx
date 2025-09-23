@@ -358,15 +358,16 @@ function AppContent() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={async (e) => {
-              e.preventDefault();
               const uniqueId = generateUniqueId();
               const success = await saveShareData(uniqueId, outfit, language);
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-                // 直接设置href并触发点击
+                // 设置href并让浏览器自然处理
                 e.currentTarget.href = shareUrl;
-                e.currentTarget.click();
+              } else {
+                // 如果保存失败，阻止默认行为
+                e.preventDefault();
               }
             }}
             title={t.app.shareOutfit}
