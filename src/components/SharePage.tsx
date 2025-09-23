@@ -19,7 +19,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   };
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setOutfitName(e.target.value);
+    const value = e.target.value.trim();
+    if (value) {
+      setOutfitName(value);
+    } else {
+      setOutfitName(t.app.defaultOutfitName);
+    }
   };
 
   const handleEditClick = () => {
@@ -137,8 +142,8 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             <ShareQQShow outfit={outfit} />
 
             {/* 装扮名称编辑区域 */}
-            <div className="outfit-name-section">
-              <div className="outfit-name-container">
+            <div className="outfit-name-section" style={{ width: '100%' }}>
+              <div className="outfit-name-container" style={{ width: '100%', maxWidth: 'none' }}>
                 {isEditing ? (
                   <input
                     ref={inputRef}
