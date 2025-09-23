@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import QQShow from './QQShow';
 import type { QQShowOutfit } from '../types/qqShow';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -60,6 +60,11 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     }
   };
 
+  // 更新页面标题
+  useEffect(() => {
+    document.title = `${outfitName} - ${t.app.title}`;
+  }, [outfitName, t.app.title]);
+
   return (
     <div className="qq-window">
       <div className="qq-titlebar">
@@ -76,7 +81,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             onClick={handleCreateYourOwn}
             title="回到主站"
           >
-            {t.app.title}
+            {outfitName}
           </span>
         </div>
         <div className="qq-titlebar-right">
