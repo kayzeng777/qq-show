@@ -65,41 +65,16 @@
     min-height: auto; /* 移除最小高度限制 */
   }
   
-  /* 主页面在高度<740px时的特殊样式 */
-  @media (max-height: 740px) {
-    .qq-window:not(.share-page) .qq-show-container {
-      width: 160px !important;
-      height: 258px !important;
-    }
-  }
-  
   .qq-show-display {
     width: 190px; /* 固定宽度 */
     height: 305px; /* 固定高度 */
 
-  }
-  
-  /* 主页面在高度<740px时的特殊样式 */
-  @media (max-height: 740px) {
-    .qq-window:not(.share-page) .qq-show-display {
-      width: 160px !important;
-      height: 258px !important;
-    }
   }
 
   .qq-show-item-image {
     width: 190px;
     height: 305px;
     object-fit: fill;
-  }
-  
-  /* 主页面在高度<740px时的特殊样式 */
-  @media (max-height: 740px) {
-    .qq-window:not(.share-page) .qq-show-item-image {
-      width: 160px !important;
-      height: 258px !important;
-      object-fit: fill !important;
-    }
   }
 
 }
