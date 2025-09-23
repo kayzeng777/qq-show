@@ -22,6 +22,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleEditName = () => {
     setTempName(outfitName);
     setIsEditingName(true);
+    // 延迟focus，避免手机端立即触发blur
+    setTimeout(() => {
+      if (inputRef.current) {
+        inputRef.current.focus();
+      }
+    }, 100);
   };
 
   const handleSaveName = () => {
@@ -153,7 +159,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                     onBlur={handleInputBlur}
                     placeholder={t.app.defaultOutfitName}
                     className="outfit-name-input"
-                    autoFocus
                   />
                 ) : (
                   <span className="outfit-name-display">{outfitName}</span>
