@@ -13,6 +13,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
   const [isEditing, setIsEditing] = useState(false);
   const [inputValue, setInputValue] = useState("");
+  const [hasUserInput, setHasUserInput] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
@@ -25,7 +26,8 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   const handleEditClick = () => {
     setIsEditing(true);
-    setInputValue(outfitName); // 显示当前保存的名称
+    // 如果有用户输入，显示用户内容；否则显示空（placeholder）
+    setInputValue(hasUserInput ? outfitName : "");
     // 等待状态更新后再聚焦输入框
     setTimeout(() => {
       if (inputRef.current) {
@@ -43,6 +45,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       const newName = inputValue.trim() || t.app.defaultOutfitName;
       setOutfitName(newName);
       
+      // 更新用户输入状态
+      setHasUserInput(inputValue.trim() !== "");
+      
       // 更新URL参数以保存名称
       const urlParams = new URLSearchParams(window.location.search);
       urlParams.set('name', newName);
@@ -59,6 +64,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     // 如果input为空，保存默认名称
     const newName = inputValue.trim() || t.app.defaultOutfitName;
     setOutfitName(newName);
+    
+    // 更新用户输入状态
+    setHasUserInput(inputValue.trim() !== "");
     
     // 更新URL参数以保存名称
     const urlParams = new URLSearchParams(window.location.search);
@@ -80,8 +88,10 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     const nameFromUrl = urlParams.get('name');
     if (nameFromUrl) {
       setOutfitName(nameFromUrl);
+      // 如果URL中有名称且不是默认名称，说明用户有输入
+      setHasUserInput(nameFromUrl !== t.app.defaultOutfitName);
     }
-  }, []);
+  }, [t.app.defaultOutfitName]);
 
   // 更新页面标题
   useEffect(() => {
