@@ -1,5 +1,15 @@
-// 暂时禁用Supabase，使用localStorage
-export const supabase = null
+import { createClient } from '@supabase/supabase-js'
+
+// 使用公共的Supabase配置（不需要环境变量）
+const supabaseUrl = 'https://your-project.supabase.co'
+const supabaseAnonKey = 'your-anon-key'
+
+// 检查是否有有效的配置
+const hasValidConfig = supabaseUrl && supabaseAnonKey && 
+  supabaseUrl !== 'https://your-project.supabase.co' && 
+  supabaseAnonKey !== 'your-anon-key'
+
+export const supabase = hasValidConfig ? createClient(supabaseUrl, supabaseAnonKey) : null
 
 // 分享数据接口
 export interface ShareData {
@@ -12,33 +22,92 @@ export interface ShareData {
 // 保存分享数据
 export async function saveShareData(id: string, outfit: any, language: string): Promise<boolean> {
   try {
-    // 使用localStorage存储
-    localStorage.setItem(`outfit_${id}`, JSON.stringify(outfit))
-    localStorage.setItem(`language_${id}`, language)
-    return true
+    if (supabase) {
+      // 使用Supabase存储
+      const { error } = await supabase
+        .from('shares')
+        .insert({
+          id,
+          outfit,
+          language,
+          created_at: new Date().toISOString()
+        })
+      
+      if (error) {
+        console.error('Supabase保存失败，回退到localStorage:', error)
+        // 回退到localStorage
+        localStorage.setItem(`outfit_${id}`, JSON.stringify(outfit))
+        localStorage.setItem(`language_${id}`, language)
+        return true
+      }
+      
+      return true
+    } else {
+      // 使用localStorage存储
+      localStorage.setItem(`outfit_${id}`, JSON.stringify(outfit))
+      localStorage.setItem(`language_${id}`, language)
+      return true
+    }
   } catch (error) {
     console.error('保存分享数据失败:', error)
-    return false
+    // 最后的回退
+    try {
+      localStorage.setItem(`outfit_${id}`, JSON.stringify(outfit))
+      localStorage.setItem(`language_${id}`, language)
+      return true
+    } catch (localError) {
+      console.error('localStorage也失败了:', localError)
+      return false
+    }
   }
 }
 
 // 获取分享数据
 export async function getShareData(id: string): Promise<ShareData | null> {
   try {
-    // 使用localStorage获取
-    const outfitData = localStorage.getItem(`outfit_${id}`)
-    const languageData = localStorage.getItem(`language_${id}`)
-    
-    if (outfitData) {
-      return {
-        id,
-        outfit: JSON.parse(outfitData),
-        language: languageData || 'zh',
-        created_at: new Date().toISOString()
+    if (supabase) {
+      // 使用Supabase获取
+      const { data, error } = await supabase
+        .from('shares')
+        .select('*')
+        .eq('id', id)
+        .single()
+      
+      if (error) {
+        console.error('Supabase获取失败，回退到localStorage:', error)
+        // 回退到localStorage
+        const outfitData = localStorage.getItem(`outfit_${id}`)
+        const languageData = localStorage.getItem(`language_${id}`)
+        
+        if (outfitData) {
+          return {
+            id,
+            outfit: JSON.parse(outfitData),
+            language: languageData || 'zh',
+            created_at: new Date().toISOString()
+          }
+        }
+        
+        return null
       }
+      
+      return data
+    } else {
+      // 使用localStorage获取
+      const outfitData = localStorage.getItem(`outfit_${id}`)
+      const languageData = localStorage.getItem(`language_${id}`)
+      
+      if (outfitData) {
+        return {
+          id,
+          outfit: JSON.parse(outfitData),
+          language: languageData || 'zh',
+          created_at: new Date().toISOString()
+        }
+      }
+      
+      return null
     }
-    
-    return null
   } catch (error) {
     console.error('获取分享数据失败:', error)
     return null
