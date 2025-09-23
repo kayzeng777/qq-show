@@ -1,6 +1,7 @@
 import React from "react";
 import type { QQShowItem, QQShowOutfit } from "../types/qqShow";
 import { LAYER_ORDER } from "../types/qqShow";
+import OptimizedImage from "./OptimizedImage";
 import "./QQShow.css";
 
 interface QQShowProps {
@@ -160,7 +161,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
                     className="qq-show-layer"
                     style={{ zIndex: LAYER_ORDER.backHair }}
                   >
-                    <img
+                    <OptimizedImage
                       src={hairItem.backHair.image}
                       alt={hairItem.backHair.name}
                       className="qq-show-item-image"
@@ -173,7 +174,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
                   className="qq-show-layer"
                   style={{ zIndex: LAYER_ORDER.frontHair }}
                 >
-                  <img
+                  <OptimizedImage
                     src={hairItem.frontHair.image}
                     alt={hairItem.frontHair.name}
                     className="qq-show-item-image"
@@ -191,7 +192,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
               className="qq-show-layer"
               style={{ zIndex: layerValue }}
             >
-              <img
+              <OptimizedImage
                 src={item.image}
                 alt={item.name}
                 className="qq-show-item-image"

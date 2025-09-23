@@ -1,0 +1,56 @@
+/* 图片加载动画 */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.optimized-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.optimized-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.image-error {
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.image-loading-placeholder {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* 平滑过渡效果 */
+.optimized-image-container {
+  transition: all 0.3s ease-in-out;
+}
+
+.optimized-image-container:hover {
+  transform: scale(1.02);
+}
+
+/* 加载状态样式 */
+.loading-spinner {
+  border: 2px solid #ddd;
+  border-top: 2px solid #999;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}

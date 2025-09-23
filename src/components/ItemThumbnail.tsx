@@ -2,6 +2,7 @@ import React from "react";
 import type { QQShowItem } from "../types/qqShow";
 import { useLanguage } from "../contexts/LanguageContext";
 import { translateItemName } from "../utils/translations";
+import OptimizedImage from "./OptimizedImage";
 import "./ItemThumbnail.css";
 
 interface ItemThumbnailProps {
@@ -46,21 +47,22 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
           // 发型item：显示前后头发叠加
           <div className="hair-preview-container">
             {/* 占位元素，用于确定容器尺寸 */}
-            <img
+            <OptimizedImage
               src={hairItem.frontHair.image}
               alt=""
               className="hair-preview-placeholder"
+              showLoadingState={false}
             />
             {/* 后头发 */}
             {hairItem.backHair && (
-              <img
+              <OptimizedImage
                 src={hairItem.backHair.image}
                 alt={translateItemName(hairItem.backHair.name, language)}
                 className="hair-preview-back"
               />
             )}
             {/* 前头发 */}
-            <img
+            <OptimizedImage
               src={hairItem.frontHair.image}
               alt={translateItemName(hairItem.frontHair.name, language)}
               className="hair-preview-front"
@@ -68,7 +70,7 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
           </div>
         ) : (
           // 普通item：显示单个图片
-          <img
+          <OptimizedImage
             src={item.thumbnail}
             alt={translateItemName(item.name, language)}
             className="item-thumbnail-image"

@@ -1,6 +1,7 @@
 import React from "react";
 import type { QQShowCategory } from "../types/qqShow";
 import { useLanguage } from "../contexts/LanguageContext";
+import OptimizedImage from "./OptimizedImage";
 import "./CategorySelector.css";
 
 interface CategorySelectorProps {
@@ -29,7 +30,7 @@ const CategorySelector: React.FC<CategorySelectorProps> = ({
             }}
           >
             <div className="category-thumbnail">
-              <img
+              <OptimizedImage
                 src={category.thumbnail}
                 alt={category.name}
                 className="category-thumbnail-image"

@@ -1,6 +1,7 @@
 import React from "react";
 import type { QQShowCategory, QQShowItem } from "../types/qqShow";
 import ItemThumbnail from "./ItemThumbnail";
+import OptimizedImage from "./OptimizedImage";
 import { useLanguage } from "../contexts/LanguageContext";
 import "./ItemSelector.css";
 
@@ -76,19 +77,20 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
               // 发型分类：显示前后头发叠加
               <div className="hair-preview-container">
                 {/* 占位元素，用于确定容器尺寸 */}
-                <img
+                <OptimizedImage
                   src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
                   alt=""
                   className="hair-preview-placeholder"
+                  showLoadingState={false}
                 />
                 {/* 后头发 */}
-                <img
+                <OptimizedImage
                   src={`/assets/back-hair/default.${getDefaultFileExtension("backHair")}`}
                   alt="默认后头发"
                   className="hair-preview-back"
                 />
                 {/* 前头发 */}
-                <img
+                <OptimizedImage
                   src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
                   alt="默认前头发"
                   className="hair-preview-front"
@@ -96,7 +98,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
               </div>
             ) : (
               // 其他分类：显示单个图片
-              <img
+              <OptimizedImage
                 src={`/assets/${getCategoryFolderName(category.id)}/default.${getDefaultFileExtension(category.id)}`}
                 alt={t.app.none}
                 className="item-thumbnail-image"
