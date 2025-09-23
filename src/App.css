@@ -125,8 +125,8 @@
   }
 }
 
-/* 小屏幕且高度小于700px时的特殊样式（排除分享页面） */
-@media (max-width: 900px) and (max-height: 700px) {
+/* 小屏幕且高度小于726px时的特殊样式（排除分享页面） */
+@media (max-width: 900px) and (max-height: 726px) {
   /* 只在非分享页面时应用 */
   .qq-window:not(.share-page) .random-button {
     font-size: 20px !important;
@@ -839,7 +839,7 @@
     grid-template-areas:
       "display"
       "menus";
-    gap: 16px; /* col-display和下方menu之间的间距 */
+    gap: 10px; /* col-display和下方menu之间的间距 */
     height: 100%; /* 填充app-content的剩余高度 */
     align-items: stretch; /* 让子元素填满高度 */
   }
