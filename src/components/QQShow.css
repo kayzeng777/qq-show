@@ -79,4 +79,62 @@
 
 }
 
+/* 分享页面展示区独立样式 - 使用全新的class名称，保持原有样式设置 */
+.share-display-container {
+  width: 210px;
+  height: 339px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #F8F8F8;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  box-shadow: none;
+  min-height: 339px;
+  overflow: hidden;
+}
+
+.share-display-area {
+  width: 210px;
+  height: 339px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.share-display-image {
+  width: 210px;
+  height: 339px;
+  object-fit: fill;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.share-display-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 339px;
+  z-index: 1;
+}
+
+.share-display-empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  z-index: 0;
+}
 

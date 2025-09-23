@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import QQShow from './QQShow';
+import ShareQQShow from './ShareQQShow';
 import type { QQShowOutfit } from '../types/qqShow';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -124,23 +124,23 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
           >
             {t.app.about}
           </button>
-          <button 
-            className={`share-button ${language === 'en' ? 'english' : ''}`}
-            onClick={(e) => {
-              handleCreateYourOwn();
-              e.currentTarget.blur();
-            }}
-            title={t.app.createYourOwn}
-          >
-            {t.app.createYourOwn}
-          </button>
+                <button 
+                  className={`share-button ${language === 'en' ? 'english' : ''}`}
+                  onClick={(e) => {
+                    handleCreateYourOwn();
+                    e.currentTarget.blur();
+                  }}
+                  title={t.app.createYourOwn}
+                >
+                  {t.app.createYourOwn}
+                </button>
         </div>
       </div>
       
       <div className="app-content share-page-content">
         <div className="qq-show-layout share-page-layout">
           <div className="qq-show-panel col-display share-page-display">
-            <QQShow outfit={outfit} onItemChange={() => {}} />
+            <ShareQQShow outfit={outfit} />
             
             {/* 装扮名称编辑区域 */}
             <div className="outfit-name-section">
