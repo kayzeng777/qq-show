@@ -32,6 +32,9 @@ function AppContent() {
 
       // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
       if (shareId) {
+        // 立即显示分享页面，避免先显示主页面
+        setIsSharePage(true);
+        
         try {
           // 从Supabase中读取装扮数据和语言设置
           const shareData = await getShareData(shareId);
@@ -48,9 +51,6 @@ function AppContent() {
               if (shareData.language && (shareData.language === "zh" || shareData.language === "en")) {
                 setLanguage(shareData.language);
               }
-              
-              // 显示分享页面
-              setIsSharePage(true);
 
               // 记录到控制台（用于调试）
               console.log("分享ID:", shareId);
@@ -71,7 +71,6 @@ function AppContent() {
           setOutfit({});
           setHistory([{}]);
           setHistoryIndex(0);
-          setIsSharePage(true);
         }
       }
     };
