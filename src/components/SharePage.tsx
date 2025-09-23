@@ -113,6 +113,19 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                   onChange={handleNameChange}
                   placeholder={t.app.defaultOutfitName}
                   className="outfit-name-input"
+                  style={{
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    fontFamily: 'Unifont, monospace',
+                    color: '#333',
+                    background: 'transparent',
+                    border: 'none',
+                    flex: 1,
+                    textAlign: 'center',
+                    padding: 0,
+                    outline: 'none',
+                    width: '100%'
+                  }}
                 />
               </div>
             </div>
