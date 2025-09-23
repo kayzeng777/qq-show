@@ -2,7 +2,6 @@ import React from "react";
 import type { QQShowItem, QQShowOutfit } from "../types/qqShow";
 import { LAYER_ORDER } from "../types/qqShow";
 import "./QQShow.css";
-import { defaults } from "../data/defaults";
 
 interface QQShowProps {
   outfit: QQShowOutfit;
@@ -10,6 +9,55 @@ interface QQShowProps {
 }
 
 const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
+  // 获取分类的默认物品
+  const getDefaultItemForCategory = (category: string): QQShowItem | null => {
+    // 根据分类返回对应的默认物品
+    const defaultItems: Record<string, QQShowItem> = {
+      frontHair: {
+        id: "default_frontHair",
+        name: "默认前头发",
+        thumbnail: "/assets/front-hair/default.gif",
+        image: "/assets/front-hair/default.gif",
+        category: "frontHair",
+        layer: 10,
+      },
+      backHair: {
+        id: "default_backHair", 
+        name: "默认后头发",
+        thumbnail: "/assets/back-hair/default.gif",
+        image: "/assets/back-hair/default.gif",
+        category: "backHair",
+        layer: 5,
+      },
+      bottom: {
+        id: "default_bottom",
+        name: "默认下装",
+        thumbnail: "/assets/bottom/default.gif",
+        image: "/assets/bottom/default.gif",
+        category: "bottom",
+        layer: 5,
+      },
+      top: {
+        id: "default_top",
+        name: "默认上装",
+        thumbnail: "/assets/top/default.gif",
+        image: "/assets/top/default.gif",
+        category: "top",
+        layer: 6,
+      },
+      fullFace: {
+        id: "default_fullFace",
+        name: "默认妆容",
+        thumbnail: "/assets/full-face/default.png",
+        image: "/assets/full-face/default.png",
+        category: "fullFace",
+        layer: 8,
+      },
+    };
+    
+    return defaultItems[category] || null;
+  };
+
   // 获取所有需要显示的物品（用户选择的 + 默认的）
   const getAllDisplayItems = (): (QQShowItem & {
     category: string;
@@ -61,17 +109,20 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
     Object.entries(LAYER_ORDER).forEach(([categoryKey]) => {
       if (
         !usedCategories.has(categoryKey) &&
-        !excludedCategories.has(categoryKey) &&
-        defaults[categoryKey as keyof typeof defaults]
+        !excludedCategories.has(categoryKey)
       ) {
-        const def = defaults[categoryKey as keyof typeof defaults] as any;
-        items.push({
-          ...def,
-          category: categoryKey,
-          isDefault: true,
-        });
+        // 从分类文件夹读取默认物品
+        const defaultItem = getDefaultItemForCategory(categoryKey);
+        if (defaultItem) {
+          items.push({
+            ...defaultItem,
+            category: categoryKey,
+            isDefault: true,
+          });
+        }
       }
     });
+
 
     // 按层级排序，确保正确的显示顺序
     const SECONDARY_ORDER: Record<string, number> = {

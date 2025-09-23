@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ShareQQShow from "./ShareQQShow";
 import type { QQShowOutfit } from "../types/qqShow";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -13,6 +13,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
   const [isEditingName, setIsEditingName] = useState(false);
   const [tempName, setTempName] = useState(t.app.defaultOutfitName);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
     window.location.href = "https://qqshow2000.com";
@@ -21,6 +22,12 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleEditName = () => {
     setTempName(outfitName);
     setIsEditingName(true);
+    // 确保输入框获得焦点
+    setTimeout(() => {
+      if (inputRef.current) {
+        inputRef.current.focus();
+      }
+    }, 0);
   };
 
   const handleSaveName = () => {
@@ -38,13 +45,17 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     handleSaveName();
   };
 
+  const handleButtonMouseDown = (e: React.MouseEvent) => {
+    e.preventDefault(); // 防止触发输入框的onBlur事件
+  };
+
   const handleInputBlur = () => {
     // 延迟执行，避免与按钮点击冲突
     setTimeout(() => {
       if (isEditingName) {
         handleSaveName();
       }
-    }, 100);
+    }, 150); // 增加延迟时间
   };
 
   const handleCancelEdit = () => {
@@ -147,6 +158,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
               <div className="outfit-name-container">
                 {isEditingName ? (
                   <input
+                    ref={inputRef}
                     type="text"
                     value={tempName}
                     onChange={(e) => setTempName(e.target.value)}
@@ -162,6 +174,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 <button
                   className="outfit-name-button"
                   onClick={isEditingName ? handleSaveNameClick : handleEditName}
+                  onMouseDown={handleButtonMouseDown}
                   title={isEditingName ? t.app.save : "编辑名称"}
                 >
                   {isEditingName ? t.app.save : "✎"}

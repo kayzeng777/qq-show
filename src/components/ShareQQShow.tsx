@@ -1,13 +1,61 @@
 import React from "react";
 import type { QQShowItem, QQShowOutfit } from "../types/qqShow";
 import { LAYER_ORDER } from "../types/qqShow";
-import { defaults } from "../data/defaults";
 
 interface ShareQQShowProps {
   outfit: QQShowOutfit;
 }
 
 const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
+  // 获取分类的默认物品
+  const getDefaultItemForCategory = (category: string): QQShowItem | null => {
+    // 根据分类返回对应的默认物品
+    const defaultItems: Record<string, QQShowItem> = {
+      frontHair: {
+        id: "default_frontHair",
+        name: "默认前头发",
+        thumbnail: "/assets/front-hair/default.gif",
+        image: "/assets/front-hair/default.gif",
+        category: "frontHair",
+        layer: 10,
+      },
+      backHair: {
+        id: "default_backHair", 
+        name: "默认后头发",
+        thumbnail: "/assets/back-hair/default.gif",
+        image: "/assets/back-hair/default.gif",
+        category: "backHair",
+        layer: 5,
+      },
+      bottom: {
+        id: "default_bottom",
+        name: "默认下装",
+        thumbnail: "/assets/bottom/default.gif",
+        image: "/assets/bottom/default.gif",
+        category: "bottom",
+        layer: 5,
+      },
+      top: {
+        id: "default_top",
+        name: "默认上装",
+        thumbnail: "/assets/top/default.gif",
+        image: "/assets/top/default.gif",
+        category: "top",
+        layer: 6,
+      },
+      fullFace: {
+        id: "default_fullFace",
+        name: "默认妆容",
+        thumbnail: "/assets/full-face/default.png",
+        image: "/assets/full-face/default.png",
+        category: "fullFace",
+        layer: 8,
+      },
+    };
+    
+    return defaultItems[category] || null;
+  };
+
   // 获取所有需要显示的物品（用户选择的 + 默认的）
   const getAllDisplayItems = (): (QQShowItem & {
     category: string;
@@ -36,30 +84,45 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
           excludedCategories.add("fullFace");
         }
 
-        // 如果选择了全脸，排除发型、前头发、后头发、全头
-        if (category === "fullFace") {
-          excludedCategories.add("hair");
+
+        // 发型组合逻辑：如果选择了发型，排除单独的前头发和后头发
+        if (category === "hair") {
           excludedCategories.add("frontHair");
           excludedCategories.add("backHair");
-          excludedCategories.add("fullHead");
+        }
+
+        // 如果选择了单独的前头发或后头发，排除发型
+        if (["frontHair", "backHair"].includes(category)) {
+          excludedCategories.add("hair");
+        }
+
+        // 互斥逻辑：如果选择了衣服全身，排除衣服上身、衣服下身
+        if (category === "outfit") {
+          excludedCategories.add("top");
+          excludedCategories.add("bottom");
         }
       }
     });
 
-    // 然后添加默认物品（如果该分类没有被用户选择且没有被排除）
-    Object.entries(defaults).forEach(([category, defaultItem]) => {
+    // 然后添加未选择类别的默认物品（排除互斥的类别）
+    Object.entries(LAYER_ORDER).forEach(([categoryKey]) => {
       if (
-        !usedCategories.has(category) &&
-        !excludedCategories.has(category) &&
-        defaultItem
+        !usedCategories.has(categoryKey) &&
+        !excludedCategories.has(categoryKey)
       ) {
-        items.push({
-          ...defaultItem,
-          category,
-          isDefault: true,
-        });
+        // 从分类文件夹读取默认物品
+        const defaultItem = getDefaultItemForCategory(categoryKey);
+        if (defaultItem) {
+          items.push({
+            ...defaultItem,
+            category: categoryKey,
+            isDefault: true,
+          });
+        }
       }
     });
+
+
 
     return items;
   };
