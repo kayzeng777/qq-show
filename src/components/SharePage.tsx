@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import ShareQQShow from "./ShareQQShow";
 import type { QQShowOutfit } from "../types/qqShow";
 import { useLanguage } from "../contexts/LanguageContext";
+import { supabase } from "../lib/supabase";
 
 interface SharePageProps {
   outfit: QQShowOutfit;
@@ -18,6 +19,23 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   const handleCreateYourOwn = () => {
     window.location.href = "https://qqshow2000.com";
+  };
+
+  // 更新数据库中的名称
+  const updateShareName = async (newName: string) => {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const shareId = urlParams.get('id');
+      
+      if (shareId && supabase) {
+        await supabase
+          .from('shares')
+          .update({ name: newName })
+          .eq('id', shareId);
+      }
+    } catch (error) {
+      console.error('更新分享名称失败:', error);
+    }
   };
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -37,6 +55,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       urlParams.set('name', newName);
       const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
       window.history.replaceState({}, '', newUrl);
+      
+      // 更新数据库中的名称
+      updateShareName(newName);
       
       setIsEditing(false);
     } else if (e.key === 'Escape') {
@@ -76,6 +97,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
       window.history.replaceState({}, '', newUrl);
       
+      // 更新数据库中的名称
+      updateShareName(newName);
+      
       setIsEditing(false);
     }, 150);
   };
@@ -95,6 +119,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     urlParams.set('name', newName);
     const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
     window.history.replaceState({}, '', newUrl);
+    
+    // 更新数据库中的名称
+    updateShareName(newName);
     
     // 立即退出编辑模式
     setIsEditing(false);

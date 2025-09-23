@@ -16,11 +16,12 @@ export interface ShareData {
   id: string
   outfit: any
   language: string
+  name?: string
   created_at: string
 }
 
 // 保存分享数据
-export async function saveShareData(id: string, outfit: any, language: string): Promise<boolean> {
+export async function saveShareData(id: string, outfit: any, language: string, name?: string): Promise<boolean> {
   try {
     if (supabase) {
       // 使用Supabase存储
@@ -30,6 +31,7 @@ export async function saveShareData(id: string, outfit: any, language: string): 
           id,
           outfit,
           language,
+          name: name || 'My Outfit',
           created_at: new Date().toISOString()
         })
       

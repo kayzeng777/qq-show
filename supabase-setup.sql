@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS shares (
   id TEXT PRIMARY KEY,
   outfit JSONB NOT NULL,
   language TEXT NOT NULL DEFAULT 'zh',
+  name TEXT DEFAULT 'My Outfit',
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
