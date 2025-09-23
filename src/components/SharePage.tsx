@@ -41,9 +41,15 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     }, 150);
   };
 
-  const handleSaveClick = () => {
+  const handleSaveClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     // 立即退出编辑模式
     setIsEditing(false);
+  };
+
+  const handleButtonMouseDown = (e: React.MouseEvent) => {
+    e.preventDefault(); // 防止触发input的blur事件
   };
 
   // 更新页面标题
@@ -178,6 +184,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 <button
                   className="outfit-name-button"
                   onClick={isEditing ? handleSaveClick : handleEditClick}
+                  onMouseDown={handleButtonMouseDown}
                   title={isEditing ? "完成" : "编辑名称"}
                   style={{
                     padding: '4px 8px',
