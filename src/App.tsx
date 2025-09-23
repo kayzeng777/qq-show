@@ -45,7 +45,10 @@ function AppContent() {
           if (shareData) {
             // 先恢复语言设置（如果存在）
             if (shareData.language && (shareData.language === "zh" || shareData.language === "en")) {
+              console.log('恢复语言设置:', shareData.language);
               setLanguage(shareData.language);
+            } else {
+              console.log('没有找到语言设置，使用默认语言');
             }
             
             // 验证装扮数据的有效性
