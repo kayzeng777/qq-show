@@ -223,7 +223,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   // 当语言改变时，更新装扮名称的默认值
   useEffect(() => {
-    if (outfitName === (language === "zh" ? "My QQ Show" : "我的QQ秀")) {
+    if (outfitName === (language === "zh" ? "My Outfit" : "我的装扮")) {
       setOutfitName(t.app.defaultOutfitName);
     }
   }, [language, outfitName, t.app.defaultOutfitName]);
