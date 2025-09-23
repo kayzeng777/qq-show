@@ -355,13 +355,9 @@ function AppContent() {
           >
             {t.app.about}
           </button>
-          <a
+          <button
             className={`share-button ${language === "en" ? "english" : ""}`}
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={async (e) => {
-              e.preventDefault();
+            onClick={async () => {
               const uniqueId = generateUniqueId();
               const success = await saveShareData(uniqueId, outfit, language);
               
@@ -371,11 +367,8 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 设置href并延迟触发点击，让浏览器处理新标签页
-                e.currentTarget.href = shareUrl;
-                setTimeout(() => {
-                  e.currentTarget.click();
-                }, 0);
+                // 直接使用window.open，因为这是用户直接点击触发的
+                window.open(shareUrl, '_blank', 'noopener,noreferrer');
               } else {
                 console.error("保存分享数据失败");
               }
@@ -383,7 +376,7 @@ function AppContent() {
             title={t.app.shareOutfit}
           >
             {t.app.shareOutfit}
-          </a>
+          </button>
         </div>
       </div>
 
