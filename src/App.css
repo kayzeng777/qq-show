@@ -156,6 +156,12 @@
     height: 258px !important;
   }
   
+  /* 确保主页面展示区样式优先级 */
+  .qq-window:not(.share-page) .qq-show-container {
+    width: 160px !important;
+    height: 258px !important;
+  }
+  
   .qq-window:not(.share-page) .item-thumbnail-image {
     width: 70px !important;
     max-width: none !important;
