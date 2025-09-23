@@ -123,8 +123,8 @@
   }
 }
 
-/* 小屏幕且高度小于740px时的特殊样式（排除分享页面） */
-@media (max-width: 900px) and (max-height: 740px) {
+/* 小屏幕且高度小于700px时的特殊样式（排除分享页面） */
+@media (max-width: 900px) and (max-height: 700px) {
   /* 只在非分享页面时应用 */
   .qq-window:not(.share-page) .random-button {
     font-size: 20px !important;
