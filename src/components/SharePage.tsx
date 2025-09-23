@@ -150,7 +150,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 ) : (
                   <span 
                     className="outfit-name-display"
-                    onClick={handleEditClick}
                     style={{
                       fontSize: '16px',
                       fontWeight: 'bold',
@@ -158,7 +157,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                       color: '#333',
                       flex: 1,
                       textAlign: 'center',
-                      cursor: 'pointer',
                       padding: '4px 0',
                       minHeight: '24px',
                       display: 'flex',
@@ -169,6 +167,34 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                     {outfitName}
                   </span>
                 )}
+                <button
+                  className="outfit-name-button"
+                  onClick={isEditing ? handleBlur : handleEditClick}
+                  title={isEditing ? "完成" : "编辑名称"}
+                  style={{
+                    padding: '4px 8px',
+                    border: '1px solid #c0c0c0',
+                    background: '#ffffff',
+                    color: '#333',
+                    fontSize: '12px',
+                    fontWeight: 'bold',
+                    fontFamily: 'Unifont, monospace',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    textShadow: '1px 1px 0px #cccccc',
+                    outline: 'none',
+                    boxShadow: 'inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(0, 0, 0, 0.2)',
+                    width: '40px',
+                    height: '24px',
+                    whiteSpace: 'nowrap',
+                    transition: 'all 0.1s ease',
+                    flexShrink: 0
+                  }}
+                >
+                  {isEditing ? "✓" : "✎"}
+                </button>
               </div>
             </div>
           </div>
