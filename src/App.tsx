@@ -27,36 +27,32 @@ function AppContent() {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const shareId = urlParams.get("id");
+    const outfitParam = urlParams.get("outfit");
 
     // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
-    if (shareId) {
+    if (shareId && outfitParam) {
       try {
-        // 从sessionStorage中读取装扮数据
-        const outfitData = sessionStorage.getItem(`outfit_${shareId}`);
-        
-        if (outfitData) {
-          const loadedOutfit = JSON.parse(outfitData);
+        // 从URL参数中读取装扮数据
+        const decodedData = atob(outfitParam); // 解码Base64
+        const loadedOutfit = JSON.parse(decodedData);
 
-          // 验证装扮数据的有效性
-          if (loadedOutfit && typeof loadedOutfit === "object") {
-            setOutfit(loadedOutfit);
-            // 保存到历史记录
-            setHistory([loadedOutfit]);
-            setHistoryIndex(0);
-            // 显示分享页面
-            setIsSharePage(true);
+        // 验证装扮数据的有效性
+        if (loadedOutfit && typeof loadedOutfit === "object") {
+          setOutfit(loadedOutfit);
+          // 保存到历史记录
+          setHistory([loadedOutfit]);
+          setHistoryIndex(0);
+          // 显示分享页面
+          setIsSharePage(true);
 
-            // 记录到控制台（用于调试）
-            console.log("分享ID:", shareId);
-            console.log(
-              "装扮数据加载成功，包含项目:",
-              Object.keys(loadedOutfit),
-            );
-          } else {
-            console.warn("装扮数据格式无效");
-          }
+          // 记录到控制台（用于调试）
+          console.log("分享ID:", shareId);
+          console.log(
+            "装扮数据加载成功，包含项目:",
+            Object.keys(loadedOutfit),
+          );
         } else {
-          console.warn("未找到对应的装扮数据");
+          console.warn("装扮数据格式无效");
         }
       } catch (error) {
         console.error("加载装扮数据失败:", error);
@@ -295,11 +291,10 @@ function AppContent() {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
 
-    // 将装扮数据存储到sessionStorage中，使用短ID作为key
-    sessionStorage.setItem(`outfit_${uniqueId}`, JSON.stringify(outfit));
-
-    // 生成简短的分享链接，只包含ID
-    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
+    // 将装扮数据压缩并编码到URL中
+    const outfitData = JSON.stringify(outfit);
+    const compressedData = btoa(outfitData); // 使用Base64编码
+    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${compressedData}`;
 
     // 尝试在新标签页中打开分享页面
     const newWindow = window.open(shareUrl, "_blank");
