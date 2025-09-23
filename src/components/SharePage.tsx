@@ -27,11 +27,21 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       const urlParams = new URLSearchParams(window.location.search);
       const shareId = urlParams.get('id');
       
+      console.log('正在更新分享名称:', { shareId, newName });
+      
       if (shareId && supabase) {
-        await supabase
+        const { error } = await supabase
           .from('shares')
           .update({ name: newName })
           .eq('id', shareId);
+        
+        if (error) {
+          console.error('更新分享名称失败:', error);
+        } else {
+          console.log('分享名称更新成功');
+        }
+      } else {
+        console.log('无法更新名称: shareId或supabase未配置');
       }
     } catch (error) {
       console.error('更新分享名称失败:', error);
@@ -44,11 +54,21 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       const urlParams = new URLSearchParams(window.location.search);
       const shareId = urlParams.get('id');
       
+      console.log('正在更新分享语言:', { shareId, newLanguage });
+      
       if (shareId && supabase) {
-        await supabase
+        const { error } = await supabase
           .from('shares')
           .update({ language: newLanguage })
           .eq('id', shareId);
+        
+        if (error) {
+          console.error('更新分享语言失败:', error);
+        } else {
+          console.log('分享语言更新成功');
+        }
+      } else {
+        console.log('无法更新语言: shareId或supabase未配置');
       }
     } catch (error) {
       console.error('更新分享语言失败:', error);
