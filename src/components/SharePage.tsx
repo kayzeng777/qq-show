@@ -15,6 +15,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [hasUserInput, setHasUserInput] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
@@ -172,6 +173,9 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
         }
       } catch (error) {
         console.error('加载分享名称失败:', error);
+      } finally {
+        // 无论成功还是失败，都结束加载状态
+        setIsLoading(false);
       }
     };
     
@@ -262,7 +266,23 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       <div className="app-content share-page-content">
         <div className="qq-show-layout share-page-layout">
           <div className="qq-show-panel col-display share-page-display">
-            <ShareQQShow outfit={outfit} />
+            {isLoading ? (
+              <div className="loading-placeholder" style={{
+                width: '210px',
+                height: '210px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                backgroundColor: '#f0f0f0',
+                borderRadius: '8px',
+                color: '#666',
+                fontSize: '14px'
+              }}>
+                加载中...
+              </div>
+            ) : (
+              <ShareQQShow outfit={outfit} />
+            )}
 
             {/* 装扮名称编辑区域 */}
             <div className="outfit-name-section" style={{ 
