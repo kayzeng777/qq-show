@@ -128,32 +128,32 @@
   /* 只在非分享页面时应用 */
   .qq-window:not(.share-page) .random-button {
     font-size: 20px !important;
-    height: 24px !important;
-    width: 24px !important;
+    height: 26px !important;
+    width: 26px !important;
   }
   
   .qq-window:not(.share-page) .action-button {
     font-size: 20px !important;
-    height: 24px !important;
-    width: 24px !important;
+    height: 26px !important;
+    width: 26px !important;
   }
   
   .qq-window:not(.share-page) .clear-button {
-    font-size: 11px !important;
-    height: 24px !important;
+    font-size: 12px !important;
+    height: 26px !important;
     width: auto !important;
     white-space: nowrap !important;
   }
   
   .qq-window:not(.share-page) .qq-show-item-image {
-    width: 160px !important;
-    height: 258px !important;
+    width: 180px !important;
+    height: 290px !important;
     object-fit: fill !important;
   }
   
   .qq-window:not(.share-page) .qq-show-display {
-    width: 160px !important;
-    height: 258px !important;
+    width: 180px !important;
+    height: 290px !important;
   }
   
   .qq-window:not(.share-page) .item-thumbnail-image {
@@ -164,9 +164,29 @@
   }
   
   .qq-window:not(.share-page) .display-controls {
-    width: 160px !important;
+    width: 180px !important;
     max-width: none !important;
     padding: 0 !important;
+  }
+  
+  .qq-window:not(.share-page) .qq-show-layout {
+    gap: 10px;
+  }
+  
+  .qq-window:not(.share-page) .app-content {
+    padding: 16px 8px;
+  }
+  
+  .qq-window:not(.share-page) .col-items {
+    padding: 0 16px;
+  }
+  
+  .qq-window:not(.share-page) .col-categories {
+    padding: 0 16px;
+  }
+  
+  .qq-window:not(.share-page) .item-name {
+    max-width: 70px;
   }
 }
 
