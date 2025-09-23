@@ -296,17 +296,7 @@ function AppContent() {
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${encodedData}`;
 
     // 尝试在新标签页中打开分享页面
-    const newWindow = window.open(shareUrl, "_blank", "noopener,noreferrer");
-
-    // 如果新窗口被阻止，显示提示信息而不是跳转当前页面
-    if (
-      !newWindow ||
-      newWindow.closed ||
-      typeof newWindow.closed === "undefined"
-    ) {
-      // 浏览器阻止了弹窗，显示提示信息
-      alert("请允许弹窗以打开分享页面，或手动复制链接：\n" + shareUrl);
-    }
+    window.open(shareUrl, "_blank", "noopener,noreferrer");
   }, [outfit, generateUniqueId]);
 
   // 如果是分享页面，渲染分享页面组件
