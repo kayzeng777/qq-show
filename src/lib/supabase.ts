@@ -1,13 +1,13 @@
 import { createClient } from '@supabase/supabase-js'
 
 // 使用公共的Supabase配置（不需要环境变量）
-const supabaseUrl = 'https://your-project.supabase.co'
-const supabaseAnonKey = 'your-anon-key'
+const supabaseUrl = 'https://iuthwndljsjdwhzlxopz.supabase.co'
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml1dGh3bmRsanNqZHdoemx4b3B6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg2MTM2MTUsImV4cCI6MjA3NDE4OTYxNX0.q-0qS8L5lpSB-ttj1HK2wfYTu0wM44KuEJ7FhKbz2oQ'
 
 // 检查是否有有效的配置
 const hasValidConfig = supabaseUrl && supabaseAnonKey && 
-  supabaseUrl !== 'https://your-project.supabase.co' && 
-  supabaseAnonKey !== 'your-anon-key'
+  supabaseUrl.includes('supabase.co') && 
+  supabaseAnonKey.length > 50
 
 export const supabase = hasValidConfig ? createClient(supabaseUrl, supabaseAnonKey) : null
 
