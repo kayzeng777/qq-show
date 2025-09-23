@@ -150,15 +150,32 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     e.preventDefault(); // 防止触发input的blur事件
   };
 
-  // 从URL参数中读取名称
+  // 从数据库加载名称
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const nameFromUrl = urlParams.get('name');
-    if (nameFromUrl) {
-      setOutfitName(nameFromUrl);
-      // 如果URL中有名称且不是默认名称，说明用户有输入
-      setHasUserInput(nameFromUrl !== t.app.defaultOutfitName);
-    }
+    const loadShareName = async () => {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const shareId = urlParams.get('id');
+        
+        if (shareId && supabase) {
+          const { data, error } = await supabase
+            .from('shares')
+            .select('name')
+            .eq('id', shareId)
+            .single();
+          
+          if (!error && data && data.name) {
+            console.log('从数据库加载名称:', data.name);
+            setOutfitName(data.name);
+            setHasUserInput(data.name !== t.app.defaultOutfitName);
+          }
+        }
+      } catch (error) {
+        console.error('加载分享名称失败:', error);
+      }
+    };
+    
+    loadShareName();
   }, [t.app.defaultOutfitName]);
 
   // 更新页面标题
