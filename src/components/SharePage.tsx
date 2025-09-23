@@ -50,12 +50,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       setOutfitName(newName);
       setHasUserInput(inputValue.trim() !== "");
       
-      // 更新URL参数
-      const urlParams = new URLSearchParams(window.location.search);
-      urlParams.set('name', newName);
-      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
-      window.history.replaceState({}, '', newUrl);
-      
       // 更新数据库中的名称
       updateShareName(newName);
       
@@ -91,12 +85,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
       // 更新用户输入状态
       setHasUserInput(inputValue.trim() !== "");
       
-      // 更新URL参数以保存名称
-      const urlParams = new URLSearchParams(window.location.search);
-      urlParams.set('name', newName);
-      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
-      window.history.replaceState({}, '', newUrl);
-      
       // 更新数据库中的名称
       updateShareName(newName);
       
@@ -113,12 +101,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     
     // 更新用户输入状态
     setHasUserInput(inputValue.trim() !== "");
-    
-    // 更新URL参数以保存名称
-    const urlParams = new URLSearchParams(window.location.search);
-    urlParams.set('name', newName);
-    const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
-    window.history.replaceState({}, '', newUrl);
     
     // 更新数据库中的名称
     updateShareName(newName);
