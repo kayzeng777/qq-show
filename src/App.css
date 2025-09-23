@@ -146,25 +146,18 @@
   }
   
   .qq-window:not(.share-page) .qq-show-item-image {
-    width: 180px !important;
-    height: 290px !important;
+    width: 190px !important;
+    height: 305px !important;
     object-fit: fill !important;
   }
   
   .qq-window:not(.share-page) .qq-show-display {
-    width: 180px !important;
-    height: 290px !important;
-  }
-  
-  .qq-window:not(.share-page) .item-thumbnail-image {
-    width: 70px !important;
-    max-width: none !important;
-    height: 113px !important;
-    max-height: none !important;
+    width: 190px !important;
+    height: 305px !important;
   }
   
   .qq-window:not(.share-page) .display-controls {
-    width: 180px !important;
+    width: 190px !important;
     max-width: none !important;
     padding: 0 !important;
   }
