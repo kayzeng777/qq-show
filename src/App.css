@@ -103,11 +103,6 @@
     font-size: 11px !important;
   }
 
-  /* 小屏幕下分享按钮字体大小调整 */
-  .qq-titlebar-right .share-button {
-    font-size: 11px !important;
-  }
-
   .share-button {
     width: 68px !important; /* 72px - 4px */
   }
@@ -230,7 +225,7 @@
 
 .language-buttons {
   display: flex;
-  gap: 2px;
+  gap: 1px;
   margin-right: 10px;
 }
 
@@ -239,7 +234,6 @@
 .share-button {
   padding: 4px 8px;
   border: 1px solid #c0c0c0;
-  border-radius: 8px;
   background: #ffffff;
   color: #333;
   font-size: 12px;
@@ -258,10 +252,6 @@
   width: 48px;
   height: 20px;
   text-decoration: none; /* 移除a标签的下划线 */
-}
-
-.about-button {
-  margin-right: 1px;
 }
 
 .share-button {
