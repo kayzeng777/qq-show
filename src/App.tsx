@@ -355,9 +355,13 @@ function AppContent() {
           >
             {t.app.about}
           </button>
-          <button
+          <a
             className={`share-button ${language === "en" ? "english" : ""}`}
-            onClick={async () => {
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={async (e) => {
+              e.preventDefault();
               const uniqueId = generateUniqueId();
               const success = await saveShareData(uniqueId, outfit, language);
               
@@ -367,8 +371,12 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 直接跳转到分享页面
-                window.location.href = shareUrl;
+                // 直接设置href并让浏览器处理
+                e.currentTarget.href = shareUrl;
+                // 立即触发点击
+                setTimeout(() => {
+                  e.currentTarget.click();
+                }, 0);
               } else {
                 console.error("保存分享数据失败");
               }
@@ -376,7 +384,7 @@ function AppContent() {
             title={t.app.shareOutfit}
           >
             {t.app.shareOutfit}
-          </button>
+          </a>
         </div>
       </div>
 
