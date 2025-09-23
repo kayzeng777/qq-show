@@ -88,7 +88,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             onClick={handleCreateYourOwn}
             title="回到主站"
           >
-            {outfitName}
+            {t.app.title}
           </span>
         </div>
         <div className="qq-titlebar-right">
