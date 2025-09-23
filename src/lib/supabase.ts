@@ -23,6 +23,8 @@ export interface ShareData {
 // 保存分享数据
 export async function saveShareData(id: string, outfit: any, language: string, name?: string): Promise<boolean> {
   try {
+    console.log('正在保存分享数据:', { id, outfit, language, name })
+    
     if (supabase) {
       // 使用Supabase存储
       const { error } = await supabase
@@ -35,6 +37,8 @@ export async function saveShareData(id: string, outfit: any, language: string, n
           created_at: new Date().toISOString()
         })
       
+      console.log('Supabase保存结果:', { error })
+      
       if (error) {
         console.error('Supabase保存失败，回退到localStorage:', error)
         // 回退到localStorage
@@ -43,8 +47,10 @@ export async function saveShareData(id: string, outfit: any, language: string, n
         return true
       }
       
+      console.log('Supabase保存成功')
       return true
     } else {
+      console.log('Supabase未配置，使用localStorage')
       // 使用localStorage存储
       localStorage.setItem(`outfit_${id}`, JSON.stringify(outfit))
       localStorage.setItem(`language_${id}`, language)
@@ -67,6 +73,8 @@ export async function saveShareData(id: string, outfit: any, language: string, n
 // 获取分享数据
 export async function getShareData(id: string): Promise<ShareData | null> {
   try {
+    console.log('正在获取分享数据，ID:', id)
+    
     if (supabase) {
       // 使用Supabase获取
       const { data, error } = await supabase
@@ -75,11 +83,15 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         .eq('id', id)
         .single()
       
+      console.log('Supabase查询结果:', { data, error })
+      
       if (error) {
         console.error('Supabase获取失败，回退到localStorage:', error)
         // 回退到localStorage
         const outfitData = localStorage.getItem(`outfit_${id}`)
         const languageData = localStorage.getItem(`language_${id}`)
+        
+        console.log('localStorage数据:', { outfitData, languageData })
         
         if (outfitData) {
           return {
@@ -98,8 +110,10 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         await updateShareAccess(id)
       }
       
+      console.log('成功获取分享数据:', data)
       return data
     } else {
+      console.log('Supabase未配置，使用localStorage')
       // 使用localStorage获取
       const outfitData = localStorage.getItem(`outfit_${id}`)
       const languageData = localStorage.getItem(`language_${id}`)
