@@ -11,50 +11,13 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const { language, setLanguage, t } = useLanguage();
   const [showAbout, setShowAbout] = useState(false);
   const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
-  const [isEditingName, setIsEditingName] = useState(false);
-  const [tempName, setTempName] = useState(t.app.defaultOutfitName);
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
     window.location.href = "https://qqshow2000.com";
   };
 
-  const handleEditName = () => {
-    setTempName(outfitName);
-    setIsEditingName(true);
-  };
-
-  const handleSaveName = () => {
-    if (tempName.trim()) {
-      setOutfitName(tempName.trim());
-    } else {
-      setOutfitName(t.app.defaultOutfitName);
-    }
-    setIsEditingName(false);
-  };
-
-  const handleSaveNameClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    handleSaveName();
-  };
-
-
-  const handleInputBlur = () => {
-    handleSaveName();
-  };
-
-  const handleCancelEdit = () => {
-    setTempName(outfitName);
-    setIsEditingName(false);
-  };
-
-  const handleNameKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter") {
-      handleSaveName();
-    } else if (e.key === "Escape") {
-      handleCancelEdit();
-    }
+  const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setOutfitName(e.target.value);
   };
 
   // 更新页面标题
@@ -69,17 +32,6 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     }
   }, [language, outfitName, t.app.defaultOutfitName]);
 
-  // 当进入编辑模式时，自动focus输入框
-  useEffect(() => {
-    if (isEditingName && inputRef.current) {
-      // 使用requestAnimationFrame确保DOM更新后再focus
-      requestAnimationFrame(() => {
-        if (inputRef.current) {
-          inputRef.current.focus();
-        }
-      });
-    }
-  }, [isEditingName]);
 
 
   return (
@@ -155,27 +107,13 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             {/* 装扮名称编辑区域 */}
             <div className="outfit-name-section">
               <div className="outfit-name-container">
-                {isEditingName ? (
-                  <input
-                    ref={inputRef}
-                    type="text"
-                    value={tempName}
-                    onChange={(e) => setTempName(e.target.value)}
-                    onKeyDown={handleNameKeyPress}
-                    onBlur={handleInputBlur}
-                    placeholder={t.app.defaultOutfitName}
-                    className="outfit-name-input"
-                  />
-                ) : (
-                  <span className="outfit-name-display">{outfitName}</span>
-                )}
-                <button
-                  className="outfit-name-button"
-                  onClick={isEditingName ? handleSaveNameClick : handleEditName}
-                  title={isEditingName ? t.app.save : "编辑名称"}
-                >
-                  {isEditingName ? t.app.save : "✎"}
-                </button>
+                <input
+                  type="text"
+                  value={outfitName}
+                  onChange={handleNameChange}
+                  placeholder={t.app.defaultOutfitName}
+                  className="outfit-name-input"
+                />
               </div>
             </div>
           </div>
