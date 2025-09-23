@@ -251,6 +251,7 @@
     inset -1px -1px 2px rgba(0, 0, 0, 0.2);
   width: 48px;
   height: 20px;
+  border-radius: 5px;
   text-decoration: none; /* 移除a标签的下划线 */
 }
 
