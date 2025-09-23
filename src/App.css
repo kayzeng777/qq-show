@@ -178,13 +178,32 @@
     padding: 0 16px;
   }
   
-  .qq-window:not(.share-page) .item-thumbnail-image {
-    width: 75px;
-    height: 121px;
+  .qq-window:not(.share-page) .item-name {
+    max-width: 65px;
   }
   
-  .qq-window:not(.share-page) .item-name {
-    max-width: 75px;
+  .qq-window:not(.share-page) .item-thumbnail-image {
+    width: 65px;
+    height: 104px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+  
+  .qq-window:not(.share-page) .menus-container {
+    gap: 8px;
+  }
+  
+  .qq-window:not(.share-page) .category-thumbnail-image {
+    width: 46px;
+    height: 46px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+  
+  .qq-window:not(.share-page) .category-name {
+    max-width: 46px;
   }
 }
 
