@@ -140,16 +140,11 @@ function AppContent() {
         delete newOutfit.outfit;
       }
 
+      // 立即保存到历史记录
+      saveToHistory(newOutfit);
+      
       return newOutfit;
     });
-
-    // 在下一个tick保存到历史记录，确保outfit已经更新
-    setTimeout(() => {
-      setOutfit((currentOutfit) => {
-        saveToHistory(currentOutfit);
-        return currentOutfit;
-      });
-    }, 0);
   };
 
   const handleItemRemove = () => {
