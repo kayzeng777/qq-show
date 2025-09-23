@@ -6,6 +6,7 @@ import SharePage from "./components/SharePage";
 import type { QQShowCategory, QQShowItem, QQShowOutfit } from "./types/qqShow";
 import { categories as generatedCategories } from "./data/categories";
 import { LanguageProvider, useLanguage } from "./contexts/LanguageContext";
+import { saveShareData, getShareData } from "./lib/supabase";
 import "./App.css";
 
 // 使用自动生成的全量分类（已含背景与新分类）
@@ -25,52 +26,57 @@ function AppContent() {
 
   // 从URL参数加载装扮
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const shareId = urlParams.get("id");
-    const outfitParam = urlParams.get("outfit");
-    const languageParam = urlParams.get("lang");
+    const loadShareData = async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const shareId = urlParams.get("id");
 
-    // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
-    if (shareId && outfitParam) {
-      try {
-        // 从URL参数中读取装扮数据和语言设置
-        const decodedData = decodeURIComponent(outfitParam);
-        const loadedOutfit = JSON.parse(decodedData);
-
-        // 验证装扮数据的有效性
-        if (loadedOutfit && typeof loadedOutfit === "object") {
-          setOutfit(loadedOutfit);
-          // 保存到历史记录
-          setHistory([loadedOutfit]);
-          setHistoryIndex(0);
+      // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
+      if (shareId) {
+        try {
+          // 从Supabase中读取装扮数据和语言设置
+          const shareData = await getShareData(shareId);
           
-          // 恢复语言设置（如果存在）
-          if (languageParam && (languageParam === "zh" || languageParam === "en")) {
-            setLanguage(languageParam);
+          if (shareData) {
+            // 验证装扮数据的有效性
+            if (shareData.outfit && typeof shareData.outfit === "object") {
+              setOutfit(shareData.outfit);
+              // 保存到历史记录
+              setHistory([shareData.outfit]);
+              setHistoryIndex(0);
+              
+              // 恢复语言设置（如果存在）
+              if (shareData.language && (shareData.language === "zh" || shareData.language === "en")) {
+                setLanguage(shareData.language);
+              }
+              
+              // 显示分享页面
+              setIsSharePage(true);
+
+              // 记录到控制台（用于调试）
+              console.log("分享ID:", shareId);
+              console.log("恢复的语言设置:", shareData.language);
+              console.log(
+                "装扮数据加载成功，包含项目:",
+                Object.keys(shareData.outfit),
+              );
+            } else {
+              console.warn("装扮数据格式无效");
+            }
+          } else {
+            console.warn("未找到对应的装扮数据");
           }
-          
-          // 显示分享页面
+        } catch (error) {
+          console.error("加载装扮数据失败:", error);
+          // 如果数据损坏，显示空装扮而不是错误
+          setOutfit({});
+          setHistory([{}]);
+          setHistoryIndex(0);
           setIsSharePage(true);
-
-          // 记录到控制台（用于调试）
-          console.log("分享ID:", shareId);
-          console.log("恢复的语言设置:", languageParam);
-          console.log(
-            "装扮数据加载成功，包含项目:",
-            Object.keys(loadedOutfit),
-          );
-        } else {
-          console.warn("装扮数据格式无效");
         }
-      } catch (error) {
-        console.error("加载装扮数据失败:", error);
-        // 如果数据损坏，显示空装扮而不是错误
-        setOutfit({});
-        setHistory([{}]);
-        setHistoryIndex(0);
-        setIsSharePage(true);
       }
-    }
+    };
+
+    loadShareData();
   }, []);
 
 
@@ -295,26 +301,31 @@ function AppContent() {
     return `${timestamp}${randomId}${sessionId}${newCounter}`;
   }, []);
 
-  const handleShareOutfit = useCallback(() => {
+  const handleShareOutfit = useCallback(async () => {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
 
-    // 将装扮数据和语言设置压缩并编码到URL中
-    const outfitData = JSON.stringify(outfit);
-    const compressedData = encodeURIComponent(outfitData);
-    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${compressedData}&lang=${language}`;
-
-    // 调试信息
-    console.log("当前装扮数据:", outfit);
-    console.log("当前语言:", language);
-    console.log("生成的分享链接:", shareUrl);
-
-    // 尝试在新标签页中打开分享页面
-    const newWindow = window.open(shareUrl, "_blank");
+    // 将装扮数据和语言设置存储到Supabase中
+    const success = await saveShareData(uniqueId, outfit, language);
     
-    // 如果新窗口被阻止，静默处理，不显示任何提示
-    if (!newWindow) {
-      // 静默处理，不显示任何提示
+    if (success) {
+      // 生成简短的分享链接，只包含ID
+      const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
+
+      // 调试信息
+      console.log("当前装扮数据:", outfit);
+      console.log("当前语言:", language);
+      console.log("生成的分享链接:", shareUrl);
+
+      // 尝试在新标签页中打开分享页面
+      const newWindow = window.open(shareUrl, "_blank");
+      
+      // 如果新窗口被阻止，静默处理，不显示任何提示
+      if (!newWindow) {
+        // 静默处理，不显示任何提示
+      }
+    } else {
+      console.error("保存分享数据失败");
     }
   }, [outfit, language, generateUniqueId]);
 
