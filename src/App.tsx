@@ -287,8 +287,8 @@ function AppContent() {
     const encodedData = encodeURIComponent(outfitData);
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${encodedData}`;
     
-    // 跳转到分享页面
-    window.location.href = shareUrl;
+    // 在新标签页中打开分享页面
+    window.open(shareUrl, '_blank');
   }, [outfit, generateUniqueId]);
 
 
