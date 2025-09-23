@@ -362,22 +362,12 @@ function AppContent() {
               
               if (success) {
                 const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
-                // 使用Ctrl+点击的方式在新标签页中打开
-                const newEvent = new MouseEvent('click', {
-                  ctrlKey: true,
-                  metaKey: true, // 支持Mac的Cmd键
-                  button: 0,
-                  buttons: 1
-                });
-                
-                // 创建临时链接
-                const tempLink = document.createElement('a');
-                tempLink.href = shareUrl;
-                tempLink.target = '_blank';
-                tempLink.rel = 'noopener noreferrer';
-                document.body.appendChild(tempLink);
-                tempLink.dispatchEvent(newEvent);
-                document.body.removeChild(tempLink);
+                // 直接使用window.open，因为这是用户直接点击触发的
+                const newWindow = window.open(shareUrl, '_blank', 'noopener,noreferrer');
+                if (!newWindow) {
+                  // 如果被阻止，提示用户
+                  alert('请允许弹出窗口以打开分享页面');
+                }
               }
             }}
             title={t.app.shareOutfit}
