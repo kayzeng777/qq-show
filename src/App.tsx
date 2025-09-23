@@ -361,6 +361,7 @@ function AppContent() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={async (e) => {
+              e.preventDefault();
               const uniqueId = generateUniqueId();
               const success = await saveShareData(uniqueId, outfit, language);
               
@@ -370,11 +371,10 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 设置href并让浏览器自然处理
-                e.currentTarget.href = shareUrl;
+                // 直接跳转到分享页面
+                window.location.href = shareUrl;
               } else {
-                // 如果保存失败，阻止默认行为
-                e.preventDefault();
+                console.error("保存分享数据失败");
               }
             }}
             title={t.app.shareOutfit}
