@@ -11,6 +11,8 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const { language, setLanguage, t } = useLanguage();
   const [showAbout, setShowAbout] = useState(false);
   const [outfitName, setOutfitName] = useState(t.app.defaultOutfitName);
+  const [isEditing, setIsEditing] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateYourOwn = () => {
     window.location.href = "https://qqshow2000.com";
@@ -18,6 +20,22 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setOutfitName(e.target.value);
+  };
+
+  const handleEditClick = () => {
+    setIsEditing(true);
+    // 等待状态更新后再聚焦输入框
+    setTimeout(() => {
+      if (inputRef.current) {
+        inputRef.current.focus();
+        // 防止软键盘遮挡，滚动到可视区域
+        inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 0);
+  };
+
+  const handleBlur = () => {
+    setIsEditing(false);
   };
 
   // 更新页面标题
@@ -107,26 +125,50 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
             {/* 装扮名称编辑区域 */}
             <div className="outfit-name-section">
               <div className="outfit-name-container">
-                <input
-                  type="text"
-                  value={outfitName}
-                  onChange={handleNameChange}
-                  placeholder={t.app.defaultOutfitName}
-                  className="outfit-name-input"
-                  style={{
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    fontFamily: 'Unifont, monospace',
-                    color: '#333',
-                    background: 'transparent',
-                    border: 'none',
-                    flex: 1,
-                    textAlign: 'center',
-                    padding: 0,
-                    outline: 'none',
-                    width: '100%'
-                  }}
-                />
+                {isEditing ? (
+                  <input
+                    ref={inputRef}
+                    type="text"
+                    value={outfitName}
+                    onChange={handleNameChange}
+                    onBlur={handleBlur}
+                    placeholder={t.app.defaultOutfitName}
+                    className="outfit-name-input"
+                    style={{
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                      fontFamily: 'Unifont, monospace',
+                      color: '#333',
+                      background: 'transparent',
+                      border: 'none',
+                      flex: 1,
+                      textAlign: 'center',
+                      padding: 0,
+                      width: '100%'
+                    }}
+                  />
+                ) : (
+                  <span 
+                    className="outfit-name-display"
+                    onClick={handleEditClick}
+                    style={{
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                      fontFamily: 'Unifont, monospace',
+                      color: '#333',
+                      flex: 1,
+                      textAlign: 'center',
+                      cursor: 'pointer',
+                      padding: '4px 0',
+                      minHeight: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                  >
+                    {outfitName}
+                  </span>
+                )}
               </div>
             </div>
           </div>
