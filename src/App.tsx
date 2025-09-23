@@ -371,8 +371,8 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 直接使用window.open，这是最标准的方式
-                window.open(shareUrl, '_blank', 'noopener,noreferrer');
+                // 直接修改当前页面的href，避免弹窗阻止器
+                window.location.href = shareUrl;
               } else {
                 console.error("保存分享数据失败");
               }
