@@ -31,9 +31,9 @@ function AppContent() {
     // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
     if (shareId) {
       try {
-        // 从sessionStorage中读取装扮数据和语言设置
-        const outfitData = sessionStorage.getItem(`outfit_${shareId}`);
-        const savedLanguage = sessionStorage.getItem(`language_${shareId}`);
+        // 从localStorage中读取装扮数据和语言设置
+        const outfitData = localStorage.getItem(`outfit_${shareId}`);
+        const savedLanguage = localStorage.getItem(`language_${shareId}`);
         
         if (outfitData) {
           const loadedOutfit = JSON.parse(outfitData);
@@ -303,9 +303,9 @@ function AppContent() {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
 
-    // 将装扮数据和语言设置存储到sessionStorage中
-    sessionStorage.setItem(`outfit_${uniqueId}`, JSON.stringify(outfit));
-    sessionStorage.setItem(`language_${uniqueId}`, language);
+    // 将装扮数据和语言设置存储到localStorage中（持久化存储）
+    localStorage.setItem(`outfit_${uniqueId}`, JSON.stringify(outfit));
+    localStorage.setItem(`language_${uniqueId}`, language);
 
     // 生成简短的分享链接，只包含ID
     const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
