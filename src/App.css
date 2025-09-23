@@ -178,8 +178,13 @@
     padding: 0 16px;
   }
   
+  .qq-window:not(.share-page) .item-thumbnail-image {
+    width: 75px;
+    height: 121px;
+  }
+  
   .qq-window:not(.share-page) .item-name {
-    max-width: 70px;
+    max-width: 75px;
   }
 }
 
