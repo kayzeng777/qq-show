@@ -27,44 +27,40 @@ function AppContent() {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const shareId = urlParams.get("id");
+    const outfitParam = urlParams.get("outfit");
+    const languageParam = urlParams.get("lang");
 
     // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
-    if (shareId) {
+    if (shareId && outfitParam) {
       try {
-        // 从localStorage中读取装扮数据和语言设置
-        const outfitData = localStorage.getItem(`outfit_${shareId}`);
-        const savedLanguage = localStorage.getItem(`language_${shareId}`);
-        
-        if (outfitData) {
-          const loadedOutfit = JSON.parse(outfitData);
+        // 从URL参数中读取装扮数据和语言设置
+        const decodedData = decodeURIComponent(outfitParam);
+        const loadedOutfit = JSON.parse(decodedData);
 
-          // 验证装扮数据的有效性
-          if (loadedOutfit && typeof loadedOutfit === "object") {
-            setOutfit(loadedOutfit);
-            // 保存到历史记录
-            setHistory([loadedOutfit]);
-            setHistoryIndex(0);
-            
-            // 恢复语言设置（如果存在）
-            if (savedLanguage && (savedLanguage === "zh" || savedLanguage === "en")) {
-              setLanguage(savedLanguage);
-            }
-            
-            // 显示分享页面
-            setIsSharePage(true);
-
-            // 记录到控制台（用于调试）
-            console.log("分享ID:", shareId);
-            console.log("恢复的语言设置:", savedLanguage);
-            console.log(
-              "装扮数据加载成功，包含项目:",
-              Object.keys(loadedOutfit),
-            );
-          } else {
-            console.warn("装扮数据格式无效");
+        // 验证装扮数据的有效性
+        if (loadedOutfit && typeof loadedOutfit === "object") {
+          setOutfit(loadedOutfit);
+          // 保存到历史记录
+          setHistory([loadedOutfit]);
+          setHistoryIndex(0);
+          
+          // 恢复语言设置（如果存在）
+          if (languageParam && (languageParam === "zh" || languageParam === "en")) {
+            setLanguage(languageParam);
           }
+          
+          // 显示分享页面
+          setIsSharePage(true);
+
+          // 记录到控制台（用于调试）
+          console.log("分享ID:", shareId);
+          console.log("恢复的语言设置:", languageParam);
+          console.log(
+            "装扮数据加载成功，包含项目:",
+            Object.keys(loadedOutfit),
+          );
         } else {
-          console.warn("未找到对应的装扮数据");
+          console.warn("装扮数据格式无效");
         }
       } catch (error) {
         console.error("加载装扮数据失败:", error);
@@ -303,12 +299,10 @@ function AppContent() {
     // 生成唯一的分享ID
     const uniqueId = generateUniqueId();
 
-    // 将装扮数据和语言设置存储到localStorage中（持久化存储）
-    localStorage.setItem(`outfit_${uniqueId}`, JSON.stringify(outfit));
-    localStorage.setItem(`language_${uniqueId}`, language);
-
-    // 生成简短的分享链接，只包含ID
-    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}`;
+    // 将装扮数据和语言设置压缩并编码到URL中
+    const outfitData = JSON.stringify(outfit);
+    const compressedData = encodeURIComponent(outfitData);
+    const shareUrl = `${window.location.origin}${window.location.pathname}?id=${uniqueId}&outfit=${compressedData}&lang=${language}`;
 
     // 调试信息
     console.log("当前装扮数据:", outfit);
