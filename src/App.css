@@ -715,7 +715,6 @@
   z-index: 2;
   background: linear-gradient(180deg, #7F7DE3 0%, #0F0FAB 100%);
   background-clip: padding-box;
-  border-bottom: 1px solid #5953F1; /* 添加底部边框 */
 }
 
 .app-content::before {
@@ -884,7 +883,7 @@
   .col-items .item-selector {
     width: 100% !important;
     min-width: auto !important; /* 移除最小宽度限制 */
-    overflow: visible; /* 容器不滚动 */
+    overflow: hidden; /* 容器不滚动 */
     height: auto !important; 
     display: flex !important; /* 使用flex布局 */
     flex-direction: row !important; /* 水平布局 - title在左边 */
@@ -907,7 +906,7 @@
   
   .col-categories .category-selector {
     width: 100% !important;
-    overflow: visible; /* 容器不滚动 */
+    overflow: hidden; /* 容器不滚动 */
     height: auto; /* 自适应高度 */
     padding: 0 !important; /* 完全移除内边距 */
   }
