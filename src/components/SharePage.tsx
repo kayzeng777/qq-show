@@ -40,11 +40,15 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     // 延迟退出编辑模式，避免与按钮点击冲突
     setTimeout(() => {
       // 如果input为空，保存默认名称
-      if (inputValue.trim()) {
-        setOutfitName(inputValue.trim());
-      } else {
-        setOutfitName(t.app.defaultOutfitName);
-      }
+      const newName = inputValue.trim() || t.app.defaultOutfitName;
+      setOutfitName(newName);
+      
+      // 更新URL参数以保存名称
+      const urlParams = new URLSearchParams(window.location.search);
+      urlParams.set('name', newName);
+      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+      window.history.replaceState({}, '', newUrl);
+      
       setIsEditing(false);
     }, 150);
   };
@@ -53,11 +57,15 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
     e.preventDefault();
     e.stopPropagation();
     // 如果input为空，保存默认名称
-    if (inputValue.trim()) {
-      setOutfitName(inputValue.trim());
-    } else {
-      setOutfitName(t.app.defaultOutfitName);
-    }
+    const newName = inputValue.trim() || t.app.defaultOutfitName;
+    setOutfitName(newName);
+    
+    // 更新URL参数以保存名称
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set('name', newName);
+    const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+    window.history.replaceState({}, '', newUrl);
+    
     // 立即退出编辑模式
     setIsEditing(false);
   };
@@ -65,6 +73,15 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const handleButtonMouseDown = (e: React.MouseEvent) => {
     e.preventDefault(); // 防止触发input的blur事件
   };
+
+  // 从URL参数中读取名称
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const nameFromUrl = urlParams.get('name');
+    if (nameFromUrl) {
+      setOutfitName(nameFromUrl);
+    }
+  }, []);
 
   // 更新页面标题
   useEffect(() => {
