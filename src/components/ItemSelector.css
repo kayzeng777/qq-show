@@ -130,7 +130,7 @@
 @media (max-width: 900px) {
   .item-selector {
     height: auto; /* 填充父容器高度 */
-    padding: 4px 0; /* 减少内边距，移除左右内边距因为容器已有20px */
+    padding: 6px 0; /* 减少内边距，移除左右内边距因为容器已有20px */
     overflow: visible; /* 容器不滚动 */
     width: 100%; /* 小屏幕下使用100%宽度 */
     display: flex; /* 改为flex布局 */
@@ -148,7 +148,6 @@
     height: 100%; /* 填充父容器高度 */
     overflow-x: auto; /* 横向滚动 */
     overflow-y: hidden;
-    padding: 4px; /* 减少内边距 */
     flex: 1; /* 填充剩余空间 */
     align-items: center; /* 垂直居中 */
   }
@@ -162,7 +161,7 @@
     writing-mode: vertical-rl; /* 垂直文字 */
     text-orientation: mixed; /* 保持文字方向 */
     margin: 0; /* 移除默认margin */
-    font-size: 14px; /* 稍微减小字体 */
+    font-size: 12px; /* 稍微减小字体 */
     white-space: nowrap; /* 防止换行 */
     flex-shrink: 0; /* 防止标题收缩 */
   }
