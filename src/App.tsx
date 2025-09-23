@@ -371,12 +371,14 @@ function AppContent() {
                 console.log("分享ID:", uniqueId);
                 console.log("装扮数据:", outfit);
                 console.log("语言设置:", language);
-                // 直接设置href并让浏览器处理
-                e.currentTarget.href = shareUrl;
-                // 立即触发点击
-                setTimeout(() => {
-                  e.currentTarget.click();
-                }, 0);
+                // 创建新的a标签并立即点击
+                const newLink = document.createElement('a');
+                newLink.href = shareUrl;
+                newLink.target = '_blank';
+                newLink.rel = 'noopener noreferrer';
+                document.body.appendChild(newLink);
+                newLink.click();
+                document.body.removeChild(newLink);
               } else {
                 console.error("保存分享数据失败");
               }
