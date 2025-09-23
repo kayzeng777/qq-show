@@ -29,7 +29,8 @@ function AppContent() {
     const outfitParam = urlParams.get("outfit");
     const shareId = urlParams.get("id");
 
-    if (outfitParam) {
+    // 只有在有分享ID时才显示分享页面，避免主页面的分享功能触发分享页面
+    if (outfitParam && shareId) {
       try {
         const decodedData = decodeURIComponent(outfitParam);
         const loadedOutfit = JSON.parse(decodedData);
@@ -43,14 +44,12 @@ function AppContent() {
           // 显示分享页面
           setIsSharePage(true);
 
-          // 如果有分享ID，记录到控制台（用于调试）
-          if (shareId) {
-            console.log("分享ID:", shareId);
-            console.log(
-              "装扮数据加载成功，包含项目:",
-              Object.keys(loadedOutfit),
-            );
-          }
+          // 记录到控制台（用于调试）
+          console.log("分享ID:", shareId);
+          console.log(
+            "装扮数据加载成功，包含项目:",
+            Object.keys(loadedOutfit),
+          );
         } else {
           console.warn("装扮数据格式无效");
         }
