@@ -43,17 +43,17 @@ function AppContent() {
           const shareData = await getShareData(shareId);
           
           if (shareData) {
+            // 先恢复语言设置（如果存在）
+            if (shareData.language && (shareData.language === "zh" || shareData.language === "en")) {
+              setLanguage(shareData.language);
+            }
+            
             // 验证装扮数据的有效性
             if (shareData.outfit && typeof shareData.outfit === "object") {
               setOutfit(shareData.outfit);
               // 保存到历史记录
               setHistory([shareData.outfit]);
               setHistoryIndex(0);
-              
-              // 恢复语言设置（如果存在）
-              if (shareData.language && (shareData.language === "zh" || shareData.language === "en")) {
-                setLanguage(shareData.language);
-              }
 
               // 记录到控制台（用于调试）
               console.log("分享ID:", shareId);
