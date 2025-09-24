@@ -18,7 +18,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- 创建清理策略：删除60天内没有访问且访问次数为0的记录
+-- 创建清理策略：删除60天内访问量小于3的记录
 CREATE OR REPLACE FUNCTION cleanup_unused_shares()
 RETURNS INTEGER AS $$
 DECLARE
@@ -27,7 +27,7 @@ BEGIN
   DELETE FROM shares 
   WHERE 
     last_accessed_at < NOW() - INTERVAL '60 days' 
-    AND access_count = 0;
+    AND access_count < 3;
   
   GET DIAGNOSTICS deleted_count = ROW_COUNT;
   RETURN deleted_count;

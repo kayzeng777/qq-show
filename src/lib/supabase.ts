@@ -73,9 +73,7 @@ export async function saveShareData(id: string, outfit: any, language: string, n
 // 获取分享数据
 export async function getShareData(id: string): Promise<ShareData | null> {
   try {
-    console.log('🔍 正在获取分享数据，ID:', id)
-    console.log('🔍 Supabase配置:', { supabaseUrl, hasValidConfig })
-    console.log('🔍 当前URL:', window.location.href)
+    console.log('正在获取分享数据，ID:', id)
     
     if (supabase) {
       console.log('开始Supabase查询...')
@@ -115,9 +113,7 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         console.log('找到分享数据:', shareData)
         
         // 更新访问记录
-        console.log('🔍 准备更新访问记录，ID:', id)
         await updateShareAccess(id)
-        console.log('🔍 访问记录更新完成')
         
         return shareData
       } else {
@@ -128,9 +124,7 @@ export async function getShareData(id: string): Promise<ShareData | null> {
         
         if (outfitData) {
           // 即使回退到localStorage，也尝试更新访问记录
-          console.log('🔍 尝试更新访问记录（localStorage回退）')
           await updateShareAccess(id)
-          console.log('🔍 localStorage回退访问记录更新完成')
           
           return {
             id,
@@ -150,9 +144,7 @@ export async function getShareData(id: string): Promise<ShareData | null> {
       
       if (outfitData) {
         // 即使Supabase未配置，也尝试更新访问记录（可能会失败，但至少尝试了）
-        console.log('🔍 尝试更新访问记录（Supabase未配置）')
         await updateShareAccess(id)
-        console.log('🔍 Supabase未配置访问记录更新完成')
         
         return {
           id,
@@ -170,24 +162,15 @@ export async function getShareData(id: string): Promise<ShareData | null> {
   }
 }
 
-// 测试访问计数更新（用于调试）
-export async function testAccessCountUpdate(id: string): Promise<void> {
-  console.log('🧪 测试访问计数更新，ID:', id)
-  await updateShareAccess(id)
-}
-
 // 更新分享访问记录
 export async function updateShareAccess(id: string): Promise<void> {
   try {
-    console.log('🔄 开始更新访问记录，ID:', id)
-    
     if (!supabase) {
-      console.error('❌ Supabase客户端未初始化')
+      console.error('Supabase客户端未初始化')
       return
     }
     
-    // 使用更简单的方法：先获取当前值，然后更新
-    console.log('📊 获取当前访问次数...')
+    // 获取当前访问次数
     const { data: currentData, error: fetchError } = await supabase
       .from('shares')
       .select('access_count, last_accessed_at')
@@ -195,30 +178,27 @@ export async function updateShareAccess(id: string): Promise<void> {
       .single()
     
     if (fetchError) {
-      console.error('❌ 获取当前访问次数失败:', fetchError)
+      console.error('获取当前访问次数失败:', fetchError)
       return
     }
     
     const currentCount = currentData?.access_count || 0
-    console.log('📊 当前访问次数:', currentCount)
     
-    console.log('📊 执行访问计数更新...')
-    const { error, data } = await supabase
+    // 更新访问记录
+    const { error } = await supabase
       .from('shares')
       .update({ 
         last_accessed_at: new Date().toISOString(),
         access_count: currentCount + 1
       })
       .eq('id', id)
-      .select('id, access_count, last_accessed_at')
     
     if (error) {
-      console.error('❌ 更新访问记录失败:', error)
+      console.error('更新访问记录失败:', error)
     } else {
-      console.log(`✅ 访问记录更新成功，ID: ${id}, 新访问次数: ${currentCount + 1}`)
-      console.log('📊 更新后的数据:', data)
+      console.log(`访问记录更新成功，ID: ${id}, 新访问次数: ${currentCount + 1}`)
     }
   } catch (error) {
-    console.error('❌ 更新访问记录异常:', error)
+    console.error('更新访问记录异常:', error)
   }
 }
