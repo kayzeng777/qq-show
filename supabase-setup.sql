@@ -16,6 +16,7 @@ ALTER TABLE shares ENABLE ROW LEVEL SECURITY;
 -- 创建策略允许所有人读取和插入数据
 CREATE POLICY "Allow public read access" ON shares FOR SELECT USING (true);
 CREATE POLICY "Allow public insert access" ON shares FOR INSERT WITH CHECK (true);
+CREATE POLICY "Allow public update access" ON shares FOR UPDATE USING (true);
 
 -- 可选：创建清理策略，删除30天前的数据
 -- CREATE POLICY "Auto cleanup old shares" ON shares FOR DELETE USING (created_at < NOW() - INTERVAL '30 days');
