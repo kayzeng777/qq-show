@@ -29,7 +29,7 @@ const translations = {
     categories: {
       backgrounds: "背景",
       "background-decor": "背景装饰",
-      vehicle: "车辆",
+      vehicle: "车",
       wings: "翅膀",
       hair: "发型",
       backHair: "后头发",
@@ -41,13 +41,13 @@ const translations = {
       frontHair: "前头发",
       "face-decor": "脸饰",
       earrings: "耳饰",
-      glasses: "眼镜",
+      glasses: "眼镜墨镜",
       neckwear: "颈饰",
       headwear: "头饰",
       "other-accessories": "其他配饰",
       companion: "陪伴",
       frame: "边框",
-      text: "称号",
+      text: "文字装饰",
       sparkle: "特效",
     },
     about: {
@@ -98,7 +98,7 @@ const translations = {
       "other-accessories": "Other Accessories",
       companion: "Companion",
       frame: "Frame",
-      text: "Title",
+      text: "Text Decor",
       sparkle: "Effects",
     },
     about: {
