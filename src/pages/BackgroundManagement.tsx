@@ -19,10 +19,10 @@ const mapCategoryToItems = (catId: string): BackgroundItem[] => {
   }));
 };
 
-const initialBackgrounds: BackgroundItem[] = mapCategoryToItems("background");
+const initialBackgrounds: BackgroundItem[] = mapCategoryToItems("backgrounds");
 
 const BackgroundManagement: React.FC = () => {
-  const [activeCatId, setActiveCatId] = useState<string>("background");
+  const [activeCatId, setActiveCatId] = useState<string>("backgrounds");
   const [overrides, setOverrides] = useState(loadOverrides());
   const withOverrides = applyOverridesToCategories(
     categories as any,

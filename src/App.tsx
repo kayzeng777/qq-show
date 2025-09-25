@@ -205,7 +205,7 @@ function AppContent() {
         backgroundCategory.items[
           Math.floor(Math.random() * backgroundCategory.items.length)
         ];
-      newOutfit.background = randomBackground;
+        newOutfit.backgrounds = randomBackground;
     }
 
     // 1. 随机选择头部：妆发造型 或者 发型+脸

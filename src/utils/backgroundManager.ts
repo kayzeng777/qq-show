@@ -44,7 +44,7 @@ export const generateBackgroundCategories = (items: BackgroundItem[]) => {
     name: item.name,
     thumbnail: `/assets/backgrounds/${item.filename}`, // 缩略图路径
     image: `/assets/backgrounds/${item.filename}`, // 完整图片路径
-    category: "background",
+    category: "backgrounds",
     layer: 0,
   }));
 };
