@@ -385,6 +385,7 @@ function updateCategories(newItems) {
         name: item.chineseName,
         thumbnail: `/assets/${item.folderName}/${item.fileName}`,
         image: `/assets/${item.folderName}/${item.fileName}`,
+        category: categoryId,
         layer: category.layer
       };
       

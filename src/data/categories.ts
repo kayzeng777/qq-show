@@ -5517,6 +5517,7 @@ export const categories = [
         "name": "游乐园气球",
         "thumbnail": "/assets/other-accessories/游乐园气球.gif",
         "image": "/assets/other-accessories/游乐园气球.gif",
+        "category": "other-accessories",
         "layer": 15
       },
       {
