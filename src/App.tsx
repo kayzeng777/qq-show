@@ -520,6 +520,7 @@ function AppContent() {
               <CategorySelector
                 categories={categories}
                 selectedCategory={selectedCategory}
+                outfit={outfit}
                 onCategorySelect={handleCategorySelect}
               />
             </div>

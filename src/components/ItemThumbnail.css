@@ -84,7 +84,7 @@ div.item-thumbnail.item-thumbnail-component {
   right: 8px;
   width: 24px;
   height: 24px;
-  background: #8b5cf6; /* 紫色背景 */
+  background: #433ae7; /* 与focus颜色一致的紫色背景 */
   border-radius: 50%; /* 圆形 */
   display: flex;
   align-items: center;
