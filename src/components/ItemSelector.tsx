@@ -21,18 +21,8 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   
   // 获取分类的文件夹名称（处理ID与文件夹名称不匹配的情况）
   const getCategoryFolderName = (categoryId: string): string => {
-    const folderMapping: Record<string, string> = {
-      'background': 'backgrounds',
-      'backgroundDecor': 'background-decor',
-      'textDecor': 'text',
-      'otherAccessories': 'other-accessories',
-      'faceDecor': 'face-decor',
-      'fullFace': 'full-face',
-      'fullHead': 'full-head',
-      'frontHair': 'front-hair',
-      'backHair': 'back-hair'
-    };
-    return folderMapping[categoryId] || categoryId;
+    // 直接返回categoryId，因为现在categories.ts中的ID已经和文件夹名称匹配
+    return categoryId;
   };
 
   // 获取分类的默认文件扩展名
@@ -43,7 +33,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
     // 根据实际的文件系统检查结果
     const pngFolders = [
       'background-decor', 'backgrounds', 'companion', 'earrings', 'face-decor',
-      'frame', 'full-face', 'full-head', 'glasses', 'headwear', 'necklace',
+      'frame', 'makeup', 'head-set', 'glasses', 'headwear', 'neckwear',
       'other-accessories', 'outfit', 'sparkle', 'text', 'vehicle', 'wings'
     ];
     
