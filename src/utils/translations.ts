@@ -2871,3 +2871,14 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "en": "Sparkle"
   }
 };
+
+
+// 翻译函数
+export function translateItemName(name: string, language: Language): string {
+  const translation = itemNameTranslations[name];
+  if (translation && translation[language]) {
+    return translation[language];
+  }
+  // 如果没有找到翻译，返回原始名称
+  return name;
+}
