@@ -74,6 +74,13 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
             className="item-thumbnail-image"
           />
         )}
+        
+        {/* 选中状态指示器 */}
+        {isSelected && (
+          <div className="selected-indicator">
+            <div className="selected-checkmark">✓</div>
+          </div>
+        )}
       </div>
       <span className="item-name">
         {translateItemName(item.name, language)}

@@ -93,6 +93,13 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
                 draggable={false}
               />
             )}
+            
+            {/* 选中状态指示器 */}
+            {!selectedItem && (
+              <div className="selected-indicator">
+                <div className="selected-checkmark">✓</div>
+              </div>
+            )}
           </div>
           <span className="item-name">{t.app.none}</span>
         </div>
