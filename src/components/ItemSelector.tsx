@@ -26,79 +26,49 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   // 自动滚动到选中的item（只在shouldAutoScroll为true时）
   useEffect(() => {
     if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current) {
-      // 添加延迟确保DOM完全更新
+      console.log('ItemSelector: 触发滚动', { itemName: selectedItem.name });
+      
+      // 简化滚动逻辑，使用setTimeout确保DOM更新
       const scrollToSelected = () => {
         const selectedElement = selectedItemRef.current;
         const gridElement = itemGridRef.current;
         
-        if (!selectedElement || !gridElement) return;
-        
-        // 检查元素是否已经渲染完成
-        if (selectedElement.offsetWidth === 0 || selectedElement.offsetHeight === 0) {
-          // 如果元素还没有渲染完成，延迟重试
-          console.log('ItemSelector: 元素还未渲染完成，延迟重试');
-          setTimeout(scrollToSelected, 50);
+        if (!selectedElement || !gridElement) {
+          console.log('ItemSelector: 元素引用丢失');
           return;
         }
-        
-        console.log('ItemSelector: 开始滚动到选中item', {
-          itemName: selectedItem.name,
-          isMobile,
-          offsetTop: selectedElement.offsetTop,
-          offsetLeft: selectedElement.offsetLeft,
-          gridScrollTop: gridElement.scrollTop,
-          gridScrollLeft: gridElement.scrollLeft
-        });
         
         // 检查是否是移动设备（小屏幕）
         const isMobile = window.innerWidth <= 900;
         
+        console.log('ItemSelector: 执行滚动', {
+          itemName: selectedItem.name,
+          isMobile,
+          offsetTop: selectedElement.offsetTop,
+          offsetLeft: selectedElement.offsetLeft
+        });
+        
         if (isMobile) {
           // 小屏幕：水平滚动到第一列
           const scrollLeft = selectedElement.offsetLeft;
-          if (scrollLeft >= 0) {
-            gridElement.scrollTo({
-              left: scrollLeft,
-              behavior: 'smooth'
-            });
-          } else {
-            // 备选方案：使用scrollIntoView
-            selectedElement.scrollIntoView({
-              behavior: 'smooth',
-              block: 'nearest',
-              inline: 'start'
-            });
-          }
+          console.log('ItemSelector: 小屏幕滚动', { scrollLeft });
+          gridElement.scrollTo({
+            left: scrollLeft,
+            behavior: 'smooth'
+          });
         } else {
           // 大屏幕：垂直滚动到第一行
           const scrollTop = selectedElement.offsetTop;
-          if (scrollTop >= 0) {
-            gridElement.scrollTo({
-              top: scrollTop,
-              behavior: 'smooth'
-            });
-          } else {
-            // 备选方案：使用scrollIntoView
-            selectedElement.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start',
-              inline: 'nearest'
-            });
-          }
+          console.log('ItemSelector: 大屏幕滚动', { scrollTop });
+          gridElement.scrollTo({
+            top: scrollTop,
+            behavior: 'smooth'
+          });
         }
       };
       
-      // 使用多重延迟确保DOM完全更新和布局完成
-      const delayedScroll = () => {
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            // 额外延迟确保所有异步渲染完成
-            setTimeout(scrollToSelected, 10);
-          });
-        });
-      };
-      
-      delayedScroll();
+      // 使用简单的延迟确保DOM更新
+      setTimeout(scrollToSelected, 100);
     }
   }, [shouldAutoScroll, selectedItem, category]);
   

@@ -54,10 +54,14 @@ function AppContent() {
   const [shouldAutoScroll, setShouldAutoScroll] = useState(false); // 控制是否应该自动滚动
   const { language, setLanguage, t } = useLanguage();
 
-  // 重置自动滚动状态
+  // 重置自动滚动状态（延迟重置，确保ItemSelector有时间处理）
   useEffect(() => {
     if (shouldAutoScroll) {
-      setShouldAutoScroll(false);
+      const timer = setTimeout(() => {
+        setShouldAutoScroll(false);
+      }, 200); // 延迟200ms重置，确保滚动完成
+      
+      return () => clearTimeout(timer);
     }
   }, [shouldAutoScroll]);
 
