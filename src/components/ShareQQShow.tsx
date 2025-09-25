@@ -17,7 +17,7 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
         thumbnail: "/assets/front-hair/default.gif",
         image: "/assets/front-hair/default.gif",
         category: "frontHair",
-        layer: 10,
+        layer: 12,
       },
       backHair: {
         id: "default_backHair", 
@@ -88,7 +88,7 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
           items.push({
             ...hairItem.frontHair,
             category: "frontHair",
-            layer: 10, // 前头发layer 10
+            layer: 12, // 前头发layer 12
             isDefault: false,
           });
           usedCategories.add("frontHair");

@@ -1220,7 +1220,7 @@ export const categories = [
     "id": "hair",
     "name": "发型",
     "thumbnail": "/assets/front-hair/白金短发.gif",
-    "layer": 4,
+    "layer": 5,
     "items": [
       {
         "id": "hair_白金短发",
@@ -2886,7 +2886,7 @@ export const categories = [
     "id": "bottom",
     "name": "下装",
     "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
-    "layer": 5,
+    "layer": 4,
     "items": [
       {
         "id": "bottom_粉色短裙皮靴",
@@ -4334,7 +4334,7 @@ export const categories = [
     "id": "face-decor",
     "name": "脸饰",
     "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-    "layer": 10,
+    "layer": 11,
     "items": [
       {
         "id": "face-decor_粉蓝创可贴",
@@ -4414,7 +4414,7 @@ export const categories = [
     "id": "earrings",
     "name": "耳饰",
     "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
-    "layer": 11,
+    "layer": 12,
     "items": [
       {
         "id": "earrings_粉宝石耳坠",
@@ -4558,7 +4558,7 @@ export const categories = [
     "id": "glasses",
     "name": "眼镜",
     "thumbnail": "/assets/glasses/灰白墨镜.gif",
-    "layer": 12,
+    "layer": 13,
     "items": [
       {
         "id": "glasses_灰白墨镜",
@@ -4654,7 +4654,7 @@ export const categories = [
     "id": "neckwear",
     "name": "颈饰",
     "thumbnail": "/assets/neckwear/白色针织围巾.gif",
-    "layer": 13,
+    "layer": 10,
     "items": [
       {
         "id": "neckwear_白色针织围巾",

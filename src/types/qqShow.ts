@@ -49,24 +49,24 @@ export const LAYER_ORDER = {
   "background-decor": 1,
   vehicle: 2,
   wings: 3,
-  hair: 4, // 发型（组合前后头发）
+  bottom: 4, // 下装
+  hair: 5, // 发型（组合前后头发）
   backHair: 5, // 后头发（发型组合的一部分）
-  bottom: 5, // 下装
   top: 6, // 上装
   outfit: 7, // 套装
   makeup: 8, // 妆容
   "head-set": 9, // 妆发造型
-  frontHair: 10, // 前头发（发型组合的一部分）
-  "face-decor": 10,
-  earrings: 11,
-  glasses: 12,
-  neckwear: 13,
-  headwear: 14,
-  "other-accessories": 15, // 其他配饰
-  companion: 16,
-  frame: 17,
-  text: 18,
-  sparkle: 19,
+  neckwear: 10, // 颈饰
+  "face-decor": 11, // 脸饰
+  frontHair: 12, // 前头发（发型组合的一部分）
+  earrings: 13, // 耳饰
+  glasses: 14, // 眼镜
+  headwear: 15, // 头饰
+  "other-accessories": 16, // 其他配饰
+  companion: 17, // 陪伴
+  frame: 18, // 边框
+  text: 19, // 称号
+  sparkle: 20, // 特效
 } as const;
 
 export type LayerKey = keyof typeof LAYER_ORDER;

@@ -11,24 +11,24 @@ const LAYER_ORDER = {
   "background-decor": 1,
   vehicle: 2,
   wings: 3,
-  hair: 4,
+  bottom: 4,
+  hair: 5,
   backHair: 5,
-  bottom: 5,
   top: 6,
   outfit: 7,
   makeup: 8,
   "head-set": 9,
-  frontHair: 10,
-  "face-decor": 10,
-  earrings: 11,
-  glasses: 12,
-  neckwear: 13,
-  headwear: 14,
-  "other-accessories": 15,
-  companion: 16,
-  frame: 17,
-  text: 18,
-  sparkle: 19,
+  neckwear: 10,
+  "face-decor": 11,
+  frontHair: 12,
+  earrings: 13,
+  glasses: 14,
+  headwear: 15,
+  "other-accessories": 16,
+  companion: 17,
+  frame: 18,
+  text: 19,
+  sparkle: 20,
 };
 
 async function main() {
@@ -87,7 +87,7 @@ async function main() {
   });
   
   console.log('\n✅ 显示顺序测试完成！');
-  console.log('📝 正确的顺序应该是：背景 → 背景装饰 → 车辆 → 翅膀 → 发型 → 下装 → 上装 → 套装 → 妆容 → 妆发造型 → 脸饰/前头发 → 耳饰 → 眼镜 → 颈饰 → 头饰 → 其他配饰 → 陪伴 → 边框 → 称号 → 特效');
+  console.log('📝 正确的顺序应该是：背景 → 背景装饰 → 车辆 → 翅膀 → 下装 → 发型 → 上装 → 套装 → 妆容 → 妆发造型 → 颈饰 → 脸饰 → 前头发 → 耳饰 → 眼镜 → 头饰 → 其他配饰 → 陪伴 → 边框 → 称号 → 特效');
 }
 
 main().catch(console.error);
