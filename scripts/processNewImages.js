@@ -550,6 +550,13 @@ function processCategory(categoryId, categoryInfo) {
     };
   });
   
+  // 按名称排序，"无"选项排在最前面
+  items.sort((a, b) => {
+    if (a.name === '无') return -1;
+    if (b.name === '无') return 1;
+    return a.name.localeCompare(b.name, 'zh-CN');
+  });
+  
   return {
     id: categoryId,
     name: categoryInfo.name,
@@ -588,10 +595,18 @@ function generateTranslations(categories) {
   
   categories.forEach(category => {
     category.items.forEach(item => {
-      translations[item.name] = {
-        zh: item.name,
-        en: generateTranslation(item.name)
-      };
+      // 特殊处理default项目
+      if (item.name === 'default') {
+        translations[item.name] = {
+          zh: '无',
+          en: 'None'
+        };
+      } else {
+        translations[item.name] = {
+          zh: item.name,
+          en: generateTranslation(item.name)
+        };
+      }
     });
   });
   

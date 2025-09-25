@@ -2,13 +2,17 @@
 import type { Language } from "../contexts/LanguageContext";
 
 export const itemNameTranslations: Record<string, Record<Language, string>> = {
+  "无": {
+    "zh": "无",
+    "en": "None"
+  },
   "QQ之星": {
     "zh": "QQ之星",
     "en": "QQ之星"
   },
   "default": {
-    "zh": "default",
-    "en": "default"
+    "zh": "无",
+    "en": "None"
   },
   "万圣城堡": {
     "zh": "万圣城堡",
