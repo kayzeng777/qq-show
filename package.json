@@ -8,7 +8,11 @@
     "build": "tsc -b && vite build && cp -R assets dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "process-backgrounds": "node scripts/processBackgrounds.js"
+    "update-images": "node scripts/processNewImages.js",
+    "process-backgrounds": "node scripts/processBackgrounds.js",
+    "process-all-images": "node scripts/processAllImages.js",
+    "process-hair": "node scripts/processHairImages.js",
+    "process-all": "node scripts/runAllProcessing.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",

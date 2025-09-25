@@ -93,7 +93,7 @@ const translations = {
       faceDecor: "Face Decor",
       earrings: "Earrings",
       glasses: "Glasses",
-      necklace: "Necklace",
+      necklace: "Neckwear",
       headwear: "Headwear",
       otherAccessories: "Other Accessories",
       companion: "Companion",
