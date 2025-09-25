@@ -975,13 +975,6 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "sparkle_测试特效",
-        "name": "测试特效",
-        "thumbnail": "/assets/sparkle/测试特效.gif",
-        "image": "/assets/sparkle/测试特效.gif",
-        "layer": 19
-      },
-      {
         "id": "sparkle_翅膀爱心挂帘",
         "name": "翅膀爱心挂帘",
         "thumbnail": "/assets/sparkle/翅膀爱心挂帘.gif",
@@ -1044,6 +1037,13 @@ export const categories = [
         "image": "/assets/sparkle/幻彩游龙.gif",
         "category": "sparkle",
         "layer": 1
+      },
+      {
+        "id": "sparkle_幻影骷髅",
+        "name": "幻影骷髅",
+        "thumbnail": "/assets/sparkle/幻影骷髅.gif",
+        "image": "/assets/sparkle/幻影骷髅.gif",
+        "layer": 19
       },
       {
         "id": "sparkle_蓝色爱心泡泡",
