@@ -953,266 +953,298 @@ export const categories = [
     ]
   },
   {
-    "id": "background-decor",
-    "name": "背景装饰",
-    "thumbnail": "/assets/background-decor/爱心粉云.gif",
-    "layer": 1,
+    "id": "sparkle",
+    "name": "特效",
+    "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
+    "layer": 19,
     "items": [
       {
-        "id": "background-decor_爱心粉云",
-        "name": "爱心粉云",
-        "thumbnail": "/assets/background-decor/爱心粉云.gif",
-        "image": "/assets/background-decor/爱心粉云.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_爱心闪耀糯米团子",
+        "name": "爱心闪耀糯米团子",
+        "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
+        "image": "/assets/sparkle/爱心闪耀糯米团子.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_爱心泡泡",
-        "name": "爱心泡泡",
-        "thumbnail": "/assets/background-decor/爱心泡泡.gif",
-        "image": "/assets/background-decor/爱心泡泡.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_彩虹流星",
+        "name": "彩虹流星",
+        "thumbnail": "/assets/sparkle/彩虹流星.gif",
+        "image": "/assets/sparkle/彩虹流星.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_爱心气球",
-        "name": "爱心气球",
-        "thumbnail": "/assets/background-decor/爱心气球.gif",
-        "image": "/assets/background-decor/爱心气球.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_彩色舞台聚光灯",
+        "name": "彩色舞台聚光灯",
+        "thumbnail": "/assets/sparkle/彩色舞台聚光灯.gif",
+        "image": "/assets/sparkle/彩色舞台聚光灯.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_爱心舞台",
-        "name": "爱心舞台",
-        "thumbnail": "/assets/background-decor/爱心舞台.gif",
-        "image": "/assets/background-decor/爱心舞台.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_翅膀爱心挂帘",
+        "name": "翅膀爱心挂帘",
+        "thumbnail": "/assets/sparkle/翅膀爱心挂帘.gif",
+        "image": "/assets/sparkle/翅膀爱心挂帘.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_彩蛋气球",
-        "name": "彩蛋气球",
-        "thumbnail": "/assets/background-decor/彩蛋气球.gif",
-        "image": "/assets/background-decor/彩蛋气球.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_冬日飘雪",
+        "name": "冬日飘雪",
+        "thumbnail": "/assets/sparkle/冬日飘雪.gif",
+        "image": "/assets/sparkle/冬日飘雪.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_彩色游龙",
-        "name": "彩色游龙",
-        "thumbnail": "/assets/background-decor/彩色游龙.gif",
-        "image": "/assets/background-decor/彩色游龙.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_粉蓝飘雪泡泡",
+        "name": "粉蓝飘雪泡泡",
+        "thumbnail": "/assets/sparkle/粉蓝飘雪泡泡.gif",
+        "image": "/assets/sparkle/粉蓝飘雪泡泡.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_草莓爱心",
-        "name": "草莓爱心",
-        "thumbnail": "/assets/background-decor/草莓爱心.gif",
-        "image": "/assets/background-decor/草莓爱心.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_粉色爱心泡泡",
+        "name": "粉色爱心泡泡",
+        "thumbnail": "/assets/sparkle/粉色爱心泡泡.gif",
+        "image": "/assets/sparkle/粉色爱心泡泡.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_花朵路灯",
-        "name": "花朵路灯",
-        "thumbnail": "/assets/background-decor/花朵路灯.gif",
-        "image": "/assets/background-decor/花朵路灯.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_粉色泡泡花园",
+        "name": "粉色泡泡花园",
+        "thumbnail": "/assets/sparkle/粉色泡泡花园.gif",
+        "image": "/assets/sparkle/粉色泡泡花园.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_经典气球",
-        "name": "经典气球",
-        "thumbnail": "/assets/background-decor/经典气球.gif",
-        "image": "/assets/background-decor/经典气球.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_灌木花泡泡",
+        "name": "灌木花泡泡",
+        "thumbnail": "/assets/sparkle/灌木花泡泡.gif",
+        "image": "/assets/sparkle/灌木花泡泡.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_蓝色聚光灯",
-        "name": "蓝色聚光灯",
-        "thumbnail": "/assets/background-decor/蓝色聚光灯.gif",
-        "image": "/assets/background-decor/蓝色聚光灯.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_红粉落花",
+        "name": "红粉落花",
+        "thumbnail": "/assets/sparkle/红粉落花.gif",
+        "image": "/assets/sparkle/红粉落花.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_落叶飘飘",
+        "id": "sparkle_幻彩游龙",
+        "name": "幻彩游龙",
+        "thumbnail": "/assets/sparkle/幻彩游龙.gif",
+        "image": "/assets/sparkle/幻彩游龙.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_蓝色爱心泡泡",
+        "name": "蓝色爱心泡泡",
+        "thumbnail": "/assets/sparkle/蓝色爱心泡泡.gif",
+        "image": "/assets/sparkle/蓝色爱心泡泡.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_蓝色流星",
+        "name": "蓝色流星",
+        "thumbnail": "/assets/sparkle/蓝色流星.gif",
+        "image": "/assets/sparkle/蓝色流星.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_蓝色小鸟",
+        "name": "蓝色小鸟",
+        "thumbnail": "/assets/sparkle/蓝色小鸟.gif",
+        "image": "/assets/sparkle/蓝色小鸟.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_蓝紫闪星",
+        "name": "蓝紫闪星",
+        "thumbnail": "/assets/sparkle/蓝紫闪星.gif",
+        "image": "/assets/sparkle/蓝紫闪星.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_落叶飘飘",
         "name": "落叶飘飘",
-        "thumbnail": "/assets/background-decor/落叶飘飘.gif",
-        "image": "/assets/background-decor/落叶飘飘.gif",
-        "category": "background-decor",
-        "layer": 0
+        "thumbnail": "/assets/sparkle/落叶飘飘.gif",
+        "image": "/assets/sparkle/落叶飘飘.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_魔法封印",
+        "id": "sparkle_魔法封印",
         "name": "魔法封印",
-        "thumbnail": "/assets/background-decor/魔法封印.gif",
-        "image": "/assets/background-decor/魔法封印.gif",
-        "category": "background-decor",
-        "layer": 0
+        "thumbnail": "/assets/sparkle/魔法封印.gif",
+        "image": "/assets/sparkle/魔法封印.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_飘落玫瑰",
+        "id": "sparkle_魔法金光螺旋",
+        "name": "魔法金光螺旋",
+        "thumbnail": "/assets/sparkle/魔法金光螺旋.gif",
+        "image": "/assets/sparkle/魔法金光螺旋.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_魔法闪耀星星",
+        "name": "魔法闪耀星星",
+        "thumbnail": "/assets/sparkle/魔法闪耀星星.gif",
+        "image": "/assets/sparkle/魔法闪耀星星.gif",
+        "category": "sparkle",
+        "layer": 1
+      },
+      {
+        "id": "sparkle_飘落玫瑰",
         "name": "飘落玫瑰",
-        "thumbnail": "/assets/background-decor/飘落玫瑰.gif",
-        "image": "/assets/background-decor/飘落玫瑰.gif",
-        "category": "background-decor",
-        "layer": 0
+        "thumbnail": "/assets/sparkle/飘落玫瑰.gif",
+        "image": "/assets/sparkle/飘落玫瑰.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_圣诞树",
-        "name": "圣诞树",
-        "thumbnail": "/assets/background-decor/圣诞树.gif",
-        "image": "/assets/background-decor/圣诞树.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_扑克蝴蝶",
+        "name": "扑克蝴蝶",
+        "thumbnail": "/assets/sparkle/扑克蝴蝶.gif",
+        "image": "/assets/sparkle/扑克蝴蝶.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_兔子闪星",
-        "name": "兔子闪星",
-        "thumbnail": "/assets/background-decor/兔子闪星.gif",
-        "image": "/assets/background-decor/兔子闪星.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_秋日枫叶",
+        "name": "秋日枫叶",
+        "thumbnail": "/assets/sparkle/秋日枫叶.gif",
+        "image": "/assets/sparkle/秋日枫叶.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_我的舞台",
-        "name": "我的舞台",
-        "thumbnail": "/assets/background-decor/我的舞台.gif",
-        "image": "/assets/background-decor/我的舞台.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_闪光灯",
+        "name": "闪光灯",
+        "thumbnail": "/assets/sparkle/闪光灯.gif",
+        "image": "/assets/sparkle/闪光灯.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_炫彩扫描",
-        "name": "炫彩扫描",
-        "thumbnail": "/assets/background-decor/炫彩扫描.gif",
-        "image": "/assets/background-decor/炫彩扫描.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_闪耀龙卷风",
+        "name": "闪耀龙卷风",
+        "thumbnail": "/assets/sparkle/闪耀龙卷风.gif",
+        "image": "/assets/sparkle/闪耀龙卷风.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_游乐园气球",
-        "name": "游乐园气球",
-        "thumbnail": "/assets/background-decor/游乐园气球.gif",
-        "image": "/assets/background-decor/游乐园气球.gif",
-        "category": "background-decor",
-        "layer": 0
+        "id": "sparkle_十二芒星",
+        "name": "十二芒星",
+        "thumbnail": "/assets/sparkle/十二芒星.gif",
+        "image": "/assets/sparkle/十二芒星.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "background-decor_紫蓝星星",
-        "name": "紫蓝星星",
-        "thumbnail": "/assets/background-decor/紫蓝星星.gif",
-        "image": "/assets/background-decor/紫蓝星星.gif",
-        "category": "background-decor",
-        "layer": 0
-      }
-    ]
-  },
-  {
-    "id": "vehicle",
-    "name": "车辆",
-    "thumbnail": "/assets/vehicle/阿尔法罗密欧.gif",
-    "layer": 2,
-    "items": [
-      {
-        "id": "vehicle_阿尔法罗密欧",
-        "name": "阿尔法罗密欧",
-        "thumbnail": "/assets/vehicle/阿尔法罗密欧.gif",
-        "image": "/assets/vehicle/阿尔法罗密欧.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_太阳当空照",
+        "name": "太阳当空照",
+        "thumbnail": "/assets/sparkle/太阳当空照.gif",
+        "image": "/assets/sparkle/太阳当空照.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_敞篷保时捷",
-        "name": "敞篷保时捷",
-        "thumbnail": "/assets/vehicle/敞篷保时捷.gif",
-        "image": "/assets/vehicle/敞篷保时捷.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_新年快乐",
+        "name": "新年快乐",
+        "thumbnail": "/assets/sparkle/新年快乐.gif",
+        "image": "/assets/sparkle/新年快乐.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_敞篷奔驰",
-        "name": "敞篷奔驰",
-        "thumbnail": "/assets/vehicle/敞篷奔驰.gif",
-        "image": "/assets/vehicle/敞篷奔驰.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_星闪闪",
+        "name": "星闪闪",
+        "thumbnail": "/assets/sparkle/星闪闪.gif",
+        "image": "/assets/sparkle/星闪闪.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_敞篷小车",
-        "name": "敞篷小车",
-        "thumbnail": "/assets/vehicle/敞篷小车.gif",
-        "image": "/assets/vehicle/敞篷小车.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_星星爱心泡泡",
+        "name": "星星爱心泡泡",
+        "thumbnail": "/assets/sparkle/星星爱心泡泡.gif",
+        "image": "/assets/sparkle/星星爱心泡泡.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_大众保罗",
-        "name": "大众保罗",
-        "thumbnail": "/assets/vehicle/大众保罗.gif",
-        "image": "/assets/vehicle/大众保罗.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_星星闪光",
+        "name": "星星闪光",
+        "thumbnail": "/assets/sparkle/星星闪光.gif",
+        "image": "/assets/sparkle/星星闪光.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_福特GT",
-        "name": "福特GT",
-        "thumbnail": "/assets/vehicle/福特GT.gif",
-        "image": "/assets/vehicle/福特GT.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_炫彩闪光圈",
+        "name": "炫彩闪光圈",
+        "thumbnail": "/assets/sparkle/炫彩闪光圈.gif",
+        "image": "/assets/sparkle/炫彩闪光圈.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_黑色林肯",
-        "name": "黑色林肯",
-        "thumbnail": "/assets/vehicle/黑色林肯.gif",
-        "image": "/assets/vehicle/黑色林肯.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_炫彩星环",
+        "name": "炫彩星环",
+        "thumbnail": "/assets/sparkle/炫彩星环.gif",
+        "image": "/assets/sparkle/炫彩星环.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_红色敞篷宝马",
-        "name": "红色敞篷宝马",
-        "thumbnail": "/assets/vehicle/红色敞篷宝马.gif",
-        "image": "/assets/vehicle/红色敞篷宝马.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_炫彩星星",
+        "name": "炫彩星星",
+        "thumbnail": "/assets/sparkle/炫彩星星.gif",
+        "image": "/assets/sparkle/炫彩星星.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_红色赛车",
-        "name": "红色赛车",
-        "thumbnail": "/assets/vehicle/红色赛车.gif",
-        "image": "/assets/vehicle/红色赛车.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_炫彩星星烟花",
+        "name": "炫彩星星烟花",
+        "thumbnail": "/assets/sparkle/炫彩星星烟花.gif",
+        "image": "/assets/sparkle/炫彩星星烟花.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_卡通自行车",
-        "name": "卡通自行车",
-        "thumbnail": "/assets/vehicle/卡通自行车.gif",
-        "image": "/assets/vehicle/卡通自行车.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_炫彩烟花",
+        "name": "炫彩烟花",
+        "thumbnail": "/assets/sparkle/炫彩烟花.gif",
+        "image": "/assets/sparkle/炫彩烟花.gif",
+        "category": "sparkle",
+        "layer": 1
       },
       {
-        "id": "vehicle_蓝色法拉利",
-        "name": "蓝色法拉利",
-        "thumbnail": "/assets/vehicle/蓝色法拉利.gif",
-        "image": "/assets/vehicle/蓝色法拉利.gif",
-        "category": "vehicle",
-        "layer": 0
-      },
-      {
-        "id": "vehicle_摩托车",
-        "name": "摩托车",
-        "thumbnail": "/assets/vehicle/摩托车.gif",
-        "image": "/assets/vehicle/摩托车.gif",
-        "category": "vehicle",
-        "layer": 0
+        "id": "sparkle_坠落星星",
+        "name": "坠落星星",
+        "thumbnail": "/assets/sparkle/坠落星星.gif",
+        "image": "/assets/sparkle/坠落星星.gif",
+        "category": "sparkle",
+        "layer": 1
       }
     ]
   },
@@ -2787,297 +2819,345 @@ export const categories = [
     ]
   },
   {
-    "id": "wings",
-    "name": "翅膀",
-    "thumbnail": "/assets/wings/白色天使.gif",
-    "layer": 3,
+    "id": "makeup",
+    "name": "妆容",
+    "thumbnail": "/assets/makeup/冰紫.gif",
+    "layer": 8,
     "items": [
       {
-        "id": "wings_白色天使",
-        "name": "白色天使",
-        "thumbnail": "/assets/wings/白色天使.gif",
-        "image": "/assets/wings/白色天使.gif",
-        "category": "wings",
+        "id": "makeup_冰紫",
+        "name": "冰紫",
+        "thumbnail": "/assets/makeup/冰紫.gif",
+        "image": "/assets/makeup/冰紫.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_粉色天使",
-        "name": "粉色天使",
-        "thumbnail": "/assets/wings/粉色天使.gif",
-        "image": "/assets/wings/粉色天使.gif",
-        "category": "wings",
+        "id": "makeup_春日",
+        "name": "春日",
+        "thumbnail": "/assets/makeup/春日.gif",
+        "image": "/assets/makeup/春日.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_粉色小天使",
-        "name": "粉色小天使",
-        "thumbnail": "/assets/wings/粉色小天使.gif",
-        "image": "/assets/wings/粉色小天使.gif",
-        "category": "wings",
+        "id": "makeup_海蓝",
+        "name": "海蓝",
+        "thumbnail": "/assets/makeup/海蓝.gif",
+        "image": "/assets/makeup/海蓝.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_金色天使",
-        "name": "金色天使",
-        "thumbnail": "/assets/wings/金色天使.gif",
-        "image": "/assets/wings/金色天使.gif",
-        "category": "wings",
+        "id": "makeup_海洋蓝",
+        "name": "海洋蓝",
+        "thumbnail": "/assets/makeup/海洋蓝.gif",
+        "image": "/assets/makeup/海洋蓝.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_蓝紫蝴蝶",
-        "name": "蓝紫蝴蝶",
-        "thumbnail": "/assets/wings/蓝紫蝴蝶.gif",
-        "image": "/assets/wings/蓝紫蝴蝶.gif",
-        "category": "wings",
+        "id": "makeup_黑曜",
+        "name": "黑曜",
+        "thumbnail": "/assets/makeup/黑曜.gif",
+        "image": "/assets/makeup/黑曜.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_涅槃火凤凰",
-        "name": "涅槃火凤凰",
-        "thumbnail": "/assets/wings/涅槃火凤凰.gif",
-        "image": "/assets/wings/涅槃火凤凰.gif",
-        "category": "wings",
+        "id": "makeup_湖蓝",
+        "name": "湖蓝",
+        "thumbnail": "/assets/makeup/湖蓝.gif",
+        "image": "/assets/makeup/湖蓝.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_闪粉蝴蝶",
-        "name": "闪粉蝴蝶",
-        "thumbnail": "/assets/wings/闪粉蝴蝶.gif",
-        "image": "/assets/wings/闪粉蝴蝶.gif",
-        "category": "wings",
+        "id": "makeup_湖蓝微笑",
+        "name": "湖蓝微笑",
+        "thumbnail": "/assets/makeup/湖蓝微笑.gif",
+        "image": "/assets/makeup/湖蓝微笑.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_闪耀紫金",
-        "name": "闪耀紫金",
-        "thumbnail": "/assets/wings/闪耀紫金.gif",
-        "image": "/assets/wings/闪耀紫金.gif",
-        "category": "wings",
+        "id": "makeup_琥珀",
+        "name": "琥珀",
+        "thumbnail": "/assets/makeup/琥珀.gif",
+        "image": "/assets/makeup/琥珀.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_天使恶魔",
-        "name": "天使恶魔",
-        "thumbnail": "/assets/wings/天使恶魔.gif",
-        "image": "/assets/wings/天使恶魔.gif",
-        "category": "wings",
+        "id": "makeup_活力街头",
+        "name": "活力街头",
+        "thumbnail": "/assets/makeup/活力街头.gif",
+        "image": "/assets/makeup/活力街头.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_小恶魔",
-        "name": "小恶魔",
-        "thumbnail": "/assets/wings/小恶魔.gif",
-        "image": "/assets/wings/小恶魔.gif",
-        "category": "wings",
+        "id": "makeup_挤眉弄眼",
+        "name": "挤眉弄眼",
+        "thumbnail": "/assets/makeup/挤眉弄眼.gif",
+        "image": "/assets/makeup/挤眉弄眼.gif",
+        "category": "makeup",
         "layer": 1
       },
       {
-        "id": "wings_炫紫赛博",
-        "name": "炫紫赛博",
-        "thumbnail": "/assets/wings/炫紫赛博.gif",
-        "image": "/assets/wings/炫紫赛博.gif",
-        "category": "wings",
+        "id": "makeup_剧院魅影灰",
+        "name": "剧院魅影灰",
+        "thumbnail": "/assets/makeup/剧院魅影灰.gif",
+        "image": "/assets/makeup/剧院魅影灰.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_剧院魅影紫",
+        "name": "剧院魅影紫",
+        "thumbnail": "/assets/makeup/剧院魅影紫.gif",
+        "image": "/assets/makeup/剧院魅影紫.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_卡布奇诺",
+        "name": "卡布奇诺",
+        "thumbnail": "/assets/makeup/卡布奇诺.gif",
+        "image": "/assets/makeup/卡布奇诺.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_罗兰",
+        "name": "罗兰",
+        "thumbnail": "/assets/makeup/罗兰.gif",
+        "image": "/assets/makeup/罗兰.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_梅子酒",
+        "name": "梅子酒",
+        "thumbnail": "/assets/makeup/梅子酒.gif",
+        "image": "/assets/makeup/梅子酒.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_迷棕",
+        "name": "迷棕",
+        "thumbnail": "/assets/makeup/迷棕.gif",
+        "image": "/assets/makeup/迷棕.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_魔法绿",
+        "name": "魔法绿",
+        "thumbnail": "/assets/makeup/魔法绿.gif",
+        "image": "/assets/makeup/魔法绿.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_魔法紫",
+        "name": "魔法紫",
+        "thumbnail": "/assets/makeup/魔法紫.gif",
+        "image": "/assets/makeup/魔法紫.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_牛仔蓝",
+        "name": "牛仔蓝",
+        "thumbnail": "/assets/makeup/牛仔蓝.gif",
+        "image": "/assets/makeup/牛仔蓝.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_晴夜",
+        "name": "晴夜",
+        "thumbnail": "/assets/makeup/晴夜.gif",
+        "image": "/assets/makeup/晴夜.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_锐舞派对",
+        "name": "锐舞派对",
+        "thumbnail": "/assets/makeup/锐舞派对.gif",
+        "image": "/assets/makeup/锐舞派对.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_森林",
+        "name": "森林",
+        "thumbnail": "/assets/makeup/森林.gif",
+        "image": "/assets/makeup/森林.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_桃子汽水",
+        "name": "桃子汽水",
+        "thumbnail": "/assets/makeup/桃子汽水.gif",
+        "image": "/assets/makeup/桃子汽水.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_薰衣草",
+        "name": "薰衣草",
+        "thumbnail": "/assets/makeup/薰衣草.gif",
+        "image": "/assets/makeup/薰衣草.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_眼泪汪汪",
+        "name": "眼泪汪汪",
+        "thumbnail": "/assets/makeup/眼泪汪汪.gif",
+        "image": "/assets/makeup/眼泪汪汪.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_曜黑眨眼",
+        "name": "曜黑眨眼",
+        "thumbnail": "/assets/makeup/曜黑眨眼.gif",
+        "image": "/assets/makeup/曜黑眨眼.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_樱花",
+        "name": "樱花",
+        "thumbnail": "/assets/makeup/樱花.gif",
+        "image": "/assets/makeup/樱花.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_玉石绿",
+        "name": "玉石绿",
+        "thumbnail": "/assets/makeup/玉石绿.gif",
+        "image": "/assets/makeup/玉石绿.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_紫曜",
+        "name": "紫曜",
+        "thumbnail": "/assets/makeup/紫曜.gif",
+        "image": "/assets/makeup/紫曜.gif",
+        "category": "makeup",
+        "layer": 1
+      },
+      {
+        "id": "makeup_紫曜眨眼",
+        "name": "紫曜眨眼",
+        "thumbnail": "/assets/makeup/紫曜眨眼.gif",
+        "image": "/assets/makeup/紫曜眨眼.gif",
+        "category": "makeup",
         "layer": 1
       }
     ]
   },
   {
-    "id": "bottom",
-    "name": "下装",
-    "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
-    "layer": 4,
+    "id": "head-set",
+    "name": "妆发造型",
+    "thumbnail": "/assets/head-set/白金编发.gif",
+    "layer": 9,
     "items": [
       {
-        "id": "bottom_粉色短裙皮靴",
-        "name": "粉色短裙皮靴",
-        "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
-        "image": "/assets/bottom/粉色短裙皮靴.gif",
-        "category": "bottom",
+        "id": "head-set_白金编发",
+        "name": "白金编发",
+        "thumbnail": "/assets/head-set/白金编发.gif",
+        "image": "/assets/head-set/白金编发.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_粉色活力短裙",
-        "name": "粉色活力短裙",
-        "thumbnail": "/assets/bottom/粉色活力短裙.gif",
-        "image": "/assets/bottom/粉色活力短裙.gif",
-        "category": "bottom",
+        "id": "head-set_动漫紫编发",
+        "name": "动漫紫编发",
+        "thumbnail": "/assets/head-set/动漫紫编发.gif",
+        "image": "/assets/head-set/动漫紫编发.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_格纹裤",
-        "name": "格纹裤",
-        "thumbnail": "/assets/bottom/格纹裤.gif",
-        "image": "/assets/bottom/格纹裤.gif",
-        "category": "bottom",
+        "id": "head-set_古风",
+        "name": "古风",
+        "thumbnail": "/assets/head-set/古风.gif",
+        "image": "/assets/head-set/古风.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_褐色工装裤",
-        "name": "褐色工装裤",
-        "thumbnail": "/assets/bottom/褐色工装裤.gif",
-        "image": "/assets/bottom/褐色工装裤.gif",
-        "category": "bottom",
+        "id": "head-set_红棕栗子",
+        "name": "红棕栗子",
+        "thumbnail": "/assets/head-set/红棕栗子.gif",
+        "image": "/assets/head-set/红棕栗子.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_黑色短裙白靴",
-        "name": "黑色短裙白靴",
-        "thumbnail": "/assets/bottom/黑色短裙白靴.gif",
-        "image": "/assets/bottom/黑色短裙白靴.gif",
-        "category": "bottom",
+        "id": "head-set_金棕双马尾",
+        "name": "金棕双马尾",
+        "thumbnail": "/assets/head-set/金棕双马尾.gif",
+        "image": "/assets/head-set/金棕双马尾.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_黑色摇滚金属长裤",
-        "name": "黑色摇滚金属长裤",
-        "thumbnail": "/assets/bottom/黑色摇滚金属长裤.gif",
-        "image": "/assets/bottom/黑色摇滚金属长裤.gif",
-        "category": "bottom",
+        "id": "head-set_墨镜栗子头",
+        "name": "墨镜栗子头",
+        "thumbnail": "/assets/head-set/墨镜栗子头.gif",
+        "image": "/assets/head-set/墨镜栗子头.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_灰蓝运动裤",
-        "name": "灰蓝运动裤",
-        "thumbnail": "/assets/bottom/灰蓝运动裤.gif",
-        "image": "/assets/bottom/灰蓝运动裤.gif",
-        "category": "bottom",
+        "id": "head-set_牛仔很忙",
+        "name": "牛仔很忙",
+        "thumbnail": "/assets/head-set/牛仔很忙.gif",
+        "image": "/assets/head-set/牛仔很忙.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_经典牛仔短裤",
-        "name": "经典牛仔短裤",
-        "thumbnail": "/assets/bottom/经典牛仔短裤.gif",
-        "image": "/assets/bottom/经典牛仔短裤.gif",
-        "category": "bottom",
+        "id": "head-set_浅棕斜马尾",
+        "name": "浅棕斜马尾",
+        "thumbnail": "/assets/head-set/浅棕斜马尾.gif",
+        "image": "/assets/head-set/浅棕斜马尾.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_经典牛仔裤帆布鞋",
-        "name": "经典牛仔裤帆布鞋",
-        "thumbnail": "/assets/bottom/经典牛仔裤帆布鞋.gif",
-        "image": "/assets/bottom/经典牛仔裤帆布鞋.gif",
-        "category": "bottom",
+        "id": "head-set_深棕",
+        "name": "深棕",
+        "thumbnail": "/assets/head-set/深棕.gif",
+        "image": "/assets/head-set/深棕.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_咖啡色休闲裤",
-        "name": "咖啡色休闲裤",
-        "thumbnail": "/assets/bottom/咖啡色休闲裤.gif",
-        "image": "/assets/bottom/咖啡色休闲裤.gif",
-        "category": "bottom",
+        "id": "head-set_亚麻粉",
+        "name": "亚麻粉",
+        "thumbnail": "/assets/head-set/亚麻粉.gif",
+        "image": "/assets/head-set/亚麻粉.gif",
+        "category": "head-set",
         "layer": 1
       },
       {
-        "id": "bottom_卡其工装裤",
-        "name": "卡其工装裤",
-        "thumbnail": "/assets/bottom/卡其工装裤.gif",
-        "image": "/assets/bottom/卡其工装裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_美式复古黑色短裙",
-        "name": "美式复古黑色短裙",
-        "thumbnail": "/assets/bottom/美式复古黑色短裙.gif",
-        "image": "/assets/bottom/美式复古黑色短裙.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_牛仔裤格纹长袜",
-        "name": "牛仔裤格纹长袜",
-        "thumbnail": "/assets/bottom/牛仔裤格纹长袜.gif",
-        "image": "/assets/bottom/牛仔裤格纹长袜.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_破洞松垮牛仔裤",
-        "name": "破洞松垮牛仔裤",
-        "thumbnail": "/assets/bottom/破洞松垮牛仔裤.gif",
-        "image": "/assets/bottom/破洞松垮牛仔裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_浅橙短裙内搭牛仔裤",
-        "name": "浅橙短裙内搭牛仔裤",
-        "thumbnail": "/assets/bottom/浅橙短裙内搭牛仔裤.gif",
-        "image": "/assets/bottom/浅橙短裙内搭牛仔裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_深红色嘻哈长裤",
-        "name": "深红色嘻哈长裤",
-        "thumbnail": "/assets/bottom/深红色嘻哈长裤.gif",
-        "image": "/assets/bottom/深红色嘻哈长裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_深色牛仔裤",
-        "name": "深色牛仔裤",
-        "thumbnail": "/assets/bottom/深色牛仔裤.gif",
-        "image": "/assets/bottom/深色牛仔裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_深紫色长裤",
-        "name": "深紫色长裤",
-        "thumbnail": "/assets/bottom/深紫色长裤.gif",
-        "image": "/assets/bottom/深紫色长裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_西部短裙牛仔靴",
-        "name": "西部短裙牛仔靴",
-        "thumbnail": "/assets/bottom/西部短裙牛仔靴.gif",
-        "image": "/assets/bottom/西部短裙牛仔靴.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_休闲牛仔长裤",
-        "name": "休闲牛仔长裤",
-        "thumbnail": "/assets/bottom/休闲牛仔长裤.gif",
-        "image": "/assets/bottom/休闲牛仔长裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_腰包破洞牛仔裤",
-        "name": "腰包破洞牛仔裤",
-        "thumbnail": "/assets/bottom/腰包破洞牛仔裤.gif",
-        "image": "/assets/bottom/腰包破洞牛仔裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_摇滚水洗牛仔裤",
-        "name": "摇滚水洗牛仔裤",
-        "thumbnail": "/assets/bottom/摇滚水洗牛仔裤.gif",
-        "image": "/assets/bottom/摇滚水洗牛仔裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_紫兰牛仔阔腿裤",
-        "name": "紫兰牛仔阔腿裤",
-        "thumbnail": "/assets/bottom/紫兰牛仔阔腿裤.gif",
-        "image": "/assets/bottom/紫兰牛仔阔腿裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_棕色水洗西部长裤",
-        "name": "棕色水洗西部长裤",
-        "thumbnail": "/assets/bottom/棕色水洗西部长裤.gif",
-        "image": "/assets/bottom/棕色水洗西部长裤.gif",
-        "category": "bottom",
+        "id": "head-set_亚麻紫编发",
+        "name": "亚麻紫编发",
+        "thumbnail": "/assets/head-set/亚麻紫编发.gif",
+        "image": "/assets/head-set/亚麻紫编发.gif",
+        "category": "head-set",
         "layer": 1
       }
     ]
@@ -3334,6 +3414,206 @@ export const categories = [
         "thumbnail": "/assets/top/紫白条纹长袖.gif",
         "image": "/assets/top/紫白条纹长袖.gif",
         "category": "top",
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "id": "bottom",
+    "name": "下装",
+    "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
+    "layer": 4,
+    "items": [
+      {
+        "id": "bottom_粉色短裙皮靴",
+        "name": "粉色短裙皮靴",
+        "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
+        "image": "/assets/bottom/粉色短裙皮靴.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_粉色活力短裙",
+        "name": "粉色活力短裙",
+        "thumbnail": "/assets/bottom/粉色活力短裙.gif",
+        "image": "/assets/bottom/粉色活力短裙.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_格纹裤",
+        "name": "格纹裤",
+        "thumbnail": "/assets/bottom/格纹裤.gif",
+        "image": "/assets/bottom/格纹裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_褐色工装裤",
+        "name": "褐色工装裤",
+        "thumbnail": "/assets/bottom/褐色工装裤.gif",
+        "image": "/assets/bottom/褐色工装裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_黑色短裙白靴",
+        "name": "黑色短裙白靴",
+        "thumbnail": "/assets/bottom/黑色短裙白靴.gif",
+        "image": "/assets/bottom/黑色短裙白靴.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_黑色摇滚金属长裤",
+        "name": "黑色摇滚金属长裤",
+        "thumbnail": "/assets/bottom/黑色摇滚金属长裤.gif",
+        "image": "/assets/bottom/黑色摇滚金属长裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_灰蓝运动裤",
+        "name": "灰蓝运动裤",
+        "thumbnail": "/assets/bottom/灰蓝运动裤.gif",
+        "image": "/assets/bottom/灰蓝运动裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_经典牛仔短裤",
+        "name": "经典牛仔短裤",
+        "thumbnail": "/assets/bottom/经典牛仔短裤.gif",
+        "image": "/assets/bottom/经典牛仔短裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_经典牛仔裤帆布鞋",
+        "name": "经典牛仔裤帆布鞋",
+        "thumbnail": "/assets/bottom/经典牛仔裤帆布鞋.gif",
+        "image": "/assets/bottom/经典牛仔裤帆布鞋.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_咖啡色休闲裤",
+        "name": "咖啡色休闲裤",
+        "thumbnail": "/assets/bottom/咖啡色休闲裤.gif",
+        "image": "/assets/bottom/咖啡色休闲裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_卡其工装裤",
+        "name": "卡其工装裤",
+        "thumbnail": "/assets/bottom/卡其工装裤.gif",
+        "image": "/assets/bottom/卡其工装裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_美式复古黑色短裙",
+        "name": "美式复古黑色短裙",
+        "thumbnail": "/assets/bottom/美式复古黑色短裙.gif",
+        "image": "/assets/bottom/美式复古黑色短裙.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_牛仔裤格纹长袜",
+        "name": "牛仔裤格纹长袜",
+        "thumbnail": "/assets/bottom/牛仔裤格纹长袜.gif",
+        "image": "/assets/bottom/牛仔裤格纹长袜.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_破洞松垮牛仔裤",
+        "name": "破洞松垮牛仔裤",
+        "thumbnail": "/assets/bottom/破洞松垮牛仔裤.gif",
+        "image": "/assets/bottom/破洞松垮牛仔裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_浅橙短裙内搭牛仔裤",
+        "name": "浅橙短裙内搭牛仔裤",
+        "thumbnail": "/assets/bottom/浅橙短裙内搭牛仔裤.gif",
+        "image": "/assets/bottom/浅橙短裙内搭牛仔裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_深红色嘻哈长裤",
+        "name": "深红色嘻哈长裤",
+        "thumbnail": "/assets/bottom/深红色嘻哈长裤.gif",
+        "image": "/assets/bottom/深红色嘻哈长裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_深色牛仔裤",
+        "name": "深色牛仔裤",
+        "thumbnail": "/assets/bottom/深色牛仔裤.gif",
+        "image": "/assets/bottom/深色牛仔裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_深紫色长裤",
+        "name": "深紫色长裤",
+        "thumbnail": "/assets/bottom/深紫色长裤.gif",
+        "image": "/assets/bottom/深紫色长裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_西部短裙牛仔靴",
+        "name": "西部短裙牛仔靴",
+        "thumbnail": "/assets/bottom/西部短裙牛仔靴.gif",
+        "image": "/assets/bottom/西部短裙牛仔靴.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_休闲牛仔长裤",
+        "name": "休闲牛仔长裤",
+        "thumbnail": "/assets/bottom/休闲牛仔长裤.gif",
+        "image": "/assets/bottom/休闲牛仔长裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_腰包破洞牛仔裤",
+        "name": "腰包破洞牛仔裤",
+        "thumbnail": "/assets/bottom/腰包破洞牛仔裤.gif",
+        "image": "/assets/bottom/腰包破洞牛仔裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_摇滚水洗牛仔裤",
+        "name": "摇滚水洗牛仔裤",
+        "thumbnail": "/assets/bottom/摇滚水洗牛仔裤.gif",
+        "image": "/assets/bottom/摇滚水洗牛仔裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_紫兰牛仔阔腿裤",
+        "name": "紫兰牛仔阔腿裤",
+        "thumbnail": "/assets/bottom/紫兰牛仔阔腿裤.gif",
+        "image": "/assets/bottom/紫兰牛仔阔腿裤.gif",
+        "category": "bottom",
+        "layer": 1
+      },
+      {
+        "id": "bottom_棕色水洗西部长裤",
+        "name": "棕色水洗西部长裤",
+        "thumbnail": "/assets/bottom/棕色水洗西部长裤.gif",
+        "image": "/assets/bottom/棕色水洗西部长裤.gif",
+        "category": "bottom",
         "layer": 1
       }
     ]
@@ -3987,569 +4267,97 @@ export const categories = [
     ]
   },
   {
-    "id": "makeup",
-    "name": "妆容",
-    "thumbnail": "/assets/makeup/冰紫.gif",
-    "layer": 8,
+    "id": "wings",
+    "name": "翅膀",
+    "thumbnail": "/assets/wings/白色天使.gif",
+    "layer": 3,
     "items": [
       {
-        "id": "makeup_冰紫",
-        "name": "冰紫",
-        "thumbnail": "/assets/makeup/冰紫.gif",
-        "image": "/assets/makeup/冰紫.gif",
-        "category": "makeup",
+        "id": "wings_白色天使",
+        "name": "白色天使",
+        "thumbnail": "/assets/wings/白色天使.gif",
+        "image": "/assets/wings/白色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_春日",
-        "name": "春日",
-        "thumbnail": "/assets/makeup/春日.gif",
-        "image": "/assets/makeup/春日.gif",
-        "category": "makeup",
+        "id": "wings_粉色天使",
+        "name": "粉色天使",
+        "thumbnail": "/assets/wings/粉色天使.gif",
+        "image": "/assets/wings/粉色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_海蓝",
-        "name": "海蓝",
-        "thumbnail": "/assets/makeup/海蓝.gif",
-        "image": "/assets/makeup/海蓝.gif",
-        "category": "makeup",
+        "id": "wings_粉色小天使",
+        "name": "粉色小天使",
+        "thumbnail": "/assets/wings/粉色小天使.gif",
+        "image": "/assets/wings/粉色小天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_海洋蓝",
-        "name": "海洋蓝",
-        "thumbnail": "/assets/makeup/海洋蓝.gif",
-        "image": "/assets/makeup/海洋蓝.gif",
-        "category": "makeup",
+        "id": "wings_金色天使",
+        "name": "金色天使",
+        "thumbnail": "/assets/wings/金色天使.gif",
+        "image": "/assets/wings/金色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_黑曜",
-        "name": "黑曜",
-        "thumbnail": "/assets/makeup/黑曜.gif",
-        "image": "/assets/makeup/黑曜.gif",
-        "category": "makeup",
+        "id": "wings_蓝紫蝴蝶",
+        "name": "蓝紫蝴蝶",
+        "thumbnail": "/assets/wings/蓝紫蝴蝶.gif",
+        "image": "/assets/wings/蓝紫蝴蝶.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_湖蓝",
-        "name": "湖蓝",
-        "thumbnail": "/assets/makeup/湖蓝.gif",
-        "image": "/assets/makeup/湖蓝.gif",
-        "category": "makeup",
+        "id": "wings_涅槃火凤凰",
+        "name": "涅槃火凤凰",
+        "thumbnail": "/assets/wings/涅槃火凤凰.gif",
+        "image": "/assets/wings/涅槃火凤凰.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_湖蓝微笑",
-        "name": "湖蓝微笑",
-        "thumbnail": "/assets/makeup/湖蓝微笑.gif",
-        "image": "/assets/makeup/湖蓝微笑.gif",
-        "category": "makeup",
+        "id": "wings_闪粉蝴蝶",
+        "name": "闪粉蝴蝶",
+        "thumbnail": "/assets/wings/闪粉蝴蝶.gif",
+        "image": "/assets/wings/闪粉蝴蝶.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_琥珀",
-        "name": "琥珀",
-        "thumbnail": "/assets/makeup/琥珀.gif",
-        "image": "/assets/makeup/琥珀.gif",
-        "category": "makeup",
+        "id": "wings_闪耀紫金",
+        "name": "闪耀紫金",
+        "thumbnail": "/assets/wings/闪耀紫金.gif",
+        "image": "/assets/wings/闪耀紫金.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_活力街头",
-        "name": "活力街头",
-        "thumbnail": "/assets/makeup/活力街头.gif",
-        "image": "/assets/makeup/活力街头.gif",
-        "category": "makeup",
+        "id": "wings_天使恶魔",
+        "name": "天使恶魔",
+        "thumbnail": "/assets/wings/天使恶魔.gif",
+        "image": "/assets/wings/天使恶魔.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_挤眉弄眼",
-        "name": "挤眉弄眼",
-        "thumbnail": "/assets/makeup/挤眉弄眼.gif",
-        "image": "/assets/makeup/挤眉弄眼.gif",
-        "category": "makeup",
+        "id": "wings_小恶魔",
+        "name": "小恶魔",
+        "thumbnail": "/assets/wings/小恶魔.gif",
+        "image": "/assets/wings/小恶魔.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "makeup_剧院魅影灰",
-        "name": "剧院魅影灰",
-        "thumbnail": "/assets/makeup/剧院魅影灰.gif",
-        "image": "/assets/makeup/剧院魅影灰.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_剧院魅影紫",
-        "name": "剧院魅影紫",
-        "thumbnail": "/assets/makeup/剧院魅影紫.gif",
-        "image": "/assets/makeup/剧院魅影紫.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_卡布奇诺",
-        "name": "卡布奇诺",
-        "thumbnail": "/assets/makeup/卡布奇诺.gif",
-        "image": "/assets/makeup/卡布奇诺.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_罗兰",
-        "name": "罗兰",
-        "thumbnail": "/assets/makeup/罗兰.gif",
-        "image": "/assets/makeup/罗兰.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_梅子酒",
-        "name": "梅子酒",
-        "thumbnail": "/assets/makeup/梅子酒.gif",
-        "image": "/assets/makeup/梅子酒.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_迷棕",
-        "name": "迷棕",
-        "thumbnail": "/assets/makeup/迷棕.gif",
-        "image": "/assets/makeup/迷棕.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_魔法绿",
-        "name": "魔法绿",
-        "thumbnail": "/assets/makeup/魔法绿.gif",
-        "image": "/assets/makeup/魔法绿.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_魔法紫",
-        "name": "魔法紫",
-        "thumbnail": "/assets/makeup/魔法紫.gif",
-        "image": "/assets/makeup/魔法紫.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_牛仔蓝",
-        "name": "牛仔蓝",
-        "thumbnail": "/assets/makeup/牛仔蓝.gif",
-        "image": "/assets/makeup/牛仔蓝.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_晴夜",
-        "name": "晴夜",
-        "thumbnail": "/assets/makeup/晴夜.gif",
-        "image": "/assets/makeup/晴夜.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_锐舞派对",
-        "name": "锐舞派对",
-        "thumbnail": "/assets/makeup/锐舞派对.gif",
-        "image": "/assets/makeup/锐舞派对.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_森林",
-        "name": "森林",
-        "thumbnail": "/assets/makeup/森林.gif",
-        "image": "/assets/makeup/森林.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_桃子汽水",
-        "name": "桃子汽水",
-        "thumbnail": "/assets/makeup/桃子汽水.gif",
-        "image": "/assets/makeup/桃子汽水.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_薰衣草",
-        "name": "薰衣草",
-        "thumbnail": "/assets/makeup/薰衣草.gif",
-        "image": "/assets/makeup/薰衣草.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_眼泪汪汪",
-        "name": "眼泪汪汪",
-        "thumbnail": "/assets/makeup/眼泪汪汪.gif",
-        "image": "/assets/makeup/眼泪汪汪.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_曜黑眨眼",
-        "name": "曜黑眨眼",
-        "thumbnail": "/assets/makeup/曜黑眨眼.gif",
-        "image": "/assets/makeup/曜黑眨眼.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_樱花",
-        "name": "樱花",
-        "thumbnail": "/assets/makeup/樱花.gif",
-        "image": "/assets/makeup/樱花.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_玉石绿",
-        "name": "玉石绿",
-        "thumbnail": "/assets/makeup/玉石绿.gif",
-        "image": "/assets/makeup/玉石绿.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_紫曜",
-        "name": "紫曜",
-        "thumbnail": "/assets/makeup/紫曜.gif",
-        "image": "/assets/makeup/紫曜.gif",
-        "category": "makeup",
-        "layer": 1
-      },
-      {
-        "id": "makeup_紫曜眨眼",
-        "name": "紫曜眨眼",
-        "thumbnail": "/assets/makeup/紫曜眨眼.gif",
-        "image": "/assets/makeup/紫曜眨眼.gif",
-        "category": "makeup",
-        "layer": 1
-      }
-    ]
-  },
-  {
-    "id": "head-set",
-    "name": "妆发造型",
-    "thumbnail": "/assets/head-set/白金编发.gif",
-    "layer": 9,
-    "items": [
-      {
-        "id": "head-set_白金编发",
-        "name": "白金编发",
-        "thumbnail": "/assets/head-set/白金编发.gif",
-        "image": "/assets/head-set/白金编发.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_动漫紫编发",
-        "name": "动漫紫编发",
-        "thumbnail": "/assets/head-set/动漫紫编发.gif",
-        "image": "/assets/head-set/动漫紫编发.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_古风",
-        "name": "古风",
-        "thumbnail": "/assets/head-set/古风.gif",
-        "image": "/assets/head-set/古风.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_红棕栗子",
-        "name": "红棕栗子",
-        "thumbnail": "/assets/head-set/红棕栗子.gif",
-        "image": "/assets/head-set/红棕栗子.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_金棕双马尾",
-        "name": "金棕双马尾",
-        "thumbnail": "/assets/head-set/金棕双马尾.gif",
-        "image": "/assets/head-set/金棕双马尾.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_墨镜栗子头",
-        "name": "墨镜栗子头",
-        "thumbnail": "/assets/head-set/墨镜栗子头.gif",
-        "image": "/assets/head-set/墨镜栗子头.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_牛仔很忙",
-        "name": "牛仔很忙",
-        "thumbnail": "/assets/head-set/牛仔很忙.gif",
-        "image": "/assets/head-set/牛仔很忙.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_浅棕斜马尾",
-        "name": "浅棕斜马尾",
-        "thumbnail": "/assets/head-set/浅棕斜马尾.gif",
-        "image": "/assets/head-set/浅棕斜马尾.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_深棕",
-        "name": "深棕",
-        "thumbnail": "/assets/head-set/深棕.gif",
-        "image": "/assets/head-set/深棕.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_亚麻粉",
-        "name": "亚麻粉",
-        "thumbnail": "/assets/head-set/亚麻粉.gif",
-        "image": "/assets/head-set/亚麻粉.gif",
-        "category": "head-set",
-        "layer": 1
-      },
-      {
-        "id": "head-set_亚麻紫编发",
-        "name": "亚麻紫编发",
-        "thumbnail": "/assets/head-set/亚麻紫编发.gif",
-        "image": "/assets/head-set/亚麻紫编发.gif",
-        "category": "head-set",
-        "layer": 1
-      }
-    ]
-  },
-  {
-    "id": "face-decor",
-    "name": "脸饰",
-    "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-    "layer": 11,
-    "items": [
-      {
-        "id": "face-decor_粉蓝创可贴",
-        "name": "粉蓝创可贴",
-        "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-        "image": "/assets/face-decor/粉蓝创可贴.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_粉色爱心",
-        "name": "粉色爱心",
-        "thumbnail": "/assets/face-decor/粉色爱心.gif",
-        "image": "/assets/face-decor/粉色爱心.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_粉色面纱",
-        "name": "粉色面纱",
-        "thumbnail": "/assets/face-decor/粉色面纱.gif",
-        "image": "/assets/face-decor/粉色面纱.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_卡通口罩",
-        "name": "卡通口罩",
-        "thumbnail": "/assets/face-decor/卡通口罩.gif",
-        "image": "/assets/face-decor/卡通口罩.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_蓝色闪钻脸饰",
-        "name": "蓝色闪钻脸饰",
-        "thumbnail": "/assets/face-decor/蓝色闪钻脸饰.gif",
-        "image": "/assets/face-decor/蓝色闪钻脸饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_烟",
-        "name": "烟",
-        "thumbnail": "/assets/face-decor/烟.gif",
-        "image": "/assets/face-decor/烟.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_月亮额头坠饰",
-        "name": "月亮额头坠饰",
-        "thumbnail": "/assets/face-decor/月亮额头坠饰.gif",
-        "image": "/assets/face-decor/月亮额头坠饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_钻石额头坠饰",
-        "name": "钻石额头坠饰",
-        "thumbnail": "/assets/face-decor/钻石额头坠饰.gif",
-        "image": "/assets/face-decor/钻石额头坠饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_嘴边玫瑰",
-        "name": "嘴边玫瑰",
-        "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
-        "image": "/assets/face-decor/嘴边玫瑰.gif",
-        "category": "face-decor",
-        "layer": 1
-      }
-    ]
-  },
-  {
-    "id": "earrings",
-    "name": "耳饰",
-    "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
-    "layer": 12,
-    "items": [
-      {
-        "id": "earrings_粉宝石耳坠",
-        "name": "粉宝石耳坠",
-        "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
-        "image": "/assets/earrings/粉宝石耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_粉色十字星耳钉",
-        "name": "粉色十字星耳钉",
-        "thumbnail": "/assets/earrings/粉色十字星耳钉.gif",
-        "image": "/assets/earrings/粉色十字星耳钉.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_粉紫爱心耳钉",
-        "name": "粉紫爱心耳钉",
-        "thumbnail": "/assets/earrings/粉紫爱心耳钉.gif",
-        "image": "/assets/earrings/粉紫爱心耳钉.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_红色圆圈耳饰",
-        "name": "红色圆圈耳饰",
-        "thumbnail": "/assets/earrings/红色圆圈耳饰.gif",
-        "image": "/assets/earrings/红色圆圈耳饰.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_花钻耳钉",
-        "name": "花钻耳钉",
-        "thumbnail": "/assets/earrings/花钻耳钉.gif",
-        "image": "/assets/earrings/花钻耳钉.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_街头粉星耳坠",
-        "name": "街头粉星耳坠",
-        "thumbnail": "/assets/earrings/街头粉星耳坠.gif",
-        "image": "/assets/earrings/街头粉星耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金边蝴蝶耳坠",
-        "name": "金边蝴蝶耳坠",
-        "thumbnail": "/assets/earrings/金边蝴蝶耳坠.gif",
-        "image": "/assets/earrings/金边蝴蝶耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色耳环",
-        "name": "金色耳环",
-        "thumbnail": "/assets/earrings/金色耳环.gif",
-        "image": "/assets/earrings/金色耳环.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色粉爱心耳坠",
-        "name": "金色粉爱心耳坠",
-        "thumbnail": "/assets/earrings/金色粉爱心耳坠.gif",
-        "image": "/assets/earrings/金色粉爱心耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色黑钻耳坠",
-        "name": "金色黑钻耳坠",
-        "thumbnail": "/assets/earrings/金色黑钻耳坠.gif",
-        "image": "/assets/earrings/金色黑钻耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色水滴耳坠",
-        "name": "金色水滴耳坠",
-        "thumbnail": "/assets/earrings/金色水滴耳坠.gif",
-        "image": "/assets/earrings/金色水滴耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色星星耳坠",
-        "name": "金色星星耳坠",
-        "thumbnail": "/assets/earrings/金色星星耳坠.gif",
-        "image": "/assets/earrings/金色星星耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_金色月亮耳坠",
-        "name": "金色月亮耳坠",
-        "thumbnail": "/assets/earrings/金色月亮耳坠.gif",
-        "image": "/assets/earrings/金色月亮耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_蓝钻耳饰",
-        "name": "蓝钻耳饰",
-        "thumbnail": "/assets/earrings/蓝钻耳饰.gif",
-        "image": "/assets/earrings/蓝钻耳饰.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_派对紫色耳饰",
-        "name": "派对紫色耳饰",
-        "thumbnail": "/assets/earrings/派对紫色耳饰.gif",
-        "image": "/assets/earrings/派对紫色耳饰.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_闪耀蓝钻十字耳坠",
-        "name": "闪耀蓝钻十字耳坠",
-        "thumbnail": "/assets/earrings/闪耀蓝钻十字耳坠.gif",
-        "image": "/assets/earrings/闪耀蓝钻十字耳坠.gif",
-        "category": "earrings",
-        "layer": 1
-      },
-      {
-        "id": "earrings_银色耳饰",
-        "name": "银色耳饰",
-        "thumbnail": "/assets/earrings/银色耳饰.gif",
-        "image": "/assets/earrings/银色耳饰.gif",
-        "category": "earrings",
+        "id": "wings_炫紫赛博",
+        "name": "炫紫赛博",
+        "thumbnail": "/assets/wings/炫紫赛博.gif",
+        "image": "/assets/wings/炫紫赛博.gif",
+        "category": "wings",
         "layer": 1
       }
     ]
@@ -4942,6 +4750,230 @@ export const categories = [
         "thumbnail": "/assets/neckwear/紫色波点围巾.gif",
         "image": "/assets/neckwear/紫色波点围巾.gif",
         "category": "neckwear",
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "id": "face-decor",
+    "name": "脸饰",
+    "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
+    "layer": 11,
+    "items": [
+      {
+        "id": "face-decor_粉蓝创可贴",
+        "name": "粉蓝创可贴",
+        "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
+        "image": "/assets/face-decor/粉蓝创可贴.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_粉色爱心",
+        "name": "粉色爱心",
+        "thumbnail": "/assets/face-decor/粉色爱心.gif",
+        "image": "/assets/face-decor/粉色爱心.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_粉色面纱",
+        "name": "粉色面纱",
+        "thumbnail": "/assets/face-decor/粉色面纱.gif",
+        "image": "/assets/face-decor/粉色面纱.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_卡通口罩",
+        "name": "卡通口罩",
+        "thumbnail": "/assets/face-decor/卡通口罩.gif",
+        "image": "/assets/face-decor/卡通口罩.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_蓝色闪钻脸饰",
+        "name": "蓝色闪钻脸饰",
+        "thumbnail": "/assets/face-decor/蓝色闪钻脸饰.gif",
+        "image": "/assets/face-decor/蓝色闪钻脸饰.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_烟",
+        "name": "烟",
+        "thumbnail": "/assets/face-decor/烟.gif",
+        "image": "/assets/face-decor/烟.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_月亮额头坠饰",
+        "name": "月亮额头坠饰",
+        "thumbnail": "/assets/face-decor/月亮额头坠饰.gif",
+        "image": "/assets/face-decor/月亮额头坠饰.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_钻石额头坠饰",
+        "name": "钻石额头坠饰",
+        "thumbnail": "/assets/face-decor/钻石额头坠饰.gif",
+        "image": "/assets/face-decor/钻石额头坠饰.gif",
+        "category": "face-decor",
+        "layer": 1
+      },
+      {
+        "id": "face-decor_嘴边玫瑰",
+        "name": "嘴边玫瑰",
+        "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
+        "image": "/assets/face-decor/嘴边玫瑰.gif",
+        "category": "face-decor",
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "id": "earrings",
+    "name": "耳饰",
+    "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
+    "layer": 12,
+    "items": [
+      {
+        "id": "earrings_粉宝石耳坠",
+        "name": "粉宝石耳坠",
+        "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
+        "image": "/assets/earrings/粉宝石耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_粉色十字星耳钉",
+        "name": "粉色十字星耳钉",
+        "thumbnail": "/assets/earrings/粉色十字星耳钉.gif",
+        "image": "/assets/earrings/粉色十字星耳钉.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_粉紫爱心耳钉",
+        "name": "粉紫爱心耳钉",
+        "thumbnail": "/assets/earrings/粉紫爱心耳钉.gif",
+        "image": "/assets/earrings/粉紫爱心耳钉.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_红色圆圈耳饰",
+        "name": "红色圆圈耳饰",
+        "thumbnail": "/assets/earrings/红色圆圈耳饰.gif",
+        "image": "/assets/earrings/红色圆圈耳饰.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_花钻耳钉",
+        "name": "花钻耳钉",
+        "thumbnail": "/assets/earrings/花钻耳钉.gif",
+        "image": "/assets/earrings/花钻耳钉.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_街头粉星耳坠",
+        "name": "街头粉星耳坠",
+        "thumbnail": "/assets/earrings/街头粉星耳坠.gif",
+        "image": "/assets/earrings/街头粉星耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金边蝴蝶耳坠",
+        "name": "金边蝴蝶耳坠",
+        "thumbnail": "/assets/earrings/金边蝴蝶耳坠.gif",
+        "image": "/assets/earrings/金边蝴蝶耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色耳环",
+        "name": "金色耳环",
+        "thumbnail": "/assets/earrings/金色耳环.gif",
+        "image": "/assets/earrings/金色耳环.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色粉爱心耳坠",
+        "name": "金色粉爱心耳坠",
+        "thumbnail": "/assets/earrings/金色粉爱心耳坠.gif",
+        "image": "/assets/earrings/金色粉爱心耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色黑钻耳坠",
+        "name": "金色黑钻耳坠",
+        "thumbnail": "/assets/earrings/金色黑钻耳坠.gif",
+        "image": "/assets/earrings/金色黑钻耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色水滴耳坠",
+        "name": "金色水滴耳坠",
+        "thumbnail": "/assets/earrings/金色水滴耳坠.gif",
+        "image": "/assets/earrings/金色水滴耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色星星耳坠",
+        "name": "金色星星耳坠",
+        "thumbnail": "/assets/earrings/金色星星耳坠.gif",
+        "image": "/assets/earrings/金色星星耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_金色月亮耳坠",
+        "name": "金色月亮耳坠",
+        "thumbnail": "/assets/earrings/金色月亮耳坠.gif",
+        "image": "/assets/earrings/金色月亮耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_蓝钻耳饰",
+        "name": "蓝钻耳饰",
+        "thumbnail": "/assets/earrings/蓝钻耳饰.gif",
+        "image": "/assets/earrings/蓝钻耳饰.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_派对紫色耳饰",
+        "name": "派对紫色耳饰",
+        "thumbnail": "/assets/earrings/派对紫色耳饰.gif",
+        "image": "/assets/earrings/派对紫色耳饰.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_闪耀蓝钻十字耳坠",
+        "name": "闪耀蓝钻十字耳坠",
+        "thumbnail": "/assets/earrings/闪耀蓝钻十字耳坠.gif",
+        "image": "/assets/earrings/闪耀蓝钻十字耳坠.gif",
+        "category": "earrings",
+        "layer": 1
+      },
+      {
+        "id": "earrings_银色耳饰",
+        "name": "银色耳饰",
+        "thumbnail": "/assets/earrings/银色耳饰.gif",
+        "image": "/assets/earrings/银色耳饰.gif",
+        "category": "earrings",
         "layer": 1
       }
     ]
@@ -5507,6 +5539,510 @@ export const categories = [
     ]
   },
   {
+    "id": "frame",
+    "name": "边框",
+    "thumbnail": "/assets/frame/爱心巴洛克.gif",
+    "layer": 17,
+    "items": [
+      {
+        "id": "frame_爱心巴洛克",
+        "name": "爱心巴洛克",
+        "thumbnail": "/assets/frame/爱心巴洛克.gif",
+        "image": "/assets/frame/爱心巴洛克.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_爱心帘子",
+        "name": "爱心帘子",
+        "thumbnail": "/assets/frame/爱心帘子.gif",
+        "image": "/assets/frame/爱心帘子.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_爱心泡泡",
+        "name": "爱心泡泡",
+        "thumbnail": "/assets/frame/爱心泡泡.gif",
+        "image": "/assets/frame/爱心泡泡.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_巴洛克",
+        "name": "巴洛克",
+        "thumbnail": "/assets/frame/巴洛克.gif",
+        "image": "/assets/frame/巴洛克.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_电音舞台",
+        "name": "电音舞台",
+        "thumbnail": "/assets/frame/电音舞台.gif",
+        "image": "/assets/frame/电音舞台.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_粉蝴蝶结",
+        "name": "粉蝴蝶结",
+        "thumbnail": "/assets/frame/粉蝴蝶结.gif",
+        "image": "/assets/frame/粉蝴蝶结.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_粉丝",
+        "name": "粉丝",
+        "thumbnail": "/assets/frame/粉丝.gif",
+        "image": "/assets/frame/粉丝.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_红色窗帘",
+        "name": "红色窗帘",
+        "thumbnail": "/assets/frame/红色窗帘.gif",
+        "image": "/assets/frame/红色窗帘.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_蝴蝶缎带",
+        "name": "蝴蝶缎带",
+        "thumbnail": "/assets/frame/蝴蝶缎带.gif",
+        "image": "/assets/frame/蝴蝶缎带.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_花花蝴蝶",
+        "name": "花花蝴蝶",
+        "thumbnail": "/assets/frame/花花蝴蝶.gif",
+        "image": "/assets/frame/花花蝴蝶.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_花藤",
+        "name": "花藤",
+        "thumbnail": "/assets/frame/花藤.gif",
+        "image": "/assets/frame/花藤.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_经典玫瑰",
+        "name": "经典玫瑰",
+        "thumbnail": "/assets/frame/经典玫瑰.gif",
+        "image": "/assets/frame/经典玫瑰.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_精灵爱心",
+        "name": "精灵爱心",
+        "thumbnail": "/assets/frame/精灵爱心.gif",
+        "image": "/assets/frame/精灵爱心.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_卡通星星",
+        "name": "卡通星星",
+        "thumbnail": "/assets/frame/卡通星星.gif",
+        "image": "/assets/frame/卡通星星.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_蓝色十字花",
+        "name": "蓝色十字花",
+        "thumbnail": "/assets/frame/蓝色十字花.gif",
+        "image": "/assets/frame/蓝色十字花.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_蕾丝爱心",
+        "name": "蕾丝爱心",
+        "thumbnail": "/assets/frame/蕾丝爱心.gif",
+        "image": "/assets/frame/蕾丝爱心.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_礼花相框",
+        "name": "礼花相框",
+        "thumbnail": "/assets/frame/礼花相框.gif",
+        "image": "/assets/frame/礼花相框.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_礼物",
+        "name": "礼物",
+        "thumbnail": "/assets/frame/礼物.gif",
+        "image": "/assets/frame/礼物.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_罗马花藤",
+        "name": "罗马花藤",
+        "thumbnail": "/assets/frame/罗马花藤.gif",
+        "image": "/assets/frame/罗马花藤.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_玫瑰藤蔓",
+        "name": "玫瑰藤蔓",
+        "thumbnail": "/assets/frame/玫瑰藤蔓.gif",
+        "image": "/assets/frame/玫瑰藤蔓.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_魔法森林",
+        "name": "魔法森林",
+        "thumbnail": "/assets/frame/魔法森林.gif",
+        "image": "/assets/frame/魔法森林.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_情人节",
+        "name": "情人节",
+        "thumbnail": "/assets/frame/情人节.gif",
+        "image": "/assets/frame/情人节.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_晴空",
+        "name": "晴空",
+        "thumbnail": "/assets/frame/晴空.gif",
+        "image": "/assets/frame/晴空.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_双色花朵",
+        "name": "双色花朵",
+        "thumbnail": "/assets/frame/双色花朵.gif",
+        "image": "/assets/frame/双色花朵.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_围栏信箱",
+        "name": "围栏信箱",
+        "thumbnail": "/assets/frame/围栏信箱.gif",
+        "image": "/assets/frame/围栏信箱.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_小狗家园",
+        "name": "小狗家园",
+        "thumbnail": "/assets/frame/小狗家园.gif",
+        "image": "/assets/frame/小狗家园.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_小狗赛车",
+        "name": "小狗赛车",
+        "thumbnail": "/assets/frame/小狗赛车.gif",
+        "image": "/assets/frame/小狗赛车.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_摇滚爱心",
+        "name": "摇滚爱心",
+        "thumbnail": "/assets/frame/摇滚爱心.gif",
+        "image": "/assets/frame/摇滚爱心.gif",
+        "category": "frame",
+        "layer": 1
+      },
+      {
+        "id": "frame_紫牵牛藤",
+        "name": "紫牵牛藤",
+        "thumbnail": "/assets/frame/紫牵牛藤.gif",
+        "image": "/assets/frame/紫牵牛藤.gif",
+        "category": "frame",
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "id": "background-decor",
+    "name": "背景装饰",
+    "thumbnail": "/assets/background-decor/爱心粉云.gif",
+    "layer": 1,
+    "items": [
+      {
+        "id": "background-decor_爱心粉云",
+        "name": "爱心粉云",
+        "thumbnail": "/assets/background-decor/爱心粉云.gif",
+        "image": "/assets/background-decor/爱心粉云.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_爱心泡泡",
+        "name": "爱心泡泡",
+        "thumbnail": "/assets/background-decor/爱心泡泡.gif",
+        "image": "/assets/background-decor/爱心泡泡.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_爱心气球",
+        "name": "爱心气球",
+        "thumbnail": "/assets/background-decor/爱心气球.gif",
+        "image": "/assets/background-decor/爱心气球.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_爱心舞台",
+        "name": "爱心舞台",
+        "thumbnail": "/assets/background-decor/爱心舞台.gif",
+        "image": "/assets/background-decor/爱心舞台.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_彩蛋气球",
+        "name": "彩蛋气球",
+        "thumbnail": "/assets/background-decor/彩蛋气球.gif",
+        "image": "/assets/background-decor/彩蛋气球.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_彩色游龙",
+        "name": "彩色游龙",
+        "thumbnail": "/assets/background-decor/彩色游龙.gif",
+        "image": "/assets/background-decor/彩色游龙.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_草莓爱心",
+        "name": "草莓爱心",
+        "thumbnail": "/assets/background-decor/草莓爱心.gif",
+        "image": "/assets/background-decor/草莓爱心.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_花朵路灯",
+        "name": "花朵路灯",
+        "thumbnail": "/assets/background-decor/花朵路灯.gif",
+        "image": "/assets/background-decor/花朵路灯.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_经典气球",
+        "name": "经典气球",
+        "thumbnail": "/assets/background-decor/经典气球.gif",
+        "image": "/assets/background-decor/经典气球.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_蓝色聚光灯",
+        "name": "蓝色聚光灯",
+        "thumbnail": "/assets/background-decor/蓝色聚光灯.gif",
+        "image": "/assets/background-decor/蓝色聚光灯.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_落叶飘飘",
+        "name": "落叶飘飘",
+        "thumbnail": "/assets/background-decor/落叶飘飘.gif",
+        "image": "/assets/background-decor/落叶飘飘.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_魔法封印",
+        "name": "魔法封印",
+        "thumbnail": "/assets/background-decor/魔法封印.gif",
+        "image": "/assets/background-decor/魔法封印.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_飘落玫瑰",
+        "name": "飘落玫瑰",
+        "thumbnail": "/assets/background-decor/飘落玫瑰.gif",
+        "image": "/assets/background-decor/飘落玫瑰.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_圣诞树",
+        "name": "圣诞树",
+        "thumbnail": "/assets/background-decor/圣诞树.gif",
+        "image": "/assets/background-decor/圣诞树.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_兔子闪星",
+        "name": "兔子闪星",
+        "thumbnail": "/assets/background-decor/兔子闪星.gif",
+        "image": "/assets/background-decor/兔子闪星.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_我的舞台",
+        "name": "我的舞台",
+        "thumbnail": "/assets/background-decor/我的舞台.gif",
+        "image": "/assets/background-decor/我的舞台.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_炫彩扫描",
+        "name": "炫彩扫描",
+        "thumbnail": "/assets/background-decor/炫彩扫描.gif",
+        "image": "/assets/background-decor/炫彩扫描.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_游乐园气球",
+        "name": "游乐园气球",
+        "thumbnail": "/assets/background-decor/游乐园气球.gif",
+        "image": "/assets/background-decor/游乐园气球.gif",
+        "category": "background-decor",
+        "layer": 0
+      },
+      {
+        "id": "background-decor_紫蓝星星",
+        "name": "紫蓝星星",
+        "thumbnail": "/assets/background-decor/紫蓝星星.gif",
+        "image": "/assets/background-decor/紫蓝星星.gif",
+        "category": "background-decor",
+        "layer": 0
+      }
+    ]
+  },
+  {
+    "id": "vehicle",
+    "name": "车辆",
+    "thumbnail": "/assets/vehicle/阿尔法罗密欧.gif",
+    "layer": 2,
+    "items": [
+      {
+        "id": "vehicle_阿尔法罗密欧",
+        "name": "阿尔法罗密欧",
+        "thumbnail": "/assets/vehicle/阿尔法罗密欧.gif",
+        "image": "/assets/vehicle/阿尔法罗密欧.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_敞篷保时捷",
+        "name": "敞篷保时捷",
+        "thumbnail": "/assets/vehicle/敞篷保时捷.gif",
+        "image": "/assets/vehicle/敞篷保时捷.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_敞篷奔驰",
+        "name": "敞篷奔驰",
+        "thumbnail": "/assets/vehicle/敞篷奔驰.gif",
+        "image": "/assets/vehicle/敞篷奔驰.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_敞篷小车",
+        "name": "敞篷小车",
+        "thumbnail": "/assets/vehicle/敞篷小车.gif",
+        "image": "/assets/vehicle/敞篷小车.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_大众保罗",
+        "name": "大众保罗",
+        "thumbnail": "/assets/vehicle/大众保罗.gif",
+        "image": "/assets/vehicle/大众保罗.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_福特GT",
+        "name": "福特GT",
+        "thumbnail": "/assets/vehicle/福特GT.gif",
+        "image": "/assets/vehicle/福特GT.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_黑色林肯",
+        "name": "黑色林肯",
+        "thumbnail": "/assets/vehicle/黑色林肯.gif",
+        "image": "/assets/vehicle/黑色林肯.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_红色敞篷宝马",
+        "name": "红色敞篷宝马",
+        "thumbnail": "/assets/vehicle/红色敞篷宝马.gif",
+        "image": "/assets/vehicle/红色敞篷宝马.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_红色赛车",
+        "name": "红色赛车",
+        "thumbnail": "/assets/vehicle/红色赛车.gif",
+        "image": "/assets/vehicle/红色赛车.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_卡通自行车",
+        "name": "卡通自行车",
+        "thumbnail": "/assets/vehicle/卡通自行车.gif",
+        "image": "/assets/vehicle/卡通自行车.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_蓝色法拉利",
+        "name": "蓝色法拉利",
+        "thumbnail": "/assets/vehicle/蓝色法拉利.gif",
+        "image": "/assets/vehicle/蓝色法拉利.gif",
+        "category": "vehicle",
+        "layer": 0
+      },
+      {
+        "id": "vehicle_摩托车",
+        "name": "摩托车",
+        "thumbnail": "/assets/vehicle/摩托车.gif",
+        "image": "/assets/vehicle/摩托车.gif",
+        "category": "vehicle",
+        "layer": 0
+      }
+    ]
+  },
+  {
     "id": "companion",
     "name": "陪伴",
     "thumbnail": "/assets/companion/白色睡觉小狗.gif",
@@ -5814,246 +6350,6 @@ export const categories = [
         "thumbnail": "/assets/companion/云朵钓鱼狗.gif",
         "image": "/assets/companion/云朵钓鱼狗.gif",
         "category": "companion",
-        "layer": 1
-      }
-    ]
-  },
-  {
-    "id": "frame",
-    "name": "边框",
-    "thumbnail": "/assets/frame/爱心巴洛克.gif",
-    "layer": 17,
-    "items": [
-      {
-        "id": "frame_爱心巴洛克",
-        "name": "爱心巴洛克",
-        "thumbnail": "/assets/frame/爱心巴洛克.gif",
-        "image": "/assets/frame/爱心巴洛克.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_爱心帘子",
-        "name": "爱心帘子",
-        "thumbnail": "/assets/frame/爱心帘子.gif",
-        "image": "/assets/frame/爱心帘子.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_爱心泡泡",
-        "name": "爱心泡泡",
-        "thumbnail": "/assets/frame/爱心泡泡.gif",
-        "image": "/assets/frame/爱心泡泡.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_巴洛克",
-        "name": "巴洛克",
-        "thumbnail": "/assets/frame/巴洛克.gif",
-        "image": "/assets/frame/巴洛克.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_电音舞台",
-        "name": "电音舞台",
-        "thumbnail": "/assets/frame/电音舞台.gif",
-        "image": "/assets/frame/电音舞台.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_粉蝴蝶结",
-        "name": "粉蝴蝶结",
-        "thumbnail": "/assets/frame/粉蝴蝶结.gif",
-        "image": "/assets/frame/粉蝴蝶结.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_粉丝",
-        "name": "粉丝",
-        "thumbnail": "/assets/frame/粉丝.gif",
-        "image": "/assets/frame/粉丝.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_红色窗帘",
-        "name": "红色窗帘",
-        "thumbnail": "/assets/frame/红色窗帘.gif",
-        "image": "/assets/frame/红色窗帘.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_蝴蝶缎带",
-        "name": "蝴蝶缎带",
-        "thumbnail": "/assets/frame/蝴蝶缎带.gif",
-        "image": "/assets/frame/蝴蝶缎带.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_花花蝴蝶",
-        "name": "花花蝴蝶",
-        "thumbnail": "/assets/frame/花花蝴蝶.gif",
-        "image": "/assets/frame/花花蝴蝶.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_花藤",
-        "name": "花藤",
-        "thumbnail": "/assets/frame/花藤.gif",
-        "image": "/assets/frame/花藤.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_经典玫瑰",
-        "name": "经典玫瑰",
-        "thumbnail": "/assets/frame/经典玫瑰.gif",
-        "image": "/assets/frame/经典玫瑰.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_精灵爱心",
-        "name": "精灵爱心",
-        "thumbnail": "/assets/frame/精灵爱心.gif",
-        "image": "/assets/frame/精灵爱心.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_卡通星星",
-        "name": "卡通星星",
-        "thumbnail": "/assets/frame/卡通星星.gif",
-        "image": "/assets/frame/卡通星星.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_蓝色十字花",
-        "name": "蓝色十字花",
-        "thumbnail": "/assets/frame/蓝色十字花.gif",
-        "image": "/assets/frame/蓝色十字花.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_蕾丝爱心",
-        "name": "蕾丝爱心",
-        "thumbnail": "/assets/frame/蕾丝爱心.gif",
-        "image": "/assets/frame/蕾丝爱心.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_礼花相框",
-        "name": "礼花相框",
-        "thumbnail": "/assets/frame/礼花相框.gif",
-        "image": "/assets/frame/礼花相框.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_礼物",
-        "name": "礼物",
-        "thumbnail": "/assets/frame/礼物.gif",
-        "image": "/assets/frame/礼物.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_罗马花藤",
-        "name": "罗马花藤",
-        "thumbnail": "/assets/frame/罗马花藤.gif",
-        "image": "/assets/frame/罗马花藤.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_玫瑰藤蔓",
-        "name": "玫瑰藤蔓",
-        "thumbnail": "/assets/frame/玫瑰藤蔓.gif",
-        "image": "/assets/frame/玫瑰藤蔓.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_魔法森林",
-        "name": "魔法森林",
-        "thumbnail": "/assets/frame/魔法森林.gif",
-        "image": "/assets/frame/魔法森林.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_情人节",
-        "name": "情人节",
-        "thumbnail": "/assets/frame/情人节.gif",
-        "image": "/assets/frame/情人节.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_晴空",
-        "name": "晴空",
-        "thumbnail": "/assets/frame/晴空.gif",
-        "image": "/assets/frame/晴空.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_双色花朵",
-        "name": "双色花朵",
-        "thumbnail": "/assets/frame/双色花朵.gif",
-        "image": "/assets/frame/双色花朵.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_围栏信箱",
-        "name": "围栏信箱",
-        "thumbnail": "/assets/frame/围栏信箱.gif",
-        "image": "/assets/frame/围栏信箱.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_小狗家园",
-        "name": "小狗家园",
-        "thumbnail": "/assets/frame/小狗家园.gif",
-        "image": "/assets/frame/小狗家园.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_小狗赛车",
-        "name": "小狗赛车",
-        "thumbnail": "/assets/frame/小狗赛车.gif",
-        "image": "/assets/frame/小狗赛车.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_摇滚爱心",
-        "name": "摇滚爱心",
-        "thumbnail": "/assets/frame/摇滚爱心.gif",
-        "image": "/assets/frame/摇滚爱心.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_紫牵牛藤",
-        "name": "紫牵牛藤",
-        "thumbnail": "/assets/frame/紫牵牛藤.gif",
-        "image": "/assets/frame/紫牵牛藤.gif",
-        "category": "frame",
         "layer": 1
       }
     ]
@@ -6398,302 +6694,6 @@ export const categories = [
         "thumbnail": "/assets/text/S风尚杂志.gif",
         "image": "/assets/text/S风尚杂志.gif",
         "category": "text",
-        "layer": 1
-      }
-    ]
-  },
-  {
-    "id": "sparkle",
-    "name": "特效",
-    "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
-    "layer": 19,
-    "items": [
-      {
-        "id": "sparkle_爱心闪耀糯米团子",
-        "name": "爱心闪耀糯米团子",
-        "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
-        "image": "/assets/sparkle/爱心闪耀糯米团子.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_彩虹流星",
-        "name": "彩虹流星",
-        "thumbnail": "/assets/sparkle/彩虹流星.gif",
-        "image": "/assets/sparkle/彩虹流星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_彩色舞台聚光灯",
-        "name": "彩色舞台聚光灯",
-        "thumbnail": "/assets/sparkle/彩色舞台聚光灯.gif",
-        "image": "/assets/sparkle/彩色舞台聚光灯.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_翅膀爱心挂帘",
-        "name": "翅膀爱心挂帘",
-        "thumbnail": "/assets/sparkle/翅膀爱心挂帘.gif",
-        "image": "/assets/sparkle/翅膀爱心挂帘.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_冬日飘雪",
-        "name": "冬日飘雪",
-        "thumbnail": "/assets/sparkle/冬日飘雪.gif",
-        "image": "/assets/sparkle/冬日飘雪.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_粉蓝飘雪泡泡",
-        "name": "粉蓝飘雪泡泡",
-        "thumbnail": "/assets/sparkle/粉蓝飘雪泡泡.gif",
-        "image": "/assets/sparkle/粉蓝飘雪泡泡.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_粉色爱心泡泡",
-        "name": "粉色爱心泡泡",
-        "thumbnail": "/assets/sparkle/粉色爱心泡泡.gif",
-        "image": "/assets/sparkle/粉色爱心泡泡.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_粉色泡泡花园",
-        "name": "粉色泡泡花园",
-        "thumbnail": "/assets/sparkle/粉色泡泡花园.gif",
-        "image": "/assets/sparkle/粉色泡泡花园.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_灌木花泡泡",
-        "name": "灌木花泡泡",
-        "thumbnail": "/assets/sparkle/灌木花泡泡.gif",
-        "image": "/assets/sparkle/灌木花泡泡.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_红粉落花",
-        "name": "红粉落花",
-        "thumbnail": "/assets/sparkle/红粉落花.gif",
-        "image": "/assets/sparkle/红粉落花.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_幻彩游龙",
-        "name": "幻彩游龙",
-        "thumbnail": "/assets/sparkle/幻彩游龙.gif",
-        "image": "/assets/sparkle/幻彩游龙.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_蓝色爱心泡泡",
-        "name": "蓝色爱心泡泡",
-        "thumbnail": "/assets/sparkle/蓝色爱心泡泡.gif",
-        "image": "/assets/sparkle/蓝色爱心泡泡.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_蓝色流星",
-        "name": "蓝色流星",
-        "thumbnail": "/assets/sparkle/蓝色流星.gif",
-        "image": "/assets/sparkle/蓝色流星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_蓝色小鸟",
-        "name": "蓝色小鸟",
-        "thumbnail": "/assets/sparkle/蓝色小鸟.gif",
-        "image": "/assets/sparkle/蓝色小鸟.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_蓝紫闪星",
-        "name": "蓝紫闪星",
-        "thumbnail": "/assets/sparkle/蓝紫闪星.gif",
-        "image": "/assets/sparkle/蓝紫闪星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_落叶飘飘",
-        "name": "落叶飘飘",
-        "thumbnail": "/assets/sparkle/落叶飘飘.gif",
-        "image": "/assets/sparkle/落叶飘飘.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_魔法封印",
-        "name": "魔法封印",
-        "thumbnail": "/assets/sparkle/魔法封印.gif",
-        "image": "/assets/sparkle/魔法封印.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_魔法金光螺旋",
-        "name": "魔法金光螺旋",
-        "thumbnail": "/assets/sparkle/魔法金光螺旋.gif",
-        "image": "/assets/sparkle/魔法金光螺旋.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_魔法闪耀星星",
-        "name": "魔法闪耀星星",
-        "thumbnail": "/assets/sparkle/魔法闪耀星星.gif",
-        "image": "/assets/sparkle/魔法闪耀星星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_飘落玫瑰",
-        "name": "飘落玫瑰",
-        "thumbnail": "/assets/sparkle/飘落玫瑰.gif",
-        "image": "/assets/sparkle/飘落玫瑰.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_扑克蝴蝶",
-        "name": "扑克蝴蝶",
-        "thumbnail": "/assets/sparkle/扑克蝴蝶.gif",
-        "image": "/assets/sparkle/扑克蝴蝶.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_秋日枫叶",
-        "name": "秋日枫叶",
-        "thumbnail": "/assets/sparkle/秋日枫叶.gif",
-        "image": "/assets/sparkle/秋日枫叶.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_闪光灯",
-        "name": "闪光灯",
-        "thumbnail": "/assets/sparkle/闪光灯.gif",
-        "image": "/assets/sparkle/闪光灯.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_闪耀龙卷风",
-        "name": "闪耀龙卷风",
-        "thumbnail": "/assets/sparkle/闪耀龙卷风.gif",
-        "image": "/assets/sparkle/闪耀龙卷风.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_十二芒星",
-        "name": "十二芒星",
-        "thumbnail": "/assets/sparkle/十二芒星.gif",
-        "image": "/assets/sparkle/十二芒星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_太阳当空照",
-        "name": "太阳当空照",
-        "thumbnail": "/assets/sparkle/太阳当空照.gif",
-        "image": "/assets/sparkle/太阳当空照.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_新年快乐",
-        "name": "新年快乐",
-        "thumbnail": "/assets/sparkle/新年快乐.gif",
-        "image": "/assets/sparkle/新年快乐.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_星闪闪",
-        "name": "星闪闪",
-        "thumbnail": "/assets/sparkle/星闪闪.gif",
-        "image": "/assets/sparkle/星闪闪.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_星星爱心泡泡",
-        "name": "星星爱心泡泡",
-        "thumbnail": "/assets/sparkle/星星爱心泡泡.gif",
-        "image": "/assets/sparkle/星星爱心泡泡.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_星星闪光",
-        "name": "星星闪光",
-        "thumbnail": "/assets/sparkle/星星闪光.gif",
-        "image": "/assets/sparkle/星星闪光.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_炫彩闪光圈",
-        "name": "炫彩闪光圈",
-        "thumbnail": "/assets/sparkle/炫彩闪光圈.gif",
-        "image": "/assets/sparkle/炫彩闪光圈.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_炫彩星环",
-        "name": "炫彩星环",
-        "thumbnail": "/assets/sparkle/炫彩星环.gif",
-        "image": "/assets/sparkle/炫彩星环.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_炫彩星星",
-        "name": "炫彩星星",
-        "thumbnail": "/assets/sparkle/炫彩星星.gif",
-        "image": "/assets/sparkle/炫彩星星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_炫彩星星烟花",
-        "name": "炫彩星星烟花",
-        "thumbnail": "/assets/sparkle/炫彩星星烟花.gif",
-        "image": "/assets/sparkle/炫彩星星烟花.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_炫彩烟花",
-        "name": "炫彩烟花",
-        "thumbnail": "/assets/sparkle/炫彩烟花.gif",
-        "image": "/assets/sparkle/炫彩烟花.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_坠落星星",
-        "name": "坠落星星",
-        "thumbnail": "/assets/sparkle/坠落星星.gif",
-        "image": "/assets/sparkle/坠落星星.gif",
-        "category": "sparkle",
         "layer": 1
       }
     ]
