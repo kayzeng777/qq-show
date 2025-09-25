@@ -956,7 +956,7 @@ export const categories = [
     "id": "background-decor",
     "name": "背景装饰",
     "thumbnail": "/assets/background-decor/爱心粉云.gif",
-    "layer": 0,
+    "layer": 1,
     "items": [
       {
         "id": "background-decor_爱心粉云",
@@ -1116,7 +1116,7 @@ export const categories = [
     "id": "vehicle",
     "name": "车辆",
     "thumbnail": "/assets/vehicle/阿尔法罗密欧.gif",
-    "layer": 0,
+    "layer": 2,
     "items": [
       {
         "id": "vehicle_阿尔法罗密欧",
@@ -2790,7 +2790,7 @@ export const categories = [
     "id": "wings",
     "name": "翅膀",
     "thumbnail": "/assets/wings/白色天使.gif",
-    "layer": 1,
+    "layer": 3,
     "items": [
       {
         "id": "wings_白色天使",
@@ -2886,7 +2886,7 @@ export const categories = [
     "id": "bottom",
     "name": "下装",
     "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
-    "layer": 1,
+    "layer": 5,
     "items": [
       {
         "id": "bottom_粉色短裙皮靴",
@@ -3086,7 +3086,7 @@ export const categories = [
     "id": "top",
     "name": "上装",
     "thumbnail": "/assets/top/白色毛绒环扣外套.gif",
-    "layer": 1,
+    "layer": 6,
     "items": [
       {
         "id": "top_白色毛绒环扣外套",
@@ -3342,7 +3342,7 @@ export const categories = [
     "id": "outfit",
     "name": "套装",
     "thumbnail": "/assets/outfit/爱心一字肩套装.gif",
-    "layer": 1,
+    "layer": 7,
     "items": [
       {
         "id": "outfit_爱心一字肩套装",
@@ -3990,7 +3990,7 @@ export const categories = [
     "id": "makeup",
     "name": "妆容",
     "thumbnail": "/assets/makeup/冰紫.gif",
-    "layer": 1,
+    "layer": 8,
     "items": [
       {
         "id": "makeup_冰紫",
@@ -4238,7 +4238,7 @@ export const categories = [
     "id": "head-set",
     "name": "妆发造型",
     "thumbnail": "/assets/head-set/白金编发.gif",
-    "layer": 1,
+    "layer": 9,
     "items": [
       {
         "id": "head-set_白金编发",
@@ -4334,7 +4334,7 @@ export const categories = [
     "id": "face-decor",
     "name": "脸饰",
     "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-    "layer": 1,
+    "layer": 10,
     "items": [
       {
         "id": "face-decor_粉蓝创可贴",
@@ -4414,7 +4414,7 @@ export const categories = [
     "id": "earrings",
     "name": "耳饰",
     "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
-    "layer": 1,
+    "layer": 11,
     "items": [
       {
         "id": "earrings_粉宝石耳坠",
@@ -4558,7 +4558,7 @@ export const categories = [
     "id": "glasses",
     "name": "眼镜",
     "thumbnail": "/assets/glasses/灰白墨镜.gif",
-    "layer": 1,
+    "layer": 12,
     "items": [
       {
         "id": "glasses_灰白墨镜",
@@ -4654,7 +4654,7 @@ export const categories = [
     "id": "neckwear",
     "name": "颈饰",
     "thumbnail": "/assets/neckwear/白色针织围巾.gif",
-    "layer": 1,
+    "layer": 13,
     "items": [
       {
         "id": "neckwear_白色针织围巾",
@@ -4950,7 +4950,7 @@ export const categories = [
     "id": "headwear",
     "name": "头饰",
     "thumbnail": "/assets/headwear/白色棒球.gif",
-    "layer": 1,
+    "layer": 14,
     "items": [
       {
         "id": "headwear_白色棒球",
@@ -5342,7 +5342,7 @@ export const categories = [
     "id": "other-accessories",
     "name": "其他配饰",
     "thumbnail": "/assets/other-accessories/粉玫瑰花束.gif",
-    "layer": 1,
+    "layer": 15,
     "items": [
       {
         "id": "other-accessories_粉玫瑰花束",
@@ -5510,7 +5510,7 @@ export const categories = [
     "id": "companion",
     "name": "陪伴",
     "thumbnail": "/assets/companion/白色睡觉小狗.gif",
-    "layer": 1,
+    "layer": 16,
     "items": [
       {
         "id": "companion_白色睡觉小狗",
@@ -5822,7 +5822,7 @@ export const categories = [
     "id": "frame",
     "name": "边框",
     "thumbnail": "/assets/frame/爱心巴洛克.gif",
-    "layer": 1,
+    "layer": 17,
     "items": [
       {
         "id": "frame_爱心巴洛克",
@@ -6062,7 +6062,7 @@ export const categories = [
     "id": "text",
     "name": "称号",
     "thumbnail": "/assets/text/艾丽时尚杂志.gif",
-    "layer": 1,
+    "layer": 18,
     "items": [
       {
         "id": "text_艾丽时尚杂志",
@@ -6406,7 +6406,7 @@ export const categories = [
     "id": "sparkle",
     "name": "特效",
     "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
-    "layer": 1,
+    "layer": 19,
     "items": [
       {
         "id": "sparkle_爱心闪耀糯米团子",
