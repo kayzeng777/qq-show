@@ -174,7 +174,7 @@
 .category-thumbnail .selected-checkmark {
   color: white;
   font-size: 8px;
-  font-weight: bold;
+  font-weight: 900; /* 更粗的字体 */
   line-height: 1;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
@@ -305,6 +305,7 @@
 
   .category-thumbnail .selected-checkmark {
     font-size: 6px;
+    font-weight: 900; /* 更粗的字体 */
   }
 
   .category-title {
