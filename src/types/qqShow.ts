@@ -30,7 +30,7 @@ export interface QQShowOutfit {
   fullHead?: QQShowItem; // 妆发造型
   hair?: QQShowItem; // 发型（组合前后头发）
   frontHair?: QQShowItem; // 前头发（发型组合的一部分）
-  fullFace?: QQShowItem; // 妆容
+  makeup?: QQShowItem; // 妆容
   backHair?: QQShowItem; // 后头发（发型组合的一部分）
   otherAccessories?: QQShowItem; // 其他配饰
   outfit?: QQShowItem; // 套装
@@ -54,7 +54,7 @@ export const LAYER_ORDER = {
   bottom: 5, // 下装
   top: 6, // 上装
   outfit: 7, // 套装
-  fullFace: 8, // 妆容
+  makeup: 8, // 妆容
   fullHead: 9, // 妆发造型
   frontHair: 10, // 前头发（发型组合的一部分）
   faceDecor: 10,

@@ -45,12 +45,12 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
         category: "top",
         layer: 6,
       },
-      fullFace: {
-        id: "default_fullFace",
+      makeup: {
+        id: "default_makeup",
         name: "默认妆容",
-        thumbnail: "/assets/full-face/default.png",
-        image: "/assets/full-face/default.png",
-        category: "fullFace",
+        thumbnail: "/assets/makeup/default.png",
+        image: "/assets/makeup/default.png",
+        category: "makeup",
         layer: 8,
       },
     };
@@ -80,6 +80,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
             items.push({
               ...hairItem.backHair,
               category: "backHair",
+              layer: 5, // 后头发layer 5
               isDefault: false,
             });
             usedCategories.add("backHair");
@@ -88,7 +89,8 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
           // 添加前头发
           items.push({
             ...hairItem.frontHair,
-            category: "frontHair", 
+            category: "frontHair",
+            layer: 10, // 前头发layer 10
             isDefault: false,
           });
           usedCategories.add("frontHair");
@@ -106,12 +108,12 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
           usedCategories.add(category);
         }
 
-        // 互斥逻辑：如果选择了全头，排除发型、前头发、后头发、全脸
+        // 互斥逻辑：如果选择了全头，排除发型、前头发、后头发、妆容
         if (category === "fullHead") {
           excludedCategories.add("hair");
           excludedCategories.add("frontHair");
           excludedCategories.add("backHair");
-          excludedCategories.add("fullFace");
+          excludedCategories.add("makeup");
         }
 
         // 如果选择了单独的前头发或后头发，排除发型

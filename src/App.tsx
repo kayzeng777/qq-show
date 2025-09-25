@@ -134,9 +134,9 @@ function AppContent() {
         delete newOutfit.hair;
         delete newOutfit.frontHair;
         delete newOutfit.backHair;
-        delete newOutfit.fullFace;
+        delete newOutfit.makeup;
       } else if (
-        ["hair", "frontHair", "backHair", "fullFace"].includes(item.category)
+        ["hair", "frontHair", "backHair", "makeup"].includes(item.category)
       ) {
         // 选择发型/前头发/后头发/全脸时，移除全头
         delete newOutfit.fullHead;
@@ -224,7 +224,7 @@ function AppContent() {
     } else {
       // 选择发型+脸
       const hairCategory = categories.find((cat) => cat.id === "hair");
-      const faceCategory = categories.find((cat) => cat.id === "fullFace");
+      const faceCategory = categories.find((cat) => cat.id === "makeup");
 
       if (hairCategory && hairCategory.items.length > 0) {
         const randomHair =
@@ -239,7 +239,7 @@ function AppContent() {
           faceCategory.items[
             Math.floor(Math.random() * faceCategory.items.length)
           ];
-        newOutfit.fullFace = randomFace;
+        newOutfit.makeup = randomFace;
       }
     }
 
