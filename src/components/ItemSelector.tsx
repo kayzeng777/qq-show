@@ -21,12 +21,11 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
 }) => {
   const { t } = useLanguage();
   const itemGridRef = useRef<HTMLDivElement>(null);
-  const itemSelectorRef = useRef<HTMLDivElement>(null);
   const selectedItemRef = useRef<HTMLDivElement>(null);
   
   // 自动滚动到选中的item（只在shouldAutoScroll为true时）
   useEffect(() => {
-    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current && itemSelectorRef.current) {
+    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current) {
       // 添加延迟确保DOM完全更新
       const scrollToSelected = () => {
         const selectedElement = selectedItemRef.current;
@@ -47,21 +46,14 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
             });
           }
         } else {
-          // 大屏幕：垂直滚动到第一行，使用item-selector作为滚动容器
-          const selectorElement = itemSelectorRef.current;
-          if (selectorElement) {
-            // 计算相对于item-grid的offsetTop，因为item-grid是实际的内容容器
-            const gridElement = itemGridRef.current;
-            if (gridElement) {
-              const gridRect = gridElement.getBoundingClientRect();
-              const selectedRect = selectedElement.getBoundingClientRect();
-              const relativeTop = selectedRect.top - gridRect.top + selectorElement.scrollTop;
-              
-              selectorElement.scrollTo({
-                top: relativeTop,
-                behavior: 'smooth'
-              });
-            }
+          // 大屏幕：垂直滚动到第一行，使用item-grid作为滚动容器
+          const gridElement = itemGridRef.current;
+          if (gridElement) {
+            const scrollTop = selectedElement.offsetTop;
+            gridElement.scrollTo({
+              top: scrollTop,
+              behavior: 'smooth'
+            });
           }
         }
       };
@@ -104,7 +96,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   }
 
   return (
-    <div className="item-selector" ref={itemSelectorRef}>
+    <div className="item-selector">
       <h3 className="item-selector-title">
         {t.categories[category.id as keyof typeof t.categories] ||
           category.name}

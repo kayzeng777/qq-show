@@ -11,7 +11,7 @@
   border: 1px solid #5953f1;
   border-radius: 7px;
   height: 100%;
-  overflow-y: auto;
+  overflow: hidden; /* 大屏幕下不滚动，让item-grid处理滚动 */
   box-shadow:
     inset 2px 2px 4px rgba(255, 255, 255, 0.3),
     inset -2px -2px 4px rgba(0, 0, 0, 0.2);
