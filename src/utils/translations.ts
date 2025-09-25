@@ -304,83 +304,83 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "睡梦兔紫": {
     "zh": "睡梦兔紫",
-    "en": ""
+    "en": "Sleepy Purple Rabbit"
   },
   "睡梦云朵": {
     "zh": "睡梦云朵",
-    "en": ""
+    "en": "Sleepy Cloud"
   },
   "松树飘雪": {
     "zh": "松树飘雪",
-    "en": ""
+    "en": "Pine Tree Snow"
   },
   "糖浆山谷": {
     "zh": "糖浆山谷",
-    "en": ""
+    "en": "Syrup Valley"
   },
   "藤蔓与兔": {
     "zh": "藤蔓与兔",
-    "en": ""
+    "en": "Vines and Rabbit"
   },
   "天天向上": {
     "zh": "天天向上",
-    "en": ""
+    "en": "Day Day Up"
   },
   "童话岛屿": {
     "zh": "童话岛屿",
-    "en": ""
+    "en": "Fairy Tale Island"
   },
   "突破渴望": {
     "zh": "突破渴望",
-    "en": ""
+    "en": "Break Through Desire"
   },
   "兔子果林": {
     "zh": "兔子果林",
-    "en": ""
+    "en": "Rabbit Fruit Forest"
   },
   "万圣城堡": {
     "zh": "万圣城堡",
-    "en": ""
+    "en": "Halloween Castle"
   },
   "温馨的家": {
     "zh": "温馨的家",
-    "en": ""
+    "en": "Warm Home"
   },
   "我爱的你": {
     "zh": "我爱的你",
-    "en": ""
+    "en": "You I Love"
   },
   "我的小屋": {
     "zh": "我的小屋",
-    "en": ""
+    "en": "My Cabin"
   },
   "午后阶梯": {
     "zh": "午后阶梯",
-    "en": ""
+    "en": "Afternoon Steps"
   },
   "乡间别墅": {
     "zh": "乡间别墅",
-    "en": ""
+    "en": "Country Villa"
   },
   "乡间彩虹": {
     "zh": "乡间彩虹",
-    "en": ""
+    "en": "Country Rainbow"
   },
   "乡间春日": {
     "zh": "乡间春日",
-    "en": ""
+    "en": "Country Spring"
   },
   "小路彩虹": {
     "zh": "小路彩虹",
-    "en": ""
+    "en": "Path Rainbow"
   },
   "新春佳节": {
     "zh": "新春佳节",
-    "en": ""
+    "en": "Spring Festival"
   },
   "新加坡河": {
     "zh": "新加坡河",
-    "en": ""
+    "en": "Singapore River"
   },
   "新年快乐": {
     "zh": "新年快乐",
@@ -388,83 +388,83 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "星星点灯": {
     "zh": "星星点灯",
-    "en": ""
+    "en": "Star Light"
   },
   "星座云台": {
     "zh": "星座云台",
-    "en": ""
+    "en": "Constellation Cloud Platform"
   },
   "宴会餐厅": {
     "zh": "宴会餐厅",
-    "en": ""
+    "en": "Banquet Restaurant"
   },
   "夜半城市": {
     "zh": "夜半城市",
-    "en": ""
+    "en": "Midnight City"
   },
   "夜金字塔": {
     "zh": "夜金字塔",
-    "en": ""
+    "en": "Night Pyramid"
   },
   "夜之石冢": {
     "zh": "夜之石冢",
-    "en": ""
+    "en": "Night Stone Tomb"
   },
   "音乐百事": {
     "zh": "音乐百事",
-    "en": ""
+    "en": "Music Pepsi"
   },
   "樱花别墅": {
     "zh": "樱花别墅",
-    "en": ""
+    "en": "Cherry Blossom Villa"
   },
   "樱花阶梯": {
     "zh": "樱花阶梯",
-    "en": ""
+    "en": "Cherry Blossom Steps"
   },
   "樱花喷泉": {
     "zh": "樱花喷泉",
-    "en": ""
+    "en": "Cherry Blossom Fountain"
   },
   "犹他公园": {
     "zh": "犹他公园",
-    "en": ""
+    "en": "Utah Park"
   },
   "雨林飘雾": {
     "zh": "雨林飘雾",
-    "en": ""
+    "en": "Rainforest Mist"
   },
   "云朵月台": {
     "zh": "云朵月台",
-    "en": ""
+    "en": "Cloud Platform"
   },
   "云上余音": {
     "zh": "云上余音",
-    "en": ""
+    "en": "Cloud Echo"
   },
   "竹间清风": {
     "zh": "竹间清风",
-    "en": ""
+    "en": "Bamboo Breeze"
   },
   "紫晶城堡": {
     "zh": "紫晶城堡",
-    "en": ""
+    "en": "Amethyst Castle"
   },
   "紫晶阶梯": {
     "zh": "紫晶阶梯",
-    "en": ""
+    "en": "Amethyst Steps"
   },
   "紫罗兰台": {
     "zh": "紫罗兰台",
-    "en": ""
+    "en": "Violet Terrace"
   },
   "紫薇城堡": {
     "zh": "紫薇城堡",
-    "en": ""
+    "en": "Crape Myrtle Castle"
   },
   "紫月城堡": {
     "zh": "紫月城堡",
-    "en": ""
+    "en": "Purple Moon Castle"
   },
   "QQ之星": {
     "zh": "QQ之星",
@@ -708,7 +708,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "白金发夹短发": {
     "zh": "白金发夹短发",
-    "en": ""
+    "en": "Platinum Hairpin Short Hair"
   },
   "白金蝴蝶结波浪长发": {
     "zh": "白金蝴蝶结波浪长发",
@@ -716,15 +716,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "白金毽子头": {
     "zh": "白金毽子头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "冰蓝栗子头": {
     "zh": "冰蓝栗子头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "冰蓝中短发": {
     "zh": "冰蓝中短发",
-    "en": ""
+    "en": "Auto Translation"
   },
   "电力橙双马尾": {
     "zh": "电力橙双马尾",
@@ -780,11 +780,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "火金飞机头": {
     "zh": "火金飞机头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "火金鲻鱼头": {
     "zh": "火金鲻鱼头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金黄斜扎卷长发": {
     "zh": "金黄斜扎卷长发",
@@ -836,7 +836,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "深棕波浪卷长发": {
     "zh": "深棕波浪卷长发",
-    "en": ""
+    "en": "Auto Translation"
   },
   "头花金色扎发": {
     "zh": "头花金色扎发",
@@ -848,7 +848,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "亚麻红短发": {
     "zh": "亚麻红短发",
-    "en": ""
+    "en": "Auto Translation"
   },
   "亚麻绿短发": {
     "zh": "亚麻绿短发",
@@ -864,7 +864,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "亚麻紫刺猬头": {
     "zh": "亚麻紫刺猬头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "亚麻紫卷马尾": {
     "zh": "亚麻紫卷马尾",
@@ -872,7 +872,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "摇滚黑短发": {
     "zh": "摇滚黑短发",
-    "en": ""
+    "en": "Auto Translation"
   },
   "摇滚蓝紫短发": {
     "zh": "摇滚蓝紫短发",
@@ -904,15 +904,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "棕色刺猬头": {
     "zh": "棕色刺猬头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "棕色短飞机头": {
     "zh": "棕色短飞机头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "棕色飞机头": {
     "zh": "棕色飞机头",
-    "en": ""
+    "en": "Auto Translation"
   },
   "棕色栗子头": {
     "zh": "棕色栗子头",
@@ -932,7 +932,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "棕色雅痞短发": {
     "zh": "棕色雅痞短发",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色天使": {
     "zh": "白色天使",
@@ -1000,11 +1000,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "黑色摇滚金属长裤": {
     "zh": "黑色摇滚金属长裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "灰蓝运动裤": {
     "zh": "灰蓝运动裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "经典牛仔短裤": {
     "zh": "经典牛仔短裤",
@@ -1016,7 +1016,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "咖啡色休闲裤": {
     "zh": "咖啡色休闲裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "卡其工装裤": {
     "zh": "卡其工装裤",
@@ -1028,11 +1028,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "牛仔裤格纹长袜": {
     "zh": "牛仔裤格纹长袜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "破洞松垮牛仔裤": {
     "zh": "破洞松垮牛仔裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "浅橙短裙内搭牛仔裤": {
     "zh": "浅橙短裙内搭牛仔裤",
@@ -1040,7 +1040,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "深红色嘻哈长裤": {
     "zh": "深红色嘻哈长裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "深色牛仔裤": {
     "zh": "深色牛仔裤",
@@ -1048,7 +1048,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "深紫色长裤": {
     "zh": "深紫色长裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "西部短裙牛仔靴": {
     "zh": "西部短裙牛仔靴",
@@ -1056,11 +1056,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "休闲牛仔长裤": {
     "zh": "休闲牛仔长裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "腰包破洞牛仔裤": {
     "zh": "腰包破洞牛仔裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "摇滚水洗牛仔裤": {
     "zh": "摇滚水洗牛仔裤",
@@ -1072,15 +1072,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "棕色水洗西部长裤": {
     "zh": "棕色水洗西部长裤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色毛绒环扣外套": {
     "zh": "白色毛绒环扣外套",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色碎花背心": {
     "zh": "白色碎花背心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色休闲西装": {
     "zh": "白色休闲西装",
@@ -1100,23 +1100,23 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "橙色运动外套": {
     "zh": "橙色运动外套",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉红斜肩针织衫": {
     "zh": "粉红斜肩针织衫",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色百褶抹胸": {
     "zh": "粉色百褶抹胸",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色开衫学院风": {
     "zh": "粉色开衫学院风",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉星套衫": {
     "zh": "粉星套衫",
-    "en": ""
+    "en": "Auto Translation"
   },
   "工装夹克叠穿": {
     "zh": "工装夹克叠穿",
@@ -1128,15 +1128,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "红色街头背心": {
     "zh": "红色街头背心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "黄色柳丁背心": {
     "zh": "黄色柳丁背心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "活力粉夏日背心": {
     "zh": "活力粉夏日背心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "咖啡夹克": {
     "zh": "咖啡夹克",
@@ -1144,19 +1144,19 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蓝青竖纹长袖": {
     "zh": "蓝青竖纹长袖",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝青休闲西装": {
     "zh": "蓝青休闲西装",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝天花园背心": {
     "zh": "蓝天花园背心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "裸身红色电吉他": {
     "zh": "裸身红色电吉他",
-    "en": ""
+    "en": "Auto Translation"
   },
   "美式长袖套衫": {
     "zh": "美式长袖套衫",
@@ -1176,11 +1176,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "玩偶粉色开衫": {
     "zh": "玩偶粉色开衫",
-    "en": ""
+    "en": "Auto Translation"
   },
   "斜肩红色毛衣": {
     "zh": "斜肩红色毛衣",
-    "en": ""
+    "en": "Auto Translation"
   },
   "斜肩玫瑰长袖": {
     "zh": "斜肩玫瑰长袖",
@@ -1196,7 +1196,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "紫白条纹长袖": {
     "zh": "紫白条纹长袖",
-    "en": ""
+    "en": "Auto Translation"
   },
   "爱心一字肩套装": {
     "zh": "爱心一字肩套装",
@@ -1696,7 +1696,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "卡通口罩": {
     "zh": "卡通口罩",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝色闪钻脸饰": {
     "zh": "蓝色闪钻脸饰",
@@ -1736,15 +1736,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "花钻耳钉": {
     "zh": "花钻耳钉",
-    "en": ""
+    "en": "Auto Translation"
   },
   "街头粉星耳坠": {
     "zh": "街头粉星耳坠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金边蝴蝶耳坠": {
     "zh": "金边蝴蝶耳坠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金色耳环": {
     "zh": "金色耳环",
@@ -1760,11 +1760,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "金色水滴耳坠": {
     "zh": "金色水滴耳坠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金色星星耳坠": {
     "zh": "金色星星耳坠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金色月亮耳坠": {
     "zh": "金色月亮耳坠",
@@ -1780,7 +1780,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "闪耀蓝钻十字耳坠": {
     "zh": "闪耀蓝钻十字耳坠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "银色耳饰": {
     "zh": "银色耳饰",
@@ -1788,11 +1788,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "灰白墨镜": {
     "zh": "灰白墨镜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "火红墨镜": {
     "zh": "火红墨镜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "假面舞会": {
     "zh": "假面舞会",
@@ -1804,7 +1804,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "落日飞行墨镜": {
     "zh": "落日飞行墨镜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "落日墨镜": {
     "zh": "落日墨镜",
@@ -1828,7 +1828,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "窄框眼镜": {
     "zh": "窄框眼镜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色针织围巾": {
     "zh": "白色针织围巾",
@@ -1836,7 +1836,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "传呼机": {
     "zh": "传呼机",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉白条纹围巾": {
     "zh": "粉白条纹围巾",
@@ -1856,11 +1856,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "黑白玩偶项链": {
     "zh": "黑白玩偶项链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "黑灵项链": {
     "zh": "黑灵项链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "黑色十字架项链": {
     "zh": "黑色十字架项链",
@@ -1876,7 +1876,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "幻彩蛇": {
     "zh": "幻彩蛇",
-    "en": ""
+    "en": "Auto Translation"
   },
   "黄色流星项链": {
     "zh": "黄色流星项链",
@@ -1884,11 +1884,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "街头十字项链": {
     "zh": "街头十字项链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "戒指项链": {
     "zh": "戒指项链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金属吊牌项链": {
     "zh": "金属吊牌项链",
@@ -1908,7 +1908,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蓝色条纹围巾": {
     "zh": "蓝色条纹围巾",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝色妖姬项链": {
     "zh": "蓝色妖姬项链",
@@ -1932,11 +1932,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "暖黄围巾": {
     "zh": "暖黄围巾",
-    "en": ""
+    "en": "Auto Translation"
   },
   "青蓝针织围巾": {
     "zh": "青蓝针织围巾",
-    "en": ""
+    "en": "Auto Translation"
   },
   "闪钻项链": {
     "zh": "闪钻项链",
@@ -1944,7 +1944,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "射线项链": {
     "zh": "射线项链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "随身听": {
     "zh": "随身听",
@@ -1972,7 +1972,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "紫色波点围巾": {
     "zh": "紫色波点围巾",
-    "en": ""
+    "en": "Auto Translation"
   },
   "白色棒球": {
     "zh": "白色棒球",
@@ -1988,7 +1988,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "冰蓝墨镜": {
     "zh": "冰蓝墨镜",
-    "en": ""
+    "en": "Auto Translation"
   },
   "波点美式头箍": {
     "zh": "波点美式头箍",
@@ -2024,7 +2024,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "格子报童帽": {
     "zh": "格子报童帽",
-    "en": ""
+    "en": "Auto Translation"
   },
   "公主皇冠": {
     "zh": "公主皇冠",
@@ -2076,7 +2076,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "毛绒帽": {
     "zh": "毛绒帽",
-    "en": ""
+    "en": "Auto Translation"
   },
   "毛线帽": {
     "zh": "毛线帽",
@@ -2088,7 +2088,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "墨镜黑色头巾": {
     "zh": "墨镜黑色头巾",
-    "en": ""
+    "en": "Auto Translation"
   },
   "浅粉贝雷": {
     "zh": "浅粉贝雷",
@@ -2116,7 +2116,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "双色针织帽": {
     "zh": "双色针织帽",
-    "en": ""
+    "en": "Auto Translation"
   },
   "兔子运动": {
     "zh": "兔子运动",
@@ -2128,7 +2128,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "希腊花环": {
     "zh": "希腊花环",
-    "en": ""
+    "en": "Auto Translation"
   },
   "夏威夷": {
     "zh": "夏威夷",
@@ -2152,7 +2152,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "摇滚绅士帽": {
     "zh": "摇滚绅士帽",
-    "en": ""
+    "en": "Auto Translation"
   },
   "紫色棒球帽": {
     "zh": "紫色棒球帽",
@@ -2160,7 +2160,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "棕色贝雷帽": {
     "zh": "棕色贝雷帽",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉玫瑰花束": {
     "zh": "粉玫瑰花束",
@@ -2196,11 +2196,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "金属爱心腰链": {
     "zh": "金属爱心腰链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金属腰链": {
     "zh": "金属腰链",
-    "en": ""
+    "en": "Auto Translation"
   },
   "柳丁皮带": {
     "zh": "柳丁皮带",
@@ -2248,7 +2248,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "暴躁团子": {
     "zh": "暴躁团子",
-    "en": ""
+    "en": "Auto Translation"
   },
   "比格犬": {
     "zh": "比格犬",
@@ -2256,7 +2256,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "大号圣诞玩具熊": {
     "zh": "大号圣诞玩具熊",
-    "en": ""
+    "en": "Auto Translation"
   },
   "德牧犬": {
     "zh": "德牧犬",
@@ -2264,19 +2264,19 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "多比精灵": {
     "zh": "多比精灵",
-    "en": ""
+    "en": "Auto Translation"
   },
   "恶魔蝙蝠": {
     "zh": "恶魔蝙蝠",
-    "en": ""
+    "en": "Auto Translation"
   },
   "翻滚团子": {
     "zh": "翻滚团子",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色精灵女孩": {
     "zh": "粉色精灵女孩",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色漂浮猫咪": {
     "zh": "粉色漂浮猫咪",
@@ -2284,7 +2284,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "粉色小猪": {
     "zh": "粉色小猪",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蝴蝶": {
     "zh": "蝴蝶",
@@ -2296,15 +2296,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "幻彩游龙": {
     "zh": "幻彩游龙",
-    "en": ""
+    "en": "Auto Translation"
   },
   "幻影骷髅": {
     "zh": "幻影骷髅",
-    "en": ""
+    "en": "Auto Translation"
   },
   "金毛犬": {
     "zh": "金毛犬",
-    "en": ""
+    "en": "Auto Translation"
   },
   "凯蒂猫": {
     "zh": "凯蒂猫",
@@ -2312,11 +2312,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "凯蒂玩偶": {
     "zh": "凯蒂玩偶",
-    "en": ""
+    "en": "Auto Translation"
   },
   "酷儿超人": {
     "zh": "酷儿超人",
-    "en": ""
+    "en": "Auto Translation"
   },
   "流氓兔": {
     "zh": "流氓兔",
@@ -2332,11 +2332,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "情侣小熊": {
     "zh": "情侣小熊",
-    "en": ""
+    "en": "Auto Translation"
   },
   "三头狼": {
     "zh": "三头狼",
-    "en": ""
+    "en": "Auto Translation"
   },
   "圣诞驯鹿": {
     "zh": "圣诞驯鹿",
@@ -2352,11 +2352,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "维尼天使": {
     "zh": "维尼天使",
-    "en": ""
+    "en": "Auto Translation"
   },
   "西施狗": {
     "zh": "西施狗",
-    "en": ""
+    "en": "Auto Translation"
   },
   "仙子": {
     "zh": "仙子",
@@ -2364,7 +2364,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "小花猫": {
     "zh": "小花猫",
-    "en": ""
+    "en": "Auto Translation"
   },
   "小浣熊": {
     "zh": "小浣熊",
@@ -2372,7 +2372,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "小橘猫": {
     "zh": "小橘猫",
-    "en": ""
+    "en": "Auto Translation"
   },
   "小熊魔法精灵": {
     "zh": "小熊魔法精灵",
@@ -2388,7 +2388,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "爱心巴洛克": {
     "zh": "爱心巴洛克",
-    "en": ""
+    "en": "Auto Translation"
   },
   "爱心帘子": {
     "zh": "爱心帘子",
@@ -2396,7 +2396,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "巴洛克": {
     "zh": "巴洛克",
-    "en": ""
+    "en": "Auto Translation"
   },
   "电音舞台": {
     "zh": "电音舞台",
@@ -2404,11 +2404,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "粉蝴蝶结": {
     "zh": "粉蝴蝶结",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉丝": {
     "zh": "粉丝",
-    "en": ""
+    "en": "Auto Translation"
   },
   "红色窗帘": {
     "zh": "红色窗帘",
@@ -2416,27 +2416,27 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蝴蝶缎带": {
     "zh": "蝴蝶缎带",
-    "en": ""
+    "en": "Auto Translation"
   },
   "花花蝴蝶": {
     "zh": "花花蝴蝶",
-    "en": ""
+    "en": "Auto Translation"
   },
   "花藤": {
     "zh": "花藤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "经典玫瑰": {
     "zh": "经典玫瑰",
-    "en": ""
+    "en": "Auto Translation"
   },
   "精灵爱心": {
     "zh": "精灵爱心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "卡通星星": {
     "zh": "卡通星星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝色十字花": {
     "zh": "蓝色十字花",
@@ -2444,7 +2444,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蕾丝爱心": {
     "zh": "蕾丝爱心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "礼花相框": {
     "zh": "礼花相框",
@@ -2452,11 +2452,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "礼物": {
     "zh": "礼物",
-    "en": ""
+    "en": "Auto Translation"
   },
   "罗马花藤": {
     "zh": "罗马花藤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "玫瑰藤蔓": {
     "zh": "玫瑰藤蔓",
@@ -2464,15 +2464,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "魔法森林": {
     "zh": "魔法森林",
-    "en": ""
+    "en": "Auto Translation"
   },
   "情人节": {
     "zh": "情人节",
-    "en": ""
+    "en": "Auto Translation"
   },
   "晴空": {
     "zh": "晴空",
-    "en": ""
+    "en": "Auto Translation"
   },
   "双色花朵": {
     "zh": "双色花朵",
@@ -2480,7 +2480,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "围栏信箱": {
     "zh": "围栏信箱",
-    "en": ""
+    "en": "Auto Translation"
   },
   "小狗家园": {
     "zh": "小狗家园",
@@ -2488,23 +2488,23 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "小狗赛车": {
     "zh": "小狗赛车",
-    "en": ""
+    "en": "Auto Translation"
   },
   "摇滚爱心": {
     "zh": "摇滚爱心",
-    "en": ""
+    "en": "Auto Translation"
   },
   "紫牵牛藤": {
     "zh": "紫牵牛藤",
-    "en": ""
+    "en": "Auto Translation"
   },
   "艾丽时尚杂志": {
     "zh": "艾丽时尚杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "爱上你了爱心泡泡": {
     "zh": "爱上你了爱心泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "动漫少年": {
     "zh": "动漫少年",
@@ -2512,15 +2512,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "动漫杂志": {
     "zh": "动漫杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "都市丽人杂志": {
     "zh": "都市丽人杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "绯闻杂志": {
     "zh": "绯闻杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "嗨baby": {
     "zh": "嗨baby",
@@ -2532,19 +2532,19 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "活力中国杂志": {
     "zh": "活力中国杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "集英社": {
     "zh": "集英社",
-    "en": ""
+    "en": "Auto Translation"
   },
   "可洛时装杂志": {
     "zh": "可洛时装杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "克拉写真杂志": {
     "zh": "克拉写真杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "浪漫情怀": {
     "zh": "浪漫情怀",
@@ -2556,7 +2556,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "茉莉风尚杂志": {
     "zh": "茉莉风尚杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "你的温柔": {
     "zh": "你的温柔",
@@ -2568,15 +2568,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "欧美流行杂志": {
     "zh": "欧美流行杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "期待再一次重逢": {
     "zh": "期待再一次重逢",
-    "en": ""
+    "en": "Auto Translation"
   },
   "青年风尚杂志": {
     "zh": "青年风尚杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "融化你的爱": {
     "zh": "融化你的爱",
@@ -2604,15 +2604,15 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "他风尚杂志": {
     "zh": "他风尚杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "我爱你双心烟花": {
     "zh": "我爱你双心烟花",
-    "en": ""
+    "en": "Auto Translation"
   },
   "我爱你烟花": {
     "zh": "我爱你烟花",
-    "en": ""
+    "en": "Auto Translation"
   },
   "我的唯一": {
     "zh": "我的唯一",
@@ -2624,7 +2624,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "新潮流杂志": {
     "zh": "新潮流杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "需要勇气": {
     "zh": "需要勇气",
@@ -2632,7 +2632,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "摇滚流行乐杂志": {
     "zh": "摇滚流行乐杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "一切很美": {
     "zh": "一切很美",
@@ -2652,11 +2652,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "欲望都市杂志": {
     "zh": "欲望都市杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "原宿元气杂志": {
     "zh": "原宿元气杂志",
-    "en": ""
+    "en": "Auto Translation"
   },
   "S风尚杂志": {
     "zh": "S风尚杂志",
@@ -2664,11 +2664,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "爱心闪耀糯米团子": {
     "zh": "爱心闪耀糯米团子",
-    "en": ""
+    "en": "Auto Translation"
   },
   "彩虹流星": {
     "zh": "彩虹流星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "彩色舞台聚光灯": {
     "zh": "彩色舞台聚光灯",
@@ -2676,35 +2676,35 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "翅膀爱心挂帘": {
     "zh": "翅膀爱心挂帘",
-    "en": ""
+    "en": "Auto Translation"
   },
   "冬日飘雪": {
     "zh": "冬日飘雪",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉蓝飘雪泡泡": {
     "zh": "粉蓝飘雪泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色爱心泡泡": {
     "zh": "粉色爱心泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "粉色泡泡花园": {
     "zh": "粉色泡泡花园",
-    "en": ""
+    "en": "Auto Translation"
   },
   "灌木花泡泡": {
     "zh": "灌木花泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "红粉落花": {
     "zh": "红粉落花",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝色爱心泡泡": {
     "zh": "蓝色爱心泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝色流星": {
     "zh": "蓝色流星",
@@ -2712,23 +2712,23 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蓝色小鸟": {
     "zh": "蓝色小鸟",
-    "en": ""
+    "en": "Auto Translation"
   },
   "蓝紫闪星": {
     "zh": "蓝紫闪星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "魔法金光螺旋": {
     "zh": "魔法金光螺旋",
-    "en": ""
+    "en": "Auto Translation"
   },
   "魔法闪耀星星": {
     "zh": "魔法闪耀星星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "扑克蝴蝶": {
     "zh": "扑克蝴蝶",
-    "en": ""
+    "en": "Auto Translation"
   },
   "秋日枫叶": {
     "zh": "秋日枫叶",
@@ -2736,11 +2736,11 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "闪光灯": {
     "zh": "闪光灯",
-    "en": ""
+    "en": "Auto Translation"
   },
   "闪耀龙卷风": {
     "zh": "闪耀龙卷风",
-    "en": ""
+    "en": "Auto Translation"
   },
   "十二芒星": {
     "zh": "十二芒星",
@@ -2748,7 +2748,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "太阳当空照": {
     "zh": "太阳当空照",
-    "en": ""
+    "en": "Auto Translation"
   },
   "星闪闪": {
     "zh": "星闪闪",
@@ -2756,7 +2756,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "星星爱心泡泡": {
     "zh": "星星爱心泡泡",
-    "en": ""
+    "en": "Auto Translation"
   },
   "星星闪光": {
     "zh": "星星闪光",
@@ -2764,27 +2764,27 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "炫彩闪光圈": {
     "zh": "炫彩闪光圈",
-    "en": ""
+    "en": "Auto Translation"
   },
   "炫彩星环": {
     "zh": "炫彩星环",
-    "en": ""
+    "en": "Auto Translation"
   },
   "炫彩星星": {
     "zh": "炫彩星星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "炫彩星星烟花": {
     "zh": "炫彩星星烟花",
-    "en": ""
+    "en": "Auto Translation"
   },
   "炫彩烟花": {
     "zh": "炫彩烟花",
-    "en": ""
+    "en": "Auto Translation"
   },
   "坠落星星": {
     "zh": "坠落星星",
-    "en": ""
+    "en": "Auto Translation"
   },
   "背景": {
     "zh": "背景",
