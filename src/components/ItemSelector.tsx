@@ -25,8 +25,11 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   
   // 自动滚动到选中的item（只在shouldAutoScroll为true时）
   useEffect(() => {
-    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current) {
-      console.log('ItemSelector: 触发滚动', { itemName: selectedItem.name });
+    if (shouldAutoScroll && selectedItemRef.current && itemGridRef.current) {
+      console.log('ItemSelector: 触发滚动', { 
+        itemName: selectedItem ? selectedItem.name : '无',
+        hasSelectedItem: !!selectedItem 
+      });
       
       // 简化滚动逻辑，使用setTimeout确保DOM更新
       const scrollToSelected = () => {
@@ -42,7 +45,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         const isMobile = window.innerWidth <= 900;
         
         console.log('ItemSelector: 执行滚动', {
-          itemName: selectedItem.name,
+          itemName: selectedItem ? selectedItem.name : '无',
           isMobile,
           offsetTop: selectedElement.offsetTop,
           offsetLeft: selectedElement.offsetLeft

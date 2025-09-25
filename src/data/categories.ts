@@ -1043,7 +1043,8 @@ export const categories = [
         "name": "幻影骷髅",
         "thumbnail": "/assets/sparkle/幻影骷髅.gif",
         "image": "/assets/sparkle/幻影骷髅.gif",
-        "layer": 19
+        "category": "sparkle",
+        "layer": 1
       },
       {
         "id": "sparkle_蓝色爱心泡泡",
@@ -5510,6 +5511,13 @@ export const categories = [
         "image": "/assets/other-accessories/摇滚吉他.gif",
         "category": "other-accessories",
         "layer": 1
+      },
+      {
+        "id": "other-accessories_游乐园气球",
+        "name": "游乐园气球",
+        "thumbnail": "/assets/other-accessories/游乐园气球.gif",
+        "image": "/assets/other-accessories/游乐园气球.gif",
+        "layer": 15
       },
       {
         "id": "other-accessories_郁金香",
