@@ -155,31 +155,31 @@
 }
 
 /* Category选中状态指示器 - 特殊样式 */
-.category-thumbnail .selected-indicator {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 16px;
-  height: 16px;
-  background: #433ae7; /* 紫色背景，100%不透明度 */
-  border-radius: 50%; /* 圆形 */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+.category-item .category-thumbnail .selected-indicator {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: #433ae7 !important; /* 紫色背景，100%不透明度 */
+  border-radius: 50% !important; /* 圆形 */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 10 !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
 }
 
-.category-thumbnail .selected-checkmark {
-  color: white;
-  font-size: 8px;
-  font-weight: bold;
-  line-height: 1;
+.category-item .category-thumbnail .selected-checkmark {
+  color: white !important;
+  font-size: 8px !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
   text-shadow: 
     0 0 1px rgba(255, 255, 255, 0.8),
     0 0 2px rgba(255, 255, 255, 0.6),
-    0 0 3px rgba(255, 255, 255, 0.4);
+    0 0 3px rgba(255, 255, 255, 0.4) !important;
 }
 
 /* 滚动条样式 */
@@ -301,17 +301,17 @@
   }
 
   /* 移动设备上的Category选中指示器 */
-  .category-thumbnail .selected-indicator {
-    width: 14px;
-    height: 14px;
+  .category-item .category-thumbnail .selected-indicator {
+    width: 14px !important;
+    height: 14px !important;
   }
 
-  .category-thumbnail .selected-checkmark {
-    font-size: 6px;
-    font-weight: bold;
+  .category-item .category-thumbnail .selected-checkmark {
+    font-size: 6px !important;
+    font-weight: bold !important;
     text-shadow: 
       0 0 1px rgba(255, 255, 255, 0.8),
-      0 0 2px rgba(255, 255, 255, 0.6);
+      0 0 2px rgba(255, 255, 255, 0.6) !important;
   }
 
   .category-title {
