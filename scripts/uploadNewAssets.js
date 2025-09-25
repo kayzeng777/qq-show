@@ -351,13 +351,15 @@ function updateCategories(newItems) {
   let categoriesContent = fs.readFileSync(categoriesFile, 'utf8');
   
   // 提取categories数组
-  const match = categoriesContent.match(/export const categories: Category\[\] = ([\s\S]+?);/);
+  const match = categoriesContent.match(/export const categories = ([\s\S]+?);/);
   if (!match) {
     console.log('❌ 无法解析 categories.ts');
     return;
   }
   
-  let categories = JSON.parse(match[1]);
+  // 移除末尾的 "as const" 以使其成为有效的JSON
+  let jsonContent = match[1].replace(/\s+as\s+const\s*$/, '');
+  let categories = JSON.parse(jsonContent);
   
   // 按分类分组新物品
   const itemsByCategory = {};
@@ -400,10 +402,8 @@ function updateCategories(newItems) {
   }
   
   // 写回文件
-  const updatedContent = `// 自动生成的分类数据
-import type { Category } from "../types/qqShow";
-
-export const categories: Category[] = ${JSON.stringify(categories, null, 2)};`;
+  const updatedContent = `// 自动生成的全量分类数据
+export const categories = ${JSON.stringify(categories, null, 2)} as const;`;
   
   fs.writeFileSync(categoriesFile, updatedContent);
 }

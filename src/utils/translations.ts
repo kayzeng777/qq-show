@@ -2865,6 +2865,10 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   "特效": {
     "zh": "特效",
     "en": "Sparkle"
+  },
+  "测试特效": {
+    "zh": "测试特效",
+    "en": ""
   }
 };
 

@@ -975,6 +975,13 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "sparkle_测试特效",
+        "name": "测试特效",
+        "thumbnail": "/assets/sparkle/测试特效.gif",
+        "image": "/assets/sparkle/测试特效.gif",
+        "layer": 19
+      },
+      {
         "id": "sparkle_翅膀爱心挂帘",
         "name": "翅膀爱心挂帘",
         "thumbnail": "/assets/sparkle/翅膀爱心挂帘.gif",
