@@ -3,7 +3,7 @@ export const categories = [
   {
     "id": "backgrounds",
     "name": "背景",
-    "thumbnail": "/assets/backgrounds/爱心云朵.gif",
+    "thumbnail": "/assets/backgrounds/梦幻仙岛.gif",
     "layer": 0,
     "items": [
       {
@@ -947,7 +947,7 @@ export const categories = [
   {
     "id": "sparkle",
     "name": "特效",
-    "thumbnail": "/assets/sparkle/爱心闪耀糯米团子.gif",
+    "thumbnail": "/assets/sparkle/彩色舞台聚光灯.gif",
     "layer": 19,
     "items": [
       {
@@ -1251,7 +1251,7 @@ export const categories = [
   {
     "id": "hair",
     "name": "发型",
-    "thumbnail": "/assets/front-hair/白金短发.gif",
+    "thumbnail": "/assets/front-hair/蝴蝶结棕色长卷发.gif",
     "layer": 5,
     "items": [
       {
@@ -2821,7 +2821,7 @@ export const categories = [
   {
     "id": "makeup",
     "name": "妆容",
-    "thumbnail": "/assets/makeup/冰紫.gif",
+    "thumbnail": "/assets/makeup/湖蓝.gif",
     "layer": 8,
     "items": [
       {
@@ -3069,7 +3069,7 @@ export const categories = [
   {
     "id": "head-set",
     "name": "妆发造型",
-    "thumbnail": "/assets/head-set/白金编发.gif",
+    "thumbnail": "/assets/head-set/牛仔很忙.gif",
     "layer": 9,
     "items": [
       {
@@ -3165,7 +3165,7 @@ export const categories = [
   {
     "id": "top",
     "name": "上装",
-    "thumbnail": "/assets/top/白色毛绒环扣外套.gif",
+    "thumbnail": "/assets/top/斜肩玫瑰长袖.gif",
     "layer": 6,
     "items": [
       {
@@ -3421,7 +3421,7 @@ export const categories = [
   {
     "id": "bottom",
     "name": "下装",
-    "thumbnail": "/assets/bottom/粉色短裙皮靴.gif",
+    "thumbnail": "/assets/bottom/紫兰牛仔阔腿裤.gif",
     "layer": 4,
     "items": [
       {
@@ -3621,7 +3621,7 @@ export const categories = [
   {
     "id": "outfit",
     "name": "套装",
-    "thumbnail": "/assets/outfit/爱心一字肩套装.gif",
+    "thumbnail": "/assets/outfit/缎面背心喇叭裤.gif",
     "layer": 7,
     "items": [
       {
@@ -4269,7 +4269,7 @@ export const categories = [
   {
     "id": "headwear",
     "name": "头饰",
-    "thumbnail": "/assets/headwear/白色棒球.gif",
+    "thumbnail": "/assets/headwear/摇滚绅士帽.gif",
     "layer": 14,
     "items": [
       {
@@ -4661,7 +4661,7 @@ export const categories = [
   {
     "id": "glasses",
     "name": "眼镜",
-    "thumbnail": "/assets/glasses/灰白墨镜.gif",
+    "thumbnail": "/assets/glasses/落日墨镜.gif",
     "layer": 13,
     "items": [
       {
@@ -4757,7 +4757,7 @@ export const categories = [
   {
     "id": "neckwear",
     "name": "颈饰",
-    "thumbnail": "/assets/neckwear/白色针织围巾.gif",
+    "thumbnail": "/assets/neckwear/暖黄围巾.gif",
     "layer": 10,
     "items": [
       {
@@ -5053,7 +5053,7 @@ export const categories = [
   {
     "id": "earrings",
     "name": "耳饰",
-    "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
+    "thumbnail": "/assets/earrings/金色星星耳坠.gif",
     "layer": 11,
     "items": [
       {
@@ -5197,7 +5197,7 @@ export const categories = [
   {
     "id": "face-decor",
     "name": "脸饰",
-    "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
+    "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
     "layer": 12,
     "items": [
       {
@@ -5277,7 +5277,7 @@ export const categories = [
   {
     "id": "wings",
     "name": "翅膀",
-    "thumbnail": "/assets/wings/白色天使.gif",
+    "thumbnail": "/assets/wings/金色天使.gif",
     "layer": 3,
     "items": [
       {
@@ -5549,7 +5549,7 @@ export const categories = [
   {
     "id": "frame",
     "name": "边框",
-    "thumbnail": "/assets/frame/爱心巴洛克.gif",
+    "thumbnail": "/assets/frame/蝴蝶缎带.gif",
     "layer": 17,
     "items": [
       {
@@ -5789,7 +5789,7 @@ export const categories = [
   {
     "id": "background-decor",
     "name": "背景装饰",
-    "thumbnail": "/assets/background-decor/爱心粉云.gif",
+    "thumbnail": "/assets/background-decor/魔法封印.gif",
     "layer": 1,
     "items": [
       {
@@ -6053,7 +6053,7 @@ export const categories = [
   {
     "id": "companion",
     "name": "陪伴",
-    "thumbnail": "/assets/companion/白色睡觉小狗.gif",
+    "thumbnail": "/assets/companion/大号圣诞玩具熊.gif",
     "layer": 16,
     "items": [
       {
@@ -6365,7 +6365,7 @@ export const categories = [
   {
     "id": "text",
     "name": "称号",
-    "thumbnail": "/assets/text/艾丽时尚杂志.gif",
+    "thumbnail": "/assets/text/新潮流杂志.gif",
     "layer": 18,
     "items": [
       {
