@@ -21,32 +21,55 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
 }) => {
   const { t } = useLanguage();
   const itemGridRef = useRef<HTMLDivElement>(null);
+  const itemSelectorRef = useRef<HTMLDivElement>(null);
   const selectedItemRef = useRef<HTMLDivElement>(null);
   
   // 自动滚动到选中的item（只在shouldAutoScroll为true时）
   useEffect(() => {
-    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current) {
-      const gridElement = itemGridRef.current;
-      const selectedElement = selectedItemRef.current;
+    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current && itemSelectorRef.current) {
+      // 添加延迟确保DOM完全更新
+      const scrollToSelected = () => {
+        const selectedElement = selectedItemRef.current;
+        
+        if (!selectedElement) return;
+        
+        // 检查是否是移动设备（小屏幕）
+        const isMobile = window.innerWidth <= 900;
+        
+        if (isMobile) {
+          // 小屏幕：水平滚动到第一列，使用item-grid作为滚动容器
+          const gridElement = itemGridRef.current;
+          if (gridElement) {
+            const scrollLeft = selectedElement.offsetLeft;
+            gridElement.scrollTo({
+              left: scrollLeft,
+              behavior: 'smooth'
+            });
+          }
+        } else {
+          // 大屏幕：垂直滚动到第一行，使用item-selector作为滚动容器
+          const selectorElement = itemSelectorRef.current;
+          if (selectorElement) {
+            // 计算相对于item-grid的offsetTop，因为item-grid是实际的内容容器
+            const gridElement = itemGridRef.current;
+            if (gridElement) {
+              const gridRect = gridElement.getBoundingClientRect();
+              const selectedRect = selectedElement.getBoundingClientRect();
+              const relativeTop = selectedRect.top - gridRect.top + selectorElement.scrollTop;
+              
+              selectorElement.scrollTo({
+                top: relativeTop,
+                behavior: 'smooth'
+              });
+            }
+          }
+        }
+      };
       
-      // 检查是否是移动设备（小屏幕）
-      const isMobile = window.innerWidth <= 900;
-      
-      if (isMobile) {
-        // 小屏幕：水平滚动到第一列
-        const scrollLeft = selectedElement.offsetLeft;
-        gridElement.scrollTo({
-          left: scrollLeft,
-          behavior: 'smooth'
-        });
-      } else {
-        // 大屏幕：垂直滚动到第一行
-        const scrollTop = selectedElement.offsetTop;
-        gridElement.scrollTo({
-          top: scrollTop,
-          behavior: 'smooth'
-        });
-      }
+      // 使用requestAnimationFrame确保DOM更新完成
+      requestAnimationFrame(() => {
+        requestAnimationFrame(scrollToSelected);
+      });
     }
   }, [shouldAutoScroll, selectedItem, category]);
   
@@ -81,7 +104,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   }
 
   return (
-    <div className="item-selector">
+    <div className="item-selector" ref={itemSelectorRef}>
       <h3 className="item-selector-title">
         {t.categories[category.id as keyof typeof t.categories] ||
           category.name}
