@@ -56,16 +56,16 @@ export const LAYER_ORDER = {
   "makeup": 8,
   "head-set": 9,
   "frontHair": 10,
-  "neckwear": 11,
-  "earrings": 12,
-  "face-decor": 13,
-  "glasses": 14,
-  "headwear": 15,
-  "other-accessories": 16,
-  "companion": 17,
-  "frame": 18,
-  "text": 19,
-  "sparkle": 20
+  "neckwear": 10,
+  "earrings": 11,
+  "face-decor": 12,
+  "glasses": 13,
+  "headwear": 14,
+  "other-accessories": 15,
+  "frame": 16,
+  "text": 17,
+  "companion": 18,
+  "sparkle": 19
 } as const;
 
 export type LayerKey = keyof typeof LAYER_ORDER;
