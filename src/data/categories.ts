@@ -5543,6 +5543,14 @@ export const categories = [
         "image": "/assets/other-accessories/紫色晶体.gif",
         "category": "other-accessories",
         "layer": 1
+      },
+      {
+        "id": "other-accessories_你的来信",
+        "name": "你的来信",
+        "thumbnail": "/assets/other-accessories/你的来信.gif",
+        "image": "/assets/other-accessories/你的来信.gif",
+        "category": "other-accessories",
+        "layer": 1
       }
     ]
   },
@@ -6225,14 +6233,6 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "companion_你的来信",
-        "name": "你的来信",
-        "thumbnail": "/assets/companion/你的来信.gif",
-        "image": "/assets/companion/你的来信.gif",
-        "category": "companion",
-        "layer": 1
-      },
-      {
         "id": "companion_糯米团子",
         "name": "糯米团子",
         "thumbnail": "/assets/companion/糯米团子.gif",
@@ -6329,26 +6329,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "companion_小熊魔法精灵",
-        "name": "小熊魔法精灵",
-        "thumbnail": "/assets/companion/小熊魔法精灵.gif",
-        "image": "/assets/companion/小熊魔法精灵.gif",
-        "category": "companion",
-        "layer": 1
-      },
-      {
         "id": "companion_雪人",
         "name": "雪人",
         "thumbnail": "/assets/companion/雪人.gif",
         "image": "/assets/companion/雪人.gif",
-        "category": "companion",
-        "layer": 1
-      },
-      {
-        "id": "companion_游乐园气球",
-        "name": "游乐园气球",
-        "thumbnail": "/assets/companion/游乐园气球.gif",
-        "image": "/assets/companion/游乐园气球.gif",
         "category": "companion",
         "layer": 1
       },
