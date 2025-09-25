@@ -269,31 +269,31 @@ function AppContent() {
       }
     }
 
-    // 1. 随机选择头部：妆发造型 或者 发型+脸
-    const headChoice = Math.random() < 0.4; // 40% 概率选择妆发造型（降低概率增加随机性）
+    // 1. 随机选择头部：妆发造型 或者 发型+脸（必有）
+    const headChoice = Math.random() < 0.4; // 40% 概率选择妆发造型
 
     if (headChoice) {
-      // 选择妆发造型
+      // 选择妆发造型（必有）
       const headSetCategory = allCategories.find((cat) => cat.id === "head-set");
-      if (headSetCategory && shouldAddCategory(0.8)) {
+      if (headSetCategory) {
         const randomHeadSet = getRandomItem(headSetCategory);
         if (randomHeadSet) {
           newOutfit["head-set"] = randomHeadSet;
         }
       }
     } else {
-      // 选择发型+脸
+      // 选择发型+脸（必有）
       const hairCategory = allCategories.find((cat) => cat.id === "hair");
       const faceCategory = allCategories.find((cat) => cat.id === "makeup");
 
-      if (hairCategory && shouldAddCategory(0.9)) {
+      if (hairCategory) {
         const randomHair = getRandomItem(hairCategory);
         if (randomHair) {
           newOutfit.hair = randomHair;
         }
       }
 
-      if (faceCategory && shouldAddCategory(0.8)) {
+      if (faceCategory) {
         const randomFace = getRandomItem(faceCategory);
         if (randomFace) {
           newOutfit.makeup = randomFace;
@@ -301,31 +301,31 @@ function AppContent() {
       }
     }
 
-    // 2. 随机选择衣服：全身 或者 上身+下身
-    const outfitChoice = Math.random() < 0.3; // 30% 概率选择全身衣服（降低概率增加随机性）
+    // 2. 随机选择衣服：全身 或者 上身+下身（必有）
+    const outfitChoice = Math.random() < 0.3; // 30% 概率选择全身衣服
 
     if (outfitChoice) {
-      // 选择全身衣服
+      // 选择全身衣服（必有）
       const outfitCategory = allCategories.find((cat) => cat.id === "outfit");
-      if (outfitCategory && shouldAddCategory(0.8)) {
+      if (outfitCategory) {
         const randomOutfit = getRandomItem(outfitCategory);
         if (randomOutfit) {
           newOutfit.outfit = randomOutfit;
         }
       }
     } else {
-      // 选择上身+下身
+      // 选择上身+下身（必有）
       const topCategory = allCategories.find((cat) => cat.id === "top");
       const bottomCategory = allCategories.find((cat) => cat.id === "bottom");
 
-      if (topCategory && shouldAddCategory(0.7)) {
+      if (topCategory) {
         const randomTop = getRandomItem(topCategory);
         if (randomTop) {
           newOutfit.top = randomTop;
         }
       }
 
-      if (bottomCategory && shouldAddCategory(0.7)) {
+      if (bottomCategory) {
         const randomBottom = getRandomItem(bottomCategory);
         if (randomBottom) {
           newOutfit.bottom = randomBottom;
