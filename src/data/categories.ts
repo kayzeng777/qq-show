@@ -359,14 +359,6 @@ export const categories = [
         "layer": 0
       },
       {
-        "id": "backgrounds_流水车马",
-        "name": "流水车马",
-        "thumbnail": "/assets/backgrounds/流水车马.gif",
-        "image": "/assets/backgrounds/流水车马.gif",
-        "category": "backgrounds",
-        "layer": 0
-      },
-      {
         "id": "backgrounds_伦敦大桥",
         "name": "伦敦大桥",
         "thumbnail": "/assets/backgrounds/伦敦大桥.gif",

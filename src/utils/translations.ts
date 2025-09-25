@@ -178,10 +178,6 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "凛冬小屋",
     "en": "Harsh Winter Cabin"
   },
-  "流水车马": {
-    "zh": "流水车马",
-    "en": "Flowing Water Carriage"
-  },
   "伦敦大桥": {
     "zh": "伦敦大桥",
     "en": "London Bridge"
@@ -2871,7 +2867,6 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "en": "Sparkle"
   }
 };
-
 
 // 翻译函数
 export function translateItemName(name: string, language: Language): string {
