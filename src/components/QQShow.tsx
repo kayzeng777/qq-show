@@ -71,12 +71,40 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
     // 首先添加用户选择的物品
     Object.entries(outfit).forEach(([category, item]) => {
       if (item) {
-        items.push({
-          ...item,
-          category,
-          isDefault: false,
-        });
-        usedCategories.add(category);
+        // 特殊处理发型：将发型分解为前后头发
+        if (category === "hair" && (item as any).frontHair) {
+          const hairItem = item as any;
+          
+          // 添加后头发（如果存在）
+          if (hairItem.backHair) {
+            items.push({
+              ...hairItem.backHair,
+              category: "backHair",
+              isDefault: false,
+            });
+            usedCategories.add("backHair");
+          }
+          
+          // 添加前头发
+          items.push({
+            ...hairItem.frontHair,
+            category: "frontHair", 
+            isDefault: false,
+          });
+          usedCategories.add("frontHair");
+          
+          // 排除单独的前头发和后头发分类
+          excludedCategories.add("frontHair");
+          excludedCategories.add("backHair");
+        } else {
+          // 普通物品
+          items.push({
+            ...item,
+            category,
+            isDefault: false,
+          });
+          usedCategories.add(category);
+        }
 
         // 互斥逻辑：如果选择了全头，排除发型、前头发、后头发、全脸
         if (category === "fullHead") {
@@ -84,12 +112,6 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
           excludedCategories.add("frontHair");
           excludedCategories.add("backHair");
           excludedCategories.add("fullFace");
-        }
-
-        // 发型组合逻辑：如果选择了发型，排除单独的前头发和后头发
-        if (category === "hair") {
-          excludedCategories.add("frontHair");
-          excludedCategories.add("backHair");
         }
 
         // 如果选择了单独的前头发或后头发，排除发型

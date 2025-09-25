@@ -15,7 +15,7 @@ const categories: QQShowCategory[] =
 
 function AppContent() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(
-    "background",
+    "backgrounds",
   );
   const [outfit, setOutfit] = useState<QQShowOutfit>({});
   const [history, setHistory] = useState<QQShowOutfit[]>([{}]);
@@ -198,6 +198,16 @@ function AppContent() {
   const handleRandomOutfit = useCallback(() => {
     const newOutfit: QQShowOutfit = {};
 
+    // 0. 随机选择背景
+    const backgroundCategory = categories.find((cat) => cat.id === "backgrounds");
+    if (backgroundCategory && backgroundCategory.items.length > 0) {
+      const randomBackground =
+        backgroundCategory.items[
+          Math.floor(Math.random() * backgroundCategory.items.length)
+        ];
+      newOutfit.background = randomBackground;
+    }
+
     // 1. 随机选择头部：全头 或者 发型+脸
     const headChoice = Math.random() < 0.5; // 50% 概率选择全头
 
@@ -268,17 +278,6 @@ function AppContent() {
       }
     }
 
-    // 3. 随机选择背景
-    const backgroundCategory = categories.find(
-      (cat) => cat.id === "background",
-    );
-    if (backgroundCategory && backgroundCategory.items.length > 0) {
-      const randomBackground =
-        backgroundCategory.items[
-          Math.floor(Math.random() * backgroundCategory.items.length)
-        ];
-      newOutfit.background = randomBackground;
-    }
 
     setOutfit(newOutfit);
 
