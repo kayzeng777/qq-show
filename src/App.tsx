@@ -10,8 +10,37 @@ import { saveShareData, getShareData } from "./lib/supabase";
 import "./App.css";
 
 // 使用自动生成的全量分类（已含背景与新分类）
-const categories: QQShowCategory[] =
+const allCategories: QQShowCategory[] =
   generatedCategories as unknown as QQShowCategory[];
+
+// 自定义分类显示顺序（不影响渲染层级）
+const CATEGORY_DISPLAY_ORDER = [
+  "backgrounds",      // 背景
+  "sparkle",          // 特效
+  "hair",             // 发型
+  "makeup",           // 妆容
+  "head-set",         // 妆发造型
+  "outfit",           // 套装
+  "top",              // 上装
+  "bottom",           // 下装
+  "headwear",         // 头饰
+  "glasses",          // 眼镜墨镜
+  "neckwear",         // 颈饰
+  "earrings",         // 耳饰
+  "face-decor",       // 脸饰
+  "wings",            // 翅膀
+  "other-accessories", // 其他配饰
+  "companion",        // 陪伴
+  "vehicle",          // 车
+  "background-decor", // 背景装饰
+  "frame",            // 边框
+  "text"              // 装饰字
+];
+
+// 按自定义顺序排序分类
+const categories: QQShowCategory[] = CATEGORY_DISPLAY_ORDER
+  .map(categoryId => allCategories.find(cat => cat.id === categoryId))
+  .filter((cat): cat is QQShowCategory => cat !== undefined);
 
 function AppContent() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(
@@ -198,86 +227,117 @@ function AppContent() {
   const handleRandomOutfit = useCallback(() => {
     const newOutfit: QQShowOutfit = {};
 
-    // 0. 随机选择背景
-    const backgroundCategory = categories.find((cat) => cat.id === "backgrounds");
-    if (backgroundCategory && backgroundCategory.items.length > 0) {
-      const randomBackground =
-        backgroundCategory.items[
-          Math.floor(Math.random() * backgroundCategory.items.length)
-        ];
+    // 辅助函数：随机选择物品（排除"无"选项）
+    const getRandomItem = (category: QQShowCategory) => {
+      const validItems = category.items.filter(item => item.name !== "无");
+      if (validItems.length === 0) return null;
+      return validItems[Math.floor(Math.random() * validItems.length)];
+    };
+
+    // 辅助函数：随机决定是否添加某个分类（增加随机性）
+    const shouldAddCategory = (probability: number = 0.7) => Math.random() < probability;
+
+    // 0. 随机选择背景（总是添加）
+    const backgroundCategory = allCategories.find((cat) => cat.id === "backgrounds");
+    if (backgroundCategory) {
+      const randomBackground = getRandomItem(backgroundCategory);
+      if (randomBackground) {
         newOutfit.backgrounds = randomBackground;
+      }
     }
 
     // 1. 随机选择头部：妆发造型 或者 发型+脸
-    const headChoice = Math.random() < 0.5; // 50% 概率选择妆发造型
+    const headChoice = Math.random() < 0.4; // 40% 概率选择妆发造型（降低概率增加随机性）
 
     if (headChoice) {
       // 选择妆发造型
-      const headSetCategory = categories.find((cat) => cat.id === "head-set");
-      if (headSetCategory && headSetCategory.items.length > 0) {
-        const randomHeadSet =
-          headSetCategory.items[
-            Math.floor(Math.random() * headSetCategory.items.length)
-          ];
-        newOutfit["head-set"] = randomHeadSet;
+      const headSetCategory = allCategories.find((cat) => cat.id === "head-set");
+      if (headSetCategory && shouldAddCategory(0.8)) {
+        const randomHeadSet = getRandomItem(headSetCategory);
+        if (randomHeadSet) {
+          newOutfit["head-set"] = randomHeadSet;
+        }
       }
     } else {
       // 选择发型+脸
-      const hairCategory = categories.find((cat) => cat.id === "hair");
-      const faceCategory = categories.find((cat) => cat.id === "makeup");
+      const hairCategory = allCategories.find((cat) => cat.id === "hair");
+      const faceCategory = allCategories.find((cat) => cat.id === "makeup");
 
-      if (hairCategory && hairCategory.items.length > 0) {
-        const randomHair =
-          hairCategory.items[
-            Math.floor(Math.random() * hairCategory.items.length)
-          ];
-        newOutfit.hair = randomHair;
+      if (hairCategory && shouldAddCategory(0.9)) {
+        const randomHair = getRandomItem(hairCategory);
+        if (randomHair) {
+          newOutfit.hair = randomHair;
+        }
       }
 
-      if (faceCategory && faceCategory.items.length > 0) {
-        const randomFace =
-          faceCategory.items[
-            Math.floor(Math.random() * faceCategory.items.length)
-          ];
-        newOutfit.makeup = randomFace;
+      if (faceCategory && shouldAddCategory(0.8)) {
+        const randomFace = getRandomItem(faceCategory);
+        if (randomFace) {
+          newOutfit.makeup = randomFace;
+        }
       }
     }
 
     // 2. 随机选择衣服：全身 或者 上身+下身
-    const outfitChoice = Math.random() < 0.5; // 50% 概率选择全身衣服
+    const outfitChoice = Math.random() < 0.3; // 30% 概率选择全身衣服（降低概率增加随机性）
 
     if (outfitChoice) {
       // 选择全身衣服
-      const outfitCategory = categories.find((cat) => cat.id === "outfit");
-      if (outfitCategory && outfitCategory.items.length > 0) {
-        const randomOutfit =
-          outfitCategory.items[
-            Math.floor(Math.random() * outfitCategory.items.length)
-          ];
-        newOutfit.outfit = randomOutfit;
+      const outfitCategory = allCategories.find((cat) => cat.id === "outfit");
+      if (outfitCategory && shouldAddCategory(0.8)) {
+        const randomOutfit = getRandomItem(outfitCategory);
+        if (randomOutfit) {
+          newOutfit.outfit = randomOutfit;
+        }
       }
     } else {
       // 选择上身+下身
-      const topCategory = categories.find((cat) => cat.id === "top");
-      const bottomCategory = categories.find((cat) => cat.id === "bottom");
+      const topCategory = allCategories.find((cat) => cat.id === "top");
+      const bottomCategory = allCategories.find((cat) => cat.id === "bottom");
 
-      if (topCategory && topCategory.items.length > 0) {
-        const randomTop =
-          topCategory.items[
-            Math.floor(Math.random() * topCategory.items.length)
-          ];
-        newOutfit.top = randomTop;
+      if (topCategory && shouldAddCategory(0.7)) {
+        const randomTop = getRandomItem(topCategory);
+        if (randomTop) {
+          newOutfit.top = randomTop;
+        }
       }
 
-      if (bottomCategory && bottomCategory.items.length > 0) {
-        const randomBottom =
-          bottomCategory.items[
-            Math.floor(Math.random() * bottomCategory.items.length)
-          ];
-        newOutfit.bottom = randomBottom;
+      if (bottomCategory && shouldAddCategory(0.7)) {
+        const randomBottom = getRandomItem(bottomCategory);
+        if (randomBottom) {
+          newOutfit.bottom = randomBottom;
+        }
       }
     }
 
+    // 3. 随机添加配饰（增加更多随机性）
+    const accessoryCategories = [
+      { id: "headwear", probability: 0.4 },
+      { id: "glasses", probability: 0.3 },
+      { id: "neckwear", probability: 0.4 },
+      { id: "earrings", probability: 0.3 },
+      { id: "face-decor", probability: 0.2 },
+      { id: "wings", probability: 0.2 },
+      { id: "other-accessories", probability: 0.3 },
+      { id: "companion", probability: 0.2 },
+      { id: "vehicle", probability: 0.1 },
+      { id: "background-decor", probability: 0.3 },
+      { id: "frame", probability: 0.2 },
+      { id: "text", probability: 0.1 },
+      { id: "sparkle", probability: 0.4 }
+    ];
+
+    accessoryCategories.forEach(({ id, probability }) => {
+      if (shouldAddCategory(probability)) {
+        const category = allCategories.find((cat) => cat.id === id);
+        if (category) {
+          const randomItem = getRandomItem(category);
+          if (randomItem) {
+            newOutfit[id as keyof QQShowOutfit] = randomItem;
+          }
+        }
+      }
+    });
 
     setOutfit(newOutfit);
 
