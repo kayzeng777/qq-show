@@ -58,17 +58,8 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
       <div className="item-grid">
         {/* 添加"无"选项 */}
         <div
-          className={`item-thumbnail ${selectedItem?.name === "无" ? "selected" : ""}`}
-          onClick={() => {
-            // 找到"无"这个item并选择它
-            const noneItem = category.items.find(item => item.name === "无");
-            if (noneItem) {
-              onItemSelect(noneItem);
-            } else {
-              // 如果没有找到"无"item，则移除当前选择
-              onItemRemove();
-            }
-          }}
+          className={`item-thumbnail ${!selectedItem ? "selected" : ""}`}
+          onClick={onItemRemove}
         >
           <div className="item-thumbnail-image-container">
             {category.id === "hair" ? (

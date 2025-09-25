@@ -943,14 +943,6 @@ export const categories = [
         "layer": 0
       },
       {
-        "id": "backgrounds_default",
-        "name": "default",
-        "thumbnail": "/assets/backgrounds/default.png",
-        "image": "/assets/backgrounds/default.png",
-        "category": "backgrounds",
-        "layer": 0
-      },
-      {
         "id": "backgrounds_QQ之星",
         "name": "QQ之星",
         "thumbnail": "/assets/backgrounds/QQ之星.gif",
@@ -1117,14 +1109,6 @@ export const categories = [
         "image": "/assets/background-decor/紫蓝星星.gif",
         "category": "background-decor",
         "layer": 0
-      },
-      {
-        "id": "background-decor_default",
-        "name": "default",
-        "thumbnail": "/assets/background-decor/default.png",
-        "image": "/assets/background-decor/default.png",
-        "category": "background-decor",
-        "layer": 0
       }
     ]
   },
@@ -1227,14 +1211,6 @@ export const categories = [
         "name": "摩托车",
         "thumbnail": "/assets/vehicle/摩托车.gif",
         "image": "/assets/vehicle/摩托车.gif",
-        "category": "vehicle",
-        "layer": 0
-      },
-      {
-        "id": "vehicle_default",
-        "name": "default",
-        "thumbnail": "/assets/vehicle/default.png",
-        "image": "/assets/vehicle/default.png",
         "category": "vehicle",
         "layer": 0
       }
@@ -2807,30 +2783,6 @@ export const categories = [
           "layer": 2
         },
         "backHair": null
-      },
-      {
-        "id": "hair_default",
-        "name": "default",
-        "thumbnail": "/assets/front-hair/default.gif",
-        "image": "/assets/front-hair/default.gif",
-        "category": "hair",
-        "layer": 4,
-        "frontHair": {
-          "id": "front-hair_default",
-          "name": "default",
-          "thumbnail": "/assets/front-hair/default.gif",
-          "image": "/assets/front-hair/default.gif",
-          "category": "front-hair",
-          "layer": 2
-        },
-        "backHair": {
-          "id": "back-hair_default",
-          "name": "default",
-          "thumbnail": "/assets/back-hair/default.gif",
-          "image": "/assets/back-hair/default.gif",
-          "category": "back-hair",
-          "layer": 1
-        }
       }
     ]
   },
@@ -2925,14 +2877,6 @@ export const categories = [
         "name": "炫紫赛博",
         "thumbnail": "/assets/wings/炫紫赛博.gif",
         "image": "/assets/wings/炫紫赛博.gif",
-        "category": "wings",
-        "layer": 1
-      },
-      {
-        "id": "wings_default",
-        "name": "default",
-        "thumbnail": "/assets/wings/default.png",
-        "image": "/assets/wings/default.png",
         "category": "wings",
         "layer": 1
       }
@@ -3133,14 +3077,6 @@ export const categories = [
         "name": "棕色水洗西部长裤",
         "thumbnail": "/assets/bottom/棕色水洗西部长裤.gif",
         "image": "/assets/bottom/棕色水洗西部长裤.gif",
-        "category": "bottom",
-        "layer": 1
-      },
-      {
-        "id": "bottom_default",
-        "name": "default",
-        "thumbnail": "/assets/bottom/default.gif",
-        "image": "/assets/bottom/default.gif",
         "category": "bottom",
         "layer": 1
       }
@@ -3397,14 +3333,6 @@ export const categories = [
         "name": "紫白条纹长袖",
         "thumbnail": "/assets/top/紫白条纹长袖.gif",
         "image": "/assets/top/紫白条纹长袖.gif",
-        "category": "top",
-        "layer": 1
-      },
-      {
-        "id": "top_default",
-        "name": "default",
-        "thumbnail": "/assets/top/default.gif",
-        "image": "/assets/top/default.gif",
         "category": "top",
         "layer": 1
       }
@@ -4055,14 +3983,6 @@ export const categories = [
         "image": "/assets/outfit/棕外套黄毛衣套装.gif",
         "category": "outfit",
         "layer": 1
-      },
-      {
-        "id": "outfit_default",
-        "name": "default",
-        "thumbnail": "/assets/outfit/default.png",
-        "image": "/assets/outfit/default.png",
-        "category": "outfit",
-        "layer": 1
       }
     ]
   },
@@ -4311,14 +4231,6 @@ export const categories = [
         "image": "/assets/makeup/紫曜眨眼.gif",
         "category": "makeup",
         "layer": 1
-      },
-      {
-        "id": "makeup_default",
-        "name": "default",
-        "thumbnail": "/assets/makeup/default.png",
-        "image": "/assets/makeup/default.png",
-        "category": "makeup",
-        "layer": 1
       }
     ]
   },
@@ -4415,14 +4327,6 @@ export const categories = [
         "image": "/assets/head-set/亚麻紫编发.gif",
         "category": "head-set",
         "layer": 1
-      },
-      {
-        "id": "head-set_default",
-        "name": "default",
-        "thumbnail": "/assets/head-set/default.png",
-        "image": "/assets/head-set/default.png",
-        "category": "head-set",
-        "layer": 1
       }
     ]
   },
@@ -4501,14 +4405,6 @@ export const categories = [
         "name": "嘴边玫瑰",
         "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
         "image": "/assets/face-decor/嘴边玫瑰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_default",
-        "name": "default",
-        "thumbnail": "/assets/face-decor/default.png",
-        "image": "/assets/face-decor/default.png",
         "category": "face-decor",
         "layer": 1
       }
@@ -4655,14 +4551,6 @@ export const categories = [
         "image": "/assets/earrings/银色耳饰.gif",
         "category": "earrings",
         "layer": 1
-      },
-      {
-        "id": "earrings_default",
-        "name": "default",
-        "thumbnail": "/assets/earrings/default.png",
-        "image": "/assets/earrings/default.png",
-        "category": "earrings",
-        "layer": 1
       }
     ]
   },
@@ -4757,14 +4645,6 @@ export const categories = [
         "name": "窄框眼镜",
         "thumbnail": "/assets/glasses/窄框眼镜.gif",
         "image": "/assets/glasses/窄框眼镜.gif",
-        "category": "glasses",
-        "layer": 1
-      },
-      {
-        "id": "glasses_default",
-        "name": "default",
-        "thumbnail": "/assets/glasses/default.png",
-        "image": "/assets/glasses/default.png",
         "category": "glasses",
         "layer": 1
       }
@@ -5061,14 +4941,6 @@ export const categories = [
         "name": "紫色波点围巾",
         "thumbnail": "/assets/neckwear/紫色波点围巾.gif",
         "image": "/assets/neckwear/紫色波点围巾.gif",
-        "category": "neckwear",
-        "layer": 1
-      },
-      {
-        "id": "neckwear_default",
-        "name": "default",
-        "thumbnail": "/assets/neckwear/default.png",
-        "image": "/assets/neckwear/default.png",
         "category": "neckwear",
         "layer": 1
       }
@@ -5463,14 +5335,6 @@ export const categories = [
         "image": "/assets/headwear/棕色贝雷帽.gif",
         "category": "headwear",
         "layer": 1
-      },
-      {
-        "id": "headwear_default",
-        "name": "default",
-        "thumbnail": "/assets/headwear/default.png",
-        "image": "/assets/headwear/default.png",
-        "category": "headwear",
-        "layer": 1
       }
     ]
   },
@@ -5637,14 +5501,6 @@ export const categories = [
         "name": "紫色晶体",
         "thumbnail": "/assets/other-accessories/紫色晶体.gif",
         "image": "/assets/other-accessories/紫色晶体.gif",
-        "category": "other-accessories",
-        "layer": 1
-      },
-      {
-        "id": "other-accessories_default",
-        "name": "default",
-        "thumbnail": "/assets/other-accessories/default.png",
-        "image": "/assets/other-accessories/default.png",
         "category": "other-accessories",
         "layer": 1
       }
@@ -5959,14 +5815,6 @@ export const categories = [
         "image": "/assets/companion/云朵钓鱼狗.gif",
         "category": "companion",
         "layer": 1
-      },
-      {
-        "id": "companion_default",
-        "name": "default",
-        "thumbnail": "/assets/companion/default.png",
-        "image": "/assets/companion/default.png",
-        "category": "companion",
-        "layer": 1
       }
     ]
   },
@@ -6205,14 +6053,6 @@ export const categories = [
         "name": "紫牵牛藤",
         "thumbnail": "/assets/frame/紫牵牛藤.gif",
         "image": "/assets/frame/紫牵牛藤.gif",
-        "category": "frame",
-        "layer": 1
-      },
-      {
-        "id": "frame_default",
-        "name": "default",
-        "thumbnail": "/assets/frame/default.png",
-        "image": "/assets/frame/default.png",
         "category": "frame",
         "layer": 1
       }
@@ -6553,14 +6393,6 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "text_default",
-        "name": "default",
-        "thumbnail": "/assets/text/default.png",
-        "image": "/assets/text/default.png",
-        "category": "text",
-        "layer": 1
-      },
-      {
         "id": "text_S风尚杂志",
         "name": "S风尚杂志",
         "thumbnail": "/assets/text/S风尚杂志.gif",
@@ -6861,14 +6693,6 @@ export const categories = [
         "name": "坠落星星",
         "thumbnail": "/assets/sparkle/坠落星星.gif",
         "image": "/assets/sparkle/坠落星星.gif",
-        "category": "sparkle",
-        "layer": 1
-      },
-      {
-        "id": "sparkle_default",
-        "name": "default",
-        "thumbnail": "/assets/sparkle/default.png",
-        "image": "/assets/sparkle/default.png",
         "category": "sparkle",
         "layer": 1
       }
