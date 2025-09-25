@@ -51,7 +51,15 @@ function AppContent() {
   const [historyIndex, setHistoryIndex] = useState(0);
   const [showAbout, setShowAbout] = useState(false);
   const [isSharePage, setIsSharePage] = useState(false);
+  const [shouldAutoScroll, setShouldAutoScroll] = useState(false); // 控制是否应该自动滚动
   const { language, setLanguage, t } = useLanguage();
+
+  // 重置自动滚动状态
+  useEffect(() => {
+    if (shouldAutoScroll) {
+      setShouldAutoScroll(false);
+    }
+  }, [shouldAutoScroll]);
 
   // 从URL参数加载装扮
   useEffect(() => {
@@ -148,6 +156,7 @@ function AppContent() {
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
+    setShouldAutoScroll(true); // 触发自动滚动
   };
 
   const handleItemSelect = (item: QQShowItem) => {
@@ -369,6 +378,7 @@ function AppContent() {
     });
 
     setOutfit(newOutfit);
+    setShouldAutoScroll(true); // 触发自动滚动
 
     // 在下一个tick保存到历史记录，确保outfit已经更新
     setTimeout(() => {
@@ -542,6 +552,7 @@ function AppContent() {
                 selectedItem={selectedItem}
                 onItemSelect={handleItemSelect}
                 onItemRemove={handleItemRemove}
+                shouldAutoScroll={shouldAutoScroll}
               />
             </div>
 

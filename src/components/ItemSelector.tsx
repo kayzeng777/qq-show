@@ -9,6 +9,7 @@ interface ItemSelectorProps {
   selectedItem: QQShowItem | null;
   onItemSelect: (item: QQShowItem) => void;
   onItemRemove: () => void;
+  shouldAutoScroll?: boolean; // 是否应该自动滚动
 }
 
 const ItemSelector: React.FC<ItemSelectorProps> = ({
@@ -16,14 +17,15 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   selectedItem,
   onItemSelect,
   onItemRemove,
+  shouldAutoScroll = false,
 }) => {
   const { t } = useLanguage();
   const itemGridRef = useRef<HTMLDivElement>(null);
   const selectedItemRef = useRef<HTMLDivElement>(null);
   
-  // 自动滚动到选中的item
+  // 自动滚动到选中的item（只在shouldAutoScroll为true时）
   useEffect(() => {
-    if (selectedItem && selectedItemRef.current && itemGridRef.current) {
+    if (shouldAutoScroll && selectedItem && selectedItemRef.current && itemGridRef.current) {
       const gridElement = itemGridRef.current;
       const selectedElement = selectedItemRef.current;
       
@@ -46,7 +48,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         });
       }
     }
-  }, [selectedItem, category]);
+  }, [shouldAutoScroll, selectedItem, category]);
   
   // 获取分类的文件夹名称（处理ID与文件夹名称不匹配的情况）
   const getCategoryFolderName = (categoryId: string): string => {
