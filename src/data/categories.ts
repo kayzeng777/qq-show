@@ -3,7 +3,7 @@ export const categories = [
   {
     "id": "backgrounds",
     "name": "背景",
-    "thumbnail": "/assets/backgrounds/梦幻仙岛.gif",
+    "thumbnail": "/assets/backgrounds/紫月城堡.gif",
     "layer": 0,
     "items": [
       {
@@ -947,7 +947,7 @@ export const categories = [
   {
     "id": "sparkle",
     "name": "特效",
-    "thumbnail": "/assets/sparkle/彩色舞台聚光灯.gif",
+    "thumbnail": "/assets/sparkle/蓝紫闪星.gif",
     "layer": 19,
     "items": [
       {
