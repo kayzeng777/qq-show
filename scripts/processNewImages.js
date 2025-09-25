@@ -595,18 +595,15 @@ function generateTranslations(categories) {
   
   categories.forEach(category => {
     category.items.forEach(item => {
-      // 特殊处理default项目
+      // 跳过default项目，因为"无"项目已经包含了default的翻译
       if (item.name === 'default') {
-        translations[item.name] = {
-          zh: '无',
-          en: 'None'
-        };
-      } else {
-        translations[item.name] = {
-          zh: item.name,
-          en: generateTranslation(item.name)
-        };
+        return;
       }
+      
+      translations[item.name] = {
+        zh: item.name,
+        en: generateTranslation(item.name)
+      };
     });
   });
   

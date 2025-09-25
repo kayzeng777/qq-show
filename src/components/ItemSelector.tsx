@@ -68,41 +68,92 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
       <div className="item-grid">
         {/* 添加"无"选项 */}
         <div
-          className={`item-thumbnail ${!selectedItem ? "selected" : ""}`}
-          onClick={onItemRemove}
+          className={`item-thumbnail ${selectedItem?.name === "无" ? "selected" : ""}`}
+          onClick={() => {
+            // 找到"无"这个item并选择它
+            const noneItem = category.items.find(item => item.name === "无");
+            if (noneItem) {
+              onItemSelect(noneItem);
+            } else {
+              // 如果没有找到"无"item，则移除当前选择
+              onItemRemove();
+            }
+          }}
         >
           <div className="item-thumbnail-image-container">
-            {category.id === "hair" ? (
-              // 发型分类：显示前后头发叠加
-              <div className="hair-preview-container">
-                {/* 占位元素，用于确定容器尺寸 */}
-                <img
-                  src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
-                  alt=""
-                  className="hair-preview-placeholder"
-                />
-                {/* 后头发 */}
-                <img
-                  src={`/assets/back-hair/default.${getDefaultFileExtension("backHair")}`}
-                  alt="默认后头发"
-                  className="hair-preview-back"
-                />
-                {/* 前头发 */}
-                <img
-                  src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
-                  alt="默认前头发"
-                  className="hair-preview-front"
-                />
-              </div>
-            ) : (
-              // 其他分类：显示单个图片
-              <img
-                src={`/assets/${getCategoryFolderName(category.id)}/default.${getDefaultFileExtension(category.id)}`}
-                alt={t.app.none}
-                className="item-thumbnail-image"
-                draggable={false}
-              />
-            )}
+            {(() => {
+              const noneItem = category.items.find(item => item.name === "无");
+              if (noneItem) {
+                // 如果有"无"item，使用它的图片
+                if (category.id === "hair") {
+                  // 发型分类：显示前后头发叠加
+                  return (
+                    <div className="hair-preview-container">
+                      {/* 占位元素，用于确定容器尺寸 */}
+                      <img
+                        src={noneItem.thumbnail}
+                        alt=""
+                        className="hair-preview-placeholder"
+                      />
+                      {/* 后头发 */}
+                      <img
+                        src={noneItem.thumbnail}
+                        alt="默认后头发"
+                        className="hair-preview-back"
+                      />
+                      {/* 前头发 */}
+                      <img
+                        src={noneItem.thumbnail}
+                        alt="默认前头发"
+                        className="hair-preview-front"
+                      />
+                    </div>
+                  );
+                } else {
+                  // 其他分类：显示单个图片
+                  return (
+                    <img
+                      src={noneItem.thumbnail}
+                      alt={t.app.none}
+                      className="item-thumbnail-image"
+                      draggable={false}
+                    />
+                  );
+                }
+              } else {
+                // 如果没有"无"item，使用硬编码的default图片（向后兼容）
+                if (category.id === "hair") {
+                  return (
+                    <div className="hair-preview-container">
+                      <img
+                        src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
+                        alt=""
+                        className="hair-preview-placeholder"
+                      />
+                      <img
+                        src={`/assets/back-hair/default.${getDefaultFileExtension("backHair")}`}
+                        alt="默认后头发"
+                        className="hair-preview-back"
+                      />
+                      <img
+                        src={`/assets/front-hair/default.${getDefaultFileExtension("frontHair")}`}
+                        alt="默认前头发"
+                        className="hair-preview-front"
+                      />
+                    </div>
+                  );
+                } else {
+                  return (
+                    <img
+                      src={`/assets/${getCategoryFolderName(category.id)}/default.${getDefaultFileExtension(category.id)}`}
+                      alt={t.app.none}
+                      className="item-thumbnail-image"
+                      draggable={false}
+                    />
+                  );
+                }
+              }
+            })()}
           </div>
           <span className="item-name">{t.app.none}</span>
         </div>

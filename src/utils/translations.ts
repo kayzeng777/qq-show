@@ -10,10 +10,6 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "QQ之星",
     "en": "QQ之星"
   },
-  "default": {
-    "zh": "无",
-    "en": "None"
-  },
   "万圣城堡": {
     "zh": "万圣城堡",
     "en": "万圣城堡"
