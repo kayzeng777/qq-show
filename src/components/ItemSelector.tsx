@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import type { QQShowCategory, QQShowItem } from "../types/qqShow";
 import ItemThumbnail from "./ItemThumbnail";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -18,6 +18,35 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
   onItemRemove,
 }) => {
   const { t } = useLanguage();
+  const itemGridRef = useRef<HTMLDivElement>(null);
+  const selectedItemRef = useRef<HTMLDivElement>(null);
+  
+  // 自动滚动到选中的item
+  useEffect(() => {
+    if (selectedItem && selectedItemRef.current && itemGridRef.current) {
+      const gridElement = itemGridRef.current;
+      const selectedElement = selectedItemRef.current;
+      
+      // 检查是否是移动设备（小屏幕）
+      const isMobile = window.innerWidth <= 900;
+      
+      if (isMobile) {
+        // 小屏幕：水平滚动到第一列
+        const scrollLeft = selectedElement.offsetLeft;
+        gridElement.scrollTo({
+          left: scrollLeft,
+          behavior: 'smooth'
+        });
+      } else {
+        // 大屏幕：垂直滚动到第一行
+        const scrollTop = selectedElement.offsetTop;
+        gridElement.scrollTo({
+          top: scrollTop,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }, [selectedItem, category]);
   
   // 获取分类的文件夹名称（处理ID与文件夹名称不匹配的情况）
   const getCategoryFolderName = (categoryId: string): string => {
@@ -55,9 +84,10 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         {t.categories[category.id as keyof typeof t.categories] ||
           category.name}
       </h3>
-      <div className="item-grid">
+      <div className="item-grid" ref={itemGridRef}>
         {/* 添加"无"选项 */}
         <div
+          ref={!selectedItem ? selectedItemRef : null}
           className={`item-thumbnail ${!selectedItem ? "selected" : ""}`}
           onClick={onItemRemove}
         >
@@ -108,6 +138,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         {category.items.map((item) => (
           <ItemThumbnail
             key={item.id}
+            ref={selectedItem?.id === item.id ? selectedItemRef : null}
             item={item}
             isSelected={selectedItem?.id === item.id}
             onSelect={onItemSelect}

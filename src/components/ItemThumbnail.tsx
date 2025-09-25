@@ -11,12 +11,12 @@ interface ItemThumbnailProps {
   onRemove?: () => void;
 }
 
-const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
+const ItemThumbnail = React.forwardRef<HTMLDivElement, ItemThumbnailProps>(({
   item,
   isSelected,
   onSelect,
   onRemove,
-}) => {
+}, ref) => {
   const { language } = useLanguage();
   const handleClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (isSelected && onRemove) {
@@ -34,6 +34,7 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
 
   return (
     <div
+      ref={ref}
       className={`item-thumbnail item-thumbnail-component ${isSelected ? "selected" : ""}`}
       style={{
         padding: "12px 12px 8px 12px",
@@ -87,6 +88,8 @@ const ItemThumbnail: React.FC<ItemThumbnailProps> = ({
       </span>
     </div>
   );
-};
+});
+
+ItemThumbnail.displayName = 'ItemThumbnail';
 
 export default ItemThumbnail;
