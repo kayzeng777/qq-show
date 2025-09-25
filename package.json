@@ -8,12 +8,7 @@
     "build": "tsc -b && vite build && cp -R assets dist",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-images": "node scripts/processNewImages.js",
-    "upload-new-assets": "node scripts/uploadNewAssets.js",
-    "process-backgrounds": "node scripts/processBackgrounds.js",
-    "process-all-images": "node scripts/processAllImages.js",
-    "process-hair": "node scripts/processHairImages.js",
-    "process-all": "node scripts/runAllProcessing.js"
+    "upload-new-assets": "node scripts/uploadNewAssets.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
