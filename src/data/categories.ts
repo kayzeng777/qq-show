@@ -5054,7 +5054,7 @@ export const categories = [
     "id": "earrings",
     "name": "耳饰",
     "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
-    "layer": 12,
+    "layer": 11,
     "items": [
       {
         "id": "earrings_粉宝石耳坠",
@@ -5198,7 +5198,7 @@ export const categories = [
     "id": "face-decor",
     "name": "脸饰",
     "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-    "layer": 11,
+    "layer": 12,
     "items": [
       {
         "id": "face-decor_粉蓝创可贴",

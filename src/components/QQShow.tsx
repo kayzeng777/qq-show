@@ -19,7 +19,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
         thumbnail: "/assets/front-hair/default.gif",
         image: "/assets/front-hair/default.gif",
         category: "frontHair",
-        layer: 12,
+        layer: 10,
       },
       backHair: {
         id: "default_backHair", 
@@ -90,7 +90,7 @@ const QQShow: React.FC<QQShowProps> = ({ outfit }) => {
           items.push({
             ...hairItem.frontHair,
             category: "frontHair",
-            layer: 12, // 前头发layer 12
+            layer: 10, // 前头发layer 10
             isDefault: false,
           });
           usedCategories.add("frontHair");

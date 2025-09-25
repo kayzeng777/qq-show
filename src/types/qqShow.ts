@@ -44,29 +44,28 @@ export interface QQShowOutfit {
 
 // 预定义的分类层级顺序（从后到前：数值越大越靠前）
 export const LAYER_ORDER = {
-  // 从后到前（数值越大越靠前）
-  backgrounds: 0,
+  "backgrounds": 0,
   "background-decor": 1,
-  vehicle: 2,
-  wings: 3,
-  bottom: 4, // 下装
-  hair: 5, // 发型（组合前后头发）
-  backHair: 5, // 后头发（发型组合的一部分）
-  top: 6, // 上装
-  outfit: 7, // 套装
-  makeup: 8, // 妆容
-  "head-set": 9, // 妆发造型
-  neckwear: 10, // 颈饰
-  "face-decor": 11, // 脸饰
-  frontHair: 12, // 前头发（发型组合的一部分）
-  earrings: 13, // 耳饰
-  glasses: 14, // 眼镜
-  headwear: 15, // 头饰
-  "other-accessories": 16, // 其他配饰
-  companion: 17, // 陪伴
-  frame: 18, // 边框
-  text: 19, // 称号
-  sparkle: 20, // 特效
+  "vehicle": 2,
+  "wings": 3,
+  "bottom": 4,
+  "hair": 5,
+  "backHair": 5,
+  "top": 6,
+  "outfit": 7,
+  "makeup": 8,
+  "head-set": 9,
+  "frontHair": 10,
+  "neckwear": 11,
+  "earrings": 12,
+  "face-decor": 13,
+  "glasses": 14,
+  "headwear": 15,
+  "other-accessories": 16,
+  "companion": 17,
+  "frame": 18,
+  "text": 19,
+  "sparkle": 20
 } as const;
 
 export type LayerKey = keyof typeof LAYER_ORDER;
