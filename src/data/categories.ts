@@ -4267,97 +4267,393 @@ export const categories = [
     ]
   },
   {
-    "id": "wings",
-    "name": "翅膀",
-    "thumbnail": "/assets/wings/白色天使.gif",
-    "layer": 3,
+    "id": "headwear",
+    "name": "头饰",
+    "thumbnail": "/assets/headwear/白色棒球.gif",
+    "layer": 14,
     "items": [
       {
-        "id": "wings_白色天使",
-        "name": "白色天使",
-        "thumbnail": "/assets/wings/白色天使.gif",
-        "image": "/assets/wings/白色天使.gif",
-        "category": "wings",
+        "id": "headwear_白色棒球",
+        "name": "白色棒球",
+        "thumbnail": "/assets/headwear/白色棒球.gif",
+        "image": "/assets/headwear/白色棒球.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_粉色天使",
-        "name": "粉色天使",
-        "thumbnail": "/assets/wings/粉色天使.gif",
-        "image": "/assets/wings/粉色天使.gif",
-        "category": "wings",
+        "id": "headwear_蝙蝠镜",
+        "name": "蝙蝠镜",
+        "thumbnail": "/assets/headwear/蝙蝠镜.gif",
+        "image": "/assets/headwear/蝙蝠镜.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_粉色小天使",
-        "name": "粉色小天使",
-        "thumbnail": "/assets/wings/粉色小天使.gif",
-        "image": "/assets/wings/粉色小天使.gif",
-        "category": "wings",
+        "id": "headwear_冰晶",
+        "name": "冰晶",
+        "thumbnail": "/assets/headwear/冰晶.gif",
+        "image": "/assets/headwear/冰晶.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_金色天使",
-        "name": "金色天使",
-        "thumbnail": "/assets/wings/金色天使.gif",
-        "image": "/assets/wings/金色天使.gif",
-        "category": "wings",
+        "id": "headwear_冰蓝墨镜",
+        "name": "冰蓝墨镜",
+        "thumbnail": "/assets/headwear/冰蓝墨镜.gif",
+        "image": "/assets/headwear/冰蓝墨镜.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_蓝紫蝴蝶",
-        "name": "蓝紫蝴蝶",
-        "thumbnail": "/assets/wings/蓝紫蝴蝶.gif",
-        "image": "/assets/wings/蓝紫蝴蝶.gif",
-        "category": "wings",
+        "id": "headwear_波点美式头箍",
+        "name": "波点美式头箍",
+        "thumbnail": "/assets/headwear/波点美式头箍.gif",
+        "image": "/assets/headwear/波点美式头箍.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_涅槃火凤凰",
-        "name": "涅槃火凤凰",
-        "thumbnail": "/assets/wings/涅槃火凤凰.gif",
-        "image": "/assets/wings/涅槃火凤凰.gif",
-        "category": "wings",
+        "id": "headwear_春日踏青",
+        "name": "春日踏青",
+        "thumbnail": "/assets/headwear/春日踏青.gif",
+        "image": "/assets/headwear/春日踏青.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_闪粉蝴蝶",
-        "name": "闪粉蝴蝶",
-        "thumbnail": "/assets/wings/闪粉蝴蝶.gif",
-        "image": "/assets/wings/闪粉蝴蝶.gif",
-        "category": "wings",
+        "id": "headwear_粉色画家",
+        "name": "粉色画家",
+        "thumbnail": "/assets/headwear/粉色画家.gif",
+        "image": "/assets/headwear/粉色画家.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_闪耀紫金",
-        "name": "闪耀紫金",
-        "thumbnail": "/assets/wings/闪耀紫金.gif",
-        "image": "/assets/wings/闪耀紫金.gif",
-        "category": "wings",
+        "id": "headwear_粉色头纱",
+        "name": "粉色头纱",
+        "thumbnail": "/assets/headwear/粉色头纱.gif",
+        "image": "/assets/headwear/粉色头纱.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_天使恶魔",
-        "name": "天使恶魔",
-        "thumbnail": "/assets/wings/天使恶魔.gif",
-        "image": "/assets/wings/天使恶魔.gif",
-        "category": "wings",
+        "id": "headwear_粉色运动",
+        "name": "粉色运动",
+        "thumbnail": "/assets/headwear/粉色运动.gif",
+        "image": "/assets/headwear/粉色运动.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_小恶魔",
-        "name": "小恶魔",
-        "thumbnail": "/assets/wings/小恶魔.gif",
-        "image": "/assets/wings/小恶魔.gif",
-        "category": "wings",
+        "id": "headwear_粉色针织帽",
+        "name": "粉色针织帽",
+        "thumbnail": "/assets/headwear/粉色针织帽.gif",
+        "image": "/assets/headwear/粉色针织帽.gif",
+        "category": "headwear",
         "layer": 1
       },
       {
-        "id": "wings_炫紫赛博",
-        "name": "炫紫赛博",
-        "thumbnail": "/assets/wings/炫紫赛博.gif",
-        "image": "/assets/wings/炫紫赛博.gif",
-        "category": "wings",
+        "id": "headwear_粉紫贝雷",
+        "name": "粉紫贝雷",
+        "thumbnail": "/assets/headwear/粉紫贝雷.gif",
+        "image": "/assets/headwear/粉紫贝雷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_复古美式头箍",
+        "name": "复古美式头箍",
+        "thumbnail": "/assets/headwear/复古美式头箍.gif",
+        "image": "/assets/headwear/复古美式头箍.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_格子报童帽",
+        "name": "格子报童帽",
+        "thumbnail": "/assets/headwear/格子报童帽.gif",
+        "image": "/assets/headwear/格子报童帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_公主皇冠",
+        "name": "公主皇冠",
+        "thumbnail": "/assets/headwear/公主皇冠.gif",
+        "image": "/assets/headwear/公主皇冠.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_海盗头巾",
+        "name": "海盗头巾",
+        "thumbnail": "/assets/headwear/海盗头巾.gif",
+        "image": "/assets/headwear/海盗头巾.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_海军贝雷",
+        "name": "海军贝雷",
+        "thumbnail": "/assets/headwear/海军贝雷.gif",
+        "image": "/assets/headwear/海军贝雷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_红色蝴蝶结小夹",
+        "name": "红色蝴蝶结小夹",
+        "thumbnail": "/assets/headwear/红色蝴蝶结小夹.gif",
+        "image": "/assets/headwear/红色蝴蝶结小夹.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_红色针织头巾",
+        "name": "红色针织头巾",
+        "thumbnail": "/assets/headwear/红色针织头巾.gif",
+        "image": "/assets/headwear/红色针织头巾.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_红紫运动帽",
+        "name": "红紫运动帽",
+        "thumbnail": "/assets/headwear/红紫运动帽.gif",
+        "image": "/assets/headwear/红紫运动帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_黄色贝雷",
+        "name": "黄色贝雷",
+        "thumbnail": "/assets/headwear/黄色贝雷.gif",
+        "image": "/assets/headwear/黄色贝雷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_黄色邮差",
+        "name": "黄色邮差",
+        "thumbnail": "/assets/headwear/黄色邮差.gif",
+        "image": "/assets/headwear/黄色邮差.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_街头报童帽",
+        "name": "街头报童帽",
+        "thumbnail": "/assets/headwear/街头报童帽.gif",
+        "image": "/assets/headwear/街头报童帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_菊黄满天星花环",
+        "name": "菊黄满天星花环",
+        "thumbnail": "/assets/headwear/菊黄满天星花环.gif",
+        "image": "/assets/headwear/菊黄满天星花环.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_蓝色机车镜",
+        "name": "蓝色机车镜",
+        "thumbnail": "/assets/headwear/蓝色机车镜.gif",
+        "image": "/assets/headwear/蓝色机车镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_绿色头箍",
+        "name": "绿色头箍",
+        "thumbnail": "/assets/headwear/绿色头箍.gif",
+        "image": "/assets/headwear/绿色头箍.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_落日墨镜",
+        "name": "落日墨镜",
+        "thumbnail": "/assets/headwear/落日墨镜.gif",
+        "image": "/assets/headwear/落日墨镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_毛绒帽",
+        "name": "毛绒帽",
+        "thumbnail": "/assets/headwear/毛绒帽.gif",
+        "image": "/assets/headwear/毛绒帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_毛线帽",
+        "name": "毛线帽",
+        "thumbnail": "/assets/headwear/毛线帽.gif",
+        "image": "/assets/headwear/毛线帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_墨镜",
+        "name": "墨镜",
+        "thumbnail": "/assets/headwear/墨镜.gif",
+        "image": "/assets/headwear/墨镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_墨镜黑色头巾",
+        "name": "墨镜黑色头巾",
+        "thumbnail": "/assets/headwear/墨镜黑色头巾.gif",
+        "image": "/assets/headwear/墨镜黑色头巾.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_浅粉贝雷",
+        "name": "浅粉贝雷",
+        "thumbnail": "/assets/headwear/浅粉贝雷.gif",
+        "image": "/assets/headwear/浅粉贝雷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_浅蓝头巾",
+        "name": "浅蓝头巾",
+        "thumbnail": "/assets/headwear/浅蓝头巾.gif",
+        "image": "/assets/headwear/浅蓝头巾.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_浅蓝运动帽",
+        "name": "浅蓝运动帽",
+        "thumbnail": "/assets/headwear/浅蓝运动帽.gif",
+        "image": "/assets/headwear/浅蓝运动帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_青蓝贝雷帽",
+        "name": "青蓝贝雷帽",
+        "thumbnail": "/assets/headwear/青蓝贝雷帽.gif",
+        "image": "/assets/headwear/青蓝贝雷帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_晴空画家帽",
+        "name": "晴空画家帽",
+        "thumbnail": "/assets/headwear/晴空画家帽.gif",
+        "image": "/assets/headwear/晴空画家帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_闪钻",
+        "name": "闪钻",
+        "thumbnail": "/assets/headwear/闪钻.gif",
+        "image": "/assets/headwear/闪钻.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_双色针织帽",
+        "name": "双色针织帽",
+        "thumbnail": "/assets/headwear/双色针织帽.gif",
+        "image": "/assets/headwear/双色针织帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_兔子运动",
+        "name": "兔子运动",
+        "thumbnail": "/assets/headwear/兔子运动.gif",
+        "image": "/assets/headwear/兔子运动.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_王冠",
+        "name": "王冠",
+        "thumbnail": "/assets/headwear/王冠.gif",
+        "image": "/assets/headwear/王冠.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_希腊花环",
+        "name": "希腊花环",
+        "thumbnail": "/assets/headwear/希腊花环.gif",
+        "image": "/assets/headwear/希腊花环.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_夏威夷",
+        "name": "夏威夷",
+        "thumbnail": "/assets/headwear/夏威夷.gif",
+        "image": "/assets/headwear/夏威夷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_炫粉墨镜",
+        "name": "炫粉墨镜",
+        "thumbnail": "/assets/headwear/炫粉墨镜.gif",
+        "image": "/assets/headwear/炫粉墨镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_炫蓝墨镜",
+        "name": "炫蓝墨镜",
+        "thumbnail": "/assets/headwear/炫蓝墨镜.gif",
+        "image": "/assets/headwear/炫蓝墨镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_摇滚贝雷",
+        "name": "摇滚贝雷",
+        "thumbnail": "/assets/headwear/摇滚贝雷.gif",
+        "image": "/assets/headwear/摇滚贝雷.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_摇滚粉墨镜",
+        "name": "摇滚粉墨镜",
+        "thumbnail": "/assets/headwear/摇滚粉墨镜.gif",
+        "image": "/assets/headwear/摇滚粉墨镜.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_摇滚绅士帽",
+        "name": "摇滚绅士帽",
+        "thumbnail": "/assets/headwear/摇滚绅士帽.gif",
+        "image": "/assets/headwear/摇滚绅士帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_紫色棒球帽",
+        "name": "紫色棒球帽",
+        "thumbnail": "/assets/headwear/紫色棒球帽.gif",
+        "image": "/assets/headwear/紫色棒球帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_棕色贝雷帽",
+        "name": "棕色贝雷帽",
+        "thumbnail": "/assets/headwear/棕色贝雷帽.gif",
+        "image": "/assets/headwear/棕色贝雷帽.gif",
+        "category": "headwear",
         "layer": 1
       }
     ]
@@ -4755,86 +5051,6 @@ export const categories = [
     ]
   },
   {
-    "id": "face-decor",
-    "name": "脸饰",
-    "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-    "layer": 11,
-    "items": [
-      {
-        "id": "face-decor_粉蓝创可贴",
-        "name": "粉蓝创可贴",
-        "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
-        "image": "/assets/face-decor/粉蓝创可贴.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_粉色爱心",
-        "name": "粉色爱心",
-        "thumbnail": "/assets/face-decor/粉色爱心.gif",
-        "image": "/assets/face-decor/粉色爱心.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_粉色面纱",
-        "name": "粉色面纱",
-        "thumbnail": "/assets/face-decor/粉色面纱.gif",
-        "image": "/assets/face-decor/粉色面纱.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_卡通口罩",
-        "name": "卡通口罩",
-        "thumbnail": "/assets/face-decor/卡通口罩.gif",
-        "image": "/assets/face-decor/卡通口罩.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_蓝色闪钻脸饰",
-        "name": "蓝色闪钻脸饰",
-        "thumbnail": "/assets/face-decor/蓝色闪钻脸饰.gif",
-        "image": "/assets/face-decor/蓝色闪钻脸饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_烟",
-        "name": "烟",
-        "thumbnail": "/assets/face-decor/烟.gif",
-        "image": "/assets/face-decor/烟.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_月亮额头坠饰",
-        "name": "月亮额头坠饰",
-        "thumbnail": "/assets/face-decor/月亮额头坠饰.gif",
-        "image": "/assets/face-decor/月亮额头坠饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_钻石额头坠饰",
-        "name": "钻石额头坠饰",
-        "thumbnail": "/assets/face-decor/钻石额头坠饰.gif",
-        "image": "/assets/face-decor/钻石额头坠饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_嘴边玫瑰",
-        "name": "嘴边玫瑰",
-        "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
-        "image": "/assets/face-decor/嘴边玫瑰.gif",
-        "category": "face-decor",
-        "layer": 1
-      }
-    ]
-  },
-  {
     "id": "earrings",
     "name": "耳饰",
     "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
@@ -4979,393 +5195,177 @@ export const categories = [
     ]
   },
   {
-    "id": "headwear",
-    "name": "头饰",
-    "thumbnail": "/assets/headwear/白色棒球.gif",
-    "layer": 14,
+    "id": "face-decor",
+    "name": "脸饰",
+    "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
+    "layer": 11,
     "items": [
       {
-        "id": "headwear_白色棒球",
-        "name": "白色棒球",
-        "thumbnail": "/assets/headwear/白色棒球.gif",
-        "image": "/assets/headwear/白色棒球.gif",
-        "category": "headwear",
+        "id": "face-decor_粉蓝创可贴",
+        "name": "粉蓝创可贴",
+        "thumbnail": "/assets/face-decor/粉蓝创可贴.gif",
+        "image": "/assets/face-decor/粉蓝创可贴.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_蝙蝠镜",
-        "name": "蝙蝠镜",
-        "thumbnail": "/assets/headwear/蝙蝠镜.gif",
-        "image": "/assets/headwear/蝙蝠镜.gif",
-        "category": "headwear",
+        "id": "face-decor_粉色爱心",
+        "name": "粉色爱心",
+        "thumbnail": "/assets/face-decor/粉色爱心.gif",
+        "image": "/assets/face-decor/粉色爱心.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_冰晶",
-        "name": "冰晶",
-        "thumbnail": "/assets/headwear/冰晶.gif",
-        "image": "/assets/headwear/冰晶.gif",
-        "category": "headwear",
+        "id": "face-decor_粉色面纱",
+        "name": "粉色面纱",
+        "thumbnail": "/assets/face-decor/粉色面纱.gif",
+        "image": "/assets/face-decor/粉色面纱.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_冰蓝墨镜",
-        "name": "冰蓝墨镜",
-        "thumbnail": "/assets/headwear/冰蓝墨镜.gif",
-        "image": "/assets/headwear/冰蓝墨镜.gif",
-        "category": "headwear",
+        "id": "face-decor_卡通口罩",
+        "name": "卡通口罩",
+        "thumbnail": "/assets/face-decor/卡通口罩.gif",
+        "image": "/assets/face-decor/卡通口罩.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_波点美式头箍",
-        "name": "波点美式头箍",
-        "thumbnail": "/assets/headwear/波点美式头箍.gif",
-        "image": "/assets/headwear/波点美式头箍.gif",
-        "category": "headwear",
+        "id": "face-decor_蓝色闪钻脸饰",
+        "name": "蓝色闪钻脸饰",
+        "thumbnail": "/assets/face-decor/蓝色闪钻脸饰.gif",
+        "image": "/assets/face-decor/蓝色闪钻脸饰.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_春日踏青",
-        "name": "春日踏青",
-        "thumbnail": "/assets/headwear/春日踏青.gif",
-        "image": "/assets/headwear/春日踏青.gif",
-        "category": "headwear",
+        "id": "face-decor_烟",
+        "name": "烟",
+        "thumbnail": "/assets/face-decor/烟.gif",
+        "image": "/assets/face-decor/烟.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_粉色画家",
-        "name": "粉色画家",
-        "thumbnail": "/assets/headwear/粉色画家.gif",
-        "image": "/assets/headwear/粉色画家.gif",
-        "category": "headwear",
+        "id": "face-decor_月亮额头坠饰",
+        "name": "月亮额头坠饰",
+        "thumbnail": "/assets/face-decor/月亮额头坠饰.gif",
+        "image": "/assets/face-decor/月亮额头坠饰.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_粉色头纱",
-        "name": "粉色头纱",
-        "thumbnail": "/assets/headwear/粉色头纱.gif",
-        "image": "/assets/headwear/粉色头纱.gif",
-        "category": "headwear",
+        "id": "face-decor_钻石额头坠饰",
+        "name": "钻石额头坠饰",
+        "thumbnail": "/assets/face-decor/钻石额头坠饰.gif",
+        "image": "/assets/face-decor/钻石额头坠饰.gif",
+        "category": "face-decor",
         "layer": 1
       },
       {
-        "id": "headwear_粉色运动",
-        "name": "粉色运动",
-        "thumbnail": "/assets/headwear/粉色运动.gif",
-        "image": "/assets/headwear/粉色运动.gif",
-        "category": "headwear",
+        "id": "face-decor_嘴边玫瑰",
+        "name": "嘴边玫瑰",
+        "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
+        "image": "/assets/face-decor/嘴边玫瑰.gif",
+        "category": "face-decor",
+        "layer": 1
+      }
+    ]
+  },
+  {
+    "id": "wings",
+    "name": "翅膀",
+    "thumbnail": "/assets/wings/白色天使.gif",
+    "layer": 3,
+    "items": [
+      {
+        "id": "wings_白色天使",
+        "name": "白色天使",
+        "thumbnail": "/assets/wings/白色天使.gif",
+        "image": "/assets/wings/白色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_粉色针织帽",
-        "name": "粉色针织帽",
-        "thumbnail": "/assets/headwear/粉色针织帽.gif",
-        "image": "/assets/headwear/粉色针织帽.gif",
-        "category": "headwear",
+        "id": "wings_粉色天使",
+        "name": "粉色天使",
+        "thumbnail": "/assets/wings/粉色天使.gif",
+        "image": "/assets/wings/粉色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_粉紫贝雷",
-        "name": "粉紫贝雷",
-        "thumbnail": "/assets/headwear/粉紫贝雷.gif",
-        "image": "/assets/headwear/粉紫贝雷.gif",
-        "category": "headwear",
+        "id": "wings_粉色小天使",
+        "name": "粉色小天使",
+        "thumbnail": "/assets/wings/粉色小天使.gif",
+        "image": "/assets/wings/粉色小天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_复古美式头箍",
-        "name": "复古美式头箍",
-        "thumbnail": "/assets/headwear/复古美式头箍.gif",
-        "image": "/assets/headwear/复古美式头箍.gif",
-        "category": "headwear",
+        "id": "wings_金色天使",
+        "name": "金色天使",
+        "thumbnail": "/assets/wings/金色天使.gif",
+        "image": "/assets/wings/金色天使.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_格子报童帽",
-        "name": "格子报童帽",
-        "thumbnail": "/assets/headwear/格子报童帽.gif",
-        "image": "/assets/headwear/格子报童帽.gif",
-        "category": "headwear",
+        "id": "wings_蓝紫蝴蝶",
+        "name": "蓝紫蝴蝶",
+        "thumbnail": "/assets/wings/蓝紫蝴蝶.gif",
+        "image": "/assets/wings/蓝紫蝴蝶.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_公主皇冠",
-        "name": "公主皇冠",
-        "thumbnail": "/assets/headwear/公主皇冠.gif",
-        "image": "/assets/headwear/公主皇冠.gif",
-        "category": "headwear",
+        "id": "wings_涅槃火凤凰",
+        "name": "涅槃火凤凰",
+        "thumbnail": "/assets/wings/涅槃火凤凰.gif",
+        "image": "/assets/wings/涅槃火凤凰.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_海盗头巾",
-        "name": "海盗头巾",
-        "thumbnail": "/assets/headwear/海盗头巾.gif",
-        "image": "/assets/headwear/海盗头巾.gif",
-        "category": "headwear",
+        "id": "wings_闪粉蝴蝶",
+        "name": "闪粉蝴蝶",
+        "thumbnail": "/assets/wings/闪粉蝴蝶.gif",
+        "image": "/assets/wings/闪粉蝴蝶.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_海军贝雷",
-        "name": "海军贝雷",
-        "thumbnail": "/assets/headwear/海军贝雷.gif",
-        "image": "/assets/headwear/海军贝雷.gif",
-        "category": "headwear",
+        "id": "wings_闪耀紫金",
+        "name": "闪耀紫金",
+        "thumbnail": "/assets/wings/闪耀紫金.gif",
+        "image": "/assets/wings/闪耀紫金.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_红色蝴蝶结小夹",
-        "name": "红色蝴蝶结小夹",
-        "thumbnail": "/assets/headwear/红色蝴蝶结小夹.gif",
-        "image": "/assets/headwear/红色蝴蝶结小夹.gif",
-        "category": "headwear",
+        "id": "wings_天使恶魔",
+        "name": "天使恶魔",
+        "thumbnail": "/assets/wings/天使恶魔.gif",
+        "image": "/assets/wings/天使恶魔.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_红色针织头巾",
-        "name": "红色针织头巾",
-        "thumbnail": "/assets/headwear/红色针织头巾.gif",
-        "image": "/assets/headwear/红色针织头巾.gif",
-        "category": "headwear",
+        "id": "wings_小恶魔",
+        "name": "小恶魔",
+        "thumbnail": "/assets/wings/小恶魔.gif",
+        "image": "/assets/wings/小恶魔.gif",
+        "category": "wings",
         "layer": 1
       },
       {
-        "id": "headwear_红紫运动帽",
-        "name": "红紫运动帽",
-        "thumbnail": "/assets/headwear/红紫运动帽.gif",
-        "image": "/assets/headwear/红紫运动帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_黄色贝雷",
-        "name": "黄色贝雷",
-        "thumbnail": "/assets/headwear/黄色贝雷.gif",
-        "image": "/assets/headwear/黄色贝雷.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_黄色邮差",
-        "name": "黄色邮差",
-        "thumbnail": "/assets/headwear/黄色邮差.gif",
-        "image": "/assets/headwear/黄色邮差.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_街头报童帽",
-        "name": "街头报童帽",
-        "thumbnail": "/assets/headwear/街头报童帽.gif",
-        "image": "/assets/headwear/街头报童帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_菊黄满天星花环",
-        "name": "菊黄满天星花环",
-        "thumbnail": "/assets/headwear/菊黄满天星花环.gif",
-        "image": "/assets/headwear/菊黄满天星花环.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_蓝色机车镜",
-        "name": "蓝色机车镜",
-        "thumbnail": "/assets/headwear/蓝色机车镜.gif",
-        "image": "/assets/headwear/蓝色机车镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_绿色头箍",
-        "name": "绿色头箍",
-        "thumbnail": "/assets/headwear/绿色头箍.gif",
-        "image": "/assets/headwear/绿色头箍.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_落日墨镜",
-        "name": "落日墨镜",
-        "thumbnail": "/assets/headwear/落日墨镜.gif",
-        "image": "/assets/headwear/落日墨镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_毛绒帽",
-        "name": "毛绒帽",
-        "thumbnail": "/assets/headwear/毛绒帽.gif",
-        "image": "/assets/headwear/毛绒帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_毛线帽",
-        "name": "毛线帽",
-        "thumbnail": "/assets/headwear/毛线帽.gif",
-        "image": "/assets/headwear/毛线帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_墨镜",
-        "name": "墨镜",
-        "thumbnail": "/assets/headwear/墨镜.gif",
-        "image": "/assets/headwear/墨镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_墨镜黑色头巾",
-        "name": "墨镜黑色头巾",
-        "thumbnail": "/assets/headwear/墨镜黑色头巾.gif",
-        "image": "/assets/headwear/墨镜黑色头巾.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_浅粉贝雷",
-        "name": "浅粉贝雷",
-        "thumbnail": "/assets/headwear/浅粉贝雷.gif",
-        "image": "/assets/headwear/浅粉贝雷.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_浅蓝头巾",
-        "name": "浅蓝头巾",
-        "thumbnail": "/assets/headwear/浅蓝头巾.gif",
-        "image": "/assets/headwear/浅蓝头巾.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_浅蓝运动帽",
-        "name": "浅蓝运动帽",
-        "thumbnail": "/assets/headwear/浅蓝运动帽.gif",
-        "image": "/assets/headwear/浅蓝运动帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_青蓝贝雷帽",
-        "name": "青蓝贝雷帽",
-        "thumbnail": "/assets/headwear/青蓝贝雷帽.gif",
-        "image": "/assets/headwear/青蓝贝雷帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_晴空画家帽",
-        "name": "晴空画家帽",
-        "thumbnail": "/assets/headwear/晴空画家帽.gif",
-        "image": "/assets/headwear/晴空画家帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_闪钻",
-        "name": "闪钻",
-        "thumbnail": "/assets/headwear/闪钻.gif",
-        "image": "/assets/headwear/闪钻.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_双色针织帽",
-        "name": "双色针织帽",
-        "thumbnail": "/assets/headwear/双色针织帽.gif",
-        "image": "/assets/headwear/双色针织帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_兔子运动",
-        "name": "兔子运动",
-        "thumbnail": "/assets/headwear/兔子运动.gif",
-        "image": "/assets/headwear/兔子运动.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_王冠",
-        "name": "王冠",
-        "thumbnail": "/assets/headwear/王冠.gif",
-        "image": "/assets/headwear/王冠.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_希腊花环",
-        "name": "希腊花环",
-        "thumbnail": "/assets/headwear/希腊花环.gif",
-        "image": "/assets/headwear/希腊花环.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_夏威夷",
-        "name": "夏威夷",
-        "thumbnail": "/assets/headwear/夏威夷.gif",
-        "image": "/assets/headwear/夏威夷.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_炫粉墨镜",
-        "name": "炫粉墨镜",
-        "thumbnail": "/assets/headwear/炫粉墨镜.gif",
-        "image": "/assets/headwear/炫粉墨镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_炫蓝墨镜",
-        "name": "炫蓝墨镜",
-        "thumbnail": "/assets/headwear/炫蓝墨镜.gif",
-        "image": "/assets/headwear/炫蓝墨镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_摇滚贝雷",
-        "name": "摇滚贝雷",
-        "thumbnail": "/assets/headwear/摇滚贝雷.gif",
-        "image": "/assets/headwear/摇滚贝雷.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_摇滚粉墨镜",
-        "name": "摇滚粉墨镜",
-        "thumbnail": "/assets/headwear/摇滚粉墨镜.gif",
-        "image": "/assets/headwear/摇滚粉墨镜.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_摇滚绅士帽",
-        "name": "摇滚绅士帽",
-        "thumbnail": "/assets/headwear/摇滚绅士帽.gif",
-        "image": "/assets/headwear/摇滚绅士帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_紫色棒球帽",
-        "name": "紫色棒球帽",
-        "thumbnail": "/assets/headwear/紫色棒球帽.gif",
-        "image": "/assets/headwear/紫色棒球帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_棕色贝雷帽",
-        "name": "棕色贝雷帽",
-        "thumbnail": "/assets/headwear/棕色贝雷帽.gif",
-        "image": "/assets/headwear/棕色贝雷帽.gif",
-        "category": "headwear",
+        "id": "wings_炫紫赛博",
+        "name": "炫紫赛博",
+        "thumbnail": "/assets/wings/炫紫赛博.gif",
+        "image": "/assets/wings/炫紫赛博.gif",
+        "category": "wings",
         "layer": 1
       }
     ]
