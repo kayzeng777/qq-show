@@ -5550,7 +5550,7 @@ export const categories = [
     "id": "frame",
     "name": "边框",
     "thumbnail": "/assets/frame/蝴蝶缎带.gif",
-    "layer": 17,
+    "layer": 16,
     "items": [
       {
         "id": "frame_爱心巴洛克",
@@ -6054,7 +6054,7 @@ export const categories = [
     "id": "companion",
     "name": "陪伴",
     "thumbnail": "/assets/companion/大号圣诞玩具熊.gif",
-    "layer": 16,
+    "layer": 18,
     "items": [
       {
         "id": "companion_白色睡觉小狗",
@@ -6366,7 +6366,7 @@ export const categories = [
     "id": "text",
     "name": "称号",
     "thumbnail": "/assets/text/新潮流杂志.gif",
-    "layer": 18,
+    "layer": 17,
     "items": [
       {
         "id": "text_艾丽时尚杂志",
