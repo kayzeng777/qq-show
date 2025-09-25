@@ -160,8 +160,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   background: rgba(67, 58, 231, 0.5); /* 紫色背景，50%透明度 */
   border-radius: 50%; /* 圆形 */
   display: flex;
@@ -299,8 +299,8 @@
 
   /* 移动设备上的Category选中指示器 */
   .category-thumbnail .selected-indicator {
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
   }
 
   .category-thumbnail .selected-checkmark {

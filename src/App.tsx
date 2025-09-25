@@ -227,11 +227,23 @@ function AppContent() {
   const handleRandomOutfit = useCallback(() => {
     const newOutfit: QQShowOutfit = {};
 
-    // 辅助函数：随机选择物品（排除"无"选项）
+    // 辅助函数：随机选择物品（排除"无"选项和default物品）
     const getRandomItem = (category: QQShowCategory) => {
-      const validItems = category.items.filter(item => item.name !== "无");
+      const validItems = category.items.filter(item => 
+        item.name !== "无" && 
+        !item.name.includes("默认") && 
+        !item.name.includes("default") &&
+        !item.thumbnail.includes("/default.")
+      );
       if (validItems.length === 0) return null;
-      return validItems[Math.floor(Math.random() * validItems.length)];
+      
+      // 增加随机性：使用加权随机选择
+      // 给每个物品不同的权重，让选择更加随机
+      const weights = validItems.map(() => Math.random());
+      const maxWeight = Math.max(...weights);
+      const selectedIndex = weights.indexOf(maxWeight);
+      
+      return validItems[selectedIndex];
     };
 
     // 辅助函数：随机决定是否添加某个分类（增加随机性）
@@ -327,8 +339,14 @@ function AppContent() {
       { id: "sparkle", probability: 0.4 }
     ];
 
-    accessoryCategories.forEach(({ id, probability }) => {
-      if (shouldAddCategory(probability)) {
+    // 打乱配饰顺序，增加随机性
+    const shuffledAccessories = [...accessoryCategories].sort(() => Math.random() - 0.5);
+    
+    shuffledAccessories.forEach(({ id, probability }) => {
+      // 为每个配饰生成动态概率，增加随机性
+      const dynamicProbability = probability * (0.5 + Math.random() * 1.0); // 0.5x 到 1.5x 的概率
+      
+      if (shouldAddCategory(dynamicProbability)) {
         const category = allCategories.find((cat) => cat.id === id);
         if (category) {
           const randomItem = getRandomItem(category);
