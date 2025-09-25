@@ -384,7 +384,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "新年快乐": {
     "zh": "新年快乐",
-    "en": ""
+    "en": "Happy New Year"
   },
   "星星点灯": {
     "zh": "星星点灯",
