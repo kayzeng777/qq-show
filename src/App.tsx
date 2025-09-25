@@ -229,12 +229,23 @@ function AppContent() {
 
     // 辅助函数：随机选择物品（排除"无"选项和default物品）
     const getRandomItem = (category: QQShowCategory) => {
-      const validItems = category.items.filter(item => 
-        item.name !== "无" && 
-        !item.name.includes("默认") && 
-        !item.name.includes("default") &&
-        !item.thumbnail.includes("/default.")
-      );
+      const validItems = category.items.filter(item => {
+        // 排除各种形式的"无"选项
+        if (item.name === "无" || 
+            item.name === "None" || 
+            item.name === "none" ||
+            item.name.includes("默认") || 
+            item.name.includes("default") ||
+            item.name.includes("Default") ||
+            item.thumbnail.includes("/default.") ||
+            item.thumbnail.includes("/default/") ||
+            item.image.includes("/default.") ||
+            item.image.includes("/default/")) {
+          return false;
+        }
+        return true;
+      });
+      
       if (validItems.length === 0) return null;
       
       // 增加随机性：使用加权随机选择

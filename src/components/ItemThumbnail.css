@@ -84,7 +84,7 @@ div.item-thumbnail.item-thumbnail-component {
   right: 8px;
   width: 24px;
   height: 24px;
-  background: rgba(67, 58, 231, 0.5); /* 紫色背景，50%透明度 */
+  background: #433ae7; /* 紫色背景，100%不透明度 */
   border-radius: 50%; /* 圆形 */
   display: flex;
   align-items: center;
