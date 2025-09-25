@@ -27,7 +27,7 @@ export interface QQShowOutfit {
   glasses?: QQShowItem; // 眼镜墨镜
   earrings?: QQShowItem; // 耳饰
   necklace?: QQShowItem; // 颈饰
-  fullHead?: QQShowItem; // 妆发造型
+  "head-set"?: QQShowItem; // 妆发造型
   hair?: QQShowItem; // 发型（组合前后头发）
   frontHair?: QQShowItem; // 前头发（发型组合的一部分）
   makeup?: QQShowItem; // 妆容
@@ -55,7 +55,7 @@ export const LAYER_ORDER = {
   top: 6, // 上装
   outfit: 7, // 套装
   makeup: 8, // 妆容
-  fullHead: 9, // 妆发造型
+  "head-set": 9, // 妆发造型
   frontHair: 10, // 前头发（发型组合的一部分）
   faceDecor: 10,
   earrings: 11,

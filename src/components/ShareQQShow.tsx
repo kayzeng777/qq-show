@@ -106,8 +106,8 @@ const ShareQQShow: React.FC<ShareQQShowProps> = ({ outfit }) => {
           usedCategories.add(category);
         }
 
-        // 互斥逻辑：如果选择了全头，排除发型、前头发、后头发、妆容
-        if (category === "fullHead") {
+        // 互斥逻辑：如果选择了妆发造型，排除发型、前头发、后头发、妆容
+        if (category === "head-set") {
           excludedCategories.add("hair");
           excludedCategories.add("frontHair");
           excludedCategories.add("backHair");

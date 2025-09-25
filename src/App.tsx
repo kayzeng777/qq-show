@@ -128,9 +128,9 @@ function AppContent() {
       // 添加新选择的item
       newOutfit[item.category as keyof QQShowOutfit] = item;
 
-      // 互斥逻辑1: 全头 vs 发型/前头发/后头发/全脸
-      if (item.category === "fullHead") {
-        // 选择全头时，移除发型、前头发、后头发、全脸
+      // 互斥逻辑1: 妆发造型 vs 发型/妆容
+      if (item.category === "head-set") {
+        // 选择妆发造型时，移除发型和妆容
         delete newOutfit.hair;
         delete newOutfit.frontHair;
         delete newOutfit.backHair;
@@ -138,8 +138,8 @@ function AppContent() {
       } else if (
         ["hair", "frontHair", "backHair", "makeup"].includes(item.category)
       ) {
-        // 选择发型/前头发/后头发/全脸时，移除全头
-        delete newOutfit.fullHead;
+        // 选择发型或妆容时，移除妆发造型
+        delete newOutfit["head-set"];
       }
 
       // 发型组合逻辑
@@ -208,18 +208,18 @@ function AppContent() {
       newOutfit.background = randomBackground;
     }
 
-    // 1. 随机选择头部：全头 或者 发型+脸
-    const headChoice = Math.random() < 0.5; // 50% 概率选择全头
+    // 1. 随机选择头部：妆发造型 或者 发型+脸
+    const headChoice = Math.random() < 0.5; // 50% 概率选择妆发造型
 
     if (headChoice) {
-      // 选择全头
-      const fullHeadCategory = categories.find((cat) => cat.id === "fullHead");
-      if (fullHeadCategory && fullHeadCategory.items.length > 0) {
-        const randomFullHead =
-          fullHeadCategory.items[
-            Math.floor(Math.random() * fullHeadCategory.items.length)
+      // 选择妆发造型
+      const headSetCategory = categories.find((cat) => cat.id === "head-set");
+      if (headSetCategory && headSetCategory.items.length > 0) {
+        const randomHeadSet =
+          headSetCategory.items[
+            Math.floor(Math.random() * headSetCategory.items.length)
           ];
-        newOutfit.fullHead = randomFullHead;
+        newOutfit["head-set"] = randomHeadSet;
       }
     } else {
       // 选择发型+脸
