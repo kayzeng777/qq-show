@@ -31,7 +31,7 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         hasSelectedItem: !!selectedItem 
       });
       
-      // 改进的滚动逻辑，增加重试机制
+      // 强制滚动逻辑，使用多种方法确保滚动成功
       const scrollToSelected = (retryCount = 0) => {
         const selectedElement = selectedItemRef.current;
         const gridElement = itemGridRef.current;
@@ -39,23 +39,6 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         if (!selectedElement || !gridElement) {
           console.log('ItemSelector: 元素引用丢失');
           return;
-        }
-        
-        // 检查元素是否已经渲染（有尺寸）
-        if (selectedElement.offsetWidth === 0 || selectedElement.offsetHeight === 0) {
-          if (retryCount < 3) {
-            console.log('ItemSelector: 元素未完全渲染，重试', { retryCount });
-            setTimeout(() => scrollToSelected(retryCount + 1), 50);
-            return;
-          } else {
-            console.log('ItemSelector: 重试次数超限，使用scrollIntoView');
-            selectedElement.scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'nearest', 
-              inline: 'nearest' 
-            });
-            return;
-          }
         }
         
         // 检查是否是移动设备（小屏幕）
@@ -69,28 +52,83 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
           retryCount
         });
         
-        if (isMobile) {
-          // 小屏幕：水平滚动到第一列
-          const scrollLeft = selectedElement.offsetLeft;
-          console.log('ItemSelector: 小屏幕滚动', { scrollLeft });
-          gridElement.scrollTo({
-            left: scrollLeft,
-            behavior: 'smooth'
-          });
-        } else {
-          // 大屏幕：垂直滚动到第一行
-          const scrollTop = selectedElement.offsetTop;
-          console.log('ItemSelector: 大屏幕滚动', { scrollTop });
-          gridElement.scrollTo({
-            top: scrollTop,
-            behavior: 'smooth'
-          });
+        // 使用多种滚动方法确保成功
+        const performScroll = () => {
+          if (isMobile) {
+            // 小屏幕：水平滚动到第一列
+            const scrollLeft = selectedElement.offsetLeft;
+            console.log('ItemSelector: 小屏幕滚动', { scrollLeft });
+            
+            // 方法1: scrollTo
+            gridElement.scrollTo({
+              left: scrollLeft,
+              behavior: 'smooth'
+            });
+            
+            // 方法2: 直接设置scrollLeft（备用）
+            setTimeout(() => {
+              gridElement.scrollLeft = scrollLeft;
+            }, 100);
+            
+            // 方法3: scrollIntoView（最后备用）
+            setTimeout(() => {
+              selectedElement.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'nearest', 
+                inline: 'start' 
+              });
+            }, 200);
+          } else {
+            // 大屏幕：垂直滚动到第一行
+            const scrollTop = selectedElement.offsetTop;
+            console.log('ItemSelector: 大屏幕滚动', { scrollTop });
+            
+            // 方法1: scrollTo
+            gridElement.scrollTo({
+              top: scrollTop,
+              behavior: 'smooth'
+            });
+            
+            // 方法2: 直接设置scrollTop（备用）
+            setTimeout(() => {
+              gridElement.scrollTop = scrollTop;
+            }, 100);
+            
+            // 方法3: scrollIntoView（最后备用）
+            setTimeout(() => {
+              selectedElement.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start', 
+                inline: 'nearest' 
+              });
+            }, 200);
+          }
+        };
+        
+        // 检查元素是否已经渲染（有尺寸）
+        if (selectedElement.offsetWidth === 0 || selectedElement.offsetHeight === 0) {
+          if (retryCount < 5) {
+            console.log('ItemSelector: 元素未完全渲染，重试', { retryCount });
+            setTimeout(() => scrollToSelected(retryCount + 1), 100);
+            return;
+          } else {
+            console.log('ItemSelector: 重试次数超限，强制滚动');
+            performScroll();
+            return;
+          }
         }
+        
+        // 执行滚动
+        performScroll();
       };
       
-      // 使用requestAnimationFrame确保DOM更新，然后延迟执行滚动
+      // 使用多重延迟确保DOM更新
       requestAnimationFrame(() => {
-        setTimeout(scrollToSelected, 50);
+        setTimeout(() => {
+          requestAnimationFrame(() => {
+            scrollToSelected();
+          });
+        }, 100);
       });
     }
   }, [shouldAutoScroll, selectedItem, category]);
