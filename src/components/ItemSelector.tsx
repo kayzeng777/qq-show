@@ -52,56 +52,26 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
           retryCount
         });
         
-        // 使用多种滚动方法确保成功
+        // 使用单一可靠的滚动方法
         const performScroll = () => {
           if (isMobile) {
             // 小屏幕：水平滚动到第一列
             const scrollLeft = selectedElement.offsetLeft;
             console.log('ItemSelector: 小屏幕滚动', { scrollLeft });
             
-            // 方法1: scrollTo
             gridElement.scrollTo({
               left: scrollLeft,
               behavior: 'smooth'
             });
-            
-            // 方法2: 直接设置scrollLeft（备用）
-            setTimeout(() => {
-              gridElement.scrollLeft = scrollLeft;
-            }, 100);
-            
-            // 方法3: scrollIntoView（最后备用）
-            setTimeout(() => {
-              selectedElement.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'nearest', 
-                inline: 'start' 
-              });
-            }, 200);
           } else {
             // 大屏幕：垂直滚动到第一行
             const scrollTop = selectedElement.offsetTop;
             console.log('ItemSelector: 大屏幕滚动', { scrollTop });
             
-            // 方法1: scrollTo
             gridElement.scrollTo({
               top: scrollTop,
               behavior: 'smooth'
             });
-            
-            // 方法2: 直接设置scrollTop（备用）
-            setTimeout(() => {
-              gridElement.scrollTop = scrollTop;
-            }, 100);
-            
-            // 方法3: scrollIntoView（最后备用）
-            setTimeout(() => {
-              selectedElement.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start', 
-                inline: 'nearest' 
-              });
-            }, 200);
           }
         };
         
@@ -122,14 +92,10 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         performScroll();
       };
       
-      // 使用多重延迟确保DOM更新
-      requestAnimationFrame(() => {
-        setTimeout(() => {
-          requestAnimationFrame(() => {
-            scrollToSelected();
-          });
-        }, 100);
-      });
+      // 使用简单的延迟确保DOM更新
+      setTimeout(() => {
+        scrollToSelected();
+      }, 50);
     }
   }, [shouldAutoScroll, selectedItem, category]);
   

@@ -59,7 +59,7 @@ function AppContent() {
     if (shouldAutoScroll) {
       const timer = setTimeout(() => {
         setShouldAutoScroll(false);
-      }, 1000); // 增加延迟到1000ms，确保滚动完成
+      }, 300); // 减少延迟到300ms，避免动画冲突
       
       return () => clearTimeout(timer);
     }
