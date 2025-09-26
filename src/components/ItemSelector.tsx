@@ -31,14 +31,31 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         hasSelectedItem: !!selectedItem 
       });
       
-      // 简化滚动逻辑，使用setTimeout确保DOM更新
-      const scrollToSelected = () => {
+      // 改进的滚动逻辑，增加重试机制
+      const scrollToSelected = (retryCount = 0) => {
         const selectedElement = selectedItemRef.current;
         const gridElement = itemGridRef.current;
         
         if (!selectedElement || !gridElement) {
           console.log('ItemSelector: 元素引用丢失');
           return;
+        }
+        
+        // 检查元素是否已经渲染（有尺寸）
+        if (selectedElement.offsetWidth === 0 || selectedElement.offsetHeight === 0) {
+          if (retryCount < 3) {
+            console.log('ItemSelector: 元素未完全渲染，重试', { retryCount });
+            setTimeout(() => scrollToSelected(retryCount + 1), 50);
+            return;
+          } else {
+            console.log('ItemSelector: 重试次数超限，使用scrollIntoView');
+            selectedElement.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'nearest', 
+              inline: 'nearest' 
+            });
+            return;
+          }
         }
         
         // 检查是否是移动设备（小屏幕）
@@ -48,7 +65,8 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
           itemName: selectedItem ? selectedItem.name : '无',
           isMobile,
           offsetTop: selectedElement.offsetTop,
-          offsetLeft: selectedElement.offsetLeft
+          offsetLeft: selectedElement.offsetLeft,
+          retryCount
         });
         
         if (isMobile) {
@@ -70,8 +88,10 @@ const ItemSelector: React.FC<ItemSelectorProps> = ({
         }
       };
       
-      // 使用简单的延迟确保DOM更新
-      setTimeout(scrollToSelected, 100);
+      // 使用requestAnimationFrame确保DOM更新，然后延迟执行滚动
+      requestAnimationFrame(() => {
+        setTimeout(scrollToSelected, 50);
+      });
     }
   }, [shouldAutoScroll, selectedItem, category]);
   
