@@ -2190,8 +2190,8 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "金色弓箭",
     "en": "Golden Bow and Arrow"
   },
-  "金色异性装置": {
-    "zh": "金色异性装置",
+  "金色异形装置": {
+    "zh": "金色异形装置",
     "en": "Golden Alien Device"
   },
   "金属爱心腰链": {

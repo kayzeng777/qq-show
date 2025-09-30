@@ -5433,10 +5433,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "other-accessories_金色异性装置",
-        "name": "金色异性装置",
-        "thumbnail": "/assets/other-accessories/金色异性装置.gif",
-        "image": "/assets/other-accessories/金色异性装置.gif",
+        "id": "other-accessories_金色异形装置",
+        "name": "金色异形装置",
+        "thumbnail": "/assets/other-accessories/金色异形装置.gif",
+        "image": "/assets/other-accessories/金色异形装置.gif",
         "category": "other-accessories",
         "layer": 1
       },
