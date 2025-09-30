@@ -218,6 +218,59 @@
   }
 }
 
+/* 小屏幕特殊尺寸 - 宽度小于900且高度小于670 */
+@media (max-width: 900px) and (max-height: 670px) {
+  .qq-window:not(.share-page) .qq-show-display {
+    width: 170px !important;
+    height: 274px !important;
+  }
+
+  .qq-window:not(.share-page) .qq-show-item-image {
+    width: 170px !important;
+    height: 274px !important;
+  }
+
+  .qq-window:not(.share-page) .display-controls {
+    width: 170px !important;
+  }
+}
+
+/* 超小屏幕特殊尺寸 - 宽度小于900且高度小于640 */
+@media (max-width: 900px) and (max-height: 640px) {
+  .qq-window:not(.share-page) .random-button {
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  .qq-window:not(.share-page) .action-button {
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  .qq-window:not(.share-page) .clear-button {
+    height: 24px !important;
+    font-size: 11px !important;
+  }
+
+  .clear-button {
+    padding: 4px 4px;
+  }
+
+  .qq-window:not(.share-page) .display-controls {
+    width: 155px !important;
+  }
+
+  .qq-window:not(.share-page) .qq-show-display {
+    width: 155px !important;
+    height: 259px !important;
+  }
+
+  .qq-window:not(.share-page) .qq-show-item-image {
+    width: 155px !important;
+    height: 259px !important;
+  }
+}
+
 .qq-titlebar-right {
   display: flex;
   gap: 2px;
