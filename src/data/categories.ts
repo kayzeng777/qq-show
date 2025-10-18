@@ -3000,7 +3000,449 @@ export const categories = [
         },
         "backHair": null
       }
-    ]
+          {
+        "id": "hair_动漫粉长发",
+        "name": "动漫粉长发",
+        "thumbnail": "/assets/front-hair/动漫粉长发.gif",
+        "image": "/assets/front-hair/动漫粉长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_动漫粉长发",
+          "name": "动漫粉长发",
+          "thumbnail": "/assets/front-hair/动漫粉长发.gif",
+          "image": "/assets/front-hair/动漫粉长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_动漫金棕短发",
+        "name": "动漫金棕短发",
+        "thumbnail": "/assets/front-hair/动漫金棕短发.gif",
+        "image": "/assets/front-hair/动漫金棕短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_动漫金棕短发",
+          "name": "动漫金棕短发",
+          "thumbnail": "/assets/front-hair/动漫金棕短发.gif",
+          "image": "/assets/front-hair/动漫金棕短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_栗子斜扎中长发",
+        "name": "栗子斜扎中长发",
+        "thumbnail": "/assets/front-hair/栗子斜扎中长发.gif",
+        "image": "/assets/front-hair/栗子斜扎中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_栗子斜扎中长发",
+          "name": "栗子斜扎中长发",
+          "thumbnail": "/assets/front-hair/栗子斜扎中长发.gif",
+          "image": "/assets/front-hair/栗子斜扎中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕绿斜刘海扎发",
+        "name": "棕绿斜刘海扎发",
+        "thumbnail": "/assets/front-hair/棕绿斜刘海扎发.gif",
+        "image": "/assets/front-hair/棕绿斜刘海扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕绿斜刘海扎发",
+          "name": "棕绿斜刘海扎发",
+          "thumbnail": "/assets/front-hair/棕绿斜刘海扎发.gif",
+          "image": "/assets/front-hair/棕绿斜刘海扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色中分卷长发",
+        "name": "棕色中分卷长发",
+        "thumbnail": "/assets/front-hair/棕色中分卷长发.gif",
+        "image": "/assets/front-hair/棕色中分卷长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色中分卷长发",
+          "name": "棕色中分卷长发",
+          "thumbnail": "/assets/front-hair/棕色中分卷长发.gif",
+          "image": "/assets/front-hair/棕色中分卷长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色公主中长发",
+        "name": "棕色公主中长发",
+        "thumbnail": "/assets/front-hair/棕色公主中长发.gif",
+        "image": "/assets/front-hair/棕色公主中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色公主中长发",
+          "name": "棕色公主中长发",
+          "thumbnail": "/assets/front-hair/棕色公主中长发.gif",
+          "image": "/assets/front-hair/棕色公主中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色刘海中长卷发",
+        "name": "棕色刘海中长卷发",
+        "thumbnail": "/assets/front-hair/棕色刘海中长卷发.gif",
+        "image": "/assets/front-hair/棕色刘海中长卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色刘海中长卷发",
+          "name": "棕色刘海中长卷发",
+          "thumbnail": "/assets/front-hair/棕色刘海中长卷发.gif",
+          "image": "/assets/front-hair/棕色刘海中长卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色刘海斜扎卷发",
+        "name": "棕色刘海斜扎卷发",
+        "thumbnail": "/assets/front-hair/棕色刘海斜扎卷发.gif",
+        "image": "/assets/front-hair/棕色刘海斜扎卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色刘海斜扎卷发",
+          "name": "棕色刘海斜扎卷发",
+          "thumbnail": "/assets/front-hair/棕色刘海斜扎卷发.gif",
+          "image": "/assets/front-hair/棕色刘海斜扎卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色斜扎直发",
+        "name": "棕色斜扎直发",
+        "thumbnail": "/assets/front-hair/棕色斜扎直发.gif",
+        "image": "/assets/front-hair/棕色斜扎直发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色斜扎直发",
+          "name": "棕色斜扎直发",
+          "thumbnail": "/assets/front-hair/棕色斜扎直发.gif",
+          "image": "/assets/front-hair/棕色斜扎直发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_浅棕卷双马尾刘海",
+        "name": "浅棕卷双马尾刘海",
+        "thumbnail": "/assets/front-hair/浅棕卷双马尾刘海.gif",
+        "image": "/assets/front-hair/浅棕卷双马尾刘海.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_浅棕卷双马尾刘海",
+          "name": "浅棕卷双马尾刘海",
+          "thumbnail": "/assets/front-hair/浅棕卷双马尾刘海.gif",
+          "image": "/assets/front-hair/浅棕卷双马尾刘海.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_浅棕斜扎丸子头",
+        "name": "浅棕斜扎丸子头",
+        "thumbnail": "/assets/front-hair/浅棕斜扎丸子头.gif",
+        "image": "/assets/front-hair/浅棕斜扎丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_浅棕斜扎丸子头",
+          "name": "浅棕斜扎丸子头",
+          "thumbnail": "/assets/front-hair/浅棕斜扎丸子头.gif",
+          "image": "/assets/front-hair/浅棕斜扎丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_深棕闪耀中长卷发",
+        "name": "深棕闪耀中长卷发",
+        "thumbnail": "/assets/front-hair/深棕闪耀中长卷发.gif",
+        "image": "/assets/front-hair/深棕闪耀中长卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕闪耀中长卷发",
+          "name": "深棕闪耀中长卷发",
+          "thumbnail": "/assets/front-hair/深棕闪耀中长卷发.gif",
+          "image": "/assets/front-hair/深棕闪耀中长卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_深紫红色丸子斜扎头",
+        "name": "深紫红色丸子斜扎头",
+        "thumbnail": "/assets/front-hair/深紫红色丸子斜扎头.gif",
+        "image": "/assets/front-hair/深紫红色丸子斜扎头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深紫红色丸子斜扎头",
+          "name": "深紫红色丸子斜扎头",
+          "thumbnail": "/assets/front-hair/深紫红色丸子斜扎头.gif",
+          "image": "/assets/front-hair/深紫红色丸子斜扎头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_炫紫闪耀双马尾卷发",
+        "name": "炫紫闪耀双马尾卷发",
+        "thumbnail": "/assets/front-hair/炫紫闪耀双马尾卷发.gif",
+        "image": "/assets/front-hair/炫紫闪耀双马尾卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_炫紫闪耀双马尾卷发",
+          "name": "炫紫闪耀双马尾卷发",
+          "thumbnail": "/assets/front-hair/炫紫闪耀双马尾卷发.gif",
+          "image": "/assets/front-hair/炫紫闪耀双马尾卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_炫紫飘逸长发",
+        "name": "炫紫飘逸长发",
+        "thumbnail": "/assets/front-hair/炫紫飘逸长发.gif",
+        "image": "/assets/front-hair/炫紫飘逸长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_炫紫飘逸长发",
+          "name": "炫紫飘逸长发",
+          "thumbnail": "/assets/front-hair/炫紫飘逸长发.gif",
+          "image": "/assets/front-hair/炫紫飘逸长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_玫瑰盘发",
+        "name": "玫瑰盘发",
+        "thumbnail": "/assets/front-hair/玫瑰盘发.gif",
+        "image": "/assets/front-hair/玫瑰盘发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_玫瑰盘发",
+          "name": "玫瑰盘发",
+          "thumbnail": "/assets/front-hair/玫瑰盘发.gif",
+          "image": "/assets/front-hair/玫瑰盘发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_粉紫头饰卷双马尾",
+        "name": "粉紫头饰卷双马尾",
+        "thumbnail": "/assets/front-hair/粉紫头饰卷双马尾.gif",
+        "image": "/assets/front-hair/粉紫头饰卷双马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_粉紫头饰卷双马尾",
+          "name": "粉紫头饰卷双马尾",
+          "thumbnail": "/assets/front-hair/粉紫头饰卷双马尾.gif",
+          "image": "/assets/front-hair/粉紫头饰卷双马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_紫色贝雷棕长发",
+        "name": "紫色贝雷棕长发",
+        "thumbnail": "/assets/front-hair/紫色贝雷棕长发.gif",
+        "image": "/assets/front-hair/紫色贝雷棕长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_紫色贝雷棕长发",
+          "name": "紫色贝雷棕长发",
+          "thumbnail": "/assets/front-hair/紫色贝雷棕长发.gif",
+          "image": "/assets/front-hair/紫色贝雷棕长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_红棕刘海丸子短扎发",
+        "name": "红棕刘海丸子短扎发",
+        "thumbnail": "/assets/front-hair/红棕刘海丸子短扎发.gif",
+        "image": "/assets/front-hair/红棕刘海丸子短扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_红棕刘海丸子短扎发",
+          "name": "红棕刘海丸子短扎发",
+          "thumbnail": "/assets/front-hair/红棕刘海丸子短扎发.gif",
+          "image": "/assets/front-hair/红棕刘海丸子短扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_红棕发饰斜马尾",
+        "name": "红棕发饰斜马尾",
+        "thumbnail": "/assets/front-hair/红棕发饰斜马尾.gif",
+        "image": "/assets/front-hair/红棕发饰斜马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_红棕发饰斜马尾",
+          "name": "红棕发饰斜马尾",
+          "thumbnail": "/assets/front-hair/红棕发饰斜马尾.gif",
+          "image": "/assets/front-hair/红棕发饰斜马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕公主中长发",
+        "name": "金棕公主中长发",
+        "thumbnail": "/assets/front-hair/金棕公主中长发.gif",
+        "image": "/assets/front-hair/金棕公主中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕公主中长发",
+          "name": "金棕公主中长发",
+          "thumbnail": "/assets/front-hair/金棕公主中长发.gif",
+          "image": "/assets/front-hair/金棕公主中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕发饰双丸子头",
+        "name": "金棕发饰双丸子头",
+        "thumbnail": "/assets/front-hair/金棕发饰双丸子头.gif",
+        "image": "/assets/front-hair/金棕发饰双丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕发饰双丸子头",
+          "name": "金棕发饰双丸子头",
+          "thumbnail": "/assets/front-hair/金棕发饰双丸子头.gif",
+          "image": "/assets/front-hair/金棕发饰双丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕斜刘海发饰直发",
+        "name": "金棕斜刘海发饰直发",
+        "thumbnail": "/assets/front-hair/金棕斜刘海发饰直发.gif",
+        "image": "/assets/front-hair/金棕斜刘海发饰直发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕斜刘海发饰直发",
+          "name": "金棕斜刘海发饰直发",
+          "thumbnail": "/assets/front-hair/金棕斜刘海发饰直发.gif",
+          "image": "/assets/front-hair/金棕斜刘海发饰直发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕毽子斜扎发",
+        "name": "金棕毽子斜扎发",
+        "thumbnail": "/assets/front-hair/金棕毽子斜扎发.gif",
+        "image": "/assets/front-hair/金棕毽子斜扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕毽子斜扎发",
+          "name": "金棕毽子斜扎发",
+          "thumbnail": "/assets/front-hair/金棕毽子斜扎发.gif",
+          "image": "/assets/front-hair/金棕毽子斜扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕波浪长发",
+        "name": "金棕波浪长发",
+        "thumbnail": "/assets/front-hair/金棕波浪长发.gif",
+        "image": "/assets/front-hair/金棕波浪长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕波浪长发",
+          "name": "金棕波浪长发",
+          "thumbnail": "/assets/front-hair/金棕波浪长发.gif",
+          "image": "/assets/front-hair/金棕波浪长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_黑色双丸子头",
+        "name": "黑色双丸子头",
+        "thumbnail": "/assets/front-hair/黑色双丸子头.gif",
+        "image": "/assets/front-hair/黑色双丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色双丸子头",
+          "name": "黑色双丸子头",
+          "thumbnail": "/assets/front-hair/黑色双丸子头.gif",
+          "image": "/assets/front-hair/黑色双丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+]
   },
   {
     "id": "makeup",

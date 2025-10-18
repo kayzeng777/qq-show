@@ -24,7 +24,7 @@ const CATEGORY_FOLDERS = {
   'outfit': 'outfit',
   'makeup': 'makeup',
   'head-set': 'head-set',
-  'front-hair': 'front-hair',
+  'front-hair': 'hair', // 前头发映射到发型分类
   'face-decor': 'face-decor',
   'earrings': 'earrings',
   'glasses': 'glasses',
