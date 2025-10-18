@@ -57,8 +57,8 @@ const translations = {
       disclaimers:
         "这是一个非官方、非营利的数字档案项目，仅用于艺术、教育和研究目的。所有素材均从Internet Archive Wayback Machine中恢复收集。版权归腾讯控股有限公司所有。如需删除下架，请联系qqshow2000project@gmail.com。",
       colophon:
-        'qqshow2000.com由<a href="https://www.instagram.com/kayzeng777/" target="_blank" rel="noopener noreferrer">Kay Zeng</a>设计制作。时至今日，她已经忘记了自己曾在QQ秀和各种钻石会员上花了多少钱。',
-      timeline: "最近更新：2025年9月23日，上线时间：2025年9月22日",
+        'qqshow2000.com由<a href="https://www.kayzeng.com/" target="_blank" rel="noopener noreferrer">Kay Zeng</a>设计制作。时至今日，她已经忘记了自己曾在QQ秀和各种钻石会员上花了多少钱。',
+      timeline: "最近更新：2025年10月17日，上线时间：2025年9月22日",
     },
   },
   en: {
@@ -108,8 +108,8 @@ const translations = {
       disclaimers:
         "This is an unofficial, non-profit digital archive project for artistic, educational, and research purposes only. All assets were recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent Holdings Limited. For takedown requests, please contact: qqshow2000project@gmail.com",
       colophon:
-        '(qqshow2000.com is designed and made by <a href="https://www.instagram.com/kayzeng777/" target="_blank" rel="noopener noreferrer">Kay Zeng</a> as she\'s thinking about the QQ Show items she bought with her snack money.)',
-      timeline: "last updated: sep 23, 2025,  launched: sep 22, 2025",
+        '(qqshow2000.com is designed and made by <a href="https://www.kayzeng.com/" target="_blank" rel="noopener noreferrer">Kay Zeng</a> as she\'s thinking about the QQ Show items she bought with her snack money.)',
+      timeline: "last updated: oct 17, 2025,  launched: sep 22, 2025",
     },
   },
 };
