@@ -2999,8 +2999,8 @@ export const categories = [
           "layer": 2
         },
         "backHair": null
-      }
-          {
+      },
+      {
         "id": "hair_动漫粉长发",
         "name": "动漫粉长发",
         "thumbnail": "/assets/front-hair/动漫粉长发.gif",
