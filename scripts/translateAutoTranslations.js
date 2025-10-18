@@ -285,19 +285,19 @@ async function main() {
   
   let content = fs.readFileSync(translationsFile, 'utf8');
   
-  // 使用正则表达式找到所有"Auto Translation"并替换
-  const autoTranslationRegex = /"en": "Auto Translation"/g;
-  const matches = content.match(autoTranslationRegex);
+  // 使用正则表达式找到所有空的英文翻译并替换
+  const emptyTranslationRegex = /"en": ""/g;
+  const matches = content.match(emptyTranslationRegex);
   
   if (!matches) {
-    console.log('ℹ️  没有找到 Auto Translation');
+    console.log('ℹ️  没有找到空的英文翻译');
     return;
   }
   
-  console.log(`📋 找到 ${matches.length} 个 Auto Translation`);
+  console.log(`📋 找到 ${matches.length} 个空的英文翻译`);
   
-  // 替换所有 Auto Translation
-  content = content.replace(/"en": "Auto Translation"/g, (match, offset) => {
+  // 替换所有空的英文翻译
+  content = content.replace(/"en": ""/g, (match, offset) => {
     // 找到这个翻译项的中文名称
     const beforeMatch = content.substring(0, offset);
     const lastQuote = beforeMatch.lastIndexOf('"');

@@ -2868,155 +2868,155 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "交警熊猫": {
     "zh": "交警熊猫",
-    "en": ""
+    "en": "Traffic Police Panda"
   },
   "原宿街头": {
     "zh": "原宿街头",
-    "en": ""
+    "en": "Harajuku Street"
   },
   "双子云殿": {
     "zh": "双子云殿",
-    "en": ""
+    "en": "Twin Cloud Palace"
   },
   "天使花瓣": {
     "zh": "天使花瓣",
-    "en": ""
+    "en": "Angel Petals"
   },
   "幸运草丛": {
     "zh": "幸运草丛",
-    "en": ""
+    "en": "Lucky Grass"
   },
   "幻彩宫殿": {
     "zh": "幻彩宫殿",
-    "en": ""
+    "en": "Rainbow Palace"
   },
   "想你爱你": {
     "zh": "想你爱你",
-    "en": ""
+    "en": "Missing You Loving You"
   },
   "摩登公寓": {
     "zh": "摩登公寓",
-    "en": ""
+    "en": "Modern Apartment"
   },
   "新春梅花": {
     "zh": "新春梅花",
-    "en": ""
+    "en": "Spring Plum Blossom"
   },
   "气球爱心": {
     "zh": "气球爱心",
-    "en": ""
+    "en": "Balloon Hearts"
   },
   "温馨房间": {
     "zh": "温馨房间",
-    "en": ""
+    "en": "Cozy Room"
   },
   "炫彩圣诞": {
     "zh": "炫彩圣诞",
-    "en": ""
+    "en": "Colorful Christmas"
   },
   "甜品天国": {
     "zh": "甜品天国",
-    "en": ""
+    "en": "Dessert Heaven"
   },
   "紫色仙子": {
     "zh": "紫色仙子",
-    "en": ""
+    "en": "Purple Fairy"
   },
   "诡秘科技": {
     "zh": "诡秘科技",
-    "en": ""
+    "en": "Mysterious Technology"
   },
   "郊野公园": {
     "zh": "郊野公园",
-    "en": ""
+    "en": "Country Park"
   },
   "闪耀圣诞": {
     "zh": "闪耀圣诞",
-    "en": ""
+    "en": "Shining Christmas"
   },
   "雪花弯月": {
     "zh": "雪花弯月",
-    "en": ""
+    "en": "Snowflake Crescent Moon"
   },
   "魔法扑克": {
     "zh": "魔法扑克",
-    "en": ""
+    "en": "Magic Poker"
   },
   "黑白云朵": {
     "zh": "黑白云朵",
-    "en": ""
+    "en": "Black White Clouds"
   },
   "架子鼓": {
     "zh": "架子鼓",
-    "en": ""
+    "en": "Drum Set"
   },
   "飘落樱花": {
     "zh": "飘落樱花",
-    "en": ""
+    "en": "Falling Cherry Blossoms"
   },
   "粉紫蝴蝶": {
     "zh": "粉紫蝴蝶",
-    "en": ""
+    "en": "Pink Purple Butterfly"
   },
   "蓝色闪蝶": {
     "zh": "蓝色闪蝶",
-    "en": ""
+    "en": "Blue Flash Butterfly"
   },
   "黑色天使": {
     "zh": "黑色天使",
-    "en": ""
+    "en": "Black Angel"
   },
   "粉色百褶短裙": {
     "zh": "粉色百褶短裙",
-    "en": ""
+    "en": "Pink Pleated Short Skirt"
   },
   "粉色蛋糕短裙": {
     "zh": "粉色蛋糕短裙",
-    "en": ""
+    "en": "Pink Cake Short Skirt"
   },
   "落日蛋糕短裙": {
     "zh": "落日蛋糕短裙",
-    "en": ""
+    "en": "Sunset Cake Short Skirt"
   },
   "黑曜长靴短裙": {
     "zh": "黑曜长靴短裙",
-    "en": ""
+    "en": "Obsidian Boot Short Skirt"
   },
   "春日浅黄上装": {
     "zh": "春日浅黄上装",
-    "en": ""
+    "en": "Spring Light Yellow Top"
   },
   "粉色动感背心": {
     "zh": "粉色动感背心",
-    "en": ""
+    "en": "Pink Dynamic Vest"
   },
   "中式旗袍套装": {
     "zh": "中式旗袍套装",
-    "en": ""
+    "en": "Chinese Qipao Set"
   },
   "典雅白色礼服套装": {
     "zh": "典雅白色礼服套装",
-    "en": ""
+    "en": "Elegant White Dress Set"
   },
   "刺绣民族服饰": {
     "zh": "刺绣民族服饰",
-    "en": ""
+    "en": "Embroidered Ethnic Costume"
   },
   "双排扣外套裙装": {
     "zh": "双排扣外套裙装",
-    "en": ""
+    "en": "Double Breasted Jacket Dress"
   },
   "圣诞礼物套装": {
     "zh": "圣诞礼物套装",
-    "en": ""
+    "en": "Christmas Gift Set"
   },
   "场景黄色礼服套装": {
     "zh": "场景黄色礼服套装",
-    "en": ""
+    "en": "Scene Yellow Dress Set"
   },
   "宫廷黄色公主裙": {
     "zh": "宫廷黄色公主裙",
-    "en": ""
+    "en": "Palace Yellow Princess Dress"
   },
   "宽大牛仔裤T恤套装": {
     "zh": "宽大牛仔裤T恤套装",
@@ -3024,7 +3024,7 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "弯月牛仔裙紫靴套装": {
     "zh": "弯月牛仔裙紫靴套装",
-    "en": ""
+    "en": "Crescent Denim Skirt Purple Boot Set"
   },
   "橙色T恤短裤套装": {
     "zh": "橙色T恤短裤套装",
@@ -3032,123 +3032,123 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "橙色开衫牛仔裙套装": {
     "zh": "橙色开衫牛仔裙套装",
-    "en": ""
+    "en": "Orange Cardigan Denim Skirt Set"
   },
   "活力粉色运动套装": {
     "zh": "活力粉色运动套装",
-    "en": ""
+    "en": "Vibrant Pink Sports Set"
   },
   "活力粉蓝白靴套装": {
     "zh": "活力粉蓝白靴套装",
-    "en": ""
+    "en": "Vibrant Pink Blue White Boot Set"
   },
   "流行歌手翅膀套装": {
     "zh": "流行歌手翅膀套装",
-    "en": ""
+    "en": "Pop Singer Wings Set"
   },
   "浅粉薄纱礼服套装": {
     "zh": "浅粉薄纱礼服套装",
-    "en": ""
+    "en": "Light Pink Chiffon Dress Set"
   },
   "灵动开衩裙套装": {
     "zh": "灵动开衩裙套装",
-    "en": ""
+    "en": "Dynamic Slit Skirt Set"
   },
   "牛仔背带裤红色波点套装": {
     "zh": "牛仔背带裤红色波点套装",
-    "en": ""
+    "en": "Denim Overalls Red Polka Dot Set"
   },
   "琉璃红色鱼尾裙套装": {
     "zh": "琉璃红色鱼尾裙套装",
-    "en": ""
+    "en": "Glass Red Mermaid Skirt Set"
   },
   "白色天使套装": {
     "zh": "白色天使套装",
-    "en": ""
+    "en": "White Angel Set"
   },
   "白色开衫长裙套装": {
     "zh": "白色开衫长裙套装",
-    "en": ""
+    "en": "White Cardigan Long Dress Set"
   },
   "福字新春套装": {
     "zh": "福字新春套装",
-    "en": ""
+    "en": "Fortune Spring Festival Set"
   },
   "秋冬橙色围巾套装": {
     "zh": "秋冬橙色围巾套装",
-    "en": ""
+    "en": "Autumn Winter Orange Scarf Set"
   },
   "秋千白色薄纱裙套装": {
     "zh": "秋千白色薄纱裙套装",
-    "en": ""
+    "en": "Swing White Chiffon Dress Set"
   },
   "窄腿牛仔裤套装": {
     "zh": "窄腿牛仔裤套装",
-    "en": ""
+    "en": "Skinny Jeans Set"
   },
   "粉色套衫拎包套装": {
     "zh": "粉色套衫拎包套装",
-    "en": ""
+    "en": "Pink Sweater Handbag Set"
   },
   "粉色背心蓝裙套装": {
     "zh": "粉色背心蓝裙套装",
-    "en": ""
+    "en": "Pink Vest Blue Skirt Set"
   },
   "粉色风衣牛仔裤套装": {
     "zh": "粉色风衣牛仔裤套装",
-    "en": ""
+    "en": "Pink Trench Coat Jeans Set"
   },
   "粉色鱼尾礼裙套装": {
     "zh": "粉色鱼尾礼裙套装",
-    "en": ""
+    "en": "Pink Mermaid Dress Set"
   },
   "紫色长袖格纹裙套装": {
     "zh": "紫色长袖格纹裙套装",
-    "en": ""
+    "en": "Purple Long Sleeve Plaid Skirt Set"
   },
   "红绿爱心套装": {
     "zh": "红绿爱心套装",
-    "en": ""
+    "en": "Red Green Heart Set"
   },
   "红色叠穿条纹套装": {
     "zh": "红色叠穿条纹套装",
-    "en": ""
+    "en": "Red Layered Stripes Set"
   },
   "红色露肩短裙套装": {
     "zh": "红色露肩短裙套装",
-    "en": ""
+    "en": "Red Off-Shoulder Short Skirt Set"
   },
   "绿色背心短裙套装": {
     "zh": "绿色背心短裙套装",
-    "en": ""
+    "en": "Green Vest Short Skirt Set"
   },
   "绿色连衣裙套装": {
     "zh": "绿色连衣裙套装",
-    "en": ""
+    "en": "Green Dress Set"
   },
   "缎面白色礼服套装": {
     "zh": "缎面白色礼服套装",
-    "en": ""
+    "en": "Satin White Dress Set"
   },
   "翅膀粉色公主短裙套装": {
     "zh": "翅膀粉色公主短裙套装",
-    "en": ""
+    "en": "Wings Pink Princess Short Skirt Set"
   },
   "翅膀粉色蓬蓬裙套装": {
     "zh": "翅膀粉色蓬蓬裙套装",
-    "en": ""
+    "en": "Wings Pink Puff Skirt Set"
   },
   "英伦红棕短裙套装": {
     "zh": "英伦红棕短裙套装",
-    "en": ""
+    "en": "British Red Brown Short Skirt Set"
   },
   "蓝绿围巾裙装": {
     "zh": "蓝绿围巾裙装",
-    "en": ""
+    "en": "Blue Green Scarf Dress"
   },
   "蓝绿蛋糕裙套装": {
     "zh": "蓝绿蛋糕裙套装",
-    "en": ""
+    "en": "Blue Green Cake Skirt Set"
   },
   "蓝色T恤绿裙套装": {
     "zh": "蓝色T恤绿裙套装",
@@ -3156,35 +3156,35 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "蓝色背心黄色长裙套装": {
     "zh": "蓝色背心黄色长裙套装",
-    "en": ""
+    "en": "Blue Vest Yellow Long Dress Set"
   },
   "薄荷裙套装": {
     "zh": "薄荷裙套装",
-    "en": ""
+    "en": "Mint Skirt Set"
   },
   "蝴蝶仙子套装": {
     "zh": "蝴蝶仙子套装",
-    "en": ""
+    "en": "Butterfly Fairy Set"
   },
   "蝴蝶结白色公主裙套装": {
     "zh": "蝴蝶结白色公主裙套装",
-    "en": ""
+    "en": "Bow White Princess Dress Set"
   },
   "街头红色外套白靴套装": {
     "zh": "街头红色外套白靴套装",
-    "en": ""
+    "en": "Street Red Jacket White Boot Set"
   },
   "都市丽人蓝裙套装": {
     "zh": "都市丽人蓝裙套装",
-    "en": ""
+    "en": "Urban Beauty Blue Skirt Set"
   },
   "黄色开衫牛仔裤套装": {
     "zh": "黄色开衫牛仔裤套装",
-    "en": ""
+    "en": "Yellow Cardigan Jeans Set"
   },
   "黄色背带裙套装": {
     "zh": "黄色背带裙套装",
-    "en": ""
+    "en": "Yellow Overalls Set"
   },
   "黑色T恤牛仔裙套装": {
     "zh": "黑色T恤牛仔裙套装",
@@ -3192,271 +3192,271 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "黑色皮衣牛仔裤套装": {
     "zh": "黑色皮衣牛仔裤套装",
-    "en": ""
+    "en": "Black Leather Jacket Jeans Set"
   },
   "动漫眼睛弯弯": {
     "zh": "动漫眼睛弯弯",
-    "en": ""
+    "en": "Anime Curved Eyes"
   },
   "动漫红瞳眨眼": {
     "zh": "动漫红瞳眨眼",
-    "en": ""
+    "en": "Anime Red Eyes Blink"
   },
   "动漫黑曜眨眼": {
     "zh": "动漫黑曜眨眼",
-    "en": ""
+    "en": "Anime Obsidian Blink"
   },
   "眨眼石榴": {
     "zh": "眨眼石榴",
-    "en": ""
+    "en": "Blinking Pomegranate"
   },
   "红酒眨眼": {
     "zh": "红酒眨眼",
-    "en": ""
+    "en": "Red Wine Blink"
   },
   "绿曜眨眼": {
     "zh": "绿曜眨眼",
-    "en": ""
+    "en": "Green Obsidian Blink"
   },
   "可爱兔子贝雷": {
     "zh": "可爱兔子贝雷",
-    "en": ""
+    "en": "Cute Rabbit Beret"
   },
   "皇冠公主头": {
     "zh": "皇冠公主头",
-    "en": ""
+    "en": "Crown Princess Head"
   },
   "动漫粉长发": {
     "zh": "动漫粉长发",
-    "en": ""
+    "en": "Anime Pink Long Hair"
   },
   "动漫金棕短发": {
     "zh": "动漫金棕短发",
-    "en": ""
+    "en": "Anime Golden Brown Short Hair"
   },
   "栗子斜扎中长发": {
     "zh": "栗子斜扎中长发",
-    "en": ""
+    "en": "Chestnut Slanted Medium Long Hair"
   },
   "棕绿斜刘海扎发": {
     "zh": "棕绿斜刘海扎发",
-    "en": ""
+    "en": "Brown Green Slanted Bangs Updo"
   },
   "棕色中分卷长发": {
     "zh": "棕色中分卷长发",
-    "en": ""
+    "en": "Brown Center Part Curly Long Hair"
   },
   "棕色公主中长发": {
     "zh": "棕色公主中长发",
-    "en": ""
+    "en": "Brown Princess Medium Long Hair"
   },
   "棕色刘海中长卷发": {
     "zh": "棕色刘海中长卷发",
-    "en": ""
+    "en": "Brown Bangs Medium Long Curly Hair"
   },
   "棕色刘海斜扎卷发": {
     "zh": "棕色刘海斜扎卷发",
-    "en": ""
+    "en": "Brown Bangs Slanted Curly Hair"
   },
   "棕色斜扎直发": {
     "zh": "棕色斜扎直发",
-    "en": ""
+    "en": "Brown Slanted Straight Hair"
   },
   "浅棕卷双马尾刘海": {
     "zh": "浅棕卷双马尾刘海",
-    "en": ""
+    "en": "Light Brown Curly Twin Tails Bangs"
   },
   "浅棕斜扎丸子头": {
     "zh": "浅棕斜扎丸子头",
-    "en": ""
+    "en": "Light Brown Slanted Bun"
   },
   "深棕闪耀中长卷发": {
     "zh": "深棕闪耀中长卷发",
-    "en": ""
+    "en": "Dark Brown Shining Medium Long Curly Hair"
   },
   "深紫红色丸子斜扎头": {
     "zh": "深紫红色丸子斜扎头",
-    "en": ""
+    "en": "Deep Purple Red Bun Slanted Head"
   },
   "炫紫闪耀双马尾卷发": {
     "zh": "炫紫闪耀双马尾卷发",
-    "en": ""
+    "en": "Bright Purple Shining Twin Tails Curly Hair"
   },
   "炫紫飘逸长发": {
     "zh": "炫紫飘逸长发",
-    "en": ""
+    "en": "Bright Purple Flowing Long Hair"
   },
   "玫瑰盘发": {
     "zh": "玫瑰盘发",
-    "en": ""
+    "en": "Rose Updo"
   },
   "粉紫头饰卷双马尾": {
     "zh": "粉紫头饰卷双马尾",
-    "en": ""
+    "en": "Pink Purple Hair Accessory Curly Twin Tails"
   },
   "紫色贝雷棕长发": {
     "zh": "紫色贝雷棕长发",
-    "en": ""
+    "en": "Purple Beret Brown Long Hair"
   },
   "红棕刘海丸子短扎发": {
     "zh": "红棕刘海丸子短扎发",
-    "en": ""
+    "en": "Red Brown Bangs Bun Short Updo"
   },
   "红棕发饰斜马尾": {
     "zh": "红棕发饰斜马尾",
-    "en": ""
+    "en": "Red Brown Hair Accessory Slanted Ponytail"
   },
   "金棕公主中长发": {
     "zh": "金棕公主中长发",
-    "en": ""
+    "en": "Golden Brown Princess Medium Long Hair"
   },
   "金棕发饰双丸子头": {
     "zh": "金棕发饰双丸子头",
-    "en": ""
+    "en": "Golden Brown Hair Accessory Double Bun"
   },
   "金棕斜刘海发饰直发": {
     "zh": "金棕斜刘海发饰直发",
-    "en": ""
+    "en": "Golden Brown Slanted Bangs Hair Accessory Straight Hair"
   },
   "金棕毽子斜扎发": {
     "zh": "金棕毽子斜扎发",
-    "en": ""
+    "en": "Golden Brown Shuttlecock Slanted Hair"
   },
   "金棕波浪长发": {
     "zh": "金棕波浪长发",
-    "en": ""
+    "en": "Golden Brown Wavy Long Hair"
   },
   "黑色双丸子头": {
     "zh": "黑色双丸子头",
-    "en": ""
+    "en": "Black Double Bun"
   },
   "粉色爱心耳坠": {
     "zh": "粉色爱心耳坠",
-    "en": ""
+    "en": "Pink Heart Earrings"
   },
   "紫钻爱心耳坠": {
     "zh": "紫钻爱心耳坠",
-    "en": ""
+    "en": "Purple Diamond Heart Earrings"
   },
   "蓝色爱心耳坠": {
     "zh": "蓝色爱心耳坠",
-    "en": ""
+    "en": "Blue Heart Earrings"
   },
   "黑色蝴蝶结耳坠": {
     "zh": "黑色蝴蝶结耳坠",
-    "en": ""
+    "en": "Black Bow Earrings"
   },
   "复古茶色墨镜": {
     "zh": "复古茶色墨镜",
-    "en": ""
+    "en": "Vintage Tea Colored Sunglasses"
   },
   "粉紫猫眼墨镜": {
     "zh": "粉紫猫眼墨镜",
-    "en": ""
+    "en": "Pink Purple Cat Eye Sunglasses"
   },
   "玫瑰项链": {
     "zh": "玫瑰项链",
-    "en": ""
+    "en": "Rose Necklace"
   },
   "咖啡贝雷帽": {
     "zh": "咖啡贝雷帽",
-    "en": ""
+    "en": "Coffee Beret"
   },
   "天使星环": {
     "zh": "天使星环",
-    "en": ""
+    "en": "Angel Star Ring"
   },
   "橘色爱心贝雷帽": {
     "zh": "橘色爱心贝雷帽",
-    "en": ""
+    "en": "Orange Heart Beret"
   },
   "浅粉报童帽": {
     "zh": "浅粉报童帽",
-    "en": ""
+    "en": "Light Pink Newsboy Cap"
   },
   "玫瑰羽毛发饰": {
     "zh": "玫瑰羽毛发饰",
-    "en": ""
+    "en": "Rose Feather Hair Accessory"
   },
   "白色小猫渔夫帽": {
     "zh": "白色小猫渔夫帽",
-    "en": ""
+    "en": "White Kitten Fisherman Hat"
   },
   "白色礼帽": {
     "zh": "白色礼帽",
-    "en": ""
+    "en": "White Top Hat"
   },
   "白色蝴蝶结": {
     "zh": "白色蝴蝶结",
-    "en": ""
+    "en": "White Bow"
   },
   "白色运动帽": {
     "zh": "白色运动帽",
-    "en": ""
+    "en": "White Sports Cap"
   },
   "粉色毛球针织帽": {
     "zh": "粉色毛球针织帽",
-    "en": ""
+    "en": "Pink Pom Pom Knit Hat"
   },
   "粉色蝴蝶结发箍": {
     "zh": "粉色蝴蝶结发箍",
-    "en": ""
+    "en": "Pink Bow Headband"
   },
   "粉色遮阳帽": {
     "zh": "粉色遮阳帽",
-    "en": ""
+    "en": "Pink Sun Hat"
   },
   "粉色黑边贝雷帽": {
     "zh": "粉色黑边贝雷帽",
-    "en": ""
+    "en": "Pink Black Edge Beret"
   },
   "紫花发箍": {
     "zh": "紫花发箍",
-    "en": ""
+    "en": "Purple Flower Headband"
   },
   "红白蝴蝶结发箍": {
     "zh": "红白蝴蝶结发箍",
-    "en": ""
+    "en": "Red White Bow Headband"
   },
   "蓝紫絮带礼帽": {
     "zh": "蓝紫絮带礼帽",
-    "en": ""
+    "en": "Blue Purple Tassel Top Hat"
   },
   "蓝色条纹针织帽": {
     "zh": "蓝色条纹针织帽",
-    "en": ""
+    "en": "Blue Striped Knit Hat"
   },
   "蓝金皇冠": {
     "zh": "蓝金皇冠",
-    "en": ""
+    "en": "Blue Gold Crown"
   },
   "黑色优雅渔夫帽": {
     "zh": "黑色优雅渔夫帽",
-    "en": ""
+    "en": "Black Elegant Fisherman Hat"
   },
   "樱桃胸针": {
     "zh": "樱桃胸针",
-    "en": ""
+    "en": "Cherry Brooch"
   },
   "粉色串珠花腰饰": {
     "zh": "粉色串珠花腰饰",
-    "en": ""
+    "en": "Pink Beaded Flower Waist Accessory"
   },
   "粉色爱心腰饰": {
     "zh": "粉色爱心腰饰",
-    "en": ""
+    "en": "Pink Heart Waist Accessory"
   },
   "绿花腰饰": {
     "zh": "绿花腰饰",
-    "en": ""
+    "en": "Green Flower Waist Accessory"
   },
   "蝴蝶胸针": {
     "zh": "蝴蝶胸针",
-    "en": ""
+    "en": "Butterfly Brooch"
   },
   "闪闪粉钻腰饰": {
     "zh": "闪闪粉钻腰饰",
-    "en": ""
+    "en": "Sparkling Pink Diamond Waist Accessory"
   },
   "Pucca": {
     "zh": "Pucca",
@@ -3464,99 +3464,99 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "双色小猫": {
     "zh": "双色小猫",
-    "en": ""
+    "en": "Two-Tone Kitten"
   },
   "史努比": {
     "zh": "史努比",
-    "en": ""
+    "en": "Snoopy"
   },
   "圣诞小鸡": {
     "zh": "圣诞小鸡",
-    "en": ""
+    "en": "Christmas Chick"
   },
   "泡泡双子": {
     "zh": "泡泡双子",
-    "en": ""
+    "en": "Bubble Twins"
   },
   "萝卜兔": {
     "zh": "萝卜兔",
-    "en": ""
+    "en": "Radish Rabbit"
   },
   "万圣节": {
     "zh": "万圣节",
-    "en": ""
+    "en": "Halloween"
   },
   "典雅花框": {
     "zh": "典雅花框",
-    "en": ""
+    "en": "Elegant Flower Frame"
   },
   "同一片星空": {
     "zh": "同一片星空",
-    "en": ""
+    "en": "Same Starry Sky"
   },
   "圣诞飘雪": {
     "zh": "圣诞飘雪",
-    "en": ""
+    "en": "Christmas Snow"
   },
   "天使熊爱心": {
     "zh": "天使熊爱心",
-    "en": ""
+    "en": "Angel Bear Heart"
   },
   "玩具熊": {
     "zh": "玩具熊",
-    "en": ""
+    "en": "Teddy Bear"
   },
   "花边爱心": {
     "zh": "花边爱心",
-    "en": ""
+    "en": "Lace Heart"
   },
   "花边玫瑰": {
     "zh": "花边玫瑰",
-    "en": ""
+    "en": "Lace Rose"
   },
   "蓝紫钻石女孩": {
     "zh": "蓝紫钻石女孩",
-    "en": ""
+    "en": "Blue Purple Diamond Girl"
   },
   "雪花爱心": {
     "zh": "雪花爱心",
-    "en": ""
+    "en": "Snowflake Heart"
   },
   "黄色花花": {
     "zh": "黄色花花",
-    "en": ""
+    "en": "Yellow Flowers"
   },
   "黑色星星": {
     "zh": "黑色星星",
-    "en": ""
+    "en": "Black Star"
   },
   "勇敢去爱就有奇迹": {
     "zh": "勇敢去爱就有奇迹",
-    "en": ""
+    "en": "Brave to Love There Will Be Miracles"
   },
   "卡哇伊杂志": {
     "zh": "卡哇伊杂志",
-    "en": ""
+    "en": "Kawaii Magazine"
   },
   "发型杂志": {
     "zh": "发型杂志",
-    "en": ""
+    "en": "Hair Magazine"
   },
   "吸引力杂志": {
     "zh": "吸引力杂志",
-    "en": ""
+    "en": "Attraction Magazine"
   },
   "土豆杂志": {
     "zh": "土豆杂志",
-    "en": ""
+    "en": "Potato Magazine"
   },
   "天使在人间": {
     "zh": "天使在人间",
-    "en": ""
+    "en": "Angel on Earth"
   },
   "嫁给我吧": {
     "zh": "嫁给我吧",
-    "en": ""
+    "en": "Marry Me"
   },
   "恭喜发财": {
     "zh": "恭喜发财",
@@ -3564,55 +3564,55 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   },
   "想和你去数星星": {
     "zh": "想和你去数星星",
-    "en": ""
+    "en": "Want to Count Stars with You"
   },
   "我开心因为你开心": {
     "zh": "我开心因为你开心",
-    "en": ""
+    "en": "I'm Happy Because You're Happy"
   },
   "我的快乐天使": {
     "zh": "我的快乐天使",
-    "en": ""
+    "en": "My Happy Angel"
   },
   "时尚快报": {
     "zh": "时尚快报",
-    "en": ""
+    "en": "Fashion Express"
   },
   "时尚期刊": {
     "zh": "时尚期刊",
-    "en": ""
+    "en": "Fashion Journal"
   },
   "明星杂志": {
     "zh": "明星杂志",
-    "en": ""
+    "en": "Celebrity Magazine"
   },
   "格调杂志": {
     "zh": "格调杂志",
-    "en": ""
+    "en": "Style Magazine"
   },
   "爱我请举手": {
     "zh": "爱我请举手",
-    "en": ""
+    "en": "Love Me Please Raise Your Hand"
   },
   "甜妹杂志": {
     "zh": "甜妹杂志",
-    "en": ""
+    "en": "Sweet Girl Magazine"
   },
   "真的好想你": {
     "zh": "真的好想你",
-    "en": ""
+    "en": "Really Miss You"
   },
   "祝你笑口常开": {
     "zh": "祝你笑口常开",
-    "en": ""
+    "en": "Wish You Always Smile"
   },
   "笑笑爱心": {
     "zh": "笑笑爱心",
-    "en": ""
+    "en": "Smiling Heart"
   },
   "云朵双子星": {
     "zh": "云朵双子星",
-    "en": ""
+    "en": "Cloud Twins"
   }
 };
 
