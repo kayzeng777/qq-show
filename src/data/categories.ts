@@ -1437,7 +1437,7 @@ export const categories = [
     "name": "发型",
     "thumbnail": "/assets/front-hair/蝴蝶结棕色长卷发.gif",
     "layer": 5,
-    "items": [[
+    "items": [
 {
         "id": "hair_白金短发",
         "name": "白金短发",
@@ -3441,7 +3441,7 @@ export const categories = [
           "layer": 2
         },
         "backHair": null
-      }
+      },
     ]
   },
   {
