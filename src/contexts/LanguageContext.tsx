@@ -109,7 +109,7 @@ const translations = {
         "This is an unofficial, non-profit digital archive project for artistic, educational, and research purposes only. All assets were recovered from the Internet Archive Wayback Machine. Copyright remains with Tencent Holdings Limited. For takedown requests, please contact: qqshow2000project@gmail.com",
       colophon:
         '(qqshow2000.com is designed and made by <a href="https://www.kayzeng.com/" target="_blank" rel="noopener noreferrer">Kay Zeng</a> as she\'s thinking about the QQ Show items she bought with her snack money.)',
-      timeline: "sep 22, 2025: website launched with 827 items collected by Kay Zeng\noct 17, 2025: added 200 items collected by @晋文公 from Rednote.",
+      timeline: "Sep 22, 2025: website launched with 827 items collected by Kay Zeng\nOct 17, 2025: added 200 items collected by @晋文公 from Rednote.",
     },
   },
 };
