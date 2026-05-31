@@ -5419,10 +5419,10 @@ export const categories = [
     "layer": 14,
     "items": [
       {
-        "id": "headwear_白色棒球",
-        "name": "白色棒球",
-        "thumbnail": "/assets/headwear/白色棒球.gif",
-        "image": "/assets/headwear/白色棒球.gif",
+        "id": "headwear_白色爱心贝雷帽",
+        "name": "白色爱心贝雷帽",
+        "thumbnail": "/assets/headwear/白色爱心贝雷帽.gif",
+        "image": "/assets/headwear/白色爱心贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5483,18 +5483,18 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_波点美式头箍",
-        "name": "波点美式头箍",
-        "thumbnail": "/assets/headwear/波点美式头箍.gif",
-        "image": "/assets/headwear/波点美式头箍.gif",
+        "id": "headwear_波点美式头巾",
+        "name": "波点美式头巾",
+        "thumbnail": "/assets/headwear/波点美式头巾.gif",
+        "image": "/assets/headwear/波点美式头巾.gif",
         "category": "headwear",
         "layer": 1
       },
       {
-        "id": "headwear_春日踏青",
-        "name": "春日踏青",
-        "thumbnail": "/assets/headwear/春日踏青.gif",
-        "image": "/assets/headwear/春日踏青.gif",
+        "id": "headwear_青色小花贝雷帽",
+        "name": "青色小花贝雷帽",
+        "thumbnail": "/assets/headwear/青色小花贝雷帽.gif",
+        "image": "/assets/headwear/青色小花贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5515,10 +5515,10 @@ export const categories = [
         "layer": 14
       },
       {
-        "id": "headwear_粉色画家",
-        "name": "粉色画家",
-        "thumbnail": "/assets/headwear/粉色画家.gif",
-        "image": "/assets/headwear/粉色画家.gif",
+        "id": "headwear_粉色画家帽",
+        "name": "粉色画家帽",
+        "thumbnail": "/assets/headwear/粉色画家帽.gif",
+        "image": "/assets/headwear/粉色画家帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5539,10 +5539,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_粉色运动",
-        "name": "粉色运动",
-        "thumbnail": "/assets/headwear/粉色运动.gif",
-        "image": "/assets/headwear/粉色运动.gif",
+        "id": "headwear_粉色运动帽",
+        "name": "粉色运动帽",
+        "thumbnail": "/assets/headwear/粉色运动帽.gif",
+        "image": "/assets/headwear/粉色运动帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5563,18 +5563,18 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_粉紫贝雷",
-        "name": "粉紫贝雷",
-        "thumbnail": "/assets/headwear/粉紫贝雷.gif",
-        "image": "/assets/headwear/粉紫贝雷.gif",
+        "id": "headwear_粉紫贝雷帽",
+        "name": "粉紫贝雷帽",
+        "thumbnail": "/assets/headwear/粉紫贝雷帽.gif",
+        "image": "/assets/headwear/粉紫贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
       {
-        "id": "headwear_复古美式头箍",
-        "name": "复古美式头箍",
-        "thumbnail": "/assets/headwear/复古美式头箍.gif",
-        "image": "/assets/headwear/复古美式头箍.gif",
+        "id": "headwear_复古美式头巾",
+        "name": "复古美式头巾",
+        "thumbnail": "/assets/headwear/复古美式头巾.gif",
+        "image": "/assets/headwear/复古美式头巾.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5603,10 +5603,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_海军贝雷",
-        "name": "海军贝雷",
-        "thumbnail": "/assets/headwear/海军贝雷.gif",
-        "image": "/assets/headwear/海军贝雷.gif",
+        "id": "headwear_海军贝雷帽",
+        "name": "海军贝雷帽",
+        "thumbnail": "/assets/headwear/海军贝雷帽.gif",
+        "image": "/assets/headwear/海军贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5651,18 +5651,18 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_黄色贝雷",
-        "name": "黄色贝雷",
-        "thumbnail": "/assets/headwear/黄色贝雷.gif",
-        "image": "/assets/headwear/黄色贝雷.gif",
+        "id": "headwear_黄色贝雷帽",
+        "name": "黄色贝雷帽",
+        "thumbnail": "/assets/headwear/黄色贝雷帽.gif",
+        "image": "/assets/headwear/黄色贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
       {
-        "id": "headwear_黄色邮差",
-        "name": "黄色邮差",
-        "thumbnail": "/assets/headwear/黄色邮差.gif",
-        "image": "/assets/headwear/黄色邮差.gif",
+        "id": "headwear_黄色邮差帽",
+        "name": "黄色邮差帽",
+        "thumbnail": "/assets/headwear/黄色邮差帽.gif",
+        "image": "/assets/headwear/黄色邮差帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5731,10 +5731,10 @@ export const categories = [
         "layer": 14
       },
       {
-        "id": "headwear_绿色头箍",
-        "name": "绿色头箍",
-        "thumbnail": "/assets/headwear/绿色头箍.gif",
-        "image": "/assets/headwear/绿色头箍.gif",
+        "id": "headwear_绿色头巾",
+        "name": "绿色头巾",
+        "thumbnail": "/assets/headwear/绿色头巾.gif",
+        "image": "/assets/headwear/绿色头巾.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5747,18 +5747,18 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_毛绒帽",
-        "name": "毛绒帽",
-        "thumbnail": "/assets/headwear/毛绒帽.gif",
-        "image": "/assets/headwear/毛绒帽.gif",
+        "id": "headwear_浅棕毛绒帽",
+        "name": "浅棕毛绒帽",
+        "thumbnail": "/assets/headwear/浅棕毛绒帽.gif",
+        "image": "/assets/headwear/浅棕毛绒帽.gif",
         "category": "headwear",
         "layer": 1
       },
       {
-        "id": "headwear_毛线帽",
-        "name": "毛线帽",
-        "thumbnail": "/assets/headwear/毛线帽.gif",
-        "image": "/assets/headwear/毛线帽.gif",
+        "id": "headwear_紫色毛线帽",
+        "name": "紫色毛线帽",
+        "thumbnail": "/assets/headwear/紫色毛线帽.gif",
+        "image": "/assets/headwear/紫色毛线帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5795,18 +5795,18 @@ export const categories = [
         "layer": 14
       },
       {
-        "id": "headwear_浅粉贝雷",
-        "name": "浅粉贝雷",
-        "thumbnail": "/assets/headwear/浅粉贝雷.gif",
-        "image": "/assets/headwear/浅粉贝雷.gif",
+        "id": "headwear_浅粉贝雷帽",
+        "name": "浅粉贝雷帽",
+        "thumbnail": "/assets/headwear/浅粉贝雷帽.gif",
+        "image": "/assets/headwear/浅粉贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
       {
-        "id": "headwear_浅蓝头巾",
-        "name": "浅蓝头巾",
-        "thumbnail": "/assets/headwear/浅蓝头巾.gif",
-        "image": "/assets/headwear/浅蓝头巾.gif",
+        "id": "headwear_浅蓝针织帽",
+        "name": "浅蓝针织帽",
+        "thumbnail": "/assets/headwear/浅蓝针织帽.gif",
+        "image": "/assets/headwear/浅蓝针织帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5859,10 +5859,10 @@ export const categories = [
         "layer": 14
       },
       {
-        "id": "headwear_兔子运动",
-        "name": "兔子运动",
-        "thumbnail": "/assets/headwear/兔子运动.gif",
-        "image": "/assets/headwear/兔子运动.gif",
+        "id": "headwear_兔子运动帽",
+        "name": "兔子运动帽",
+        "thumbnail": "/assets/headwear/兔子运动帽.gif",
+        "image": "/assets/headwear/兔子运动帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5907,10 +5907,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_摇滚贝雷",
-        "name": "摇滚贝雷",
-        "thumbnail": "/assets/headwear/摇滚贝雷.gif",
-        "image": "/assets/headwear/摇滚贝雷.gif",
+        "id": "headwear_摇滚贝雷帽",
+        "name": "摇滚贝雷帽",
+        "thumbnail": "/assets/headwear/摇滚贝雷帽.gif",
+        "image": "/assets/headwear/摇滚贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },

@@ -1974,9 +1974,9 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "紫色波点围巾",
     "en": "Purple Polka Dot Scarf"
   },
-  "白色棒球": {
-    "zh": "白色棒球",
-    "en": "White Baseball"
+  "白色爱心贝雷帽": {
+    "zh": "白色爱心贝雷帽",
+    "en": "White Heart Beret"
   },
   "蝙蝠镜": {
     "zh": "蝙蝠镜",
@@ -1990,37 +1990,37 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "冰蓝墨镜",
     "en": "Ice Blue Sunglasses"
   },
-  "波点美式头箍": {
-    "zh": "波点美式头箍",
-    "en": "Polka Dot American Headband"
+  "波点美式头巾": {
+    "zh": "波点美式头巾",
+    "en": "Polka Dot American Headscarf"
   },
-  "春日踏青": {
-    "zh": "春日踏青",
-    "en": "Spring Outing"
+  "青色小花贝雷帽": {
+    "zh": "青色小花贝雷帽",
+    "en": "Cyan Floral Beret"
   },
-  "粉色画家": {
-    "zh": "粉色画家",
-    "en": "Pink Painter"
+  "粉色画家帽": {
+    "zh": "粉色画家帽",
+    "en": "Pink Painter Hat"
   },
   "粉色头纱": {
     "zh": "粉色头纱",
     "en": "Pink Veil"
   },
-  "粉色运动": {
-    "zh": "粉色运动",
-    "en": "Pink Sports"
+  "粉色运动帽": {
+    "zh": "粉色运动帽",
+    "en": "Pink Sports Cap"
   },
   "粉色针织帽": {
     "zh": "粉色针织帽",
     "en": "Pink Knit Hat"
   },
-  "粉紫贝雷": {
-    "zh": "粉紫贝雷",
+  "粉紫贝雷帽": {
+    "zh": "粉紫贝雷帽",
     "en": "Pink Purple Beret"
   },
-  "复古美式头箍": {
-    "zh": "复古美式头箍",
-    "en": "Vintage American Headband"
+  "复古美式头巾": {
+    "zh": "复古美式头巾",
+    "en": "Vintage American Headscarf"
   },
   "格子报童帽": {
     "zh": "格子报童帽",
@@ -2034,8 +2034,8 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "海盗头巾",
     "en": "Pirate Headscarf"
   },
-  "海军贝雷": {
-    "zh": "海军贝雷",
+  "海军贝雷帽": {
+    "zh": "海军贝雷帽",
     "en": "Navy Beret"
   },
   "红色蝴蝶结小夹": {
@@ -2050,13 +2050,13 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "红紫运动帽",
     "en": "Red Purple Sports Cap"
   },
-  "黄色贝雷": {
-    "zh": "黄色贝雷",
+  "黄色贝雷帽": {
+    "zh": "黄色贝雷帽",
     "en": "Yellow Beret"
   },
-  "黄色邮差": {
-    "zh": "黄色邮差",
-    "en": "Yellow Postman"
+  "黄色邮差帽": {
+    "zh": "黄色邮差帽",
+    "en": "Yellow Postman Cap"
   },
   "街头报童帽": {
     "zh": "街头报童帽",
@@ -2070,17 +2070,17 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "蓝色机车镜",
     "en": "Blue Motorcycle Glasses"
   },
-  "绿色头箍": {
-    "zh": "绿色头箍",
-    "en": "Green Headband"
+  "绿色头巾": {
+    "zh": "绿色头巾",
+    "en": "Green Headscarf"
   },
-  "毛绒帽": {
-    "zh": "毛绒帽",
-    "en": "Fuzzy Hat"
+  "浅棕毛绒帽": {
+    "zh": "浅棕毛绒帽",
+    "en": "Light Brown Fuzzy Hat"
   },
-  "毛线帽": {
-    "zh": "毛线帽",
-    "en": "Wool Hat"
+  "紫色毛线帽": {
+    "zh": "紫色毛线帽",
+    "en": "Purple Wool Hat"
   },
   "墨镜": {
     "zh": "墨镜",
@@ -2090,13 +2090,13 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "墨镜黑色头巾",
     "en": "Sunglasses Black Headscarf"
   },
-  "浅粉贝雷": {
-    "zh": "浅粉贝雷",
+  "浅粉贝雷帽": {
+    "zh": "浅粉贝雷帽",
     "en": "Light Pink Beret"
   },
-  "浅蓝头巾": {
-    "zh": "浅蓝头巾",
-    "en": "Light Blue Headscarf"
+  "浅蓝针织帽": {
+    "zh": "浅蓝针织帽",
+    "en": "Light Blue Knit Hat"
   },
   "浅蓝运动帽": {
     "zh": "浅蓝运动帽",
@@ -2118,9 +2118,9 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "双色针织帽",
     "en": "Two-Tone Knit Hat"
   },
-  "兔子运动": {
-    "zh": "兔子运动",
-    "en": "Rabbit Sports"
+  "兔子运动帽": {
+    "zh": "兔子运动帽",
+    "en": "Rabbit Sports Cap"
   },
   "王冠": {
     "zh": "王冠",
@@ -2142,8 +2142,8 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "炫蓝墨镜",
     "en": "Glitter Blue Sunglasses"
   },
-  "摇滚贝雷": {
-    "zh": "摇滚贝雷",
+  "摇滚贝雷帽": {
+    "zh": "摇滚贝雷帽",
     "en": "Rock Beret"
   },
   "摇滚粉墨镜": {
