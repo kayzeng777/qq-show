@@ -3579,7 +3579,14 @@ export const categories = [
           "category": "front-hair",
           "layer": 2
         },
-        "backHair": null
+        "backHair": {
+          "id": "back-hair_亚麻绿中短发",
+          "name": "亚麻绿中短发",
+          "thumbnail": "/assets/back-hair/亚麻绿中短发.gif",
+          "image": "/assets/back-hair/亚麻绿中短发.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
       },
       {
         "id": "hair_亚麻绿中长发",
