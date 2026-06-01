@@ -302,8 +302,8 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
           <div className="qq-show-panel col-display share-page-display">
             {isLoading ? (
               <div className="loading-placeholder" style={{
-                width: '210px',
-                height: '210px',
+                width: '212px',
+                height: '212px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -320,7 +320,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
 
             {/* 装扮名称编辑区域 */}
             <div className="outfit-name-section" style={{ 
-              width: '210px', 
+              width: '212px', 
               height: '40px !important',
               display: 'flex',
               justifyContent: 'center',
