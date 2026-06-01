@@ -2009,7 +2009,14 @@ export const categories = [
           "category": "front-hair",
           "layer": 2
         },
-        "backHair": null
+        "backHair": {
+          "id": "back-hair_动漫蓝蝴蝶结马尾",
+          "name": "动漫蓝蝴蝶结马尾",
+          "thumbnail": "/assets/back-hair/动漫蓝蝴蝶结马尾.gif",
+          "image": "/assets/back-hair/动漫蓝蝴蝶结马尾.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
       },
       {
         "id": "hair_粉贝雷帽棕侧马尾",
@@ -4216,7 +4223,14 @@ export const categories = [
           "category": "front-hair",
           "layer": 2
         },
-        "backHair": null
+        "backHair": {
+          "id": "back-hair_棕色发夹侧扎卷发",
+          "name": "棕色发夹侧扎卷发",
+          "thumbnail": "/assets/back-hair/棕色发夹侧扎卷发.gif",
+          "image": "/assets/back-hair/棕色发夹侧扎卷发.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
       },
       {
         "id": "hair_棕色飞机头",

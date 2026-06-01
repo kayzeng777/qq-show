@@ -411,6 +411,15 @@ function updateCategories(newItems) {
       console.log(`⚠️  未找到分类: ${categoryId}`);
       continue;
     }
+
+    // 发型：先处理前发再处理后发，确保能正确配对
+    if (categoryId === 'hair') {
+      items.sort((a, b) => {
+        if (a.hairRole === 'front' && b.hairRole === 'back') return -1;
+        if (a.hairRole === 'back' && b.hairRole === 'front') return 1;
+        return 0;
+      });
+    }
     
     for (const item of items) {
       if (item.hairRole === 'front') {
@@ -556,7 +565,10 @@ function scanAssetsMissingFromCategories(categories) {
         const hairItem = categories
           .find((c) => c.id === 'hair')
           ?.items.find((i) => i.name === chineseName);
-        if (!hairItem || hairItem.backHair) continue;
+        if (hairItem?.backHair) continue;
+        const frontPath = join(assetsDir, 'front-hair', file);
+        // 前发尚未入库时也要处理后发（同批次会先加前发）
+        if (!hairItem && !fs.existsSync(frontPath)) continue;
       } else if (existingIds.has(itemId)) {
         continue;
       }
