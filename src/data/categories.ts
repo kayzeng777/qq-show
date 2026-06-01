@@ -3891,10 +3891,10 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "top_橙色背心白套衫gif",
-        "name": "橙色背心白套衫gif",
-        "thumbnail": "/assets/top/橙色背心白套衫gif.gif",
-        "image": "/assets/top/橙色背心白套衫gif.gif",
+        "id": "top_橙色背心白套衫",
+        "name": "橙色背心白套衫",
+        "thumbnail": "/assets/top/橙色背心白套衫.gif",
+        "image": "/assets/top/橙色背心白套衫.gif",
         "category": "top",
         "layer": 1
       },
@@ -5953,6 +5953,30 @@ export const categories = [
         "image": "/assets/headwear/棕色贝雷帽.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_粉色爱心发夹",
+        "name": "粉色爱心发夹",
+        "thumbnail": "/assets/headwear/粉色爱心发夹.gif",
+        "image": "/assets/headwear/粉色爱心发夹.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_月亮额头坠饰",
+        "name": "月亮额头坠饰",
+        "thumbnail": "/assets/headwear/月亮额头坠饰.gif",
+        "image": "/assets/headwear/月亮额头坠饰.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_钻石额头坠饰",
+        "name": "钻石额头坠饰",
+        "thumbnail": "/assets/headwear/钻石额头坠饰.gif",
+        "image": "/assets/headwear/钻石额头坠饰.gif",
+        "category": "headwear",
+        "layer": 14
       }
     ]
   },
@@ -6563,14 +6587,6 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "face-decor_粉色爱心",
-        "name": "粉色爱心",
-        "thumbnail": "/assets/face-decor/粉色爱心.gif",
-        "image": "/assets/face-decor/粉色爱心.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
         "id": "face-decor_粉色面纱",
         "name": "粉色面纱",
         "thumbnail": "/assets/face-decor/粉色面纱.gif",
@@ -6599,22 +6615,6 @@ export const categories = [
         "name": "烟",
         "thumbnail": "/assets/face-decor/烟.gif",
         "image": "/assets/face-decor/烟.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_月亮额头坠饰",
-        "name": "月亮额头坠饰",
-        "thumbnail": "/assets/face-decor/月亮额头坠饰.gif",
-        "image": "/assets/face-decor/月亮额头坠饰.gif",
-        "category": "face-decor",
-        "layer": 1
-      },
-      {
-        "id": "face-decor_钻石额头坠饰",
-        "name": "钻石额头坠饰",
-        "thumbnail": "/assets/face-decor/钻石额头坠饰.gif",
-        "image": "/assets/face-decor/钻石额头坠饰.gif",
         "category": "face-decor",
         "layer": 1
       },

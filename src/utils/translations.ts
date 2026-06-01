@@ -1090,8 +1090,8 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "绑带白色背心",
     "en": "Tied White Vest"
   },
-  "橙色背心白套衫gif": {
-    "zh": "橙色背心白套衫gif",
+  "橙色背心白套衫": {
+    "zh": "橙色背心白套衫",
     "en": "Orange Vest White Sweater"
   },
   "橙色恤衫叠背心": {
@@ -1686,9 +1686,9 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
     "zh": "粉蓝创可贴",
     "en": "Pink Blue Band-Aid"
   },
-  "粉色爱心": {
-    "zh": "粉色爱心",
-    "en": "Pink Heart"
+  "粉色爱心发夹": {
+    "zh": "粉色爱心发夹",
+    "en": "Pink Heart Hair Clip"
   },
   "粉色面纱": {
     "zh": "粉色面纱",
