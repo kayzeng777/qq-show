@@ -11,10 +11,13 @@
   width: 212px;
   height: 341px;
   background: #f8f8f8;
-  border: 1px solid #c0c0c0;
+  border: none;
+  outline: 1px solid #c0c0c0;
+  outline-offset: -1px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: none;
+  box-sizing: border-box;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -30,10 +33,11 @@
 }
 
 .qq-show-item-image {
-  width: 212px;
-  height: 341px;
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  object-position: center;
+  object-position: top left;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -71,8 +75,6 @@
   }
 
   .qq-show-item-image {
-    width: 192px;
-    height: 307px;
     object-fit: fill;
   }
 }
@@ -87,16 +89,19 @@
   align-items: center;
   position: relative;
   background: #f8f8f8;
-  border: 1px solid #c0c0c0;
+  border: none;
+  outline: 1px solid #c0c0c0;
+  outline-offset: -1px;
   border-radius: 5px;
   box-shadow: none;
+  box-sizing: border-box;
   min-height: 341px;
   overflow: hidden;
 }
 
 .share-display-area {
-  width: 212px;
-  height: 341px;
+  width: 100%;
+  height: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -108,9 +113,11 @@
 }
 
 .share-display-image {
-  width: 212px;
-  height: 341px;
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: fill;
+  object-position: top left;
   position: absolute;
   top: 0;
   left: 0;
@@ -121,8 +128,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 212px;
-  height: 341px;
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }
 
