@@ -15,6 +15,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_巴黎街道",
+        "name": "巴黎街道",
+        "thumbnail": "/assets/backgrounds/巴黎街道.gif",
+        "image": "/assets/backgrounds/巴黎街道.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_北极熊湖",
         "name": "北极熊湖",
         "thumbnail": "/assets/backgrounds/北极熊湖.gif",
@@ -63,6 +71,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_彩色条纹",
+        "name": "彩色条纹",
+        "thumbnail": "/assets/backgrounds/彩色条纹.gif",
+        "image": "/assets/backgrounds/彩色条纹.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_仓鼠之家",
         "name": "仓鼠之家",
         "thumbnail": "/assets/backgrounds/仓鼠之家.gif",
@@ -95,6 +111,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_灯光幻彩",
+        "name": "灯光幻彩",
+        "thumbnail": "/assets/backgrounds/灯光幻彩.gif",
+        "image": "/assets/backgrounds/灯光幻彩.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_电光石火",
         "name": "电光石火",
         "thumbnail": "/assets/backgrounds/电光石火.gif",
@@ -123,6 +147,22 @@ export const categories = [
         "name": "冬日小屋",
         "thumbnail": "/assets/backgrounds/冬日小屋.gif",
         "image": "/assets/backgrounds/冬日小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉粉公寓",
+        "name": "粉粉公寓",
+        "thumbnail": "/assets/backgrounds/粉粉公寓.gif",
+        "image": "/assets/backgrounds/粉粉公寓.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉红小屋",
+        "name": "粉红小屋",
+        "thumbnail": "/assets/backgrounds/粉红小屋.gif",
+        "image": "/assets/backgrounds/粉红小屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -175,6 +215,22 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_公主卧室",
+        "name": "公主卧室",
+        "thumbnail": "/assets/backgrounds/公主卧室.gif",
+        "image": "/assets/backgrounds/公主卧室.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_恭贺新年",
+        "name": "恭贺新年",
+        "thumbnail": "/assets/backgrounds/恭贺新年.gif",
+        "image": "/assets/backgrounds/恭贺新年.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_诡秘科技",
         "name": "诡秘科技",
         "thumbnail": "/assets/backgrounds/诡秘科技.gif",
@@ -219,6 +275,14 @@ export const categories = [
         "name": "海底世界",
         "thumbnail": "/assets/backgrounds/海底世界.gif",
         "image": "/assets/backgrounds/海底世界.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_寒冬雪地",
+        "name": "寒冬雪地",
+        "thumbnail": "/assets/backgrounds/寒冬雪地.gif",
+        "image": "/assets/backgrounds/寒冬雪地.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -383,6 +447,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_冷月石崖",
+        "name": "冷月石崖",
+        "thumbnail": "/assets/backgrounds/冷月石崖.gif",
+        "image": "/assets/backgrounds/冷月石崖.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_林间阳光",
         "name": "林间阳光",
         "thumbnail": "/assets/backgrounds/林间阳光.gif",
@@ -395,6 +467,22 @@ export const categories = [
         "name": "凛冬小屋",
         "thumbnail": "/assets/backgrounds/凛冬小屋.gif",
         "image": "/assets/backgrounds/凛冬小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_路边小狗",
+        "name": "路边小狗",
+        "thumbnail": "/assets/backgrounds/路边小狗.gif",
+        "image": "/assets/backgrounds/路边小狗.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_路灯庭院",
+        "name": "路灯庭院",
+        "thumbnail": "/assets/backgrounds/路灯庭院.gif",
+        "image": "/assets/backgrounds/路灯庭院.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -471,6 +559,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_蘑菇屋",
+        "name": "蘑菇屋",
+        "thumbnail": "/assets/backgrounds/蘑菇屋.gif",
+        "image": "/assets/backgrounds/蘑菇屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_魔法扑克",
         "name": "魔法扑克",
         "thumbnail": "/assets/backgrounds/魔法扑克.gif",
@@ -531,6 +627,14 @@ export const categories = [
         "name": "气球爱心",
         "thumbnail": "/assets/backgrounds/气球爱心.gif",
         "image": "/assets/backgrounds/气球爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_清凉海滩",
+        "name": "清凉海滩",
+        "thumbnail": "/assets/backgrounds/清凉海滩.gif",
+        "image": "/assets/backgrounds/清凉海滩.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -639,6 +743,22 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_圣诞小院",
+        "name": "圣诞小院",
+        "thumbnail": "/assets/backgrounds/圣诞小院.gif",
+        "image": "/assets/backgrounds/圣诞小院.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞小镇",
+        "name": "圣诞小镇",
+        "thumbnail": "/assets/backgrounds/圣诞小镇.gif",
+        "image": "/assets/backgrounds/圣诞小镇.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_圣莫尼卡",
         "name": "圣莫尼卡",
         "thumbnail": "/assets/backgrounds/圣莫尼卡.gif",
@@ -671,6 +791,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_双子爱心",
+        "name": "双子爱心",
+        "thumbnail": "/assets/backgrounds/双子爱心.gif",
+        "image": "/assets/backgrounds/双子爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_双子云殿",
         "name": "双子云殿",
         "thumbnail": "/assets/backgrounds/双子云殿.gif",
@@ -699,6 +827,14 @@ export const categories = [
         "name": "睡梦云朵",
         "thumbnail": "/assets/backgrounds/睡梦云朵.gif",
         "image": "/assets/backgrounds/睡梦云朵.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_丝带云朵",
+        "name": "丝带云朵",
+        "thumbnail": "/assets/backgrounds/丝带云朵.gif",
+        "image": "/assets/backgrounds/丝带云朵.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -903,6 +1039,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_星夜花园",
+        "name": "星夜花园",
+        "thumbnail": "/assets/backgrounds/星夜花园.gif",
+        "image": "/assets/backgrounds/星夜花园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_星座云台",
         "name": "星座云台",
         "thumbnail": "/assets/backgrounds/星座云台.gif",
@@ -915,6 +1059,14 @@ export const categories = [
         "name": "幸运草丛",
         "thumbnail": "/assets/backgrounds/幸运草丛.gif",
         "image": "/assets/backgrounds/幸运草丛.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_悬崖城堡",
+        "name": "悬崖城堡",
+        "thumbnail": "/assets/backgrounds/悬崖城堡.gif",
+        "image": "/assets/backgrounds/悬崖城堡.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -999,6 +1151,22 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_萤火树丛",
+        "name": "萤火树丛",
+        "thumbnail": "/assets/backgrounds/萤火树丛.gif",
+        "image": "/assets/backgrounds/萤火树丛.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_萤火夜林",
+        "name": "萤火夜林",
+        "thumbnail": "/assets/backgrounds/萤火夜林.gif",
+        "image": "/assets/backgrounds/萤火夜林.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_犹他公园",
         "name": "犹他公园",
         "thumbnail": "/assets/backgrounds/犹他公园.gif",
@@ -1023,6 +1191,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_月光仙子",
+        "name": "月光仙子",
+        "thumbnail": "/assets/backgrounds/月光仙子.gif",
+        "image": "/assets/backgrounds/月光仙子.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_云朵月台",
         "name": "云朵月台",
         "thumbnail": "/assets/backgrounds/云朵月台.gif",
@@ -1035,6 +1211,22 @@ export const categories = [
         "name": "云上余音",
         "thumbnail": "/assets/backgrounds/云上余音.gif",
         "image": "/assets/backgrounds/云上余音.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_云中城堡",
+        "name": "云中城堡",
+        "thumbnail": "/assets/backgrounds/云中城堡.gif",
+        "image": "/assets/backgrounds/云中城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_中式楼阁",
+        "name": "中式楼阁",
+        "thumbnail": "/assets/backgrounds/中式楼阁.gif",
+        "image": "/assets/backgrounds/中式楼阁.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1110,6 +1302,14 @@ export const categories = [
     "thumbnail": "/assets/sparkle/蓝紫闪星.gif",
     "layer": 19,
     "items": [
+      {
+        "id": "sparkle_爱心氛围",
+        "name": "爱心氛围",
+        "thumbnail": "/assets/sparkle/爱心氛围.gif",
+        "image": "/assets/sparkle/爱心氛围.gif",
+        "category": "sparkle",
+        "layer": 19
+      },
       {
         "id": "sparkle_爱心闪耀糯米团子",
         "name": "爱心闪耀糯米团子",
@@ -1415,6 +1615,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "sparkle_浴缸泡泡",
+        "name": "浴缸泡泡",
+        "thumbnail": "/assets/sparkle/浴缸泡泡.gif",
+        "image": "/assets/sparkle/浴缸泡泡.gif",
+        "category": "sparkle",
+        "layer": 19
+      },
+      {
         "id": "sparkle_云朵双子星",
         "name": "云朵双子星",
         "thumbnail": "/assets/sparkle/云朵双子星.gif",
@@ -1438,7 +1646,7 @@ export const categories = [
     "thumbnail": "/assets/front-hair/蝴蝶结棕色长卷发.gif",
     "layer": 5,
     "items": [
-{
+      {
         "id": "hair_白金短发",
         "name": "白金短发",
         "thumbnail": "/assets/front-hair/白金短发.gif",
@@ -1455,7 +1663,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_白金发夹短发",
         "name": "白金发夹短发",
         "thumbnail": "/assets/front-hair/白金发夹短发.gif",
@@ -1472,7 +1680,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_白金厚刘海短发",
         "name": "白金厚刘海短发",
         "thumbnail": "/assets/front-hair/白金厚刘海短发.gif",
@@ -1496,7 +1704,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_白金蝴蝶结波浪长发",
         "name": "白金蝴蝶结波浪长发",
         "thumbnail": "/assets/front-hair/白金蝴蝶结波浪长发.gif",
@@ -1511,9 +1719,33 @@ export const categories = [
           "category": "front-hair",
           "layer": 2
         },
+        "backHair": {
+          "id": "back-hair_白金蝴蝶结波浪长发",
+          "name": "白金蝴蝶结波浪长发",
+          "thumbnail": "/assets/back-hair/白金蝴蝶结波浪长发.gif",
+          "image": "/assets/back-hair/白金蝴蝶结波浪长发.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
+      },
+      {
+        "id": "hair_白金毽子短发",
+        "name": "白金毽子短发",
+        "thumbnail": "/assets/front-hair/白金毽子短发.gif",
+        "image": "/assets/front-hair/白金毽子短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_白金毽子短发",
+          "name": "白金毽子短发",
+          "thumbnail": "/assets/front-hair/白金毽子短发.gif",
+          "image": "/assets/front-hair/白金毽子短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
         "backHair": null
       },
-{
+      {
         "id": "hair_白金毽子头",
         "name": "白金毽子头",
         "thumbnail": "/assets/front-hair/白金毽子头.gif",
@@ -1530,7 +1762,48 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_白金卷双马尾",
+        "name": "白金卷双马尾",
+        "thumbnail": "/assets/front-hair/白金卷双马尾.gif",
+        "image": "/assets/front-hair/白金卷双马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_白金卷双马尾",
+          "name": "白金卷双马尾",
+          "thumbnail": "/assets/front-hair/白金卷双马尾.gif",
+          "image": "/assets/front-hair/白金卷双马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_白金卷长发",
+        "name": "白金卷长发",
+        "thumbnail": "/assets/front-hair/白金卷长发.gif",
+        "image": "/assets/front-hair/白金卷长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_白金卷长发",
+          "name": "白金卷长发",
+          "thumbnail": "/assets/front-hair/白金卷长发.gif",
+          "image": "/assets/front-hair/白金卷长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": {
+          "id": "back-hair_白金卷长发",
+          "name": "白金卷长发",
+          "thumbnail": "/assets/back-hair/白金卷长发.gif",
+          "image": "/assets/back-hair/白金卷长发.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
+      },
+      {
         "id": "hair_白金双马尾",
         "name": "白金双马尾",
         "thumbnail": "/assets/front-hair/白金双马尾.gif",
@@ -1554,7 +1827,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_白金中分卷长发",
         "name": "白金中分卷长发",
         "thumbnail": "/assets/front-hair/白金中分卷长发.gif",
@@ -1578,7 +1851,24 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
+        "id": "hair_白色非主流发",
+        "name": "白色非主流发",
+        "thumbnail": "/assets/front-hair/白色非主流发.gif",
+        "image": "/assets/front-hair/白色非主流发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_白色非主流发",
+          "name": "白色非主流发",
+          "thumbnail": "/assets/front-hair/白色非主流发.gif",
+          "image": "/assets/front-hair/白色非主流发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_冰蓝栗子头",
         "name": "冰蓝栗子头",
         "thumbnail": "/assets/front-hair/冰蓝栗子头.gif",
@@ -1595,7 +1885,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_冰蓝中短发",
         "name": "冰蓝中短发",
         "thumbnail": "/assets/front-hair/冰蓝中短发.gif",
@@ -1612,7 +1902,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_电力橙双马尾",
         "name": "电力橙双马尾",
         "thumbnail": "/assets/front-hair/电力橙双马尾.gif",
@@ -1629,7 +1919,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_动漫粉长发",
         "name": "动漫粉长发",
         "thumbnail": "/assets/front-hair/动漫粉长发.gif",
@@ -1646,7 +1936,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_动漫红双丸子扎发",
+        "name": "动漫红双丸子扎发",
+        "thumbnail": "/assets/front-hair/动漫红双丸子扎发.gif",
+        "image": "/assets/front-hair/动漫红双丸子扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_动漫红双丸子扎发",
+          "name": "动漫红双丸子扎发",
+          "thumbnail": "/assets/front-hair/动漫红双丸子扎发.gif",
+          "image": "/assets/front-hair/动漫红双丸子扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_动漫金棕短发",
         "name": "动漫金棕短发",
         "thumbnail": "/assets/front-hair/动漫金棕短发.gif",
@@ -1663,7 +1970,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_动漫金棕长尾发",
         "name": "动漫金棕长尾发",
         "thumbnail": "/assets/front-hair/动漫金棕长尾发.gif",
@@ -1687,7 +1994,41 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
+        "id": "hair_动漫蓝蝴蝶结马尾",
+        "name": "动漫蓝蝴蝶结马尾",
+        "thumbnail": "/assets/front-hair/动漫蓝蝴蝶结马尾.gif",
+        "image": "/assets/front-hair/动漫蓝蝴蝶结马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_动漫蓝蝴蝶结马尾",
+          "name": "动漫蓝蝴蝶结马尾",
+          "thumbnail": "/assets/front-hair/动漫蓝蝴蝶结马尾.gif",
+          "image": "/assets/front-hair/动漫蓝蝴蝶结马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_粉贝雷帽棕侧马尾",
+        "name": "粉贝雷帽棕侧马尾",
+        "thumbnail": "/assets/front-hair/粉贝雷帽棕侧马尾.gif",
+        "image": "/assets/front-hair/粉贝雷帽棕侧马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_粉贝雷帽棕侧马尾",
+          "name": "粉贝雷帽棕侧马尾",
+          "thumbnail": "/assets/front-hair/粉贝雷帽棕侧马尾.gif",
+          "image": "/assets/front-hair/粉贝雷帽棕侧马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_粉橙卷发",
         "name": "粉橙卷发",
         "thumbnail": "/assets/front-hair/粉橙卷发.gif",
@@ -1704,7 +2045,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_粉色高马尾",
         "name": "粉色高马尾",
         "thumbnail": "/assets/front-hair/粉色高马尾.gif",
@@ -1721,7 +2062,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_粉紫双马尾",
         "name": "粉紫双马尾",
         "thumbnail": "/assets/front-hair/粉紫双马尾.gif",
@@ -1738,7 +2079,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_粉紫头饰卷双马尾",
         "name": "粉紫头饰卷双马尾",
         "thumbnail": "/assets/front-hair/粉紫头饰卷双马尾.gif",
@@ -1755,7 +2096,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_粉紫斜刘海扎发",
+        "name": "粉紫斜刘海扎发",
+        "thumbnail": "/assets/front-hair/粉紫斜刘海扎发.gif",
+        "image": "/assets/front-hair/粉紫斜刘海扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_粉紫斜刘海扎发",
+          "name": "粉紫斜刘海扎发",
+          "thumbnail": "/assets/front-hair/粉紫斜刘海扎发.gif",
+          "image": "/assets/front-hair/粉紫斜刘海扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_粉紫斜扎高马尾",
         "name": "粉紫斜扎高马尾",
         "thumbnail": "/assets/front-hair/粉紫斜扎高马尾.gif",
@@ -1772,7 +2130,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_粉紫长直发",
         "name": "粉紫长直发",
         "thumbnail": "/assets/front-hair/粉紫长直发.gif",
@@ -1796,7 +2154,92 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
+        "id": "hair_黑色侧扎长羊毛卷",
+        "name": "黑色侧扎长羊毛卷",
+        "thumbnail": "/assets/front-hair/黑色侧扎长羊毛卷.gif",
+        "image": "/assets/front-hair/黑色侧扎长羊毛卷.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色侧扎长羊毛卷",
+          "name": "黑色侧扎长羊毛卷",
+          "thumbnail": "/assets/front-hair/黑色侧扎长羊毛卷.gif",
+          "image": "/assets/front-hair/黑色侧扎长羊毛卷.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_黑色黄发带波波头",
+        "name": "黑色黄发带波波头",
+        "thumbnail": "/assets/front-hair/黑色黄发带波波头.gif",
+        "image": "/assets/front-hair/黑色黄发带波波头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色黄发带波波头",
+          "name": "黑色黄发带波波头",
+          "thumbnail": "/assets/front-hair/黑色黄发带波波头.gif",
+          "image": "/assets/front-hair/黑色黄发带波波头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_黑色刘海短发",
+        "name": "黑色刘海短发",
+        "thumbnail": "/assets/front-hair/黑色刘海短发.gif",
+        "image": "/assets/front-hair/黑色刘海短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色刘海短发",
+          "name": "黑色刘海短发",
+          "thumbnail": "/assets/front-hair/黑色刘海短发.gif",
+          "image": "/assets/front-hair/黑色刘海短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_黑色齐刘海麻花辫",
+        "name": "黑色齐刘海麻花辫",
+        "thumbnail": "/assets/front-hair/黑色齐刘海麻花辫.gif",
+        "image": "/assets/front-hair/黑色齐刘海麻花辫.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色齐刘海麻花辫",
+          "name": "黑色齐刘海麻花辫",
+          "thumbnail": "/assets/front-hair/黑色齐刘海麻花辫.gif",
+          "image": "/assets/front-hair/黑色齐刘海麻花辫.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_黑色双辫子",
+        "name": "黑色双辫子",
+        "thumbnail": "/assets/front-hair/黑色双辫子.gif",
+        "image": "/assets/front-hair/黑色双辫子.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_黑色双辫子",
+          "name": "黑色双辫子",
+          "thumbnail": "/assets/front-hair/黑色双辫子.gif",
+          "image": "/assets/front-hair/黑色双辫子.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_黑色双丸子头",
         "name": "黑色双丸子头",
         "thumbnail": "/assets/front-hair/黑色双丸子头.gif",
@@ -1813,7 +2256,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_黑棕飞机短发",
         "name": "黑棕飞机短发",
         "thumbnail": "/assets/front-hair/黑棕飞机短发.gif",
@@ -1830,7 +2273,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红色公主卷发",
         "name": "红色公主卷发",
         "thumbnail": "/assets/front-hair/红色公主卷发.gif",
@@ -1847,7 +2290,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红棕发饰斜马尾",
         "name": "红棕发饰斜马尾",
         "thumbnail": "/assets/front-hair/红棕发饰斜马尾.gif",
@@ -1864,7 +2307,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红棕公主卷发",
         "name": "红棕公主卷发",
         "thumbnail": "/assets/front-hair/红棕公主卷发.gif",
@@ -1881,7 +2324,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红棕卷双马尾",
         "name": "红棕卷双马尾",
         "thumbnail": "/assets/front-hair/红棕卷双马尾.gif",
@@ -1898,7 +2341,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_红棕卷中长发",
+        "name": "红棕卷中长发",
+        "thumbnail": "/assets/front-hair/红棕卷中长发.gif",
+        "image": "/assets/front-hair/红棕卷中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_红棕卷中长发",
+          "name": "红棕卷中长发",
+          "thumbnail": "/assets/front-hair/红棕卷中长发.gif",
+          "image": "/assets/front-hair/红棕卷中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_红棕刘海丸子短扎发",
         "name": "红棕刘海丸子短扎发",
         "thumbnail": "/assets/front-hair/红棕刘海丸子短扎发.gif",
@@ -1915,7 +2375,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红棕丸子头",
         "name": "红棕丸子头",
         "thumbnail": "/assets/front-hair/红棕丸子头.gif",
@@ -1932,7 +2392,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_红棕斜扎长发",
         "name": "红棕斜扎长发",
         "thumbnail": "/assets/front-hair/红棕斜扎长发.gif",
@@ -1949,7 +2409,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_蝴蝶结棕色长卷发",
         "name": "蝴蝶结棕色长卷发",
         "thumbnail": "/assets/front-hair/蝴蝶结棕色长卷发.gif",
@@ -1973,7 +2433,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_活力红棕斜扎卷发",
         "name": "活力红棕斜扎卷发",
         "thumbnail": "/assets/front-hair/活力红棕斜扎卷发.gif",
@@ -1990,7 +2450,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_活力金棕短发",
         "name": "活力金棕短发",
         "thumbnail": "/assets/front-hair/活力金棕短发.gif",
@@ -2007,7 +2467,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_火金飞机头",
         "name": "火金飞机头",
         "thumbnail": "/assets/front-hair/火金飞机头.gif",
@@ -2024,7 +2484,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_火金鲻鱼头",
         "name": "火金鲻鱼头",
         "thumbnail": "/assets/front-hair/火金鲻鱼头.gif",
@@ -2041,31 +2501,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
-        "id": "hair_金黄卷长发",
-        "name": "金黄卷长发",
-        "thumbnail": "/assets/front-hair/金黄卷长发.gif",
-        "image": "/assets/front-hair/金黄卷长发.gif",
+      {
+        "id": "hair_渐变金棕棒球帽卷发",
+        "name": "渐变金棕棒球帽卷发",
+        "thumbnail": "/assets/front-hair/渐变金棕棒球帽卷发.gif",
+        "image": "/assets/front-hair/渐变金棕棒球帽卷发.gif",
         "category": "hair",
         "layer": 4,
         "frontHair": {
-          "id": "front-hair_金黄卷长发",
-          "name": "金黄卷长发",
-          "thumbnail": "/assets/front-hair/金黄卷长发.gif",
-          "image": "/assets/front-hair/金黄卷长发.gif",
+          "id": "front-hair_渐变金棕棒球帽卷发",
+          "name": "渐变金棕棒球帽卷发",
+          "thumbnail": "/assets/front-hair/渐变金棕棒球帽卷发.gif",
+          "image": "/assets/front-hair/渐变金棕棒球帽卷发.gif",
           "category": "front-hair",
           "layer": 2
         },
-        "backHair": {
-          "id": "back-hair_金黄卷长发",
-          "name": "金黄卷长发",
-          "thumbnail": "/assets/back-hair/金黄卷长发.gif",
-          "image": "/assets/back-hair/金黄卷长发.gif",
-          "category": "back-hair",
-          "layer": 1
-        }
+        "backHair": null
       },
-{
+      {
         "id": "hair_金黄斜扎卷长发",
         "name": "金黄斜扎卷长发",
         "thumbnail": "/assets/front-hair/金黄斜扎卷长发.gif",
@@ -2082,7 +2535,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_金色波浪扎发",
         "name": "金色波浪扎发",
         "thumbnail": "/assets/front-hair/金色波浪扎发.gif",
@@ -2099,7 +2552,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_金色长卷发",
         "name": "金色长卷发",
         "thumbnail": "/assets/front-hair/金色长卷发.gif",
@@ -2123,7 +2576,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_金色长直发",
         "name": "金色长直发",
         "thumbnail": "/assets/front-hair/金色长直发.gif",
@@ -2147,7 +2600,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_金色中短发",
         "name": "金色中短发",
         "thumbnail": "/assets/front-hair/金色中短发.gif",
@@ -2164,7 +2617,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_金棕绑带双丸子头",
+        "name": "金棕绑带双丸子头",
+        "thumbnail": "/assets/front-hair/金棕绑带双丸子头.gif",
+        "image": "/assets/front-hair/金棕绑带双丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕绑带双丸子头",
+          "name": "金棕绑带双丸子头",
+          "thumbnail": "/assets/front-hair/金棕绑带双丸子头.gif",
+          "image": "/assets/front-hair/金棕绑带双丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_金棕波浪蓝发夹长发",
         "name": "金棕波浪蓝发夹长发",
         "thumbnail": "/assets/front-hair/金棕波浪蓝发夹长发.gif",
@@ -2181,7 +2651,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_金棕波浪长发",
         "name": "金棕波浪长发",
         "thumbnail": "/assets/front-hair/金棕波浪长发.gif",
@@ -2198,7 +2668,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_金棕雏菊发饰罗马卷",
+        "name": "金棕雏菊发饰罗马卷",
+        "thumbnail": "/assets/front-hair/金棕雏菊发饰罗马卷.gif",
+        "image": "/assets/front-hair/金棕雏菊发饰罗马卷.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕雏菊发饰罗马卷",
+          "name": "金棕雏菊发饰罗马卷",
+          "thumbnail": "/assets/front-hair/金棕雏菊发饰罗马卷.gif",
+          "image": "/assets/front-hair/金棕雏菊发饰罗马卷.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_金棕发饰双丸子头",
         "name": "金棕发饰双丸子头",
         "thumbnail": "/assets/front-hair/金棕发饰双丸子头.gif",
@@ -2215,7 +2702,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_金棕公主中长发",
         "name": "金棕公主中长发",
         "thumbnail": "/assets/front-hair/金棕公主中长发.gif",
@@ -2232,7 +2719,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_金棕毽子斜扎发",
         "name": "金棕毽子斜扎发",
         "thumbnail": "/assets/front-hair/金棕毽子斜扎发.gif",
@@ -2249,7 +2736,58 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_金棕梨花头",
+        "name": "金棕梨花头",
+        "thumbnail": "/assets/front-hair/金棕梨花头.gif",
+        "image": "/assets/front-hair/金棕梨花头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕梨花头",
+          "name": "金棕梨花头",
+          "thumbnail": "/assets/front-hair/金棕梨花头.gif",
+          "image": "/assets/front-hair/金棕梨花头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕刘海卷毛双马尾",
+        "name": "金棕刘海卷毛双马尾",
+        "thumbnail": "/assets/front-hair/金棕刘海卷毛双马尾.gif",
+        "image": "/assets/front-hair/金棕刘海卷毛双马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕刘海卷毛双马尾",
+          "name": "金棕刘海卷毛双马尾",
+          "thumbnail": "/assets/front-hair/金棕刘海卷毛双马尾.gif",
+          "image": "/assets/front-hair/金棕刘海卷毛双马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_金棕田园卷发",
+        "name": "金棕田园卷发",
+        "thumbnail": "/assets/front-hair/金棕田园卷发.gif",
+        "image": "/assets/front-hair/金棕田园卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕田园卷发",
+          "name": "金棕田园卷发",
+          "thumbnail": "/assets/front-hair/金棕田园卷发.gif",
+          "image": "/assets/front-hair/金棕田园卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_金棕斜刘海发饰直发",
         "name": "金棕斜刘海发饰直发",
         "thumbnail": "/assets/front-hair/金棕斜刘海发饰直发.gif",
@@ -2266,7 +2804,41 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_金棕斜刘海中短发",
+        "name": "金棕斜刘海中短发",
+        "thumbnail": "/assets/front-hair/金棕斜刘海中短发.gif",
+        "image": "/assets/front-hair/金棕斜刘海中短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_金棕斜刘海中短发",
+          "name": "金棕斜刘海中短发",
+          "thumbnail": "/assets/front-hair/金棕斜刘海中短发.gif",
+          "image": "/assets/front-hair/金棕斜刘海中短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_酒红蓬松短发",
+        "name": "酒红蓬松短发",
+        "thumbnail": "/assets/front-hair/酒红蓬松短发.gif",
+        "image": "/assets/front-hair/酒红蓬松短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_酒红蓬松短发",
+          "name": "酒红蓬松短发",
+          "thumbnail": "/assets/front-hair/酒红蓬松短发.gif",
+          "image": "/assets/front-hair/酒红蓬松短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_酒红双马尾",
         "name": "酒红双马尾",
         "thumbnail": "/assets/front-hair/酒红双马尾.gif",
@@ -2283,7 +2855,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_酒棕非主流小辫卷发",
+        "name": "酒棕非主流小辫卷发",
+        "thumbnail": "/assets/front-hair/酒棕非主流小辫卷发.gif",
+        "image": "/assets/front-hair/酒棕非主流小辫卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_酒棕非主流小辫卷发",
+          "name": "酒棕非主流小辫卷发",
+          "thumbnail": "/assets/front-hair/酒棕非主流小辫卷发.gif",
+          "image": "/assets/front-hair/酒棕非主流小辫卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_酒棕色丸子头",
         "name": "酒棕色丸子头",
         "thumbnail": "/assets/front-hair/酒棕色丸子头.gif",
@@ -2300,7 +2889,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_栗色斜分中短发",
+        "name": "栗色斜分中短发",
+        "thumbnail": "/assets/front-hair/栗色斜分中短发.gif",
+        "image": "/assets/front-hair/栗色斜分中短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_栗色斜分中短发",
+          "name": "栗色斜分中短发",
+          "thumbnail": "/assets/front-hair/栗色斜分中短发.gif",
+          "image": "/assets/front-hair/栗色斜分中短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_栗色中短发",
         "name": "栗色中短发",
         "thumbnail": "/assets/front-hair/栗色中短发.gif",
@@ -2324,7 +2930,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_栗子斜扎中长发",
         "name": "栗子斜扎中长发",
         "thumbnail": "/assets/front-hair/栗子斜扎中长发.gif",
@@ -2341,7 +2947,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_栗子棕短发",
         "name": "栗子棕短发",
         "thumbnail": "/assets/front-hair/栗子棕短发.gif",
@@ -2358,7 +2964,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_连帽金色卷长发",
         "name": "连帽金色卷长发",
         "thumbnail": "/assets/front-hair/连帽金色卷长发.gif",
@@ -2375,7 +2981,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_帽子棕红编发马尾",
         "name": "帽子棕红编发马尾",
         "thumbnail": "/assets/front-hair/帽子棕红编发马尾.gif",
@@ -2392,7 +2998,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_玫瑰盘发",
         "name": "玫瑰盘发",
         "thumbnail": "/assets/front-hair/玫瑰盘发.gif",
@@ -2409,7 +3015,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_墨镜电力紫短发",
         "name": "墨镜电力紫短发",
         "thumbnail": "/assets/front-hair/墨镜电力紫短发.gif",
@@ -2426,7 +3032,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_泡泡深棕双卷扎发",
         "name": "泡泡深棕双卷扎发",
         "thumbnail": "/assets/front-hair/泡泡深棕双卷扎发.gif",
@@ -2443,7 +3049,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_浅棕绑带长发",
         "name": "浅棕绑带长发",
         "thumbnail": "/assets/front-hair/浅棕绑带长发.gif",
@@ -2467,7 +3073,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_浅棕卷双马尾刘海",
         "name": "浅棕卷双马尾刘海",
         "thumbnail": "/assets/front-hair/浅棕卷双马尾刘海.gif",
@@ -2484,7 +3090,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_浅棕斜扎丸子头",
         "name": "浅棕斜扎丸子头",
         "thumbnail": "/assets/front-hair/浅棕斜扎丸子头.gif",
@@ -2501,7 +3107,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_浅棕中短发",
+        "name": "浅棕中短发",
+        "thumbnail": "/assets/front-hair/浅棕中短发.gif",
+        "image": "/assets/front-hair/浅棕中短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_浅棕中短发",
+          "name": "浅棕中短发",
+          "thumbnail": "/assets/front-hair/浅棕中短发.gif",
+          "image": "/assets/front-hair/浅棕中短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_浅棕中分长发",
         "name": "浅棕中分长发",
         "thumbnail": "/assets/front-hair/浅棕中分长发.gif",
@@ -2525,7 +3148,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_深褐长直发",
         "name": "深褐长直发",
         "thumbnail": "/assets/front-hair/深褐长直发.gif",
@@ -2549,7 +3172,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_深蓝帽棕短发",
         "name": "深蓝帽棕短发",
         "thumbnail": "/assets/front-hair/深蓝帽棕短发.gif",
@@ -2566,7 +3189,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_深紫红色丸子斜扎头",
         "name": "深紫红色丸子斜扎头",
         "thumbnail": "/assets/front-hair/深紫红色丸子斜扎头.gif",
@@ -2583,7 +3206,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_深紫色斜马尾长发",
         "name": "深紫色斜马尾长发",
         "thumbnail": "/assets/front-hair/深紫色斜马尾长发.gif",
@@ -2607,7 +3230,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_深棕波浪卷长发",
         "name": "深棕波浪卷长发",
         "thumbnail": "/assets/front-hair/深棕波浪卷长发.gif",
@@ -2624,7 +3247,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_深棕侧发髻",
+        "name": "深棕侧发髻",
+        "thumbnail": "/assets/front-hair/深棕侧发髻.gif",
+        "image": "/assets/front-hair/深棕侧发髻.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕侧发髻",
+          "name": "深棕侧发髻",
+          "thumbnail": "/assets/front-hair/深棕侧发髻.gif",
+          "image": "/assets/front-hair/深棕侧发髻.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_深棕短发",
         "name": "深棕短发",
         "thumbnail": "/assets/front-hair/深棕短发.gif",
@@ -2648,7 +3288,65 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
+        "id": "hair_深棕蝴蝶结斜刘海长发",
+        "name": "深棕蝴蝶结斜刘海长发",
+        "thumbnail": "/assets/front-hair/深棕蝴蝶结斜刘海长发.gif",
+        "image": "/assets/front-hair/深棕蝴蝶结斜刘海长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕蝴蝶结斜刘海长发",
+          "name": "深棕蝴蝶结斜刘海长发",
+          "thumbnail": "/assets/front-hair/深棕蝴蝶结斜刘海长发.gif",
+          "image": "/assets/front-hair/深棕蝴蝶结斜刘海长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": {
+          "id": "back-hair_深棕蝴蝶结斜刘海长发",
+          "name": "深棕蝴蝶结斜刘海长发",
+          "thumbnail": "/assets/back-hair/深棕蝴蝶结斜刘海长发.gif",
+          "image": "/assets/back-hair/深棕蝴蝶结斜刘海长发.gif",
+          "category": "back-hair",
+          "layer": 1
+        }
+      },
+      {
+        "id": "hair_深棕卷扎发",
+        "name": "深棕卷扎发",
+        "thumbnail": "/assets/front-hair/深棕卷扎发.gif",
+        "image": "/assets/front-hair/深棕卷扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕卷扎发",
+          "name": "深棕卷扎发",
+          "thumbnail": "/assets/front-hair/深棕卷扎发.gif",
+          "image": "/assets/front-hair/深棕卷扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_深棕梨花头",
+        "name": "深棕梨花头",
+        "thumbnail": "/assets/front-hair/深棕梨花头.gif",
+        "image": "/assets/front-hair/深棕梨花头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕梨花头",
+          "name": "深棕梨花头",
+          "thumbnail": "/assets/front-hair/深棕梨花头.gif",
+          "image": "/assets/front-hair/深棕梨花头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_深棕闪耀中长卷发",
         "name": "深棕闪耀中长卷发",
         "thumbnail": "/assets/front-hair/深棕闪耀中长卷发.gif",
@@ -2665,31 +3363,41 @@ export const categories = [
         },
         "backHair": null
       },
-{
-        "id": "hair_深棕斜扎卷马尾",
-        "name": "深棕斜扎卷马尾",
-        "thumbnail": "/assets/front-hair/深棕斜扎卷马尾.gif",
-        "image": "/assets/front-hair/深棕斜扎卷马尾.gif",
+      {
+        "id": "hair_深棕小礼帽双卷扎发",
+        "name": "深棕小礼帽双卷扎发",
+        "thumbnail": "/assets/front-hair/深棕小礼帽双卷扎发.gif",
+        "image": "/assets/front-hair/深棕小礼帽双卷扎发.gif",
         "category": "hair",
         "layer": 4,
         "frontHair": {
-          "id": "front-hair_深棕斜扎卷马尾",
-          "name": "深棕斜扎卷马尾",
-          "thumbnail": "/assets/front-hair/深棕斜扎卷马尾.gif",
-          "image": "/assets/front-hair/深棕斜扎卷马尾.gif",
+          "id": "front-hair_深棕小礼帽双卷扎发",
+          "name": "深棕小礼帽双卷扎发",
+          "thumbnail": "/assets/front-hair/深棕小礼帽双卷扎发.gif",
+          "image": "/assets/front-hair/深棕小礼帽双卷扎发.gif",
           "category": "front-hair",
           "layer": 2
         },
-        "backHair": {
-          "id": "back-hair_深棕斜扎卷马尾",
-          "name": "深棕斜扎卷马尾",
-          "thumbnail": "/assets/back-hair/深棕斜扎卷马尾.gif",
-          "image": "/assets/back-hair/深棕斜扎卷马尾.gif",
-          "category": "back-hair",
-          "layer": 1
-        }
+        "backHair": null
       },
-{
+      {
+        "id": "hair_深棕樱桃发饰丸子头",
+        "name": "深棕樱桃发饰丸子头",
+        "thumbnail": "/assets/front-hair/深棕樱桃发饰丸子头.gif",
+        "image": "/assets/front-hair/深棕樱桃发饰丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_深棕樱桃发饰丸子头",
+          "name": "深棕樱桃发饰丸子头",
+          "thumbnail": "/assets/front-hair/深棕樱桃发饰丸子头.gif",
+          "image": "/assets/front-hair/深棕樱桃发饰丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_头箍白金短发",
         "name": "头箍白金短发",
         "thumbnail": "/assets/front-hair/头箍白金短发.gif",
@@ -2713,7 +3421,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_头花金色扎发",
         "name": "头花金色扎发",
         "thumbnail": "/assets/front-hair/头花金色扎发.gif",
@@ -2730,7 +3438,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_头巾棕橙色斜马尾",
         "name": "头巾棕橙色斜马尾",
         "thumbnail": "/assets/front-hair/头巾棕橙色斜马尾.gif",
@@ -2747,7 +3455,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_炫紫飘逸长发",
         "name": "炫紫飘逸长发",
         "thumbnail": "/assets/front-hair/炫紫飘逸长发.gif",
@@ -2764,7 +3472,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_炫紫闪耀双马尾卷发",
         "name": "炫紫闪耀双马尾卷发",
         "thumbnail": "/assets/front-hair/炫紫闪耀双马尾卷发.gif",
@@ -2781,7 +3489,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_亚麻粉刺猬头",
+        "name": "亚麻粉刺猬头",
+        "thumbnail": "/assets/front-hair/亚麻粉刺猬头.gif",
+        "image": "/assets/front-hair/亚麻粉刺猬头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_亚麻粉刺猬头",
+          "name": "亚麻粉刺猬头",
+          "thumbnail": "/assets/front-hair/亚麻粉刺猬头.gif",
+          "image": "/assets/front-hair/亚麻粉刺猬头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_亚麻红短发",
         "name": "亚麻红短发",
         "thumbnail": "/assets/front-hair/亚麻红短发.gif",
@@ -2798,7 +3523,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_亚麻绿短发",
         "name": "亚麻绿短发",
         "thumbnail": "/assets/front-hair/亚麻绿短发.gif",
@@ -2815,7 +3540,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_亚麻绿长发",
         "name": "亚麻绿长发",
         "thumbnail": "/assets/front-hair/亚麻绿长发.gif",
@@ -2832,7 +3557,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_亚麻绿中短发",
         "name": "亚麻绿中短发",
         "thumbnail": "/assets/front-hair/亚麻绿中短发.gif",
@@ -2849,7 +3574,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_亚麻绿中长发",
         "name": "亚麻绿中长发",
         "thumbnail": "/assets/front-hair/亚麻绿中长发.gif",
@@ -2873,7 +3598,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_亚麻紫刺猬头",
         "name": "亚麻紫刺猬头",
         "thumbnail": "/assets/front-hair/亚麻紫刺猬头.gif",
@@ -2890,7 +3615,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_亚麻紫卷发",
+        "name": "亚麻紫卷发",
+        "thumbnail": "/assets/front-hair/亚麻紫卷发.gif",
+        "image": "/assets/front-hair/亚麻紫卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_亚麻紫卷发",
+          "name": "亚麻紫卷发",
+          "thumbnail": "/assets/front-hair/亚麻紫卷发.gif",
+          "image": "/assets/front-hair/亚麻紫卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_亚麻紫卷马尾",
         "name": "亚麻紫卷马尾",
         "thumbnail": "/assets/front-hair/亚麻紫卷马尾.gif",
@@ -2907,7 +3649,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_亚麻紫中长发",
         "name": "亚麻紫中长发",
         "thumbnail": "/assets/front-hair/亚麻紫中长发.gif",
@@ -2931,7 +3673,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_摇滚黑短发",
         "name": "摇滚黑短发",
         "thumbnail": "/assets/front-hair/摇滚黑短发.gif",
@@ -2948,7 +3690,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_摇滚蓝紫短发",
         "name": "摇滚蓝紫短发",
         "thumbnail": "/assets/front-hair/摇滚蓝紫短发.gif",
@@ -2965,7 +3707,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_摇滚棕红中长发",
         "name": "摇滚棕红中长发",
         "thumbnail": "/assets/front-hair/摇滚棕红中长发.gif",
@@ -2989,7 +3731,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_银灰短发",
         "name": "银灰短发",
         "thumbnail": "/assets/front-hair/银灰短发.gif",
@@ -3006,7 +3748,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_运动粉紫短发",
         "name": "运动粉紫短发",
         "thumbnail": "/assets/front-hair/运动粉紫短发.gif",
@@ -3023,7 +3765,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_运动深棕短发",
         "name": "运动深棕短发",
         "thumbnail": "/assets/front-hair/运动深棕短发.gif",
@@ -3040,7 +3782,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_紫蓝中短发",
+        "name": "紫蓝中短发",
+        "thumbnail": "/assets/front-hair/紫蓝中短发.gif",
+        "image": "/assets/front-hair/紫蓝中短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_紫蓝中短发",
+          "name": "紫蓝中短发",
+          "thumbnail": "/assets/front-hair/紫蓝中短发.gif",
+          "image": "/assets/front-hair/紫蓝中短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_紫色贝雷棕长发",
         "name": "紫色贝雷棕长发",
         "thumbnail": "/assets/front-hair/紫色贝雷棕长发.gif",
@@ -3057,7 +3816,41 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_紫闪闪刺猬头",
+        "name": "紫闪闪刺猬头",
+        "thumbnail": "/assets/front-hair/紫闪闪刺猬头.gif",
+        "image": "/assets/front-hair/紫闪闪刺猬头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_紫闪闪刺猬头",
+          "name": "紫闪闪刺猬头",
+          "thumbnail": "/assets/front-hair/紫闪闪刺猬头.gif",
+          "image": "/assets/front-hair/紫闪闪刺猬头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕橙扎发",
+        "name": "棕橙扎发",
+        "thumbnail": "/assets/front-hair/棕橙扎发.gif",
+        "image": "/assets/front-hair/棕橙扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕橙扎发",
+          "name": "棕橙扎发",
+          "thumbnail": "/assets/front-hair/棕橙扎发.gif",
+          "image": "/assets/front-hair/棕橙扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕橙长编发",
         "name": "棕橙长编发",
         "thumbnail": "/assets/front-hair/棕橙长编发.gif",
@@ -3074,7 +3867,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕褐扎发",
         "name": "棕褐扎发",
         "thumbnail": "/assets/front-hair/棕褐扎发.gif",
@@ -3091,7 +3884,92 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕红爱心发饰丸子头",
+        "name": "棕红爱心发饰丸子头",
+        "thumbnail": "/assets/front-hair/棕红爱心发饰丸子头.gif",
+        "image": "/assets/front-hair/棕红爱心发饰丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕红爱心发饰丸子头",
+          "name": "棕红爱心发饰丸子头",
+          "thumbnail": "/assets/front-hair/棕红爱心发饰丸子头.gif",
+          "image": "/assets/front-hair/棕红爱心发饰丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕红短马尾扎发",
+        "name": "棕红短马尾扎发",
+        "thumbnail": "/assets/front-hair/棕红短马尾扎发.gif",
+        "image": "/assets/front-hair/棕红短马尾扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕红短马尾扎发",
+          "name": "棕红短马尾扎发",
+          "thumbnail": "/assets/front-hair/棕红短马尾扎发.gif",
+          "image": "/assets/front-hair/棕红短马尾扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕红齐刘海丸子头",
+        "name": "棕红齐刘海丸子头",
+        "thumbnail": "/assets/front-hair/棕红齐刘海丸子头.gif",
+        "image": "/assets/front-hair/棕红齐刘海丸子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕红齐刘海丸子头",
+          "name": "棕红齐刘海丸子头",
+          "thumbnail": "/assets/front-hair/棕红齐刘海丸子头.gif",
+          "image": "/assets/front-hair/棕红齐刘海丸子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕红双丸子扎发",
+        "name": "棕红双丸子扎发",
+        "thumbnail": "/assets/front-hair/棕红双丸子扎发.gif",
+        "image": "/assets/front-hair/棕红双丸子扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕红双丸子扎发",
+          "name": "棕红双丸子扎发",
+          "thumbnail": "/assets/front-hair/棕红双丸子扎发.gif",
+          "image": "/assets/front-hair/棕红双丸子扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕红斜刘海卷侧马尾",
+        "name": "棕红斜刘海卷侧马尾",
+        "thumbnail": "/assets/front-hair/棕红斜刘海卷侧马尾.gif",
+        "image": "/assets/front-hair/棕红斜刘海卷侧马尾.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕红斜刘海卷侧马尾",
+          "name": "棕红斜刘海卷侧马尾",
+          "thumbnail": "/assets/front-hair/棕红斜刘海卷侧马尾.gif",
+          "image": "/assets/front-hair/棕红斜刘海卷侧马尾.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕红星星高马尾",
         "name": "棕红星星高马尾",
         "thumbnail": "/assets/front-hair/棕红星星高马尾.gif",
@@ -3115,7 +3993,41 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
+        "id": "hair_棕黄花发饰毽子头",
+        "name": "棕黄花发饰毽子头",
+        "thumbnail": "/assets/front-hair/棕黄花发饰毽子头.gif",
+        "image": "/assets/front-hair/棕黄花发饰毽子头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕黄花发饰毽子头",
+          "name": "棕黄花发饰毽子头",
+          "thumbnail": "/assets/front-hair/棕黄花发饰毽子头.gif",
+          "image": "/assets/front-hair/棕黄花发饰毽子头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕黄皇冠中长卷发",
+        "name": "棕黄皇冠中长卷发",
+        "thumbnail": "/assets/front-hair/棕黄皇冠中长卷发.gif",
+        "image": "/assets/front-hair/棕黄皇冠中长卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕黄皇冠中长卷发",
+          "name": "棕黄皇冠中长卷发",
+          "thumbnail": "/assets/front-hair/棕黄皇冠中长卷发.gif",
+          "image": "/assets/front-hair/棕黄皇冠中长卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕黄栗子头",
         "name": "棕黄栗子头",
         "thumbnail": "/assets/front-hair/棕黄栗子头.gif",
@@ -3139,7 +4051,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_棕黄齐刘海",
         "name": "棕黄齐刘海",
         "thumbnail": "/assets/front-hair/棕黄齐刘海.gif",
@@ -3163,7 +4075,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_棕黄丸子卷发",
         "name": "棕黄丸子卷发",
         "thumbnail": "/assets/front-hair/棕黄丸子卷发.gif",
@@ -3187,7 +4099,7 @@ export const categories = [
           "layer": 1
         }
       },
-{
+      {
         "id": "hair_棕黄斜扎马尾",
         "name": "棕黄斜扎马尾",
         "thumbnail": "/assets/front-hair/棕黄斜扎马尾.gif",
@@ -3204,7 +4116,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕咖黄月季发饰盘发",
+        "name": "棕咖黄月季发饰盘发",
+        "thumbnail": "/assets/front-hair/棕咖黄月季发饰盘发.gif",
+        "image": "/assets/front-hair/棕咖黄月季发饰盘发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕咖黄月季发饰盘发",
+          "name": "棕咖黄月季发饰盘发",
+          "thumbnail": "/assets/front-hair/棕咖黄月季发饰盘发.gif",
+          "image": "/assets/front-hair/棕咖黄月季发饰盘发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕绿斜刘海扎发",
         "name": "棕绿斜刘海扎发",
         "thumbnail": "/assets/front-hair/棕绿斜刘海扎发.gif",
@@ -3221,7 +4150,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕绿中短发",
+        "name": "棕绿中短发",
+        "thumbnail": "/assets/front-hair/棕绿中短发.gif",
+        "image": "/assets/front-hair/棕绿中短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕绿中短发",
+          "name": "棕绿中短发",
+          "thumbnail": "/assets/front-hair/棕绿中短发.gif",
+          "image": "/assets/front-hair/棕绿中短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色刺猬头",
         "name": "棕色刺猬头",
         "thumbnail": "/assets/front-hair/棕色刺猬头.gif",
@@ -3238,7 +4184,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色短飞机头",
         "name": "棕色短飞机头",
         "thumbnail": "/assets/front-hair/棕色短飞机头.gif",
@@ -3255,7 +4201,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕色发夹侧扎卷发",
+        "name": "棕色发夹侧扎卷发",
+        "thumbnail": "/assets/front-hair/棕色发夹侧扎卷发.gif",
+        "image": "/assets/front-hair/棕色发夹侧扎卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色发夹侧扎卷发",
+          "name": "棕色发夹侧扎卷发",
+          "thumbnail": "/assets/front-hair/棕色发夹侧扎卷发.gif",
+          "image": "/assets/front-hair/棕色发夹侧扎卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色飞机头",
         "name": "棕色飞机头",
         "thumbnail": "/assets/front-hair/棕色飞机头.gif",
@@ -3272,7 +4235,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色公主中长发",
         "name": "棕色公主中长发",
         "thumbnail": "/assets/front-hair/棕色公主中长发.gif",
@@ -3289,7 +4252,75 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕色皇冠盘发",
+        "name": "棕色皇冠盘发",
+        "thumbnail": "/assets/front-hair/棕色皇冠盘发.gif",
+        "image": "/assets/front-hair/棕色皇冠盘发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色皇冠盘发",
+          "name": "棕色皇冠盘发",
+          "thumbnail": "/assets/front-hair/棕色皇冠盘发.gif",
+          "image": "/assets/front-hair/棕色皇冠盘发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色毽子短发",
+        "name": "棕色毽子短发",
+        "thumbnail": "/assets/front-hair/棕色毽子短发.gif",
+        "image": "/assets/front-hair/棕色毽子短发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色毽子短发",
+          "name": "棕色毽子短发",
+          "thumbnail": "/assets/front-hair/棕色毽子短发.gif",
+          "image": "/assets/front-hair/棕色毽子短发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色卷波波头",
+        "name": "棕色卷波波头",
+        "thumbnail": "/assets/front-hair/棕色卷波波头.gif",
+        "image": "/assets/front-hair/棕色卷波波头.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色卷波波头",
+          "name": "棕色卷波波头",
+          "thumbnail": "/assets/front-hair/棕色卷波波头.gif",
+          "image": "/assets/front-hair/棕色卷波波头.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色蓝发饰中短卷发",
+        "name": "棕色蓝发饰中短卷发",
+        "thumbnail": "/assets/front-hair/棕色蓝发饰中短卷发.gif",
+        "image": "/assets/front-hair/棕色蓝发饰中短卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色蓝发饰中短卷发",
+          "name": "棕色蓝发饰中短卷发",
+          "thumbnail": "/assets/front-hair/棕色蓝发饰中短卷发.gif",
+          "image": "/assets/front-hair/棕色蓝发饰中短卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色栗子头",
         "name": "棕色栗子头",
         "thumbnail": "/assets/front-hair/棕色栗子头.gif",
@@ -3306,7 +4337,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕色刘海发饰中长发",
+        "name": "棕色刘海发饰中长发",
+        "thumbnail": "/assets/front-hair/棕色刘海发饰中长发.gif",
+        "image": "/assets/front-hair/棕色刘海发饰中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色刘海发饰中长发",
+          "name": "棕色刘海发饰中长发",
+          "thumbnail": "/assets/front-hair/棕色刘海发饰中长发.gif",
+          "image": "/assets/front-hair/棕色刘海发饰中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色刘海斜扎卷发",
         "name": "棕色刘海斜扎卷发",
         "thumbnail": "/assets/front-hair/棕色刘海斜扎卷发.gif",
@@ -3323,7 +4371,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色刘海中长卷发",
         "name": "棕色刘海中长卷发",
         "thumbnail": "/assets/front-hair/棕色刘海中长卷发.gif",
@@ -3340,7 +4388,41 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕色绿发饰扎发",
+        "name": "棕色绿发饰扎发",
+        "thumbnail": "/assets/front-hair/棕色绿发饰扎发.gif",
+        "image": "/assets/front-hair/棕色绿发饰扎发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色绿发饰扎发",
+          "name": "棕色绿发饰扎发",
+          "thumbnail": "/assets/front-hair/棕色绿发饰扎发.gif",
+          "image": "/assets/front-hair/棕色绿发饰扎发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
+        "id": "hair_棕色斜刘海中长卷发",
+        "name": "棕色斜刘海中长卷发",
+        "thumbnail": "/assets/front-hair/棕色斜刘海中长卷发.gif",
+        "image": "/assets/front-hair/棕色斜刘海中长卷发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色斜刘海中长卷发",
+          "name": "棕色斜刘海中长卷发",
+          "thumbnail": "/assets/front-hair/棕色斜刘海中长卷发.gif",
+          "image": "/assets/front-hair/棕色斜刘海中长卷发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色斜扎发",
         "name": "棕色斜扎发",
         "thumbnail": "/assets/front-hair/棕色斜扎发.gif",
@@ -3357,7 +4439,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色斜扎卷马尾",
         "name": "棕色斜扎卷马尾",
         "thumbnail": "/assets/front-hair/棕色斜扎卷马尾.gif",
@@ -3374,7 +4456,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色斜扎直发",
         "name": "棕色斜扎直发",
         "thumbnail": "/assets/front-hair/棕色斜扎直发.gif",
@@ -3391,7 +4473,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色星星斜扎发",
         "name": "棕色星星斜扎发",
         "thumbnail": "/assets/front-hair/棕色星星斜扎发.gif",
@@ -3408,7 +4490,7 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
         "id": "hair_棕色雅痞短发",
         "name": "棕色雅痞短发",
         "thumbnail": "/assets/front-hair/棕色雅痞短发.gif",
@@ -3425,7 +4507,24 @@ export const categories = [
         },
         "backHair": null
       },
-{
+      {
+        "id": "hair_棕色慵懒侧披发",
+        "name": "棕色慵懒侧披发",
+        "thumbnail": "/assets/front-hair/棕色慵懒侧披发.gif",
+        "image": "/assets/front-hair/棕色慵懒侧披发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色慵懒侧披发",
+          "name": "棕色慵懒侧披发",
+          "thumbnail": "/assets/front-hair/棕色慵懒侧披发.gif",
+          "image": "/assets/front-hair/棕色慵懒侧披发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      },
+      {
         "id": "hair_棕色中分卷长发",
         "name": "棕色中分卷长发",
         "thumbnail": "/assets/front-hair/棕色中分卷长发.gif",
@@ -3442,6 +4541,23 @@ export const categories = [
         },
         "backHair": null
       },
+      {
+        "id": "hair_棕色中分微卷中长发",
+        "name": "棕色中分微卷中长发",
+        "thumbnail": "/assets/front-hair/棕色中分微卷中长发.gif",
+        "image": "/assets/front-hair/棕色中分微卷中长发.gif",
+        "category": "hair",
+        "layer": 4,
+        "frontHair": {
+          "id": "front-hair_棕色中分微卷中长发",
+          "name": "棕色中分微卷中长发",
+          "thumbnail": "/assets/front-hair/棕色中分微卷中长发.gif",
+          "image": "/assets/front-hair/棕色中分微卷中长发.gif",
+          "category": "front-hair",
+          "layer": 2
+        },
+        "backHair": null
+      }
     ]
   },
   {
@@ -3450,6 +4566,14 @@ export const categories = [
     "thumbnail": "/assets/makeup/湖蓝.gif",
     "layer": 8,
     "items": [
+      {
+        "id": "makeup_白眼线绿瞳眨眼",
+        "name": "白眼线绿瞳眨眼",
+        "thumbnail": "/assets/makeup/白眼线绿瞳眨眼.gif",
+        "image": "/assets/makeup/白眼线绿瞳眨眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
       {
         "id": "makeup_冰紫",
         "name": "冰紫",
@@ -3483,10 +4607,66 @@ export const categories = [
         "layer": 8
       },
       {
+        "id": "makeup_动漫哭哭眼",
+        "name": "动漫哭哭眼",
+        "thumbnail": "/assets/makeup/动漫哭哭眼.gif",
+        "image": "/assets/makeup/动漫哭哭眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_动漫哭泣",
+        "name": "动漫哭泣",
+        "thumbnail": "/assets/makeup/动漫哭泣.gif",
+        "image": "/assets/makeup/动漫哭泣.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_动漫咧嘴wink",
+        "name": "动漫咧嘴wink",
+        "thumbnail": "/assets/makeup/动漫咧嘴wink.gif",
+        "image": "/assets/makeup/动漫咧嘴wink.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_动漫猫嘴大眼",
+        "name": "动漫猫嘴大眼",
+        "thumbnail": "/assets/makeup/动漫猫嘴大眼.gif",
+        "image": "/assets/makeup/动漫猫嘴大眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_动漫猫嘴水润眼",
+        "name": "动漫猫嘴水润眼",
+        "thumbnail": "/assets/makeup/动漫猫嘴水润眼.gif",
+        "image": "/assets/makeup/动漫猫嘴水润眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_动漫闪亮星星眼",
+        "name": "动漫闪亮星星眼",
+        "thumbnail": "/assets/makeup/动漫闪亮星星眼.gif",
+        "image": "/assets/makeup/动漫闪亮星星眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_动漫眼睛弯弯",
         "name": "动漫眼睛弯弯",
         "thumbnail": "/assets/makeup/动漫眼睛弯弯.gif",
         "image": "/assets/makeup/动漫眼睛弯弯.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_粉色眼影腮红",
+        "name": "粉色眼影腮红",
+        "thumbnail": "/assets/makeup/粉色眼影腮红.gif",
+        "image": "/assets/makeup/粉色眼影腮红.gif",
         "category": "makeup",
         "layer": 8
       },
@@ -3507,6 +4687,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_黑瞳",
+        "name": "黑瞳",
+        "thumbnail": "/assets/makeup/黑瞳.gif",
+        "image": "/assets/makeup/黑瞳.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_黑瞳笑眼",
+        "name": "黑瞳笑眼",
+        "thumbnail": "/assets/makeup/黑瞳笑眼.gif",
+        "image": "/assets/makeup/黑瞳笑眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_黑曜",
         "name": "黑曜",
         "thumbnail": "/assets/makeup/黑曜.gif",
@@ -3519,6 +4715,14 @@ export const categories = [
         "name": "红酒眨眼",
         "thumbnail": "/assets/makeup/红酒眨眼.gif",
         "image": "/assets/makeup/红酒眨眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_红瞳腮红眨眼",
+        "name": "红瞳腮红眨眼",
+        "thumbnail": "/assets/makeup/红瞳腮红眨眼.gif",
+        "image": "/assets/makeup/红瞳腮红眨眼.gif",
         "category": "makeup",
         "layer": 8
       },
@@ -3563,6 +4767,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_金棕长睫毛大眼",
+        "name": "金棕长睫毛大眼",
+        "thumbnail": "/assets/makeup/金棕长睫毛大眼.gif",
+        "image": "/assets/makeup/金棕长睫毛大眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_剧院魅影灰",
         "name": "剧院魅影灰",
         "thumbnail": "/assets/makeup/剧院魅影灰.gif",
@@ -3587,6 +4799,54 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_蓝瞳腮红侧眼",
+        "name": "蓝瞳腮红侧眼",
+        "thumbnail": "/assets/makeup/蓝瞳腮红侧眼.gif",
+        "image": "/assets/makeup/蓝瞳腮红侧眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_蓝眼灰眼影腮红",
+        "name": "蓝眼灰眼影腮红",
+        "thumbnail": "/assets/makeup/蓝眼灰眼影腮红.gif",
+        "image": "/assets/makeup/蓝眼灰眼影腮红.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_蓝眼泪痣圆脸",
+        "name": "蓝眼泪痣圆脸",
+        "thumbnail": "/assets/makeup/蓝眼泪痣圆脸.gif",
+        "image": "/assets/makeup/蓝眼泪痣圆脸.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_蓝眼露齿笑wink",
+        "name": "蓝眼露齿笑wink",
+        "thumbnail": "/assets/makeup/蓝眼露齿笑wink.gif",
+        "image": "/assets/makeup/蓝眼露齿笑wink.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_蓝眼wink",
+        "name": "蓝眼wink",
+        "thumbnail": "/assets/makeup/蓝眼wink.gif",
+        "image": "/assets/makeup/蓝眼wink.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_绿瞳腮红圆脸",
+        "name": "绿瞳腮红圆脸",
+        "thumbnail": "/assets/makeup/绿瞳腮红圆脸.gif",
+        "image": "/assets/makeup/绿瞳腮红圆脸.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_绿曜眨眼",
         "name": "绿曜眨眼",
         "thumbnail": "/assets/makeup/绿曜眨眼.gif",
@@ -3609,6 +4869,14 @@ export const categories = [
         "image": "/assets/makeup/梅子酒.gif",
         "category": "makeup",
         "layer": 1
+      },
+      {
+        "id": "makeup_魅力桃红眼",
+        "name": "魅力桃红眼",
+        "thumbnail": "/assets/makeup/魅力桃红眼.gif",
+        "image": "/assets/makeup/魅力桃红眼.gif",
+        "category": "makeup",
+        "layer": 8
       },
       {
         "id": "makeup_迷棕",
@@ -3643,6 +4911,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_浅棕瞳腮红",
+        "name": "浅棕瞳腮红",
+        "thumbnail": "/assets/makeup/浅棕瞳腮红.gif",
+        "image": "/assets/makeup/浅棕瞳腮红.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_晴夜",
         "name": "晴夜",
         "thumbnail": "/assets/makeup/晴夜.gif",
@@ -3659,6 +4935,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_腮红棕眼",
+        "name": "腮红棕眼",
+        "thumbnail": "/assets/makeup/腮红棕眼.gif",
+        "image": "/assets/makeup/腮红棕眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_森林",
         "name": "森林",
         "thumbnail": "/assets/makeup/森林.gif",
@@ -3667,12 +4951,44 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "makeup_森林圆脸",
+        "name": "森林圆脸",
+        "thumbnail": "/assets/makeup/森林圆脸.gif",
+        "image": "/assets/makeup/森林圆脸.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_桃子汽水",
         "name": "桃子汽水",
         "thumbnail": "/assets/makeup/桃子汽水.gif",
         "image": "/assets/makeup/桃子汽水.gif",
         "category": "makeup",
         "layer": 1
+      },
+      {
+        "id": "makeup_天蓝眨眼",
+        "name": "天蓝眨眼",
+        "thumbnail": "/assets/makeup/天蓝眨眼.gif",
+        "image": "/assets/makeup/天蓝眨眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_舔嘴",
+        "name": "舔嘴",
+        "thumbnail": "/assets/makeup/舔嘴.gif",
+        "image": "/assets/makeup/舔嘴.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_娃娃脸蓝眨眼",
+        "name": "娃娃脸蓝眨眼",
+        "thumbnail": "/assets/makeup/娃娃脸蓝眨眼.gif",
+        "image": "/assets/makeup/娃娃脸蓝眨眼.gif",
+        "category": "makeup",
+        "layer": 8
       },
       {
         "id": "makeup_薰衣草",
@@ -3723,6 +5039,30 @@ export const categories = [
         "layer": 8
       },
       {
+        "id": "makeup_紫萝兰眨眼",
+        "name": "紫萝兰眨眼",
+        "thumbnail": "/assets/makeup/紫萝兰眨眼.gif",
+        "image": "/assets/makeup/紫萝兰眨眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_紫瞳",
+        "name": "紫瞳",
+        "thumbnail": "/assets/makeup/紫瞳.gif",
+        "image": "/assets/makeup/紫瞳.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
+        "id": "makeup_紫瞳眨眼",
+        "name": "紫瞳眨眼",
+        "thumbnail": "/assets/makeup/紫瞳眨眼.gif",
+        "image": "/assets/makeup/紫瞳眨眼.gif",
+        "category": "makeup",
+        "layer": 8
+      },
+      {
         "id": "makeup_紫曜",
         "name": "紫曜",
         "thumbnail": "/assets/makeup/紫曜.gif",
@@ -3737,6 +5077,14 @@ export const categories = [
         "image": "/assets/makeup/紫曜眨眼.gif",
         "category": "makeup",
         "layer": 1
+      },
+      {
+        "id": "makeup_棕瞳",
+        "name": "棕瞳",
+        "thumbnail": "/assets/makeup/棕瞳.gif",
+        "image": "/assets/makeup/棕瞳.gif",
+        "category": "makeup",
+        "layer": 8
       }
     ]
   },
@@ -3755,12 +5103,36 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "head-set_吹泡泡运动帽",
+        "name": "吹泡泡运动帽",
+        "thumbnail": "/assets/head-set/吹泡泡运动帽.gif",
+        "image": "/assets/head-set/吹泡泡运动帽.gif",
+        "category": "head-set",
+        "layer": 9
+      },
+      {
         "id": "head-set_动漫紫编发",
         "name": "动漫紫编发",
         "thumbnail": "/assets/head-set/动漫紫编发.gif",
         "image": "/assets/head-set/动漫紫编发.gif",
         "category": "head-set",
         "layer": 1
+      },
+      {
+        "id": "head-set_发带栗色刺猬头",
+        "name": "发带栗色刺猬头",
+        "thumbnail": "/assets/head-set/发带栗色刺猬头.gif",
+        "image": "/assets/head-set/发带栗色刺猬头.gif",
+        "category": "head-set",
+        "layer": 9
+      },
+      {
+        "id": "head-set_粉蝴蝶结金棕卷扎发",
+        "name": "粉蝴蝶结金棕卷扎发",
+        "thumbnail": "/assets/head-set/粉蝴蝶结金棕卷扎发.gif",
+        "image": "/assets/head-set/粉蝴蝶结金棕卷扎发.gif",
+        "category": "head-set",
+        "layer": 9
       },
       {
         "id": "head-set_古风",
@@ -3803,6 +5175,22 @@ export const categories = [
         "layer": 9
       },
       {
+        "id": "head-set_蓝发带卷棕发",
+        "name": "蓝发带卷棕发",
+        "thumbnail": "/assets/head-set/蓝发带卷棕发.gif",
+        "image": "/assets/head-set/蓝发带卷棕发.gif",
+        "category": "head-set",
+        "layer": 9
+      },
+      {
+        "id": "head-set_墨镜红棕飞机头",
+        "name": "墨镜红棕飞机头",
+        "thumbnail": "/assets/head-set/墨镜红棕飞机头.gif",
+        "image": "/assets/head-set/墨镜红棕飞机头.gif",
+        "category": "head-set",
+        "layer": 9
+      },
+      {
         "id": "head-set_墨镜栗子头",
         "name": "墨镜栗子头",
         "thumbnail": "/assets/head-set/墨镜栗子头.gif",
@@ -3835,12 +5223,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "head-set_双马尾棕色长发",
+        "name": "双马尾棕色长发",
+        "thumbnail": "/assets/head-set/双马尾棕色长发.gif",
+        "image": "/assets/head-set/双马尾棕色长发.gif",
+        "category": "head-set",
+        "layer": 9
+      },
+      {
         "id": "head-set_亚麻粉",
         "name": "亚麻粉",
         "thumbnail": "/assets/head-set/亚麻粉.gif",
         "image": "/assets/head-set/亚麻粉.gif",
         "category": "head-set",
         "layer": 1
+      },
+      {
+        "id": "head-set_亚麻金短发",
+        "name": "亚麻金短发",
+        "thumbnail": "/assets/head-set/亚麻金短发.gif",
+        "image": "/assets/head-set/亚麻金短发.gif",
+        "category": "head-set",
+        "layer": 9
       },
       {
         "id": "head-set_亚麻紫编发",
@@ -3889,6 +5293,14 @@ export const categories = [
         "image": "/assets/top/绑带白色背心.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_薄荷绿露肩上衣",
+        "name": "薄荷绿露肩上衣",
+        "thumbnail": "/assets/top/薄荷绿露肩上衣.gif",
+        "image": "/assets/top/薄荷绿露肩上衣.gif",
+        "category": "top",
+        "layer": 6
       },
       {
         "id": "top_橙色背心白套衫",
@@ -3947,12 +5359,28 @@ export const categories = [
         "layer": 6
       },
       {
+        "id": "top_粉色短外套",
+        "name": "粉色短外套",
+        "thumbnail": "/assets/top/粉色短外套.gif",
+        "image": "/assets/top/粉色短外套.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_粉色开衫学院风",
         "name": "粉色开衫学院风",
         "thumbnail": "/assets/top/粉色开衫学院风.gif",
         "image": "/assets/top/粉色开衫学院风.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_粉围巾白毛衣",
+        "name": "粉围巾白毛衣",
+        "thumbnail": "/assets/top/粉围巾白毛衣.gif",
+        "image": "/assets/top/粉围巾白毛衣.gif",
+        "category": "top",
+        "layer": 6
       },
       {
         "id": "top_粉星套衫",
@@ -3963,12 +5391,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_粉紫插肩运动外套",
+        "name": "粉紫插肩运动外套",
+        "thumbnail": "/assets/top/粉紫插肩运动外套.gif",
+        "image": "/assets/top/粉紫插肩运动外套.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_工装夹克叠穿",
         "name": "工装夹克叠穿",
         "thumbnail": "/assets/top/工装夹克叠穿.gif",
         "image": "/assets/top/工装夹克叠穿.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_果绿开衫",
+        "name": "果绿开衫",
+        "thumbnail": "/assets/top/果绿开衫.gif",
+        "image": "/assets/top/果绿开衫.gif",
+        "category": "top",
+        "layer": 6
       },
       {
         "id": "top_黑灰套衫",
@@ -3979,6 +5423,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_黑色背心叠粉迷彩T恤",
+        "name": "黑色背心叠粉迷彩T恤",
+        "thumbnail": "/assets/top/黑色背心叠粉迷彩T恤.gif",
+        "image": "/assets/top/黑色背心叠粉迷彩T恤.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_红色街头背心",
         "name": "红色街头背心",
         "thumbnail": "/assets/top/红色街头背心.gif",
@@ -3987,12 +5439,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_黄色红条纹运动外套",
+        "name": "黄色红条纹运动外套",
+        "thumbnail": "/assets/top/黄色红条纹运动外套.gif",
+        "image": "/assets/top/黄色红条纹运动外套.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_黄色柳丁背心",
         "name": "黄色柳丁背心",
         "thumbnail": "/assets/top/黄色柳丁背心.gif",
         "image": "/assets/top/黄色柳丁背心.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_活力橙项链卫衣",
+        "name": "活力橙项链卫衣",
+        "thumbnail": "/assets/top/活力橙项链卫衣.gif",
+        "image": "/assets/top/活力橙项链卫衣.gif",
+        "category": "top",
+        "layer": 6
       },
       {
         "id": "top_活力粉夏日背心",
@@ -4011,6 +5479,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_挎包粉色印花背心",
+        "name": "挎包粉色印花背心",
+        "thumbnail": "/assets/top/挎包粉色印花背心.gif",
+        "image": "/assets/top/挎包粉色印花背心.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_蓝青竖纹长袖",
         "name": "蓝青竖纹长袖",
         "thumbnail": "/assets/top/蓝青竖纹长袖.gif",
@@ -4027,6 +5503,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_蓝色印花运动T恤",
+        "name": "蓝色印花运动T恤",
+        "thumbnail": "/assets/top/蓝色印花运动T恤.gif",
+        "image": "/assets/top/蓝色印花运动T恤.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_蓝天花园背心",
         "name": "蓝天花园背心",
         "thumbnail": "/assets/top/蓝天花园背心.gif",
@@ -4035,12 +5519,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "top_亮青色单肩上衣",
+        "name": "亮青色单肩上衣",
+        "thumbnail": "/assets/top/亮青色单肩上衣.gif",
+        "image": "/assets/top/亮青色单肩上衣.gif",
+        "category": "top",
+        "layer": 6
+      },
+      {
         "id": "top_裸身红色电吉他",
         "name": "裸身红色电吉他",
         "thumbnail": "/assets/top/裸身红色电吉他.gif",
         "image": "/assets/top/裸身红色电吉他.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_毛领黑色夹克",
+        "name": "毛领黑色夹克",
+        "thumbnail": "/assets/top/毛领黑色夹克.gif",
+        "image": "/assets/top/毛领黑色夹克.gif",
+        "category": "top",
+        "layer": 6
       },
       {
         "id": "top_美式长袖套衫",
@@ -4121,6 +5621,14 @@ export const categories = [
         "image": "/assets/top/紫白条纹长袖.gif",
         "category": "top",
         "layer": 1
+      },
+      {
+        "id": "top_字母粉色短T恤",
+        "name": "字母粉色短T恤",
+        "thumbnail": "/assets/top/字母粉色短T恤.gif",
+        "image": "/assets/top/字母粉色短T恤.gif",
+        "category": "top",
+        "layer": 6
       }
     ]
   },
@@ -4131,10 +5639,26 @@ export const categories = [
     "layer": 4,
     "items": [
       {
+        "id": "bottom_白色低腰裤",
+        "name": "白色低腰裤",
+        "thumbnail": "/assets/bottom/白色低腰裤.gif",
+        "image": "/assets/bottom/白色低腰裤.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
         "id": "bottom_粉色百褶短裙",
         "name": "粉色百褶短裙",
         "thumbnail": "/assets/bottom/粉色百褶短裙.gif",
         "image": "/assets/bottom/粉色百褶短裙.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
+        "id": "bottom_粉色绑带泡泡短裙",
+        "name": "粉色绑带泡泡短裙",
+        "thumbnail": "/assets/bottom/粉色绑带泡泡短裙.gif",
+        "image": "/assets/bottom/粉色绑带泡泡短裙.gif",
         "category": "bottom",
         "layer": 4
       },
@@ -4203,12 +5727,44 @@ export const categories = [
         "layer": 4
       },
       {
+        "id": "bottom_红色半裙棕长靴",
+        "name": "红色半裙棕长靴",
+        "thumbnail": "/assets/bottom/红色半裙棕长靴.gif",
+        "image": "/assets/bottom/红色半裙棕长靴.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
+        "id": "bottom_红腰带牛仔迷你裙",
+        "name": "红腰带牛仔迷你裙",
+        "thumbnail": "/assets/bottom/红腰带牛仔迷你裙.gif",
+        "image": "/assets/bottom/红腰带牛仔迷你裙.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
         "id": "bottom_灰蓝运动裤",
         "name": "灰蓝运动裤",
         "thumbnail": "/assets/bottom/灰蓝运动裤.gif",
         "image": "/assets/bottom/灰蓝运动裤.gif",
         "category": "bottom",
         "layer": 1
+      },
+      {
+        "id": "bottom_灰牛仔半裙",
+        "name": "灰牛仔半裙",
+        "thumbnail": "/assets/bottom/灰牛仔半裙.gif",
+        "image": "/assets/bottom/灰牛仔半裙.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
+        "id": "bottom_紧身浅蓝牛仔裤",
+        "name": "紧身浅蓝牛仔裤",
+        "thumbnail": "/assets/bottom/紧身浅蓝牛仔裤.gif",
+        "image": "/assets/bottom/紧身浅蓝牛仔裤.gif",
+        "category": "bottom",
+        "layer": 4
       },
       {
         "id": "bottom_经典牛仔短裤",
@@ -4235,12 +5791,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "bottom_咖啡色长裤",
+        "name": "咖啡色长裤",
+        "thumbnail": "/assets/bottom/咖啡色长裤.gif",
+        "image": "/assets/bottom/咖啡色长裤.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
         "id": "bottom_卡其工装裤",
         "name": "卡其工装裤",
         "thumbnail": "/assets/bottom/卡其工装裤.gif",
         "image": "/assets/bottom/卡其工装裤.gif",
         "category": "bottom",
         "layer": 1
+      },
+      {
+        "id": "bottom_卡其绿工装裤",
+        "name": "卡其绿工装裤",
+        "thumbnail": "/assets/bottom/卡其绿工装裤.gif",
+        "image": "/assets/bottom/卡其绿工装裤.gif",
+        "category": "bottom",
+        "layer": 4
       },
       {
         "id": "bottom_落日蛋糕短裙",
@@ -4283,6 +5855,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "bottom_浅蓝牛仔半裙绑带鞋",
+        "name": "浅蓝牛仔半裙绑带鞋",
+        "thumbnail": "/assets/bottom/浅蓝牛仔半裙绑带鞋.gif",
+        "image": "/assets/bottom/浅蓝牛仔半裙绑带鞋.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
         "id": "bottom_深红色嘻哈长裤",
         "name": "深红色嘻哈长裤",
         "thumbnail": "/assets/bottom/深红色嘻哈长裤.gif",
@@ -4297,6 +5877,14 @@ export const categories = [
         "image": "/assets/bottom/深色牛仔裤.gif",
         "category": "bottom",
         "layer": 1
+      },
+      {
+        "id": "bottom_深色牛仔棕长靴",
+        "name": "深色牛仔棕长靴",
+        "thumbnail": "/assets/bottom/深色牛仔棕长靴.gif",
+        "image": "/assets/bottom/深色牛仔棕长靴.gif",
+        "category": "bottom",
+        "layer": 4
       },
       {
         "id": "bottom_深紫色长裤",
@@ -4323,6 +5911,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "bottom_修身黑灰牛仔裤",
+        "name": "修身黑灰牛仔裤",
+        "thumbnail": "/assets/bottom/修身黑灰牛仔裤.gif",
+        "image": "/assets/bottom/修身黑灰牛仔裤.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
+        "id": "bottom_修身阔腿浅蓝牛仔裤",
+        "name": "修身阔腿浅蓝牛仔裤",
+        "thumbnail": "/assets/bottom/修身阔腿浅蓝牛仔裤.gif",
+        "image": "/assets/bottom/修身阔腿浅蓝牛仔裤.gif",
+        "category": "bottom",
+        "layer": 4
+      },
+      {
         "id": "bottom_腰包破洞牛仔裤",
         "name": "腰包破洞牛仔裤",
         "thumbnail": "/assets/bottom/腰包破洞牛仔裤.gif",
@@ -4337,6 +5941,14 @@ export const categories = [
         "image": "/assets/bottom/摇滚水洗牛仔裤.gif",
         "category": "bottom",
         "layer": 1
+      },
+      {
+        "id": "bottom_银链宽松牛仔裤",
+        "name": "银链宽松牛仔裤",
+        "thumbnail": "/assets/bottom/银链宽松牛仔裤.gif",
+        "image": "/assets/bottom/银链宽松牛仔裤.gif",
+        "category": "bottom",
+        "layer": 4
       },
       {
         "id": "bottom_紫兰牛仔阔腿裤",
@@ -4363,12 +5975,76 @@ export const categories = [
     "layer": 7,
     "items": [
       {
+        "id": "outfit_2",
+        "name": "2",
+        "thumbnail": "/assets/outfit/2.gif",
+        "image": "/assets/outfit/2.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_爱心一字肩套装",
         "name": "爱心一字肩套装",
         "thumbnail": "/assets/outfit/爱心一字肩套装.gif",
         "image": "/assets/outfit/爱心一字肩套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_白粉印花背心短裙套装",
+        "name": "白粉印花背心短裙套装",
+        "thumbnail": "/assets/outfit/白粉印花背心短裙套装.gif",
+        "image": "/assets/outfit/白粉印花背心短裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白灰时尚套装",
+        "name": "白灰时尚套装",
+        "thumbnail": "/assets/outfit/白灰时尚套装.gif",
+        "image": "/assets/outfit/白灰时尚套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白蓝插肩短袖套装",
+        "name": "白蓝插肩短袖套装",
+        "thumbnail": "/assets/outfit/白蓝插肩短袖套装.gif",
+        "image": "/assets/outfit/白蓝插肩短袖套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白礼裙黑高跟套装",
+        "name": "白礼裙黑高跟套装",
+        "thumbnail": "/assets/outfit/白礼裙黑高跟套装.gif",
+        "image": "/assets/outfit/白礼裙黑高跟套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白色吊带开衩长礼裙",
+        "name": "白色吊带开衩长礼裙",
+        "thumbnail": "/assets/outfit/白色吊带开衩长礼裙.gif",
+        "image": "/assets/outfit/白色吊带开衩长礼裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白色短外套牛仔短裙套装",
+        "name": "白色短外套牛仔短裙套装",
+        "thumbnail": "/assets/outfit/白色短外套牛仔短裙套装.gif",
+        "image": "/assets/outfit/白色短外套牛仔短裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白色公主裙黄色捧花套装",
+        "name": "白色公主裙黄色捧花套装",
+        "thumbnail": "/assets/outfit/白色公主裙黄色捧花套装.gif",
+        "image": "/assets/outfit/白色公主裙黄色捧花套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_白色开衫长裙套装",
@@ -4395,6 +6071,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_白色数字印花卫衣套装",
+        "name": "白色数字印花卫衣套装",
+        "thumbnail": "/assets/outfit/白色数字印花卫衣套装.gif",
+        "image": "/assets/outfit/白色数字印花卫衣套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_白色碎花吊带牛仔套装",
         "name": "白色碎花吊带牛仔套装",
         "thumbnail": "/assets/outfit/白色碎花吊带牛仔套装.gif",
@@ -4411,12 +6095,60 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_白色外套粉内搭套装",
+        "name": "白色外套粉内搭套装",
+        "thumbnail": "/assets/outfit/白色外套粉内搭套装.gif",
+        "image": "/assets/outfit/白色外套粉内搭套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白色印花一字肩长袖套装",
+        "name": "白色印花一字肩长袖套装",
+        "thumbnail": "/assets/outfit/白色印花一字肩长袖套装.gif",
+        "image": "/assets/outfit/白色印花一字肩长袖套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_白色T恤休闲套装",
         "name": "白色T恤休闲套装",
         "thumbnail": "/assets/outfit/白色T恤休闲套装.gif",
         "image": "/assets/outfit/白色T恤休闲套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_白T恤宽松牛仔裤套装",
+        "name": "白T恤宽松牛仔裤套装",
+        "thumbnail": "/assets/outfit/白T恤宽松牛仔裤套装.gif",
+        "image": "/assets/outfit/白T恤宽松牛仔裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_白T恤外套披肩套装",
+        "name": "白T恤外套披肩套装",
+        "thumbnail": "/assets/outfit/白T恤外套披肩套装.gif",
+        "image": "/assets/outfit/白T恤外套披肩套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_棒球服长靴套装",
+        "name": "棒球服长靴套装",
+        "thumbnail": "/assets/outfit/棒球服长靴套装.gif",
+        "image": "/assets/outfit/棒球服长靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_薄荷绿套装坐姿",
+        "name": "薄荷绿套装坐姿",
+        "thumbnail": "/assets/outfit/薄荷绿套装坐姿.gif",
+        "image": "/assets/outfit/薄荷绿套装坐姿.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_薄荷裙套装",
@@ -4427,10 +6159,66 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_抱抱白熊套装",
+        "name": "抱抱白熊套装",
+        "thumbnail": "/assets/outfit/抱抱白熊套装.gif",
+        "image": "/assets/outfit/抱抱白熊套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_背心紫短裙白长靴套装",
+        "name": "背心紫短裙白长靴套装",
+        "thumbnail": "/assets/outfit/背心紫短裙白长靴套装.gif",
+        "image": "/assets/outfit/背心紫短裙白长靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_彼得潘连衣裙套装",
+        "name": "彼得潘连衣裙套装",
+        "thumbnail": "/assets/outfit/彼得潘连衣裙套装.gif",
+        "image": "/assets/outfit/彼得潘连衣裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_波点粉裙高跟套装",
+        "name": "波点粉裙高跟套装",
+        "thumbnail": "/assets/outfit/波点粉裙高跟套装.gif",
+        "image": "/assets/outfit/波点粉裙高跟套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_波点黑白裙套装",
+        "name": "波点黑白裙套装",
+        "thumbnail": "/assets/outfit/波点黑白裙套装.gif",
+        "image": "/assets/outfit/波点黑白裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_草莓印花T恤条纹长袜套装",
+        "name": "草莓印花T恤条纹长袜套装",
+        "thumbnail": "/assets/outfit/草莓印花T恤条纹长袜套装.gif",
+        "image": "/assets/outfit/草莓印花T恤条纹长袜套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_场景黄色礼服套装",
         "name": "场景黄色礼服套装",
         "thumbnail": "/assets/outfit/场景黄色礼服套装.gif",
         "image": "/assets/outfit/场景黄色礼服套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_潮流迷彩牛仔短裤套装",
+        "name": "潮流迷彩牛仔短裤套装",
+        "thumbnail": "/assets/outfit/潮流迷彩牛仔短裤套装.gif",
+        "image": "/assets/outfit/潮流迷彩牛仔短裤套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4507,6 +6295,22 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_吊带猫印花白长靴套装",
+        "name": "吊带猫印花白长靴套装",
+        "thumbnail": "/assets/outfit/吊带猫印花白长靴套装.gif",
+        "image": "/assets/outfit/吊带猫印花白长靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_吊带牛仔裤麦克风套装",
+        "name": "吊带牛仔裤麦克风套装",
+        "thumbnail": "/assets/outfit/吊带牛仔裤麦克风套装.gif",
+        "image": "/assets/outfit/吊带牛仔裤麦克风套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_冬日深蓝外套套装",
         "name": "冬日深蓝外套套装",
         "thumbnail": "/assets/outfit/冬日深蓝外套套装.gif",
@@ -4519,6 +6323,14 @@ export const categories = [
         "name": "都市丽人蓝裙套装",
         "thumbnail": "/assets/outfit/都市丽人蓝裙套装.gif",
         "image": "/assets/outfit/都市丽人蓝裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_短西装外套喇叭裤套装",
+        "name": "短西装外套喇叭裤套装",
+        "thumbnail": "/assets/outfit/短西装外套喇叭裤套装.gif",
+        "image": "/assets/outfit/短西装外套喇叭裤套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4547,6 +6359,46 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_翡翠绿长裙",
+        "name": "翡翠绿长裙",
+        "thumbnail": "/assets/outfit/翡翠绿长裙.gif",
+        "image": "/assets/outfit/翡翠绿长裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉背心条纹彩裙红靴套装",
+        "name": "粉背心条纹彩裙红靴套装",
+        "thumbnail": "/assets/outfit/粉背心条纹彩裙红靴套装.gif",
+        "image": "/assets/outfit/粉背心条纹彩裙红靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉橙叠层长裙",
+        "name": "粉橙叠层长裙",
+        "thumbnail": "/assets/outfit/粉橙叠层长裙.gif",
+        "image": "/assets/outfit/粉橙叠层长裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉短外套百褶裙套装",
+        "name": "粉短外套百褶裙套装",
+        "thumbnail": "/assets/outfit/粉短外套百褶裙套装.gif",
+        "image": "/assets/outfit/粉短外套百褶裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉黑格纹半袖裙",
+        "name": "粉黑格纹半袖裙",
+        "thumbnail": "/assets/outfit/粉黑格纹半袖裙.gif",
+        "image": "/assets/outfit/粉黑格纹半袖裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_粉黑裙皮靴套装",
         "name": "粉黑裙皮靴套装",
         "thumbnail": "/assets/outfit/粉黑裙皮靴套装.gif",
@@ -4563,12 +6415,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_粉蓝吊带背心叠穿套装",
+        "name": "粉蓝吊带背心叠穿套装",
+        "thumbnail": "/assets/outfit/粉蓝吊带背心叠穿套装.gif",
+        "image": "/assets/outfit/粉蓝吊带背心叠穿套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_粉美人鱼魔杖套装",
         "name": "粉美人鱼魔杖套装",
         "thumbnail": "/assets/outfit/粉美人鱼魔杖套装.gif",
         "image": "/assets/outfit/粉美人鱼魔杖套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_粉色棒球插肩外套套装",
+        "name": "粉色棒球插肩外套套装",
+        "thumbnail": "/assets/outfit/粉色棒球插肩外套套装.gif",
+        "image": "/assets/outfit/粉色棒球插肩外套套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_粉色背心白裙套装",
@@ -4583,6 +6451,14 @@ export const categories = [
         "name": "粉色背心蓝裙套装",
         "thumbnail": "/assets/outfit/粉色背心蓝裙套装.gif",
         "image": "/assets/outfit/粉色背心蓝裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉色背心修身牛仔裤套装",
+        "name": "粉色背心修身牛仔裤套装",
+        "thumbnail": "/assets/outfit/粉色背心修身牛仔裤套装.gif",
+        "image": "/assets/outfit/粉色背心修身牛仔裤套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4619,10 +6495,26 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_粉色金闪礼裙",
+        "name": "粉色金闪礼裙",
+        "thumbnail": "/assets/outfit/粉色金闪礼裙.gif",
+        "image": "/assets/outfit/粉色金闪礼裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_粉色套衫拎包套装",
         "name": "粉色套衫拎包套装",
         "thumbnail": "/assets/outfit/粉色套衫拎包套装.gif",
         "image": "/assets/outfit/粉色套衫拎包套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉色樱花和服",
+        "name": "粉色樱花和服",
+        "thumbnail": "/assets/outfit/粉色樱花和服.gif",
+        "image": "/assets/outfit/粉色樱花和服.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4635,12 +6527,36 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_粉外套浅咖格纹裤套装",
+        "name": "粉外套浅咖格纹裤套装",
+        "thumbnail": "/assets/outfit/粉外套浅咖格纹裤套装.gif",
+        "image": "/assets/outfit/粉外套浅咖格纹裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_粉靴套装",
         "name": "粉靴套装",
         "thumbnail": "/assets/outfit/粉靴套装.gif",
         "image": "/assets/outfit/粉靴套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_粉紫抹胸礼裙",
+        "name": "粉紫抹胸礼裙",
+        "thumbnail": "/assets/outfit/粉紫抹胸礼裙.gif",
+        "image": "/assets/outfit/粉紫抹胸礼裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_粉紫外套围巾休闲套装",
+        "name": "粉紫外套围巾休闲套装",
+        "thumbnail": "/assets/outfit/粉紫外套围巾休闲套装.gif",
+        "image": "/assets/outfit/粉紫外套围巾休闲套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_粉紫羽绒背心套装",
@@ -4655,6 +6571,14 @@ export const categories = [
         "name": "福字新春套装",
         "thumbnail": "/assets/outfit/福字新春套装.gif",
         "image": "/assets/outfit/福字新春套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_高开衩朱砂红旗袍",
+        "name": "高开衩朱砂红旗袍",
+        "thumbnail": "/assets/outfit/高开衩朱砂红旗袍.gif",
+        "image": "/assets/outfit/高开衩朱砂红旗袍.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4683,12 +6607,36 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_海蓝鱼尾礼服",
+        "name": "海蓝鱼尾礼服",
+        "thumbnail": "/assets/outfit/海蓝鱼尾礼服.gif",
+        "image": "/assets/outfit/海蓝鱼尾礼服.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黑白插肩长卫衣套装",
+        "name": "黑白插肩长卫衣套装",
+        "thumbnail": "/assets/outfit/黑白插肩长卫衣套装.gif",
+        "image": "/assets/outfit/黑白插肩长卫衣套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_黑白条纹牛仔套装",
         "name": "黑白条纹牛仔套装",
         "thumbnail": "/assets/outfit/黑白条纹牛仔套装.gif",
         "image": "/assets/outfit/黑白条纹牛仔套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_黑白条纹休闲套装",
+        "name": "黑白条纹休闲套装",
+        "thumbnail": "/assets/outfit/黑白条纹休闲套装.gif",
+        "image": "/assets/outfit/黑白条纹休闲套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_黑白纹短裙单肩包套装",
@@ -4707,10 +6655,42 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_黑色吊带开衩长裙",
+        "name": "黑色吊带开衩长裙",
+        "thumbnail": "/assets/outfit/黑色吊带开衩长裙.gif",
+        "image": "/assets/outfit/黑色吊带开衩长裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黑色亮片单肩礼服",
+        "name": "黑色亮片单肩礼服",
+        "thumbnail": "/assets/outfit/黑色亮片单肩礼服.gif",
+        "image": "/assets/outfit/黑色亮片单肩礼服.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_黑色皮衣牛仔裤套装",
         "name": "黑色皮衣牛仔裤套装",
         "thumbnail": "/assets/outfit/黑色皮衣牛仔裤套装.gif",
         "image": "/assets/outfit/黑色皮衣牛仔裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黑色卫衣卷袖套装",
+        "name": "黑色卫衣卷袖套装",
+        "thumbnail": "/assets/outfit/黑色卫衣卷袖套装.gif",
+        "image": "/assets/outfit/黑色卫衣卷袖套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黑色卫衣休闲单肩包套装",
+        "name": "黑色卫衣休闲单肩包套装",
+        "thumbnail": "/assets/outfit/黑色卫衣休闲单肩包套装.gif",
+        "image": "/assets/outfit/黑色卫衣休闲单肩包套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4723,10 +6703,34 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_黑色一字肩黄裙套装",
+        "name": "黑色一字肩黄裙套装",
+        "thumbnail": "/assets/outfit/黑色一字肩黄裙套装.gif",
+        "image": "/assets/outfit/黑色一字肩黄裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_黑色T恤牛仔裙套装",
         "name": "黑色T恤牛仔裙套装",
         "thumbnail": "/assets/outfit/黑色T恤牛仔裙套装.gif",
         "image": "/assets/outfit/黑色T恤牛仔裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黑外套长靴紫裙套装",
+        "name": "黑外套长靴紫裙套装",
+        "thumbnail": "/assets/outfit/黑外套长靴紫裙套装.gif",
+        "image": "/assets/outfit/黑外套长靴紫裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红粉印花长袖路牌套装",
+        "name": "红粉印花长袖路牌套装",
+        "thumbnail": "/assets/outfit/红粉印花长袖路牌套装.gif",
+        "image": "/assets/outfit/红粉印花长袖路牌套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4739,10 +6743,34 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_红色波点牛仔裙套装",
+        "name": "红色波点牛仔裙套装",
+        "thumbnail": "/assets/outfit/红色波点牛仔裙套装.gif",
+        "image": "/assets/outfit/红色波点牛仔裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红色大衣白围巾长靴套装",
+        "name": "红色大衣白围巾长靴套装",
+        "thumbnail": "/assets/outfit/红色大衣白围巾长靴套装.gif",
+        "image": "/assets/outfit/红色大衣白围巾长靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_红色叠穿条纹套装",
         "name": "红色叠穿条纹套装",
         "thumbnail": "/assets/outfit/红色叠穿条纹套装.gif",
         "image": "/assets/outfit/红色叠穿条纹套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红色连帽大衣玩具熊套装",
+        "name": "红色连帽大衣玩具熊套装",
+        "thumbnail": "/assets/outfit/红色连帽大衣玩具熊套装.gif",
+        "image": "/assets/outfit/红色连帽大衣玩具熊套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4763,10 +6791,58 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_红色提花围巾长裙套装",
+        "name": "红色提花围巾长裙套装",
+        "thumbnail": "/assets/outfit/红色提花围巾长裙套装.gif",
+        "image": "/assets/outfit/红色提花围巾长裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红色提花针织公主裙",
+        "name": "红色提花针织公主裙",
+        "thumbnail": "/assets/outfit/红色提花针织公主裙.gif",
+        "image": "/assets/outfit/红色提花针织公主裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红围巾格子衫套装",
+        "name": "红围巾格子衫套装",
+        "thumbnail": "/assets/outfit/红围巾格子衫套装.gif",
+        "image": "/assets/outfit/红围巾格子衫套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_红围巾黑大衣短裙套装",
+        "name": "红围巾黑大衣短裙套装",
+        "thumbnail": "/assets/outfit/红围巾黑大衣短裙套装.gif",
+        "image": "/assets/outfit/红围巾黑大衣短裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_呼拉圈粉色大衣套装",
+        "name": "呼拉圈粉色大衣套装",
+        "thumbnail": "/assets/outfit/呼拉圈粉色大衣套装.gif",
+        "image": "/assets/outfit/呼拉圈粉色大衣套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_蝴蝶结白色公主裙套装",
         "name": "蝴蝶结白色公主裙套装",
         "thumbnail": "/assets/outfit/蝴蝶结白色公主裙套装.gif",
         "image": "/assets/outfit/蝴蝶结白色公主裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_蝴蝶结米白印花裙套装",
+        "name": "蝴蝶结米白印花裙套装",
+        "thumbnail": "/assets/outfit/蝴蝶结米白印花裙套装.gif",
+        "image": "/assets/outfit/蝴蝶结米白印花裙套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4779,10 +6855,42 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_虎虎宅家套装",
+        "name": "虎虎宅家套装",
+        "thumbnail": "/assets/outfit/虎虎宅家套装.gif",
+        "image": "/assets/outfit/虎虎宅家套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黄灰条纹围巾牛仔裤套装",
+        "name": "黄灰条纹围巾牛仔裤套装",
+        "thumbnail": "/assets/outfit/黄灰条纹围巾牛仔裤套装.gif",
+        "image": "/assets/outfit/黄灰条纹围巾牛仔裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黄色爱心背心黑裙套装",
+        "name": "黄色爱心背心黑裙套装",
+        "thumbnail": "/assets/outfit/黄色爱心背心黑裙套装.gif",
+        "image": "/assets/outfit/黄色爱心背心黑裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_黄色背带裙套装",
         "name": "黄色背带裙套装",
         "thumbnail": "/assets/outfit/黄色背带裙套装.gif",
         "image": "/assets/outfit/黄色背带裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_黄色短袖短裙爱心坐姿",
+        "name": "黄色短袖短裙爱心坐姿",
+        "thumbnail": "/assets/outfit/黄色短袖短裙爱心坐姿.gif",
+        "image": "/assets/outfit/黄色短袖短裙爱心坐姿.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4811,6 +6919,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_黄色毛呢外套棕短裙套装",
+        "name": "黄色毛呢外套棕短裙套装",
+        "thumbnail": "/assets/outfit/黄色毛呢外套棕短裙套装.gif",
+        "image": "/assets/outfit/黄色毛呢外套棕短裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_黄色抹胸牛仔裤套装",
         "name": "黄色抹胸牛仔裤套装",
         "thumbnail": "/assets/outfit/黄色抹胸牛仔裤套装.gif",
@@ -4825,6 +6941,22 @@ export const categories = [
         "image": "/assets/outfit/黄色套衫牛仔街头.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_黄色中袖黑灰中裤套装",
+        "name": "黄色中袖黑灰中裤套装",
+        "thumbnail": "/assets/outfit/黄色中袖黑灰中裤套装.gif",
+        "image": "/assets/outfit/黄色中袖黑灰中裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_活力奔跑套装",
+        "name": "活力奔跑套装",
+        "thumbnail": "/assets/outfit/活力奔跑套装.gif",
+        "image": "/assets/outfit/活力奔跑套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_活力波点粉色套装",
@@ -4847,6 +6979,22 @@ export const categories = [
         "name": "活力粉色运动套装",
         "thumbnail": "/assets/outfit/活力粉色运动套装.gif",
         "image": "/assets/outfit/活力粉色运动套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_活力红冲浪套装",
+        "name": "活力红冲浪套装",
+        "thumbnail": "/assets/outfit/活力红冲浪套装.gif",
+        "image": "/assets/outfit/活力红冲浪套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_街头插肩黑色卫衣坐姿",
+        "name": "街头插肩黑色卫衣坐姿",
+        "thumbnail": "/assets/outfit/街头插肩黑色卫衣坐姿.gif",
+        "image": "/assets/outfit/街头插肩黑色卫衣坐姿.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4891,6 +7039,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_咖啡夹克抹胸牛仔裤套装",
+        "name": "咖啡夹克抹胸牛仔裤套装",
+        "thumbnail": "/assets/outfit/咖啡夹克抹胸牛仔裤套装.gif",
+        "image": "/assets/outfit/咖啡夹克抹胸牛仔裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_咖色长袖长裤背包套装",
+        "name": "咖色长袖长裤背包套装",
+        "thumbnail": "/assets/outfit/咖色长袖长裤背包套装.gif",
+        "image": "/assets/outfit/咖色长袖长裤背包套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_卡其咖啡休闲套装",
         "name": "卡其咖啡休闲套装",
         "thumbnail": "/assets/outfit/卡其咖啡休闲套装.gif",
@@ -4905,6 +7069,14 @@ export const categories = [
         "image": "/assets/outfit/卡其羽绒套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_开衫长裙流苏靴套装",
+        "name": "开衫长裙流苏靴套装",
+        "thumbnail": "/assets/outfit/开衫长裙流苏靴套装.gif",
+        "image": "/assets/outfit/开衫长裙流苏靴套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_可爱粉色外套套装",
@@ -4923,12 +7095,44 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_宽松黑裤叠穿套装",
+        "name": "宽松黑裤叠穿套装",
+        "thumbnail": "/assets/outfit/宽松黑裤叠穿套装.gif",
+        "image": "/assets/outfit/宽松黑裤叠穿套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_蓝白街头套装",
         "name": "蓝白街头套装",
         "thumbnail": "/assets/outfit/蓝白街头套装.gif",
         "image": "/assets/outfit/蓝白街头套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_蓝白学院风连衣裙",
+        "name": "蓝白学院风连衣裙",
+        "thumbnail": "/assets/outfit/蓝白学院风连衣裙.gif",
+        "image": "/assets/outfit/蓝白学院风连衣裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_蓝白T恤粉裙套装",
+        "name": "蓝白T恤粉裙套装",
+        "thumbnail": "/assets/outfit/蓝白T恤粉裙套装.gif",
+        "image": "/assets/outfit/蓝白T恤粉裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_蓝短袖衬衫格纹内搭套装",
+        "name": "蓝短袖衬衫格纹内搭套装",
+        "thumbnail": "/assets/outfit/蓝短袖衬衫格纹内搭套装.gif",
+        "image": "/assets/outfit/蓝短袖衬衫格纹内搭套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_蓝灰色休闲围巾套装",
@@ -4943,6 +7147,14 @@ export const categories = [
         "name": "蓝绿蛋糕裙套装",
         "thumbnail": "/assets/outfit/蓝绿蛋糕裙套装.gif",
         "image": "/assets/outfit/蓝绿蛋糕裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_蓝绿短夹克银色短裤套装",
+        "name": "蓝绿短夹克银色短裤套装",
+        "thumbnail": "/assets/outfit/蓝绿短夹克银色短裤套装.gif",
+        "image": "/assets/outfit/蓝绿短夹克银色短裤套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -4979,6 +7191,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_蓝色毛领外套棕裙套装",
+        "name": "蓝色毛领外套棕裙套装",
+        "thumbnail": "/assets/outfit/蓝色毛领外套棕裙套装.gif",
+        "image": "/assets/outfit/蓝色毛领外套棕裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_蓝色套衫白袍套装",
         "name": "蓝色套衫白袍套装",
         "thumbnail": "/assets/outfit/蓝色套衫白袍套装.gif",
@@ -4993,6 +7213,22 @@ export const categories = [
         "image": "/assets/outfit/蓝色嘻哈套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_蓝色斜肩印花红裙套装",
+        "name": "蓝色斜肩印花红裙套装",
+        "thumbnail": "/assets/outfit/蓝色斜肩印花红裙套装.gif",
+        "image": "/assets/outfit/蓝色斜肩印花红裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_蓝色印花卫衣紫靴套装",
+        "name": "蓝色印花卫衣紫靴套装",
+        "thumbnail": "/assets/outfit/蓝色印花卫衣紫靴套装.gif",
+        "image": "/assets/outfit/蓝色印花卫衣紫靴套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_蓝色运动17号套装",
@@ -5017,6 +7253,14 @@ export const categories = [
         "image": "/assets/outfit/乐队键盘套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_立领红夹克长靴套装",
+        "name": "立领红夹克长靴套装",
+        "thumbnail": "/assets/outfit/立领红夹克长靴套装.gif",
+        "image": "/assets/outfit/立领红夹克长靴套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_连帽运动背心套装",
@@ -5067,6 +7311,14 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_绿色吊带长裙",
+        "name": "绿色吊带长裙",
+        "thumbnail": "/assets/outfit/绿色吊带长裙.gif",
+        "image": "/assets/outfit/绿色吊带长裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_绿色连衣裙套装",
         "name": "绿色连衣裙套装",
         "thumbnail": "/assets/outfit/绿色连衣裙套装.gif",
@@ -5083,12 +7335,36 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_绿色银杏套装",
+        "name": "绿色银杏套装",
+        "thumbnail": "/assets/outfit/绿色银杏套装.gif",
+        "image": "/assets/outfit/绿色银杏套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_绿色印花泡泡袖裙装",
+        "name": "绿色印花泡泡袖裙装",
+        "thumbnail": "/assets/outfit/绿色印花泡泡袖裙装.gif",
+        "image": "/assets/outfit/绿色印花泡泡袖裙装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_绿色T恤白裤套装",
         "name": "绿色T恤白裤套装",
         "thumbnail": "/assets/outfit/绿色T恤白裤套装.gif",
         "image": "/assets/outfit/绿色T恤白裤套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_绿卫衣红短裤套装",
+        "name": "绿卫衣红短裤套装",
+        "thumbnail": "/assets/outfit/绿卫衣红短裤套装.gif",
+        "image": "/assets/outfit/绿卫衣红短裤套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_猫咪粉裙套装",
@@ -5099,6 +7375,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_米色大花旗袍",
+        "name": "米色大花旗袍",
+        "thumbnail": "/assets/outfit/米色大花旗袍.gif",
+        "image": "/assets/outfit/米色大花旗袍.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_魔法毛领西装",
         "name": "魔法毛领西装",
         "thumbnail": "/assets/outfit/魔法毛领西装.gif",
@@ -5107,10 +7391,50 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_抹茶旗袍坐姿",
+        "name": "抹茶旗袍坐姿",
+        "thumbnail": "/assets/outfit/抹茶旗袍坐姿.gif",
+        "image": "/assets/outfit/抹茶旗袍坐姿.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_奶咖镂空长袖套装",
+        "name": "奶咖镂空长袖套装",
+        "thumbnail": "/assets/outfit/奶咖镂空长袖套装.gif",
+        "image": "/assets/outfit/奶咖镂空长袖套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_牛仔背带裤红色波点套装",
         "name": "牛仔背带裤红色波点套装",
         "thumbnail": "/assets/outfit/牛仔背带裤红色波点套装.gif",
         "image": "/assets/outfit/牛仔背带裤红色波点套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_痞帅翻毛大衣套装",
+        "name": "痞帅翻毛大衣套装",
+        "thumbnail": "/assets/outfit/痞帅翻毛大衣套装.gif",
+        "image": "/assets/outfit/痞帅翻毛大衣套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_翩翩起舞套装",
+        "name": "翩翩起舞套装",
+        "thumbnail": "/assets/outfit/翩翩起舞套装.gif",
+        "image": "/assets/outfit/翩翩起舞套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_破洞牛仔裤叠穿套装",
+        "name": "破洞牛仔裤叠穿套装",
+        "thumbnail": "/assets/outfit/破洞牛仔裤叠穿套装.gif",
+        "image": "/assets/outfit/破洞牛仔裤叠穿套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -5123,12 +7447,52 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_浅粉礼裙花朵坐姿套装",
+        "name": "浅粉礼裙花朵坐姿套装",
+        "thumbnail": "/assets/outfit/浅粉礼裙花朵坐姿套装.gif",
+        "image": "/assets/outfit/浅粉礼裙花朵坐姿套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_浅粉纱裙",
+        "name": "浅粉纱裙",
+        "thumbnail": "/assets/outfit/浅粉纱裙.gif",
+        "image": "/assets/outfit/浅粉纱裙.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_浅蓝棒球运动套装",
         "name": "浅蓝棒球运动套装",
         "thumbnail": "/assets/outfit/浅蓝棒球运动套装.gif",
         "image": "/assets/outfit/浅蓝棒球运动套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_浅紫T恤条纹长袜套装",
+        "name": "浅紫T恤条纹长袜套装",
+        "thumbnail": "/assets/outfit/浅紫T恤条纹长袜套装.gif",
+        "image": "/assets/outfit/浅紫T恤条纹长袜套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_清新薄荷裙套装",
+        "name": "清新薄荷裙套装",
+        "thumbnail": "/assets/outfit/清新薄荷裙套装.gif",
+        "image": "/assets/outfit/清新薄荷裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_情侣套装",
+        "name": "情侣套装",
+        "thumbnail": "/assets/outfit/情侣套装.gif",
+        "image": "/assets/outfit/情侣套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_秋冬橙色围巾套装",
@@ -5159,6 +7523,14 @@ export const categories = [
         "name": "圣诞礼物套装",
         "thumbnail": "/assets/outfit/圣诞礼物套装.gif",
         "image": "/assets/outfit/圣诞礼物套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_书包皮短裙套装",
+        "name": "书包皮短裙套装",
+        "thumbnail": "/assets/outfit/书包皮短裙套装.gif",
+        "image": "/assets/outfit/书包皮短裙套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -5195,12 +7567,44 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_天蓝长裙星星套装",
+        "name": "天蓝长裙星星套装",
+        "thumbnail": "/assets/outfit/天蓝长裙星星套装.gif",
+        "image": "/assets/outfit/天蓝长裙星星套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_条纹波点多彩套装",
         "name": "条纹波点多彩套装",
         "thumbnail": "/assets/outfit/条纹波点多彩套装.gif",
         "image": "/assets/outfit/条纹波点多彩套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_条纹混搭插兜套装",
+        "name": "条纹混搭插兜套装",
+        "thumbnail": "/assets/outfit/条纹混搭插兜套装.gif",
+        "image": "/assets/outfit/条纹混搭插兜套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_条纹围巾背心黄裙套装",
+        "name": "条纹围巾背心黄裙套装",
+        "thumbnail": "/assets/outfit/条纹围巾背心黄裙套装.gif",
+        "image": "/assets/outfit/条纹围巾背心黄裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_条纹围巾牛仔半裙叠裤套装",
+        "name": "条纹围巾牛仔半裙叠裤套装",
+        "thumbnail": "/assets/outfit/条纹围巾牛仔半裙叠裤套装.gif",
+        "image": "/assets/outfit/条纹围巾牛仔半裙叠裤套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_条纹休闲套装",
@@ -5211,10 +7615,26 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_条纹长袖裙裤叠穿套装",
+        "name": "条纹长袖裙裤叠穿套装",
+        "thumbnail": "/assets/outfit/条纹长袖裙裤叠穿套装.gif",
+        "image": "/assets/outfit/条纹长袖裙裤叠穿套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_弯月牛仔裙紫靴套装",
         "name": "弯月牛仔裙紫靴套装",
         "thumbnail": "/assets/outfit/弯月牛仔裙紫靴套装.gif",
         "image": "/assets/outfit/弯月牛仔裙紫靴套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_万圣节南瓜套装",
+        "name": "万圣节南瓜套装",
+        "thumbnail": "/assets/outfit/万圣节南瓜套装.gif",
+        "image": "/assets/outfit/万圣节南瓜套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -5275,12 +7695,68 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_小混混套装",
+        "name": "小混混套装",
+        "thumbnail": "/assets/outfit/小混混套装.gif",
+        "image": "/assets/outfit/小混混套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_斜肩T恤紧身牛仔裤套装",
+        "name": "斜肩T恤紧身牛仔裤套装",
+        "thumbnail": "/assets/outfit/斜肩T恤紧身牛仔裤套装.gif",
+        "image": "/assets/outfit/斜肩T恤紧身牛仔裤套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_休闲白衬衫卡其裤",
         "name": "休闲白衬衫卡其裤",
         "thumbnail": "/assets/outfit/休闲白衬衫卡其裤.gif",
         "image": "/assets/outfit/休闲白衬衫卡其裤.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_休闲牛仔衬衫系腰套装",
+        "name": "休闲牛仔衬衫系腰套装",
+        "thumbnail": "/assets/outfit/休闲牛仔衬衫系腰套装.gif",
+        "image": "/assets/outfit/休闲牛仔衬衫系腰套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_学院大衣高跟长靴坐姿",
+        "name": "学院大衣高跟长靴坐姿",
+        "thumbnail": "/assets/outfit/学院大衣高跟长靴坐姿.gif",
+        "image": "/assets/outfit/学院大衣高跟长靴坐姿.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_学院风格纹短裙挎包套装",
+        "name": "学院风格纹短裙挎包套装",
+        "thumbnail": "/assets/outfit/学院风格纹短裙挎包套装.gif",
+        "image": "/assets/outfit/学院风格纹短裙挎包套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_学院长靴辣妹套装",
+        "name": "学院长靴辣妹套装",
+        "thumbnail": "/assets/outfit/学院长靴辣妹套装.gif",
+        "image": "/assets/outfit/学院长靴辣妹套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_薰衣草毛边礼服",
+        "name": "薰衣草毛边礼服",
+        "thumbnail": "/assets/outfit/薰衣草毛边礼服.gif",
+        "image": "/assets/outfit/薰衣草毛边礼服.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_雅痞叠穿套装",
@@ -5307,6 +7783,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_一字肩灰上衣套装",
+        "name": "一字肩灰上衣套装",
+        "thumbnail": "/assets/outfit/一字肩灰上衣套装.gif",
+        "image": "/assets/outfit/一字肩灰上衣套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_印花长袖牛仔百褶裙套装",
+        "name": "印花长袖牛仔百褶裙套装",
+        "thumbnail": "/assets/outfit/印花长袖牛仔百褶裙套装.gif",
+        "image": "/assets/outfit/印花长袖牛仔百褶裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_英伦红棕短裙套装",
         "name": "英伦红棕短裙套装",
         "thumbnail": "/assets/outfit/英伦红棕短裙套装.gif",
@@ -5321,6 +7813,14 @@ export const categories = [
         "image": "/assets/outfit/英伦双排扣卡其套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_羽绒背心橙色长裤套装",
+        "name": "羽绒背心橙色长裤套装",
+        "thumbnail": "/assets/outfit/羽绒背心橙色长裤套装.gif",
+        "image": "/assets/outfit/羽绒背心橙色长裤套装.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_月亮礼裙套装",
@@ -5339,10 +7839,26 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_招财进宝冬装",
+        "name": "招财进宝冬装",
+        "thumbnail": "/assets/outfit/招财进宝冬装.gif",
+        "image": "/assets/outfit/招财进宝冬装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_中式旗袍套装",
         "name": "中式旗袍套装",
         "thumbnail": "/assets/outfit/中式旗袍套装.gif",
         "image": "/assets/outfit/中式旗袍套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_紫红竖纹短袖百褶裙套装",
+        "name": "紫红竖纹短袖百褶裙套装",
+        "thumbnail": "/assets/outfit/紫红竖纹短袖百褶裙套装.gif",
+        "image": "/assets/outfit/紫红竖纹短袖百褶裙套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -5361,6 +7877,14 @@ export const categories = [
         "image": "/assets/outfit/紫色背心恤衫套装.gif",
         "category": "outfit",
         "layer": 1
+      },
+      {
+        "id": "outfit_紫色蛋糕裙",
+        "name": "紫色蛋糕裙",
+        "thumbnail": "/assets/outfit/紫色蛋糕裙.gif",
+        "image": "/assets/outfit/紫色蛋糕裙.gif",
+        "category": "outfit",
+        "layer": 7
       },
       {
         "id": "outfit_紫色礼裙花束套装",
@@ -5395,10 +7919,26 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_紫色印花短袖蓝短裙套装",
+        "name": "紫色印花短袖蓝短裙套装",
+        "thumbnail": "/assets/outfit/紫色印花短袖蓝短裙套装.gif",
+        "image": "/assets/outfit/紫色印花短袖蓝短裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_紫色长袖格纹裙套装",
         "name": "紫色长袖格纹裙套装",
         "thumbnail": "/assets/outfit/紫色长袖格纹裙套装.gif",
         "image": "/assets/outfit/紫色长袖格纹裙套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_字母黄卫衣粉短靴套装",
+        "name": "字母黄卫衣粉短靴套装",
+        "thumbnail": "/assets/outfit/字母黄卫衣粉短靴套装.gif",
+        "image": "/assets/outfit/字母黄卫衣粉短靴套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -5418,6 +7958,22 @@ export const categories = [
     "thumbnail": "/assets/headwear/摇滚绅士帽.gif",
     "layer": 14,
     "items": [
+      {
+        "id": "headwear_芭比发箍",
+        "name": "芭比发箍",
+        "thumbnail": "/assets/headwear/芭比发箍.gif",
+        "image": "/assets/headwear/芭比发箍.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_白蓝爱心图案画家帽",
+        "name": "白蓝爱心图案画家帽",
+        "thumbnail": "/assets/headwear/白蓝爱心图案画家帽.gif",
+        "image": "/assets/headwear/白蓝爱心图案画家帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
       {
         "id": "headwear_白色爱心贝雷帽",
         "name": "白色爱心贝雷帽",
@@ -5459,6 +8015,14 @@ export const categories = [
         "layer": 14
       },
       {
+        "id": "headwear_白玉兰贝雷帽",
+        "name": "白玉兰贝雷帽",
+        "thumbnail": "/assets/headwear/白玉兰贝雷帽.gif",
+        "image": "/assets/headwear/白玉兰贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_蝙蝠镜",
         "name": "蝙蝠镜",
         "thumbnail": "/assets/headwear/蝙蝠镜.gif",
@@ -5473,6 +8037,14 @@ export const categories = [
         "image": "/assets/headwear/冰晶.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_冰晶皇冠",
+        "name": "冰晶皇冠",
+        "thumbnail": "/assets/headwear/冰晶皇冠.gif",
+        "image": "/assets/headwear/冰晶皇冠.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_冰蓝墨镜",
@@ -5491,12 +8063,44 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_青色小花贝雷帽",
-        "name": "青色小花贝雷帽",
-        "thumbnail": "/assets/headwear/青色小花贝雷帽.gif",
-        "image": "/assets/headwear/青色小花贝雷帽.gif",
+        "id": "headwear_橙色爱心头巾",
+        "name": "橙色爱心头巾",
+        "thumbnail": "/assets/headwear/橙色爱心头巾.gif",
+        "image": "/assets/headwear/橙色爱心头巾.gif",
         "category": "headwear",
-        "layer": 1
+        "layer": 14
+      },
+      {
+        "id": "headwear_橙色字母棒球帽",
+        "name": "橙色字母棒球帽",
+        "thumbnail": "/assets/headwear/橙色字母棒球帽.gif",
+        "image": "/assets/headwear/橙色字母棒球帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_冬季白红图案针织帽",
+        "name": "冬季白红图案针织帽",
+        "thumbnail": "/assets/headwear/冬季白红图案针织帽.gif",
+        "image": "/assets/headwear/冬季白红图案针织帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_粉色爱心发夹",
+        "name": "粉色爱心发夹",
+        "thumbnail": "/assets/headwear/粉色爱心发夹.gif",
+        "image": "/assets/headwear/粉色爱心发夹.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_粉色黑白条纹毛线帽",
+        "name": "粉色黑白条纹毛线帽",
+        "thumbnail": "/assets/headwear/粉色黑白条纹毛线帽.gif",
+        "image": "/assets/headwear/粉色黑白条纹毛线帽.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_粉色黑边贝雷帽",
@@ -5523,6 +8127,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_粉色黄爱心贝雷帽",
+        "name": "粉色黄爱心贝雷帽",
+        "thumbnail": "/assets/headwear/粉色黄爱心贝雷帽.gif",
+        "image": "/assets/headwear/粉色黄爱心贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_粉色毛球针织帽",
         "name": "粉色毛球针织帽",
         "thumbnail": "/assets/headwear/粉色毛球针织帽.gif",
@@ -5537,6 +8149,30 @@ export const categories = [
         "image": "/assets/headwear/粉色头纱.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_粉色兔耳发箍",
+        "name": "粉色兔耳发箍",
+        "thumbnail": "/assets/headwear/粉色兔耳发箍.gif",
+        "image": "/assets/headwear/粉色兔耳发箍.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_粉色小礼帽",
+        "name": "粉色小礼帽",
+        "thumbnail": "/assets/headwear/粉色小礼帽.gif",
+        "image": "/assets/headwear/粉色小礼帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_粉色雪镜",
+        "name": "粉色雪镜",
+        "thumbnail": "/assets/headwear/粉色雪镜.gif",
+        "image": "/assets/headwear/粉色雪镜.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_粉色运动帽",
@@ -5563,12 +8199,36 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_粉绣球头饰",
+        "name": "粉绣球头饰",
+        "thumbnail": "/assets/headwear/粉绣球头饰.gif",
+        "image": "/assets/headwear/粉绣球头饰.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_粉紫贝雷帽",
         "name": "粉紫贝雷帽",
         "thumbnail": "/assets/headwear/粉紫贝雷帽.gif",
         "image": "/assets/headwear/粉紫贝雷帽.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_粉紫条纹毛线帽",
+        "name": "粉紫条纹毛线帽",
+        "thumbnail": "/assets/headwear/粉紫条纹毛线帽.gif",
+        "image": "/assets/headwear/粉紫条纹毛线帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_粉钻皇冠",
+        "name": "粉钻皇冠",
+        "thumbnail": "/assets/headwear/粉钻皇冠.gif",
+        "image": "/assets/headwear/粉钻皇冠.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_复古美式头巾",
@@ -5595,6 +8255,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_国旗运动帽",
+        "name": "国旗运动帽",
+        "thumbnail": "/assets/headwear/国旗运动帽.gif",
+        "image": "/assets/headwear/国旗运动帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_海盗头巾",
         "name": "海盗头巾",
         "thumbnail": "/assets/headwear/海盗头巾.gif",
@@ -5619,10 +8287,42 @@ export const categories = [
         "layer": 14
       },
       {
+        "id": "headwear_黑色针织帽",
+        "name": "黑色针织帽",
+        "thumbnail": "/assets/headwear/黑色针织帽.gif",
+        "image": "/assets/headwear/黑色针织帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_红白蝴蝶结发箍",
         "name": "红白蝴蝶结发箍",
         "thumbnail": "/assets/headwear/红白蝴蝶结发箍.gif",
         "image": "/assets/headwear/红白蝴蝶结发箍.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_红白毛球针织帽",
+        "name": "红白毛球针织帽",
+        "thumbnail": "/assets/headwear/红白毛球针织帽.gif",
+        "image": "/assets/headwear/红白毛球针织帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_红橙毛绒护耳",
+        "name": "红橙毛绒护耳",
+        "thumbnail": "/assets/headwear/红橙毛绒护耳.gif",
+        "image": "/assets/headwear/红橙毛绒护耳.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_红色爱心头巾",
+        "name": "红色爱心头巾",
+        "thumbnail": "/assets/headwear/红色爱心头巾.gif",
+        "image": "/assets/headwear/红色爱心头巾.gif",
         "category": "headwear",
         "layer": 14
       },
@@ -5633,6 +8333,14 @@ export const categories = [
         "image": "/assets/headwear/红色蝴蝶结小夹.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_红色针织帽",
+        "name": "红色针织帽",
+        "thumbnail": "/assets/headwear/红色针织帽.gif",
+        "image": "/assets/headwear/红色针织帽.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_红色针织头巾",
@@ -5649,6 +8357,14 @@ export const categories = [
         "image": "/assets/headwear/红紫运动帽.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_虎虎帽",
+        "name": "虎虎帽",
+        "thumbnail": "/assets/headwear/虎虎帽.gif",
+        "image": "/assets/headwear/虎虎帽.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_黄色贝雷帽",
@@ -5731,6 +8447,22 @@ export const categories = [
         "layer": 14
       },
       {
+        "id": "headwear_灵动猫耳",
+        "name": "灵动猫耳",
+        "thumbnail": "/assets/headwear/灵动猫耳.gif",
+        "image": "/assets/headwear/灵动猫耳.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_菱形宝石额头坠饰",
+        "name": "菱形宝石额头坠饰",
+        "thumbnail": "/assets/headwear/菱形宝石额头坠饰.gif",
+        "image": "/assets/headwear/菱形宝石额头坠饰.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_绿色头巾",
         "name": "绿色头巾",
         "thumbnail": "/assets/headwear/绿色头巾.gif",
@@ -5747,26 +8479,34 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_浅棕毛绒帽",
-        "name": "浅棕毛绒帽",
-        "thumbnail": "/assets/headwear/浅棕毛绒帽.gif",
-        "image": "/assets/headwear/浅棕毛绒帽.gif",
+        "id": "headwear_麻灰针织帽",
+        "name": "麻灰针织帽",
+        "thumbnail": "/assets/headwear/麻灰针织帽.gif",
+        "image": "/assets/headwear/麻灰针织帽.gif",
         "category": "headwear",
-        "layer": 1
-      },
-      {
-        "id": "headwear_紫色毛线帽",
-        "name": "紫色毛线帽",
-        "thumbnail": "/assets/headwear/紫色毛线帽.gif",
-        "image": "/assets/headwear/紫色毛线帽.gif",
-        "category": "headwear",
-        "layer": 1
+        "layer": 14
       },
       {
         "id": "headwear_玫瑰羽毛发饰",
         "name": "玫瑰羽毛发饰",
         "thumbnail": "/assets/headwear/玫瑰羽毛发饰.gif",
         "image": "/assets/headwear/玫瑰羽毛发饰.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_米白画家帽",
+        "name": "米白画家帽",
+        "thumbnail": "/assets/headwear/米白画家帽.gif",
+        "image": "/assets/headwear/米白画家帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_米白针织帽",
+        "name": "米白针织帽",
+        "thumbnail": "/assets/headwear/米白针织帽.gif",
+        "image": "/assets/headwear/米白针织帽.gif",
         "category": "headwear",
         "layer": 14
       },
@@ -5787,6 +8527,30 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_奶咖贝雷帽",
+        "name": "奶咖贝雷帽",
+        "thumbnail": "/assets/headwear/奶咖贝雷帽.gif",
+        "image": "/assets/headwear/奶咖贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_牛仔蝴蝶结",
+        "name": "牛仔蝴蝶结",
+        "thumbnail": "/assets/headwear/牛仔蝴蝶结.gif",
+        "image": "/assets/headwear/牛仔蝴蝶结.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_牛仔蓝报童帽",
+        "name": "牛仔蓝报童帽",
+        "thumbnail": "/assets/headwear/牛仔蓝报童帽.gif",
+        "image": "/assets/headwear/牛仔蓝报童帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_浅粉报童帽",
         "name": "浅粉报童帽",
         "thumbnail": "/assets/headwear/浅粉报童帽.gif",
@@ -5803,14 +8567,6 @@ export const categories = [
         "layer": 1
       },
       {
-        "id": "headwear_浅蓝针织帽",
-        "name": "浅蓝针织帽",
-        "thumbnail": "/assets/headwear/浅蓝针织帽.gif",
-        "image": "/assets/headwear/浅蓝针织帽.gif",
-        "category": "headwear",
-        "layer": 1
-      },
-      {
         "id": "headwear_浅蓝运动帽",
         "name": "浅蓝运动帽",
         "thumbnail": "/assets/headwear/浅蓝运动帽.gif",
@@ -5819,10 +8575,34 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_浅蓝针织帽",
+        "name": "浅蓝针织帽",
+        "thumbnail": "/assets/headwear/浅蓝针织帽.gif",
+        "image": "/assets/headwear/浅蓝针织帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_浅棕毛绒帽",
+        "name": "浅棕毛绒帽",
+        "thumbnail": "/assets/headwear/浅棕毛绒帽.gif",
+        "image": "/assets/headwear/浅棕毛绒帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
         "id": "headwear_青蓝贝雷帽",
         "name": "青蓝贝雷帽",
         "thumbnail": "/assets/headwear/青蓝贝雷帽.gif",
         "image": "/assets/headwear/青蓝贝雷帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
+        "id": "headwear_青色小花贝雷帽",
+        "name": "青色小花贝雷帽",
+        "thumbnail": "/assets/headwear/青色小花贝雷帽.gif",
+        "image": "/assets/headwear/青色小花贝雷帽.gif",
         "category": "headwear",
         "layer": 1
       },
@@ -5843,12 +8623,44 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_闪钻贝雷帽",
+        "name": "闪钻贝雷帽",
+        "thumbnail": "/assets/headwear/闪钻贝雷帽.gif",
+        "image": "/assets/headwear/闪钻贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_闪钻徽章帽",
+        "name": "闪钻徽章帽",
+        "thumbnail": "/assets/headwear/闪钻徽章帽.gif",
+        "image": "/assets/headwear/闪钻徽章帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_双色针织帽",
         "name": "双色针织帽",
         "thumbnail": "/assets/headwear/双色针织帽.gif",
         "image": "/assets/headwear/双色针织帽.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_桃红毛呢帽",
+        "name": "桃红毛呢帽",
+        "thumbnail": "/assets/headwear/桃红毛呢帽.gif",
+        "image": "/assets/headwear/桃红毛呢帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_天蓝数字棒球帽",
+        "name": "天蓝数字棒球帽",
+        "thumbnail": "/assets/headwear/天蓝数字棒球帽.gif",
+        "image": "/assets/headwear/天蓝数字棒球帽.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_天使星环",
@@ -5865,6 +8677,14 @@ export const categories = [
         "image": "/assets/headwear/兔子运动帽.gif",
         "category": "headwear",
         "layer": 1
+      },
+      {
+        "id": "headwear_万圣节南瓜发箍",
+        "name": "万圣节南瓜发箍",
+        "thumbnail": "/assets/headwear/万圣节南瓜发箍.gif",
+        "image": "/assets/headwear/万圣节南瓜发箍.gif",
+        "category": "headwear",
+        "layer": 14
       },
       {
         "id": "headwear_王冠",
@@ -5907,6 +8727,30 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_雪花蓝毛线帽",
+        "name": "雪花蓝毛线帽",
+        "thumbnail": "/assets/headwear/雪花蓝毛线帽.gif",
+        "image": "/assets/headwear/雪花蓝毛线帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_雪绒贝雷帽",
+        "name": "雪绒贝雷帽",
+        "thumbnail": "/assets/headwear/雪绒贝雷帽.gif",
+        "image": "/assets/headwear/雪绒贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_艳紫色贝雷帽",
+        "name": "艳紫色贝雷帽",
+        "thumbnail": "/assets/headwear/艳紫色贝雷帽.gif",
+        "image": "/assets/headwear/艳紫色贝雷帽.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_摇滚贝雷帽",
         "name": "摇滚贝雷帽",
         "thumbnail": "/assets/headwear/摇滚贝雷帽.gif",
@@ -5931,6 +8775,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_英伦蝴蝶结",
+        "name": "英伦蝴蝶结",
+        "thumbnail": "/assets/headwear/英伦蝴蝶结.gif",
+        "image": "/assets/headwear/英伦蝴蝶结.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
+        "id": "headwear_月亮额头坠饰",
+        "name": "月亮额头坠饰",
+        "thumbnail": "/assets/headwear/月亮额头坠饰.gif",
+        "image": "/assets/headwear/月亮额头坠饰.gif",
+        "category": "headwear",
+        "layer": 14
+      },
+      {
         "id": "headwear_紫花发箍",
         "name": "紫花发箍",
         "thumbnail": "/assets/headwear/紫花发箍.gif",
@@ -5947,28 +8807,20 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "headwear_紫色毛线帽",
+        "name": "紫色毛线帽",
+        "thumbnail": "/assets/headwear/紫色毛线帽.gif",
+        "image": "/assets/headwear/紫色毛线帽.gif",
+        "category": "headwear",
+        "layer": 1
+      },
+      {
         "id": "headwear_棕色贝雷帽",
         "name": "棕色贝雷帽",
         "thumbnail": "/assets/headwear/棕色贝雷帽.gif",
         "image": "/assets/headwear/棕色贝雷帽.gif",
         "category": "headwear",
         "layer": 1
-      },
-      {
-        "id": "headwear_粉色爱心发夹",
-        "name": "粉色爱心发夹",
-        "thumbnail": "/assets/headwear/粉色爱心发夹.gif",
-        "image": "/assets/headwear/粉色爱心发夹.gif",
-        "category": "headwear",
-        "layer": 14
-      },
-      {
-        "id": "headwear_月亮额头坠饰",
-        "name": "月亮额头坠饰",
-        "thumbnail": "/assets/headwear/月亮额头坠饰.gif",
-        "image": "/assets/headwear/月亮额头坠饰.gif",
-        "category": "headwear",
-        "layer": 14
       },
       {
         "id": "headwear_钻石额头坠饰",
@@ -5999,6 +8851,14 @@ export const categories = [
         "name": "复古茶色墨镜",
         "thumbnail": "/assets/glasses/复古茶色墨镜.gif",
         "image": "/assets/glasses/复古茶色墨镜.gif",
+        "category": "glasses",
+        "layer": 13
+      },
+      {
+        "id": "glasses_黑色方框眼镜",
+        "name": "黑色方框眼镜",
+        "thumbnail": "/assets/glasses/黑色方框眼镜.gif",
+        "image": "/assets/glasses/黑色方框眼镜.gif",
         "category": "glasses",
         "layer": 13
       },
@@ -6073,6 +8933,14 @@ export const categories = [
         "image": "/assets/glasses/炫舞墨镜.gif",
         "category": "glasses",
         "layer": 1
+      },
+      {
+        "id": "glasses_银框复古墨镜",
+        "name": "银框复古墨镜",
+        "thumbnail": "/assets/glasses/银框复古墨镜.gif",
+        "image": "/assets/glasses/银框复古墨镜.gif",
+        "category": "glasses",
+        "layer": 13
       },
       {
         "id": "glasses_圆形半框眼镜",
@@ -6267,6 +9135,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "neckwear_蓝十字项链",
+        "name": "蓝十字项链",
+        "thumbnail": "/assets/neckwear/蓝十字项链.gif",
+        "image": "/assets/neckwear/蓝十字项链.gif",
+        "category": "neckwear",
+        "layer": 10
+      },
+      {
         "id": "neckwear_蓝紫玫瑰颈饰",
         "name": "蓝紫玫瑰颈饰",
         "thumbnail": "/assets/neckwear/蓝紫玫瑰颈饰.gif",
@@ -6289,6 +9165,14 @@ export const categories = [
         "image": "/assets/neckwear/柳丁花颈饰.gif",
         "category": "neckwear",
         "layer": 1
+      },
+      {
+        "id": "neckwear_绿钻十字架",
+        "name": "绿钻十字架",
+        "thumbnail": "/assets/neckwear/绿钻十字架.gif",
+        "image": "/assets/neckwear/绿钻十字架.gif",
+        "category": "neckwear",
+        "layer": 10
       },
       {
         "id": "neckwear_玫瑰项链",
@@ -6339,6 +9223,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "neckwear_圣诞围巾",
+        "name": "圣诞围巾",
+        "thumbnail": "/assets/neckwear/圣诞围巾.gif",
+        "image": "/assets/neckwear/圣诞围巾.gif",
+        "category": "neckwear",
+        "layer": 10
+      },
+      {
         "id": "neckwear_随身听",
         "name": "随身听",
         "thumbnail": "/assets/neckwear/随身听.gif",
@@ -6361,6 +9253,14 @@ export const categories = [
         "image": "/assets/neckwear/星球项链.gif",
         "category": "neckwear",
         "layer": 1
+      },
+      {
+        "id": "neckwear_星形勋章项链",
+        "name": "星形勋章项链",
+        "thumbnail": "/assets/neckwear/星形勋章项链.gif",
+        "image": "/assets/neckwear/星形勋章项链.gif",
+        "category": "neckwear",
+        "layer": 10
       },
       {
         "id": "neckwear_羊毛围巾",
@@ -6403,6 +9303,14 @@ export const categories = [
     "layer": 11,
     "items": [
       {
+        "id": "earrings_草莓耳坠",
+        "name": "草莓耳坠",
+        "thumbnail": "/assets/earrings/草莓耳坠.gif",
+        "image": "/assets/earrings/草莓耳坠.gif",
+        "category": "earrings",
+        "layer": 11
+      },
+      {
         "id": "earrings_粉宝石耳坠",
         "name": "粉宝石耳坠",
         "thumbnail": "/assets/earrings/粉宝石耳坠.gif",
@@ -6425,6 +9333,14 @@ export const categories = [
         "image": "/assets/earrings/粉色十字星耳钉.gif",
         "category": "earrings",
         "layer": 1
+      },
+      {
+        "id": "earrings_粉羽毛耳坠",
+        "name": "粉羽毛耳坠",
+        "thumbnail": "/assets/earrings/粉羽毛耳坠.gif",
+        "image": "/assets/earrings/粉羽毛耳坠.gif",
+        "category": "earrings",
+        "layer": 11
       },
       {
         "id": "earrings_粉紫爱心耳钉",
@@ -6523,6 +9439,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "earrings_蓝宝石耳坠",
+        "name": "蓝宝石耳坠",
+        "thumbnail": "/assets/earrings/蓝宝石耳坠.gif",
+        "image": "/assets/earrings/蓝宝石耳坠.gif",
+        "category": "earrings",
+        "layer": 11
+      },
+      {
         "id": "earrings_蓝色爱心耳坠",
         "name": "蓝色爱心耳坠",
         "thumbnail": "/assets/earrings/蓝色爱心耳坠.gif",
@@ -6555,6 +9479,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "earrings_小草莓耳坠",
+        "name": "小草莓耳坠",
+        "thumbnail": "/assets/earrings/小草莓耳坠.gif",
+        "image": "/assets/earrings/小草莓耳坠.gif",
+        "category": "earrings",
+        "layer": 11
+      },
+      {
         "id": "earrings_银色耳饰",
         "name": "银色耳饰",
         "thumbnail": "/assets/earrings/银色耳饰.gif",
@@ -6569,6 +9501,14 @@ export const categories = [
         "image": "/assets/earrings/紫钻爱心耳坠.gif",
         "category": "earrings",
         "layer": 11
+      },
+      {
+        "id": "earrings_钻石耳坠",
+        "name": "钻石耳坠",
+        "thumbnail": "/assets/earrings/钻石耳坠.gif",
+        "image": "/assets/earrings/钻石耳坠.gif",
+        "category": "earrings",
+        "layer": 11
       }
     ]
   },
@@ -6578,6 +9518,14 @@ export const categories = [
     "thumbnail": "/assets/face-decor/嘴边玫瑰.gif",
     "layer": 12,
     "items": [
+      {
+        "id": "face-decor_吹泡泡",
+        "name": "吹泡泡",
+        "thumbnail": "/assets/face-decor/吹泡泡.gif",
+        "image": "/assets/face-decor/吹泡泡.gif",
+        "category": "face-decor",
+        "layer": 12
+      },
       {
         "id": "face-decor_粉蓝创可贴",
         "name": "粉蓝创可贴",
@@ -6609,6 +9557,14 @@ export const categories = [
         "image": "/assets/face-decor/蓝色闪钻脸饰.gif",
         "category": "face-decor",
         "layer": 1
+      },
+      {
+        "id": "face-decor_温度计",
+        "name": "温度计",
+        "thumbnail": "/assets/face-decor/温度计.gif",
+        "image": "/assets/face-decor/温度计.gif",
+        "category": "face-decor",
+        "layer": 12
       },
       {
         "id": "face-decor_烟",
@@ -6643,6 +9599,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "wings_粉蓝天使",
+        "name": "粉蓝天使",
+        "thumbnail": "/assets/wings/粉蓝天使.gif",
+        "image": "/assets/wings/粉蓝天使.gif",
+        "category": "wings",
+        "layer": 3
+      },
+      {
         "id": "wings_粉色天使",
         "name": "粉色天使",
         "thumbnail": "/assets/wings/粉色天使.gif",
@@ -6667,10 +9631,26 @@ export const categories = [
         "layer": 3
       },
       {
+        "id": "wings_黑色大天使",
+        "name": "黑色大天使",
+        "thumbnail": "/assets/wings/黑色大天使.gif",
+        "image": "/assets/wings/黑色大天使.gif",
+        "category": "wings",
+        "layer": 3
+      },
+      {
         "id": "wings_黑色天使",
         "name": "黑色天使",
         "thumbnail": "/assets/wings/黑色天使.gif",
         "image": "/assets/wings/黑色天使.gif",
+        "category": "wings",
+        "layer": 3
+      },
+      {
+        "id": "wings_幻彩蝴蝶",
+        "name": "幻彩蝴蝶",
+        "thumbnail": "/assets/wings/幻彩蝴蝶.gif",
+        "image": "/assets/wings/幻彩蝴蝶.gif",
         "category": "wings",
         "layer": 3
       },
@@ -6779,6 +9759,14 @@ export const categories = [
         "layer": 15
       },
       {
+        "id": "other-accessories_粉色挂坠腰链",
+        "name": "粉色挂坠腰链",
+        "thumbnail": "/assets/other-accessories/粉色挂坠腰链.gif",
+        "image": "/assets/other-accessories/粉色挂坠腰链.gif",
+        "category": "other-accessories",
+        "layer": 15
+      },
+      {
         "id": "other-accessories_粉色迷你包",
         "name": "粉色迷你包",
         "thumbnail": "/assets/other-accessories/粉色迷你包.gif",
@@ -6801,6 +9789,14 @@ export const categories = [
         "image": "/assets/other-accessories/复古美式邮差包.gif",
         "category": "other-accessories",
         "layer": 1
+      },
+      {
+        "id": "other-accessories_红白电吉他",
+        "name": "红白电吉他",
+        "thumbnail": "/assets/other-accessories/红白电吉他.gif",
+        "image": "/assets/other-accessories/红白电吉他.gif",
+        "category": "other-accessories",
+        "layer": 15
       },
       {
         "id": "other-accessories_红色异形装置",
@@ -7009,6 +10005,14 @@ export const categories = [
         "image": "/assets/frame/爱心巴洛克.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_爱心粉框",
+        "name": "爱心粉框",
+        "thumbnail": "/assets/frame/爱心粉框.gif",
+        "image": "/assets/frame/爱心粉框.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_爱心帘子",
@@ -7235,6 +10239,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_人民币鼠鼠",
+        "name": "人民币鼠鼠",
+        "thumbnail": "/assets/frame/人民币鼠鼠.gif",
+        "image": "/assets/frame/人民币鼠鼠.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_圣诞飘雪",
         "name": "圣诞飘雪",
         "thumbnail": "/assets/frame/圣诞飘雪.gif",
@@ -7249,6 +10261,14 @@ export const categories = [
         "image": "/assets/frame/双色花朵.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_天使心星",
+        "name": "天使心星",
+        "thumbnail": "/assets/frame/天使心星.gif",
+        "image": "/assets/frame/天使心星.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_天使熊爱心",
@@ -7371,6 +10391,22 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "background-decor_薄荷长裙美眉",
+        "name": "薄荷长裙美眉",
+        "thumbnail": "/assets/background-decor/薄荷长裙美眉.gif",
+        "image": "/assets/background-decor/薄荷长裙美眉.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
+        "id": "background-decor_保镖",
+        "name": "保镖",
+        "thumbnail": "/assets/background-decor/保镖.gif",
+        "image": "/assets/background-decor/保镖.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
         "id": "background-decor_彩蛋气球",
         "name": "彩蛋气球",
         "thumbnail": "/assets/background-decor/彩蛋气球.gif",
@@ -7415,6 +10451,22 @@ export const categories = [
         "name": "粉色爱心泡泡",
         "thumbnail": "/assets/background-decor/粉色爱心泡泡.gif",
         "image": "/assets/background-decor/粉色爱心泡泡.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
+        "id": "background-decor_粉色短裙美眉",
+        "name": "粉色短裙美眉",
+        "thumbnail": "/assets/background-decor/粉色短裙美眉.gif",
+        "image": "/assets/background-decor/粉色短裙美眉.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
+        "id": "background-decor_红发魔女",
+        "name": "红发魔女",
+        "thumbnail": "/assets/background-decor/红发魔女.gif",
+        "image": "/assets/background-decor/红发魔女.gif",
         "category": "background-decor",
         "layer": 1
       },
@@ -7491,6 +10543,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "background-decor_沙滩短发美女",
+        "name": "沙滩短发美女",
+        "thumbnail": "/assets/background-decor/沙滩短发美女.gif",
+        "image": "/assets/background-decor/沙滩短发美女.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
+        "id": "background-decor_沙滩长发美女",
+        "name": "沙滩长发美女",
+        "thumbnail": "/assets/background-decor/沙滩长发美女.gif",
+        "image": "/assets/background-decor/沙滩长发美女.gif",
+        "category": "background-decor",
+        "layer": 1
+      },
+      {
         "id": "background-decor_圣诞树",
         "name": "圣诞树",
         "thumbnail": "/assets/background-decor/圣诞树.gif",
@@ -7513,6 +10581,14 @@ export const categories = [
         "image": "/assets/background-decor/我的舞台.gif",
         "category": "background-decor",
         "layer": 0
+      },
+      {
+        "id": "background-decor_夏日花园美眉",
+        "name": "夏日花园美眉",
+        "thumbnail": "/assets/background-decor/夏日花园美眉.gif",
+        "image": "/assets/background-decor/夏日花园美眉.gif",
+        "category": "background-decor",
+        "layer": 1
       },
       {
         "id": "background-decor_星星闪光",
@@ -7561,6 +10637,14 @@ export const categories = [
         "image": "/assets/background-decor/游乐园气球.gif",
         "category": "background-decor",
         "layer": 0
+      },
+      {
+        "id": "background-decor_浴缸泡泡",
+        "name": "浴缸泡泡",
+        "thumbnail": "/assets/background-decor/浴缸泡泡.gif",
+        "image": "/assets/background-decor/浴缸泡泡.gif",
+        "category": "background-decor",
+        "layer": 1
       },
       {
         "id": "background-decor_紫蓝星星",
@@ -7649,6 +10733,14 @@ export const categories = [
         "image": "/assets/vehicle/红色赛车.gif",
         "category": "vehicle",
         "layer": 0
+      },
+      {
+        "id": "vehicle_剪刀门跑车",
+        "name": "剪刀门跑车",
+        "thumbnail": "/assets/vehicle/剪刀门跑车.gif",
+        "image": "/assets/vehicle/剪刀门跑车.gif",
+        "category": "vehicle",
+        "layer": 2
       },
       {
         "id": "vehicle_卡通自行车",
@@ -7963,6 +11055,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "companion_小花狗",
+        "name": "小花狗",
+        "thumbnail": "/assets/companion/小花狗.gif",
+        "image": "/assets/companion/小花狗.gif",
+        "category": "companion",
+        "layer": 18
+      },
+      {
         "id": "companion_小花猫",
         "name": "小花猫",
         "thumbnail": "/assets/companion/小花猫.gif",
@@ -8039,6 +11139,14 @@ export const categories = [
         "name": "爱我请举手",
         "thumbnail": "/assets/text/爱我请举手.gif",
         "image": "/assets/text/爱我请举手.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_等你电话哦",
+        "name": "等你电话哦",
+        "thumbnail": "/assets/text/等你电话哦.gif",
+        "image": "/assets/text/等你电话哦.gif",
         "category": "text",
         "layer": 17
       },
@@ -8143,6 +11251,14 @@ export const categories = [
         "name": "卡哇伊杂志",
         "thumbnail": "/assets/text/卡哇伊杂志.gif",
         "image": "/assets/text/卡哇伊杂志.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_开学啦",
+        "name": "开学啦",
+        "thumbnail": "/assets/text/开学啦.gif",
+        "image": "/assets/text/开学啦.gif",
         "category": "text",
         "layer": 17
       },
@@ -8291,6 +11407,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_帅哥新鲜火热",
+        "name": "帅哥新鲜火热",
+        "thumbnail": "/assets/text/帅哥新鲜火热.gif",
+        "image": "/assets/text/帅哥新鲜火热.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_思念你",
         "name": "思念你",
         "thumbnail": "/assets/text/思念你.gif",
@@ -8379,6 +11503,14 @@ export const categories = [
         "layer": 17
       },
       {
+        "id": "text_我是一个偷心的贼",
+        "name": "我是一个偷心的贼",
+        "thumbnail": "/assets/text/我是一个偷心的贼.gif",
+        "image": "/assets/text/我是一个偷心的贼.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_吸引力杂志",
         "name": "吸引力杂志",
         "thumbnail": "/assets/text/吸引力杂志.gif",
@@ -8427,6 +11559,14 @@ export const categories = [
         "layer": 17
       },
       {
+        "id": "text_幸福的生活",
+        "name": "幸福的生活",
+        "thumbnail": "/assets/text/幸福的生活.gif",
+        "image": "/assets/text/幸福的生活.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_需要勇气",
         "name": "需要勇气",
         "thumbnail": "/assets/text/需要勇气.gif",
@@ -8451,10 +11591,26 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_音乐新力量",
+        "name": "音乐新力量",
+        "thumbnail": "/assets/text/音乐新力量.gif",
+        "image": "/assets/text/音乐新力量.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_勇敢去爱就有奇迹",
         "name": "勇敢去爱就有奇迹",
         "thumbnail": "/assets/text/勇敢去爱就有奇迹.gif",
         "image": "/assets/text/勇敢去爱就有奇迹.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_用我的爱把你融化",
+        "name": "用我的爱把你融化",
+        "thumbnail": "/assets/text/用我的爱把你融化.gif",
+        "image": "/assets/text/用我的爱把你融化.gif",
         "category": "text",
         "layer": 17
       },
@@ -8521,6 +11677,22 @@ export const categories = [
         "image": "/assets/text/S风尚杂志.gif",
         "category": "text",
         "layer": 1
+      },
+      {
+        "id": "text_sweet杂志",
+        "name": "sweet杂志",
+        "thumbnail": "/assets/text/sweet杂志.gif",
+        "image": "/assets/text/sweet杂志.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_vision杂志",
+        "name": "vision杂志",
+        "thumbnail": "/assets/text/vision杂志.gif",
+        "image": "/assets/text/vision杂志.gif",
+        "category": "text",
+        "layer": 17
       }
     ]
   }

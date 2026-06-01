@@ -11,31 +11,30 @@ const assetsDir = join(__dirname, '../assets');
 const categoriesFile = join(__dirname, '../src/data/categories.ts');
 const translationsFile = join(__dirname, '../src/utils/translations.ts');
 
-// 分类文件夹映射
-const CATEGORY_FOLDERS = {
-  'backgrounds': 'backgrounds',
-  'background-decor': 'background-decor',
-  'vehicle': 'vehicle',
-  'wings': 'wings',
-  'hair': 'hair',
-  'back-hair': 'back-hair',
-  'bottom': 'bottom',
-  'top': 'top',
-  'outfit': 'outfit',
-  'makeup': 'makeup',
-  'head-set': 'head-set',
-  'front-hair': 'hair', // 前头发映射到发型分类
-  'face-decor': 'face-decor',
-  'earrings': 'earrings',
-  'glasses': 'glasses',
-  'neckwear': 'neckwear',
-  'headwear': 'headwear',
-  'other-accessories': 'other-accessories',
-  'companion': 'companion',
-  'frame': 'frame',
-  'text': 'text',
-  'sparkle': 'sparkle'
-};
+// source: new asset 子文件夹, target: assets 子文件夹, categoryId: categories 分类 id
+const CATEGORY_CONFIGS = [
+  { source: 'backgrounds', target: 'backgrounds', categoryId: 'backgrounds' },
+  { source: 'background-decor', target: 'background-decor', categoryId: 'background-decor' },
+  { source: 'vehicle', target: 'vehicle', categoryId: 'vehicle' },
+  { source: 'wings', target: 'wings', categoryId: 'wings' },
+  { source: 'front-hair', target: 'front-hair', categoryId: 'hair', hairRole: 'front' },
+  { source: 'back-hair', target: 'back-hair', categoryId: 'hair', hairRole: 'back' },
+  { source: 'bottom', target: 'bottom', categoryId: 'bottom' },
+  { source: 'top', target: 'top', categoryId: 'top' },
+  { source: 'outfit', target: 'outfit', categoryId: 'outfit' },
+  { source: 'makeup', target: 'makeup', categoryId: 'makeup' },
+  { source: 'head-set', target: 'head-set', categoryId: 'head-set' },
+  { source: 'face-decor', target: 'face-decor', categoryId: 'face-decor' },
+  { source: 'earrings', target: 'earrings', categoryId: 'earrings' },
+  { source: 'glasses', target: 'glasses', categoryId: 'glasses' },
+  { source: 'neckwear', target: 'neckwear', categoryId: 'neckwear' },
+  { source: 'headwear', target: 'headwear', categoryId: 'headwear' },
+  { source: 'other-accessories', target: 'other-accessories', categoryId: 'other-accessories' },
+  { source: 'companion', target: 'companion', categoryId: 'companion' },
+  { source: 'frame', target: 'frame', categoryId: 'frame' },
+  { source: 'text', target: 'text', categoryId: 'text' },
+  { source: 'sparkle', target: 'sparkle', categoryId: 'sparkle' },
+];
 
 // 扩展的翻译映射
 const translationMap = {
@@ -295,8 +294,8 @@ function scanNewAssets() {
   
   console.log('🔍 扫描 new asset 文件夹...');
   
-  for (const [categoryId, folderName] of Object.entries(CATEGORY_FOLDERS)) {
-    const newAssetCategoryDir = join(newAssetDir, folderName);
+  for (const config of CATEGORY_CONFIGS) {
+    const newAssetCategoryDir = join(newAssetDir, config.source);
     
     if (!fs.existsSync(newAssetCategoryDir)) {
       continue;
@@ -312,8 +311,9 @@ function scanNewAssets() {
       const extension = path.parse(file).ext;
       
       newItems.push({
-        categoryId,
-        folderName,
+        categoryId: config.categoryId,
+        folderName: config.target,
+        hairRole: config.hairRole || null,
         chineseName,
         fileName: file,
         extension,
@@ -323,6 +323,39 @@ function scanNewAssets() {
   }
   
   return newItems;
+}
+
+function createHairFrontItem(item) {
+  const assetPath = `/assets/front-hair/${item.fileName}`;
+  return {
+    id: `hair_${item.chineseName}`,
+    name: item.chineseName,
+    thumbnail: assetPath,
+    image: assetPath,
+    category: 'hair',
+    layer: 4,
+    frontHair: {
+      id: `front-hair_${item.chineseName}`,
+      name: item.chineseName,
+      thumbnail: assetPath,
+      image: assetPath,
+      category: 'front-hair',
+      layer: 2,
+    },
+    backHair: null,
+  };
+}
+
+function createHairBackRef(item) {
+  const assetPath = `/assets/back-hair/${item.fileName}`;
+  return {
+    id: `back-hair_${item.chineseName}`,
+    name: item.chineseName,
+    thumbnail: assetPath,
+    image: assetPath,
+    category: 'back-hair',
+    layer: 1,
+  };
 }
 
 function moveAssets(newItems) {
@@ -351,15 +384,13 @@ function updateCategories(newItems) {
   let categoriesContent = fs.readFileSync(categoriesFile, 'utf8');
   
   // 提取categories数组
-  const match = categoriesContent.match(/export const categories = ([\s\S]+?);/);
+  const match = categoriesContent.match(/export const categories = ([\s\S]+?)\] as const;/);
   if (!match) {
     console.log('❌ 无法解析 categories.ts');
     return;
   }
-  
-  // 移除末尾的 "as const" 以使其成为有效的JSON
-  let jsonContent = match[1].replace(/\s+as\s+const\s*$/, '');
-  let categories = JSON.parse(jsonContent);
+
+  let categories = JSON.parse(`${match[1]}]`);
   
   // 按分类分组新物品
   const itemsByCategory = {};
@@ -370,6 +401,9 @@ function updateCategories(newItems) {
     itemsByCategory[item.categoryId].push(item);
   }
   
+  let addedCount = 0;
+  let backHairUpdated = 0;
+
   // 更新每个分类
   for (const [categoryId, items] of Object.entries(itemsByCategory)) {
     const category = categories.find(cat => cat.id === categoryId);
@@ -378,18 +412,44 @@ function updateCategories(newItems) {
       continue;
     }
     
-    // 添加新物品到分类
     for (const item of items) {
-      const newItem = {
-        id: `${categoryId}_${item.chineseName}`,
+      if (item.hairRole === 'front') {
+        const hairId = `hair_${item.chineseName}`;
+        if (category.items.some((i) => i.id === hairId)) {
+          console.log(`  ⏭️  发型已存在，跳过: ${item.chineseName}`);
+          continue;
+        }
+        category.items.push(createHairFrontItem(item));
+        addedCount++;
+        continue;
+      }
+
+      if (item.hairRole === 'back') {
+        const hairItem = category.items.find((i) => i.name === item.chineseName);
+        if (!hairItem) {
+          console.log(`  ⚠️  未找到对应发型，跳过后发: ${item.chineseName}`);
+          continue;
+        }
+        hairItem.backHair = createHairBackRef(item);
+        backHairUpdated++;
+        continue;
+      }
+
+      const itemId = `${categoryId}_${item.chineseName}`;
+      if (category.items.some((i) => i.id === itemId)) {
+        console.log(`  ⏭️  物品已存在，跳过: ${item.chineseName}`);
+        continue;
+      }
+
+      category.items.push({
+        id: itemId,
         name: item.chineseName,
         thumbnail: `/assets/${item.folderName}/${item.fileName}`,
         image: `/assets/${item.folderName}/${item.fileName}`,
         category: categoryId,
-        layer: category.layer
-      };
-      
-      category.items.push(newItem);
+        layer: category.layer,
+      });
+      addedCount++;
     }
     
     // 排序物品（无选项在前，其他按中文名称排序）
@@ -399,8 +459,10 @@ function updateCategories(newItems) {
       return a.name.localeCompare(b.name, 'zh-CN');
     });
     
-    console.log(`  ✅ 更新分类 ${categoryId}: 添加了 ${items.length} 个物品`);
+    console.log(`  ✅ 更新分类 ${categoryId}`);
   }
+
+  console.log(`  ✅ 新增 ${addedCount} 个物品，更新 ${backHairUpdated} 个后发`);
   
   // 写回文件
   const updatedContent = `// 自动生成的全量分类数据
@@ -454,12 +516,85 @@ export function translateItemName(name: string, language: Language): string {
   console.log(`  ✅ 添加了 ${newItems.length} 个新翻译`);
 }
 
+function scanAssetsMissingFromCategories(categories) {
+  const missing = [];
+  const existingIds = new Set();
+  const existingHairNames = new Set();
+
+  for (const cat of categories) {
+    for (const item of cat.items) {
+      existingIds.add(item.id);
+      if (cat.id === 'hair') {
+        existingHairNames.add(item.name);
+      }
+    }
+  }
+
+  for (const config of CATEGORY_CONFIGS) {
+    const assetDir = join(assetsDir, config.target);
+    if (!fs.existsSync(assetDir)) continue;
+
+    const files = fs.readdirSync(assetDir).filter(
+      (file) =>
+        /\.(png|gif|jpg|jpeg)$/i.test(file) &&
+        file !== 'default.png' &&
+        file !== 'default.gif'
+    );
+
+    for (const file of files) {
+      const chineseName = path.parse(file).name;
+      const categoryId = config.categoryId;
+      const itemId =
+        config.hairRole === 'front'
+          ? `hair_${chineseName}`
+          : `${categoryId}_${chineseName}`;
+
+      if (config.hairRole === 'front' && existingHairNames.has(chineseName)) {
+        continue;
+      }
+      if (config.hairRole === 'back') {
+        const hairItem = categories
+          .find((c) => c.id === 'hair')
+          ?.items.find((i) => i.name === chineseName);
+        if (!hairItem || hairItem.backHair) continue;
+      } else if (existingIds.has(itemId)) {
+        continue;
+      }
+
+      missing.push({
+        categoryId,
+        folderName: config.target,
+        hairRole: config.hairRole || null,
+        chineseName,
+        fileName: file,
+        sourcePath: join(assetDir, file),
+      });
+    }
+  }
+
+  return missing;
+}
+
 async function main() {
   console.log('🚀 开始上传新资源...');
-  
+
+  const syncOnly = process.argv.includes('--sync-only');
+
   // 1. 扫描新资源
-  const newItems = scanNewAssets();
-  
+  let newItems = scanNewAssets();
+
+  if (syncOnly && newItems.length === 0) {
+    console.log('🔍 --sync-only: 检查 assets 中未入库的资源...');
+    const categoriesContent = fs.readFileSync(categoriesFile, 'utf8');
+    const match = categoriesContent.match(/export const categories = ([\s\S]+?)\] as const;/);
+    if (!match) {
+      console.log('❌ 无法解析 categories.ts');
+      return;
+    }
+    const categories = JSON.parse(`${match[1]}]`);
+    newItems = scanAssetsMissingFromCategories(categories);
+  }
+
   if (newItems.length === 0) {
     console.log('ℹ️  没有发现新资源');
     return;
@@ -471,7 +606,9 @@ async function main() {
   }
   
   // 2. 移动资源到assets文件夹
-  moveAssets(newItems);
+  if (!syncOnly) {
+    moveAssets(newItems);
+  }
   
   // 3. 更新categories.ts
   updateCategories(newItems);
