@@ -12,8 +12,6 @@
   height: 341px;
   background: #f8f8f8;
   border: none;
-  outline: 1px solid #c0c0c0;
-  outline-offset: -1px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: none;
@@ -21,6 +19,19 @@
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+}
+
+/* 叠在全部图层之上，避免被 GIF 盖住（outline 会在子元素下方绘制） */
+.qq-show-display::after,
+.share-display-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 100;
 }
 
 .qq-show-layer {
@@ -90,8 +101,6 @@
   position: relative;
   background: #f8f8f8;
   border: none;
-  outline: 1px solid #c0c0c0;
-  outline-offset: -1px;
   border-radius: 5px;
   box-shadow: none;
   box-sizing: border-box;
