@@ -7,10 +7,26 @@ export const categories = [
     "layer": 0,
     "items": [
       {
+        "id": "backgrounds_爱的告白",
+        "name": "爱的告白",
+        "thumbnail": "/assets/backgrounds/爱的告白.gif",
+        "image": "/assets/backgrounds/爱的告白.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_爱心云朵",
         "name": "爱心云朵",
         "thumbnail": "/assets/backgrounds/爱心云朵.gif",
         "image": "/assets/backgrounds/爱心云朵.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_爱意满天",
+        "name": "爱意满天",
+        "thumbnail": "/assets/backgrounds/爱意满天.gif",
+        "image": "/assets/backgrounds/爱意满天.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -31,6 +47,46 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_北欧街头",
+        "name": "北欧街头",
+        "thumbnail": "/assets/backgrounds/北欧街头.gif",
+        "image": "/assets/backgrounds/北欧街头.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_滨水都市",
+        "name": "滨水都市",
+        "thumbnail": "/assets/backgrounds/滨水都市.gif",
+        "image": "/assets/backgrounds/滨水都市.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_缤纷雏菊",
+        "name": "缤纷雏菊",
+        "thumbnail": "/assets/backgrounds/缤纷雏菊.gif",
+        "image": "/assets/backgrounds/缤纷雏菊.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_缤纷莓果",
+        "name": "缤纷莓果",
+        "thumbnail": "/assets/backgrounds/缤纷莓果.gif",
+        "image": "/assets/backgrounds/缤纷莓果.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_冰雕之心",
+        "name": "冰雕之心",
+        "thumbnail": "/assets/backgrounds/冰雕之心.gif",
+        "image": "/assets/backgrounds/冰雕之心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_冰独角兽",
         "name": "冰独角兽",
         "thumbnail": "/assets/backgrounds/冰独角兽.gif",
@@ -47,6 +103,30 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_冰晶城堡",
+        "name": "冰晶城堡",
+        "thumbnail": "/assets/backgrounds/冰晶城堡.gif",
+        "image": "/assets/backgrounds/冰晶城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_冰雪城堡",
+        "name": "冰雪城堡",
+        "thumbnail": "/assets/backgrounds/冰雪城堡.gif",
+        "image": "/assets/backgrounds/冰雪城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_冰雪宫殿",
+        "name": "冰雪宫殿",
+        "thumbnail": "/assets/backgrounds/冰雪宫殿.gif",
+        "image": "/assets/backgrounds/冰雪宫殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_冰雪冷月",
         "name": "冰雪冷月",
         "thumbnail": "/assets/backgrounds/冰雪冷月.gif",
@@ -59,6 +139,46 @@ export const categories = [
         "name": "彩虹粉泡",
         "thumbnail": "/assets/backgrounds/彩虹粉泡.gif",
         "image": "/assets/backgrounds/彩虹粉泡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_彩虹花径",
+        "name": "彩虹花径",
+        "thumbnail": "/assets/backgrounds/彩虹花径.gif",
+        "image": "/assets/backgrounds/彩虹花径.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_彩虹葵田",
+        "name": "彩虹葵田",
+        "thumbnail": "/assets/backgrounds/彩虹葵田.gif",
+        "image": "/assets/backgrounds/彩虹葵田.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_彩虹瀑布",
+        "name": "彩虹瀑布",
+        "thumbnail": "/assets/backgrounds/彩虹瀑布.gif",
+        "image": "/assets/backgrounds/彩虹瀑布.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_彩虹糖堡",
+        "name": "彩虹糖堡",
+        "thumbnail": "/assets/backgrounds/彩虹糖堡.gif",
+        "image": "/assets/backgrounds/彩虹糖堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_彩虹仙境",
+        "name": "彩虹仙境",
+        "thumbnail": "/assets/backgrounds/彩虹仙境.gif",
+        "image": "/assets/backgrounds/彩虹仙境.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -87,10 +207,34 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_草地晴空",
+        "name": "草地晴空",
+        "thumbnail": "/assets/backgrounds/草地晴空.gif",
+        "image": "/assets/backgrounds/草地晴空.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_唱片商店",
         "name": "唱片商店",
         "thumbnail": "/assets/backgrounds/唱片商店.gif",
         "image": "/assets/backgrounds/唱片商店.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_晨光莲花",
+        "name": "晨光莲花",
+        "thumbnail": "/assets/backgrounds/晨光莲花.gif",
+        "image": "/assets/backgrounds/晨光莲花.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_城市灯会",
+        "name": "城市灯会",
+        "thumbnail": "/assets/backgrounds/城市灯会.gif",
+        "image": "/assets/backgrounds/城市灯会.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -107,6 +251,46 @@ export const categories = [
         "name": "雏菊花开",
         "thumbnail": "/assets/backgrounds/雏菊花开.gif",
         "image": "/assets/backgrounds/雏菊花开.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_春湖栈桥",
+        "name": "春湖栈桥",
+        "thumbnail": "/assets/backgrounds/春湖栈桥.gif",
+        "image": "/assets/backgrounds/春湖栈桥.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_春花烂漫",
+        "name": "春花烂漫",
+        "thumbnail": "/assets/backgrounds/春花烂漫.gif",
+        "image": "/assets/backgrounds/春花烂漫.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_春日湖畔",
+        "name": "春日湖畔",
+        "thumbnail": "/assets/backgrounds/春日湖畔.gif",
+        "image": "/assets/backgrounds/春日湖畔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_春日洋楼",
+        "name": "春日洋楼",
+        "thumbnail": "/assets/backgrounds/春日洋楼.gif",
+        "image": "/assets/backgrounds/春日洋楼.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_单车小屋",
+        "name": "单车小屋",
+        "thumbnail": "/assets/backgrounds/单车小屋.gif",
+        "image": "/assets/backgrounds/单车小屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -135,6 +319,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_蝶舞花丛",
+        "name": "蝶舞花丛",
+        "thumbnail": "/assets/backgrounds/蝶舞花丛.gif",
+        "image": "/assets/backgrounds/蝶舞花丛.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_冬日暖阳",
         "name": "冬日暖阳",
         "thumbnail": "/assets/backgrounds/冬日暖阳.gif",
@@ -151,6 +343,78 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_冬夜爱心",
+        "name": "冬夜爱心",
+        "thumbnail": "/assets/backgrounds/冬夜爱心.gif",
+        "image": "/assets/backgrounds/冬夜爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_都市大桥",
+        "name": "都市大桥",
+        "thumbnail": "/assets/backgrounds/都市大桥.gif",
+        "image": "/assets/backgrounds/都市大桥.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_都市高楼",
+        "name": "都市高楼",
+        "thumbnail": "/assets/backgrounds/都市高楼.gif",
+        "image": "/assets/backgrounds/都市高楼.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_都市江畔",
+        "name": "都市江畔",
+        "thumbnail": "/assets/backgrounds/都市江畔.gif",
+        "image": "/assets/backgrounds/都市江畔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_都市樱园",
+        "name": "都市樱园",
+        "thumbnail": "/assets/backgrounds/都市樱园.gif",
+        "image": "/assets/backgrounds/都市樱园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_繁华都市",
+        "name": "繁华都市",
+        "thumbnail": "/assets/backgrounds/繁华都市.gif",
+        "image": "/assets/backgrounds/繁华都市.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_繁华广场",
+        "name": "繁华广场",
+        "thumbnail": "/assets/backgrounds/繁华广场.gif",
+        "image": "/assets/backgrounds/繁华广场.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_飞瀑圣殿",
+        "name": "飞瀑圣殿",
+        "thumbnail": "/assets/backgrounds/飞瀑圣殿.gif",
+        "image": "/assets/backgrounds/飞瀑圣殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_飞翼爱心",
+        "name": "飞翼爱心",
+        "thumbnail": "/assets/backgrounds/飞翼爱心.gif",
+        "image": "/assets/backgrounds/飞翼爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_粉粉公寓",
         "name": "粉粉公寓",
         "thumbnail": "/assets/backgrounds/粉粉公寓.gif",
@@ -163,6 +427,38 @@ export const categories = [
         "name": "粉红小屋",
         "thumbnail": "/assets/backgrounds/粉红小屋.gif",
         "image": "/assets/backgrounds/粉红小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉色闺房",
+        "name": "粉色闺房",
+        "thumbnail": "/assets/backgrounds/粉色闺房.gif",
+        "image": "/assets/backgrounds/粉色闺房.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉色梦境",
+        "name": "粉色梦境",
+        "thumbnail": "/assets/backgrounds/粉色梦境.gif",
+        "image": "/assets/backgrounds/粉色梦境.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉色情书",
+        "name": "粉色情书",
+        "thumbnail": "/assets/backgrounds/粉色情书.gif",
+        "image": "/assets/backgrounds/粉色情书.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉色圣诞",
+        "name": "粉色圣诞",
+        "thumbnail": "/assets/backgrounds/粉色圣诞.gif",
+        "image": "/assets/backgrounds/粉色圣诞.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -191,10 +487,50 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_粉雪飘飘",
+        "name": "粉雪飘飘",
+        "thumbnail": "/assets/backgrounds/粉雪飘飘.gif",
+        "image": "/assets/backgrounds/粉雪飘飘.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉雪之心",
+        "name": "粉雪之心",
+        "thumbnail": "/assets/backgrounds/粉雪之心.gif",
+        "image": "/assets/backgrounds/粉雪之心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_粉云城堡",
         "name": "粉云城堡",
         "thumbnail": "/assets/backgrounds/粉云城堡.gif",
         "image": "/assets/backgrounds/粉云城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_粉紫花帘",
+        "name": "粉紫花帘",
+        "thumbnail": "/assets/backgrounds/粉紫花帘.gif",
+        "image": "/assets/backgrounds/粉紫花帘.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_风车气球",
+        "name": "风车气球",
+        "thumbnail": "/assets/backgrounds/风车气球.gif",
+        "image": "/assets/backgrounds/风车气球.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_福袋祥云",
+        "name": "福袋祥云",
+        "thumbnail": "/assets/backgrounds/福袋祥云.gif",
+        "image": "/assets/backgrounds/福袋祥云.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -215,6 +551,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_公主高塔",
+        "name": "公主高塔",
+        "thumbnail": "/assets/backgrounds/公主高塔.gif",
+        "image": "/assets/backgrounds/公主高塔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_公主卧室",
         "name": "公主卧室",
         "thumbnail": "/assets/backgrounds/公主卧室.gif",
@@ -227,6 +571,14 @@ export const categories = [
         "name": "恭贺新年",
         "thumbnail": "/assets/backgrounds/恭贺新年.gif",
         "image": "/assets/backgrounds/恭贺新年.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_古树神殿",
+        "name": "古树神殿",
+        "thumbnail": "/assets/backgrounds/古树神殿.gif",
+        "image": "/assets/backgrounds/古树神殿.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -255,10 +607,50 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_海边樱树",
+        "name": "海边樱树",
+        "thumbnail": "/assets/backgrounds/海边樱树.gif",
+        "image": "/assets/backgrounds/海边樱树.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海滨灯塔",
+        "name": "海滨灯塔",
+        "thumbnail": "/assets/backgrounds/海滨灯塔.gif",
+        "image": "/assets/backgrounds/海滨灯塔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海滨阳伞",
+        "name": "海滨阳伞",
+        "thumbnail": "/assets/backgrounds/海滨阳伞.gif",
+        "image": "/assets/backgrounds/海滨阳伞.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海岛木屋",
+        "name": "海岛木屋",
+        "thumbnail": "/assets/backgrounds/海岛木屋.gif",
+        "image": "/assets/backgrounds/海岛木屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_海岛远山",
         "name": "海岛远山",
         "thumbnail": "/assets/backgrounds/海岛远山.gif",
         "image": "/assets/backgrounds/海岛远山.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海底宝藏",
+        "name": "海底宝藏",
+        "thumbnail": "/assets/backgrounds/海底宝藏.gif",
+        "image": "/assets/backgrounds/海底宝藏.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -279,6 +671,30 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_海景餐桌",
+        "name": "海景餐桌",
+        "thumbnail": "/assets/backgrounds/海景餐桌.gif",
+        "image": "/assets/backgrounds/海景餐桌.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海景拱门",
+        "name": "海景拱门",
+        "thumbnail": "/assets/backgrounds/海景拱门.gif",
+        "image": "/assets/backgrounds/海景拱门.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_海上飞机",
+        "name": "海上飞机",
+        "thumbnail": "/assets/backgrounds/海上飞机.gif",
+        "image": "/assets/backgrounds/海上飞机.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_寒冬雪地",
         "name": "寒冬雪地",
         "thumbnail": "/assets/backgrounds/寒冬雪地.gif",
@@ -291,6 +707,22 @@ export const categories = [
         "name": "河边懒熊",
         "thumbnail": "/assets/backgrounds/河边懒熊.gif",
         "image": "/assets/backgrounds/河边懒熊.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_河畔红屋",
+        "name": "河畔红屋",
+        "thumbnail": "/assets/backgrounds/河畔红屋.gif",
+        "image": "/assets/backgrounds/河畔红屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_荷叶彩虹",
+        "name": "荷叶彩虹",
+        "thumbnail": "/assets/backgrounds/荷叶彩虹.gif",
+        "image": "/assets/backgrounds/荷叶彩虹.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -311,6 +743,30 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_黑猫钢琴",
+        "name": "黑猫钢琴",
+        "thumbnail": "/assets/backgrounds/黑猫钢琴.gif",
+        "image": "/assets/backgrounds/黑猫钢琴.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_红色跑车",
+        "name": "红色跑车",
+        "thumbnail": "/assets/backgrounds/红色跑车.gif",
+        "image": "/assets/backgrounds/红色跑车.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_红毯宫殿",
+        "name": "红毯宫殿",
+        "thumbnail": "/assets/backgrounds/红毯宫殿.gif",
+        "image": "/assets/backgrounds/红毯宫殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_湖边花丛",
         "name": "湖边花丛",
         "thumbnail": "/assets/backgrounds/湖边花丛.gif",
@@ -319,10 +775,58 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_湖畔城堡",
+        "name": "湖畔城堡",
+        "thumbnail": "/assets/backgrounds/湖畔城堡.gif",
+        "image": "/assets/backgrounds/湖畔城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_湖畔机车",
+        "name": "湖畔机车",
+        "thumbnail": "/assets/backgrounds/湖畔机车.gif",
+        "image": "/assets/backgrounds/湖畔机车.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_湖畔露台",
+        "name": "湖畔露台",
+        "thumbnail": "/assets/backgrounds/湖畔露台.gif",
+        "image": "/assets/backgrounds/湖畔露台.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_花园洋房",
+        "name": "花园洋房",
+        "thumbnail": "/assets/backgrounds/花园洋房.gif",
+        "image": "/assets/backgrounds/花园洋房.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_花园砖屋",
+        "name": "花园砖屋",
+        "thumbnail": "/assets/backgrounds/花园砖屋.gif",
+        "image": "/assets/backgrounds/花园砖屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_花之宫殿",
         "name": "花之宫殿",
         "thumbnail": "/assets/backgrounds/花之宫殿.gif",
         "image": "/assets/backgrounds/花之宫殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_华丽客厅",
+        "name": "华丽客厅",
+        "thumbnail": "/assets/backgrounds/华丽客厅.gif",
+        "image": "/assets/backgrounds/华丽客厅.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -375,6 +879,46 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_街角跑车",
+        "name": "街角跑车",
+        "thumbnail": "/assets/backgrounds/街角跑车.gif",
+        "image": "/assets/backgrounds/街角跑车.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_金秋大道",
+        "name": "金秋大道",
+        "thumbnail": "/assets/backgrounds/金秋大道.gif",
+        "image": "/assets/backgrounds/金秋大道.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_金秋湖畔",
+        "name": "金秋湖畔",
+        "thumbnail": "/assets/backgrounds/金秋湖畔.gif",
+        "image": "/assets/backgrounds/金秋湖畔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_金秋夕照",
+        "name": "金秋夕照",
+        "thumbnail": "/assets/backgrounds/金秋夕照.gif",
+        "image": "/assets/backgrounds/金秋夕照.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_金秋小屋",
+        "name": "金秋小屋",
+        "thumbnail": "/assets/backgrounds/金秋小屋.gif",
+        "image": "/assets/backgrounds/金秋小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_金色城堡",
         "name": "金色城堡",
         "thumbnail": "/assets/backgrounds/金色城堡.gif",
@@ -383,10 +927,34 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_金色大堂",
+        "name": "金色大堂",
+        "thumbnail": "/assets/backgrounds/金色大堂.gif",
+        "image": "/assets/backgrounds/金色大堂.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_金树海湾",
+        "name": "金树海湾",
+        "thumbnail": "/assets/backgrounds/金树海湾.gif",
+        "image": "/assets/backgrounds/金树海湾.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_劲酷舞台",
         "name": "劲酷舞台",
         "thumbnail": "/assets/backgrounds/劲酷舞台.gif",
         "image": "/assets/backgrounds/劲酷舞台.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_精灵星夜",
+        "name": "精灵星夜",
+        "thumbnail": "/assets/backgrounds/精灵星夜.gif",
+        "image": "/assets/backgrounds/精灵星夜.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -411,6 +979,22 @@ export const categories = [
         "name": "枯树星河",
         "thumbnail": "/assets/backgrounds/枯树星河.gif",
         "image": "/assets/backgrounds/枯树星河.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_蓝光绽放",
+        "name": "蓝光绽放",
+        "thumbnail": "/assets/backgrounds/蓝光绽放.gif",
+        "image": "/assets/backgrounds/蓝光绽放.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_蓝焰之心",
+        "name": "蓝焰之心",
+        "thumbnail": "/assets/backgrounds/蓝焰之心.gif",
+        "image": "/assets/backgrounds/蓝焰之心.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -455,6 +1039,46 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_恋爱之日",
+        "name": "恋爱之日",
+        "thumbnail": "/assets/backgrounds/恋爱之日.gif",
+        "image": "/assets/backgrounds/恋爱之日.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_林间碧湖",
+        "name": "林间碧湖",
+        "thumbnail": "/assets/backgrounds/林间碧湖.gif",
+        "image": "/assets/backgrounds/林间碧湖.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_林间木阶",
+        "name": "林间木阶",
+        "thumbnail": "/assets/backgrounds/林间木阶.gif",
+        "image": "/assets/backgrounds/林间木阶.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_林间木屋",
+        "name": "林间木屋",
+        "thumbnail": "/assets/backgrounds/林间木屋.gif",
+        "image": "/assets/backgrounds/林间木屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_林间小径",
+        "name": "林间小径",
+        "thumbnail": "/assets/backgrounds/林间小径.gif",
+        "image": "/assets/backgrounds/林间小径.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_林间阳光",
         "name": "林间阳光",
         "thumbnail": "/assets/backgrounds/林间阳光.gif",
@@ -479,10 +1103,42 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_路灯阶梯",
+        "name": "路灯阶梯",
+        "thumbnail": "/assets/backgrounds/路灯阶梯.gif",
+        "image": "/assets/backgrounds/路灯阶梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_路灯庭院",
         "name": "路灯庭院",
         "thumbnail": "/assets/backgrounds/路灯庭院.gif",
         "image": "/assets/backgrounds/路灯庭院.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_绿梦精灵",
+        "name": "绿梦精灵",
+        "thumbnail": "/assets/backgrounds/绿梦精灵.gif",
+        "image": "/assets/backgrounds/绿梦精灵.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_绿叶仙境",
+        "name": "绿叶仙境",
+        "thumbnail": "/assets/backgrounds/绿叶仙境.gif",
+        "image": "/assets/backgrounds/绿叶仙境.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_绿叶小屋",
+        "name": "绿叶小屋",
+        "thumbnail": "/assets/backgrounds/绿叶小屋.gif",
+        "image": "/assets/backgrounds/绿叶小屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -519,10 +1175,58 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_猫咪客厅",
+        "name": "猫咪客厅",
+        "thumbnail": "/assets/backgrounds/猫咪客厅.gif",
+        "image": "/assets/backgrounds/猫咪客厅.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_玫瑰彩虹",
+        "name": "玫瑰彩虹",
+        "thumbnail": "/assets/backgrounds/玫瑰彩虹.gif",
+        "image": "/assets/backgrounds/玫瑰彩虹.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_玫瑰花园",
+        "name": "玫瑰花园",
+        "thumbnail": "/assets/backgrounds/玫瑰花园.gif",
+        "image": "/assets/backgrounds/玫瑰花园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_玫瑰洋房",
+        "name": "玫瑰洋房",
+        "thumbnail": "/assets/backgrounds/玫瑰洋房.gif",
+        "image": "/assets/backgrounds/玫瑰洋房.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_梦幻城堡",
+        "name": "梦幻城堡",
+        "thumbnail": "/assets/backgrounds/梦幻城堡.gif",
+        "image": "/assets/backgrounds/梦幻城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_梦幻仙岛",
         "name": "梦幻仙岛",
         "thumbnail": "/assets/backgrounds/梦幻仙岛.gif",
         "image": "/assets/backgrounds/梦幻仙岛.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_绵羊牧场",
+        "name": "绵羊牧场",
+        "thumbnail": "/assets/backgrounds/绵羊牧场.gif",
+        "image": "/assets/backgrounds/绵羊牧场.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -539,6 +1243,14 @@ export const categories = [
         "name": "摩天轮景",
         "thumbnail": "/assets/backgrounds/摩天轮景.gif",
         "image": "/assets/backgrounds/摩天轮景.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_蘑菇花田",
+        "name": "蘑菇花田",
+        "thumbnail": "/assets/backgrounds/蘑菇花田.gif",
+        "image": "/assets/backgrounds/蘑菇花田.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -583,10 +1295,50 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_苜蓿花开",
+        "name": "苜蓿花开",
+        "thumbnail": "/assets/backgrounds/苜蓿花开.gif",
+        "image": "/assets/backgrounds/苜蓿花开.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_暮光小镇",
+        "name": "暮光小镇",
+        "thumbnail": "/assets/backgrounds/暮光小镇.gif",
+        "image": "/assets/backgrounds/暮光小镇.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_南瓜灯车",
         "name": "南瓜灯车",
         "thumbnail": "/assets/backgrounds/南瓜灯车.gif",
         "image": "/assets/backgrounds/南瓜灯车.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_闹市街头",
+        "name": "闹市街头",
+        "thumbnail": "/assets/backgrounds/闹市街头.gif",
+        "image": "/assets/backgrounds/闹市街头.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_霓虹爱心",
+        "name": "霓虹爱心",
+        "thumbnail": "/assets/backgrounds/霓虹爱心.gif",
+        "image": "/assets/backgrounds/霓虹爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_霓虹夜街",
+        "name": "霓虹夜街",
+        "thumbnail": "/assets/backgrounds/霓虹夜街.gif",
+        "image": "/assets/backgrounds/霓虹夜街.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -599,6 +1351,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_暖阳彩虹",
+        "name": "暖阳彩虹",
+        "thumbnail": "/assets/backgrounds/暖阳彩虹.gif",
+        "image": "/assets/backgrounds/暖阳彩虹.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_暖阳之家",
         "name": "暖阳之家",
         "thumbnail": "/assets/backgrounds/暖阳之家.gif",
@@ -607,10 +1367,34 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_螃蟹海滩",
+        "name": "螃蟹海滩",
+        "thumbnail": "/assets/backgrounds/螃蟹海滩.gif",
+        "image": "/assets/backgrounds/螃蟹海滩.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_泡泡爱心",
+        "name": "泡泡爱心",
+        "thumbnail": "/assets/backgrounds/泡泡爱心.gif",
+        "image": "/assets/backgrounds/泡泡爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_霹雳眩光",
         "name": "霹雳眩光",
         "thumbnail": "/assets/backgrounds/霹雳眩光.gif",
         "image": "/assets/backgrounds/霹雳眩光.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_苹果小屋",
+        "name": "苹果小屋",
+        "thumbnail": "/assets/backgrounds/苹果小屋.gif",
+        "image": "/assets/backgrounds/苹果小屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -663,10 +1447,26 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_秋湖夕照",
+        "name": "秋湖夕照",
+        "thumbnail": "/assets/backgrounds/秋湖夕照.gif",
+        "image": "/assets/backgrounds/秋湖夕照.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_秋千小屋",
         "name": "秋千小屋",
         "thumbnail": "/assets/backgrounds/秋千小屋.gif",
         "image": "/assets/backgrounds/秋千小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_秋日绿屋",
+        "name": "秋日绿屋",
+        "thumbnail": "/assets/backgrounds/秋日绿屋.gif",
+        "image": "/assets/backgrounds/秋日绿屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -695,10 +1495,26 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_伞下猫咪",
+        "name": "伞下猫咪",
+        "thumbnail": "/assets/backgrounds/伞下猫咪.gif",
+        "image": "/assets/backgrounds/伞下猫咪.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_山顶教堂",
         "name": "山顶教堂",
         "thumbnail": "/assets/backgrounds/山顶教堂.gif",
         "image": "/assets/backgrounds/山顶教堂.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_山间木屋",
+        "name": "山间木屋",
+        "thumbnail": "/assets/backgrounds/山间木屋.gif",
+        "image": "/assets/backgrounds/山间木屋.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -719,6 +1535,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_射手星座",
+        "name": "射手星座",
+        "thumbnail": "/assets/backgrounds/射手星座.gif",
+        "image": "/assets/backgrounds/射手星座.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_深冬小院",
         "name": "深冬小院",
         "thumbnail": "/assets/backgrounds/深冬小院.gif",
@@ -735,10 +1559,34 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_神殿花园",
+        "name": "神殿花园",
+        "thumbnail": "/assets/backgrounds/神殿花园.gif",
+        "image": "/assets/backgrounds/神殿花园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞壁炉",
+        "name": "圣诞壁炉",
+        "thumbnail": "/assets/backgrounds/圣诞壁炉.gif",
+        "image": "/assets/backgrounds/圣诞壁炉.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_圣诞冬日",
         "name": "圣诞冬日",
         "thumbnail": "/assets/backgrounds/圣诞冬日.gif",
         "image": "/assets/backgrounds/圣诞冬日.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞花环",
+        "name": "圣诞花环",
+        "thumbnail": "/assets/backgrounds/圣诞花环.gif",
+        "image": "/assets/backgrounds/圣诞花环.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -755,6 +1603,54 @@ export const categories = [
         "name": "圣诞小镇",
         "thumbnail": "/assets/backgrounds/圣诞小镇.gif",
         "image": "/assets/backgrounds/圣诞小镇.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞雪村",
+        "name": "圣诞雪村",
+        "thumbnail": "/assets/backgrounds/圣诞雪村.gif",
+        "image": "/assets/backgrounds/圣诞雪村.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞雪橇",
+        "name": "圣诞雪橇",
+        "thumbnail": "/assets/backgrounds/圣诞雪橇.gif",
+        "image": "/assets/backgrounds/圣诞雪橇.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞雪娃",
+        "name": "圣诞雪娃",
+        "thumbnail": "/assets/backgrounds/圣诞雪娃.gif",
+        "image": "/assets/backgrounds/圣诞雪娃.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣诞驯鹿",
+        "name": "圣诞驯鹿",
+        "thumbnail": "/assets/backgrounds/圣诞驯鹿.gif",
+        "image": "/assets/backgrounds/圣诞驯鹿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣光阶梯",
+        "name": "圣光阶梯",
+        "thumbnail": "/assets/backgrounds/圣光阶梯.gif",
+        "image": "/assets/backgrounds/圣光阶梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_圣家教堂",
+        "name": "圣家教堂",
+        "thumbnail": "/assets/backgrounds/圣家教堂.gif",
+        "image": "/assets/backgrounds/圣家教堂.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -783,6 +1679,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_世界杯赛",
+        "name": "世界杯赛",
+        "thumbnail": "/assets/backgrounds/世界杯赛.gif",
+        "image": "/assets/backgrounds/世界杯赛.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_市政厅堂",
         "name": "市政厅堂",
         "thumbnail": "/assets/backgrounds/市政厅堂.gif",
@@ -791,10 +1695,26 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_数码漩涡",
+        "name": "数码漩涡",
+        "thumbnail": "/assets/backgrounds/数码漩涡.gif",
+        "image": "/assets/backgrounds/数码漩涡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_双子爱心",
         "name": "双子爱心",
         "thumbnail": "/assets/backgrounds/双子爱心.gif",
         "image": "/assets/backgrounds/双子爱心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_双子高塔",
+        "name": "双子高塔",
+        "thumbnail": "/assets/backgrounds/双子高塔.gif",
+        "image": "/assets/backgrounds/双子高塔.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -847,6 +1767,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_糖果小屋",
+        "name": "糖果小屋",
+        "thumbnail": "/assets/backgrounds/糖果小屋.gif",
+        "image": "/assets/backgrounds/糖果小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_糖浆山谷",
         "name": "糖浆山谷",
         "thumbnail": "/assets/backgrounds/糖浆山谷.gif",
@@ -863,10 +1791,34 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_天鹅仙子",
+        "name": "天鹅仙子",
+        "thumbnail": "/assets/backgrounds/天鹅仙子.gif",
+        "image": "/assets/backgrounds/天鹅仙子.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_天空之城",
+        "name": "天空之城",
+        "thumbnail": "/assets/backgrounds/天空之城.gif",
+        "image": "/assets/backgrounds/天空之城.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_天使花瓣",
         "name": "天使花瓣",
         "thumbnail": "/assets/backgrounds/天使花瓣.gif",
         "image": "/assets/backgrounds/天使花瓣.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_天使铃兰",
+        "name": "天使铃兰",
+        "thumbnail": "/assets/backgrounds/天使铃兰.gif",
+        "image": "/assets/backgrounds/天使铃兰.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -887,10 +1839,42 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_甜品小街",
+        "name": "甜品小街",
+        "thumbnail": "/assets/backgrounds/甜品小街.gif",
+        "image": "/assets/backgrounds/甜品小街.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_甜心客厅",
+        "name": "甜心客厅",
+        "thumbnail": "/assets/backgrounds/甜心客厅.gif",
+        "image": "/assets/backgrounds/甜心客厅.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_童话村庄",
+        "name": "童话村庄",
+        "thumbnail": "/assets/backgrounds/童话村庄.gif",
+        "image": "/assets/backgrounds/童话村庄.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_童话岛屿",
         "name": "童话岛屿",
         "thumbnail": "/assets/backgrounds/童话岛屿.gif",
         "image": "/assets/backgrounds/童话岛屿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_童话山谷",
+        "name": "童话山谷",
+        "thumbnail": "/assets/backgrounds/童话山谷.gif",
+        "image": "/assets/backgrounds/童话山谷.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -911,10 +1895,58 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_弯月云梯",
+        "name": "弯月云梯",
+        "thumbnail": "/assets/backgrounds/弯月云梯.gif",
+        "image": "/assets/backgrounds/弯月云梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_玩偶之家",
+        "name": "玩偶之家",
+        "thumbnail": "/assets/backgrounds/玩偶之家.gif",
+        "image": "/assets/backgrounds/玩偶之家.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_万圣城堡",
         "name": "万圣城堡",
         "thumbnail": "/assets/backgrounds/万圣城堡.gif",
         "image": "/assets/backgrounds/万圣城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_威尼斯河",
+        "name": "威尼斯河",
+        "thumbnail": "/assets/backgrounds/威尼斯河.gif",
+        "image": "/assets/backgrounds/威尼斯河.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_威尼斯雨",
+        "name": "威尼斯雨",
+        "thumbnail": "/assets/backgrounds/威尼斯雨.gif",
+        "image": "/assets/backgrounds/威尼斯雨.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_微笑暖阳",
+        "name": "微笑暖阳",
+        "thumbnail": "/assets/backgrounds/微笑暖阳.gif",
+        "image": "/assets/backgrounds/微笑暖阳.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_温馨厨房",
+        "name": "温馨厨房",
+        "thumbnail": "/assets/backgrounds/温馨厨房.gif",
+        "image": "/assets/backgrounds/温馨厨房.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -951,10 +1983,26 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_午后茶室",
+        "name": "午后茶室",
+        "thumbnail": "/assets/backgrounds/午后茶室.gif",
+        "image": "/assets/backgrounds/午后茶室.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_午后阶梯",
         "name": "午后阶梯",
         "thumbnail": "/assets/backgrounds/午后阶梯.gif",
         "image": "/assets/backgrounds/午后阶梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_仙境白兔",
+        "name": "仙境白兔",
+        "thumbnail": "/assets/backgrounds/仙境白兔.gif",
+        "image": "/assets/backgrounds/仙境白兔.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -999,6 +2047,46 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_小桥木屋",
+        "name": "小桥木屋",
+        "thumbnail": "/assets/backgrounds/小桥木屋.gif",
+        "image": "/assets/backgrounds/小桥木屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_小镇阶梯",
+        "name": "小镇阶梯",
+        "thumbnail": "/assets/backgrounds/小镇阶梯.gif",
+        "image": "/assets/backgrounds/小镇阶梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_小猪衣坊",
+        "name": "小猪衣坊",
+        "thumbnail": "/assets/backgrounds/小猪衣坊.gif",
+        "image": "/assets/backgrounds/小猪衣坊.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_心属于你",
+        "name": "心属于你",
+        "thumbnail": "/assets/backgrounds/心属于你.gif",
+        "image": "/assets/backgrounds/心属于你.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_心云公园",
+        "name": "心云公园",
+        "thumbnail": "/assets/backgrounds/心云公园.gif",
+        "image": "/assets/backgrounds/心云公园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_新春佳节",
         "name": "新春佳节",
         "thumbnail": "/assets/backgrounds/新春佳节.gif",
@@ -1027,6 +2115,38 @@ export const categories = [
         "name": "新年快乐",
         "thumbnail": "/assets/backgrounds/新年快乐.gif",
         "image": "/assets/backgrounds/新年快乐.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_新芽小熊",
+        "name": "新芽小熊",
+        "thumbnail": "/assets/backgrounds/新芽小熊.gif",
+        "image": "/assets/backgrounds/新芽小熊.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_星光圣诞",
+        "name": "星光圣诞",
+        "thumbnail": "/assets/backgrounds/星光圣诞.gif",
+        "image": "/assets/backgrounds/星光圣诞.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_星光之心",
+        "name": "星光之心",
+        "thumbnail": "/assets/backgrounds/星光之心.gif",
+        "image": "/assets/backgrounds/星光之心.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_星海航船",
+        "name": "星海航船",
+        "thumbnail": "/assets/backgrounds/星海航船.gif",
+        "image": "/assets/backgrounds/星海航船.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1071,6 +2191,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_旋转楼梯",
+        "name": "旋转楼梯",
+        "thumbnail": "/assets/backgrounds/旋转楼梯.gif",
+        "image": "/assets/backgrounds/旋转楼梯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_炫彩圣诞",
         "name": "炫彩圣诞",
         "thumbnail": "/assets/backgrounds/炫彩圣诞.gif",
@@ -1087,10 +2215,130 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_雪人彩虹",
+        "name": "雪人彩虹",
+        "thumbnail": "/assets/backgrounds/雪人彩虹.gif",
+        "image": "/assets/backgrounds/雪人彩虹.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪人贺岁",
+        "name": "雪人贺岁",
+        "thumbnail": "/assets/backgrounds/雪人贺岁.gif",
+        "image": "/assets/backgrounds/雪人贺岁.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪山冰河",
+        "name": "雪山冰河",
+        "thumbnail": "/assets/backgrounds/雪山冰河.gif",
+        "image": "/assets/backgrounds/雪山冰河.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪山教堂",
+        "name": "雪山教堂",
+        "thumbnail": "/assets/backgrounds/雪山教堂.gif",
+        "image": "/assets/backgrounds/雪山教堂.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪山樱花",
+        "name": "雪山樱花",
+        "thumbnail": "/assets/backgrounds/雪山樱花.gif",
+        "image": "/assets/backgrounds/雪山樱花.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪夜金殿",
+        "name": "雪夜金殿",
+        "thumbnail": "/assets/backgrounds/雪夜金殿.gif",
+        "image": "/assets/backgrounds/雪夜金殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_雪夜木屋",
+        "name": "雪夜木屋",
+        "thumbnail": "/assets/backgrounds/雪夜木屋.gif",
+        "image": "/assets/backgrounds/雪夜木屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_宴会餐厅",
         "name": "宴会餐厅",
         "thumbnail": "/assets/backgrounds/宴会餐厅.gif",
         "image": "/assets/backgrounds/宴会餐厅.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_扬帆起航",
+        "name": "扬帆起航",
+        "thumbnail": "/assets/backgrounds/扬帆起航.gif",
+        "image": "/assets/backgrounds/扬帆起航.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_阳光草坡",
+        "name": "阳光草坡",
+        "thumbnail": "/assets/backgrounds/阳光草坡.gif",
+        "image": "/assets/backgrounds/阳光草坡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_阳光池塘",
+        "name": "阳光池塘",
+        "thumbnail": "/assets/backgrounds/阳光池塘.gif",
+        "image": "/assets/backgrounds/阳光池塘.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_阳光琴房",
+        "name": "阳光琴房",
+        "thumbnail": "/assets/backgrounds/阳光琴房.gif",
+        "image": "/assets/backgrounds/阳光琴房.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_阳光书房",
+        "name": "阳光书房",
+        "thumbnail": "/assets/backgrounds/阳光书房.gif",
+        "image": "/assets/backgrounds/阳光书房.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_阳光校园",
+        "name": "阳光校园",
+        "thumbnail": "/assets/backgrounds/阳光校园.gif",
+        "image": "/assets/backgrounds/阳光校园.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_摇滚舞台",
+        "name": "摇滚舞台",
+        "thumbnail": "/assets/backgrounds/摇滚舞台.gif",
+        "image": "/assets/backgrounds/摇滚舞台.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_椰林沙滩",
+        "name": "椰林沙滩",
+        "thumbnail": "/assets/backgrounds/椰林沙滩.gif",
+        "image": "/assets/backgrounds/椰林沙滩.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1103,10 +2351,26 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_夜海流星",
+        "name": "夜海流星",
+        "thumbnail": "/assets/backgrounds/夜海流星.gif",
+        "image": "/assets/backgrounds/夜海流星.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_夜金字塔",
         "name": "夜金字塔",
         "thumbnail": "/assets/backgrounds/夜金字塔.gif",
         "image": "/assets/backgrounds/夜金字塔.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_夜空花语",
+        "name": "夜空花语",
+        "thumbnail": "/assets/backgrounds/夜空花语.gif",
+        "image": "/assets/backgrounds/夜空花语.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1135,6 +2399,14 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_樱花大道",
+        "name": "樱花大道",
+        "thumbnail": "/assets/backgrounds/樱花大道.gif",
+        "image": "/assets/backgrounds/樱花大道.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_樱花阶梯",
         "name": "樱花阶梯",
         "thumbnail": "/assets/backgrounds/樱花阶梯.gif",
@@ -1151,6 +2423,22 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_樱花庭院",
+        "name": "樱花庭院",
+        "thumbnail": "/assets/backgrounds/樱花庭院.gif",
+        "image": "/assets/backgrounds/樱花庭院.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_樱花小桥",
+        "name": "樱花小桥",
+        "thumbnail": "/assets/backgrounds/樱花小桥.gif",
+        "image": "/assets/backgrounds/樱花小桥.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_萤火树丛",
         "name": "萤火树丛",
         "thumbnail": "/assets/backgrounds/萤火树丛.gif",
@@ -1163,6 +2451,14 @@ export const categories = [
         "name": "萤火夜林",
         "thumbnail": "/assets/backgrounds/萤火夜林.gif",
         "image": "/assets/backgrounds/萤火夜林.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_泳池豪宅",
+        "name": "泳池豪宅",
+        "thumbnail": "/assets/backgrounds/泳池豪宅.gif",
+        "image": "/assets/backgrounds/泳池豪宅.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1199,6 +2495,62 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_月下神殿",
+        "name": "月下神殿",
+        "thumbnail": "/assets/backgrounds/月下神殿.gif",
+        "image": "/assets/backgrounds/月下神殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月下雪人",
+        "name": "月下雪人",
+        "thumbnail": "/assets/backgrounds/月下雪人.gif",
+        "image": "/assets/backgrounds/月下雪人.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月夜港湾",
+        "name": "月夜港湾",
+        "thumbnail": "/assets/backgrounds/月夜港湾.gif",
+        "image": "/assets/backgrounds/月夜港湾.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月夜海滩",
+        "name": "月夜海滩",
+        "thumbnail": "/assets/backgrounds/月夜海滩.gif",
+        "image": "/assets/backgrounds/月夜海滩.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月夜天鹅",
+        "name": "月夜天鹅",
+        "thumbnail": "/assets/backgrounds/月夜天鹅.gif",
+        "image": "/assets/backgrounds/月夜天鹅.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月夜雪屋",
+        "name": "月夜雪屋",
+        "thumbnail": "/assets/backgrounds/月夜雪屋.gif",
+        "image": "/assets/backgrounds/月夜雪屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_月圆雪村",
+        "name": "月圆雪村",
+        "thumbnail": "/assets/backgrounds/月圆雪村.gif",
+        "image": "/assets/backgrounds/月圆雪村.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_云朵月台",
         "name": "云朵月台",
         "thumbnail": "/assets/backgrounds/云朵月台.gif",
@@ -1219,6 +2571,22 @@ export const categories = [
         "name": "云中城堡",
         "thumbnail": "/assets/backgrounds/云中城堡.gif",
         "image": "/assets/backgrounds/云中城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_云中宫殿",
+        "name": "云中宫殿",
+        "thumbnail": "/assets/backgrounds/云中宫殿.gif",
+        "image": "/assets/backgrounds/云中宫殿.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_张灯结彩",
+        "name": "张灯结彩",
+        "thumbnail": "/assets/backgrounds/张灯结彩.gif",
+        "image": "/assets/backgrounds/张灯结彩.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -1263,6 +2631,30 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_紫梦叶影",
+        "name": "紫梦叶影",
+        "thumbnail": "/assets/backgrounds/紫梦叶影.gif",
+        "image": "/assets/backgrounds/紫梦叶影.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_紫暮街灯",
+        "name": "紫暮街灯",
+        "thumbnail": "/assets/backgrounds/紫暮街灯.gif",
+        "image": "/assets/backgrounds/紫暮街灯.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_紫蒲公英",
+        "name": "紫蒲公英",
+        "thumbnail": "/assets/backgrounds/紫蒲公英.gif",
+        "image": "/assets/backgrounds/紫蒲公英.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_紫色仙子",
         "name": "紫色仙子",
         "thumbnail": "/assets/backgrounds/紫色仙子.gif",
@@ -1271,10 +2663,42 @@ export const categories = [
         "layer": 0
       },
       {
+        "id": "backgrounds_紫纱花廊",
+        "name": "紫纱花廊",
+        "thumbnail": "/assets/backgrounds/紫纱花廊.gif",
+        "image": "/assets/backgrounds/紫纱花廊.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_紫树小屋",
+        "name": "紫树小屋",
+        "thumbnail": "/assets/backgrounds/紫树小屋.gif",
+        "image": "/assets/backgrounds/紫树小屋.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
         "id": "backgrounds_紫薇城堡",
         "name": "紫薇城堡",
         "thumbnail": "/assets/backgrounds/紫薇城堡.gif",
         "image": "/assets/backgrounds/紫薇城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_紫夜城堡",
+        "name": "紫夜城堡",
+        "thumbnail": "/assets/backgrounds/紫夜城堡.gif",
+        "image": "/assets/backgrounds/紫夜城堡.gif",
+        "category": "backgrounds",
+        "layer": 0
+      },
+      {
+        "id": "backgrounds_紫夜星座",
+        "name": "紫夜星座",
+        "thumbnail": "/assets/backgrounds/紫夜星座.gif",
+        "image": "/assets/backgrounds/紫夜星座.gif",
         "category": "backgrounds",
         "layer": 0
       },
@@ -6452,6 +7876,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "outfit_粉色爱心魔法少女套装",
+        "name": "粉色爱心魔法少女套装",
+        "thumbnail": "/assets/outfit/粉色爱心魔法少女套装.gif",
+        "image": "/assets/outfit/粉色爱心魔法少女套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_粉色棒球插肩外套套装",
         "name": "粉色棒球插肩外套套装",
         "thumbnail": "/assets/outfit/粉色棒球插肩外套套装.gif",
@@ -6844,6 +8276,14 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_红衣绿裙圣诞树套装",
+        "name": "红衣绿裙圣诞树套装",
+        "thumbnail": "/assets/outfit/红衣绿裙圣诞树套装.gif",
+        "image": "/assets/outfit/红衣绿裙圣诞树套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_呼拉圈粉色大衣套装",
         "name": "呼拉圈粉色大衣套装",
         "thumbnail": "/assets/outfit/呼拉圈粉色大衣套装.gif",
@@ -7188,6 +8628,14 @@ export const categories = [
         "layer": 7
       },
       {
+        "id": "outfit_蓝马甲牛仔裤雪人套装",
+        "name": "蓝马甲牛仔裤雪人套装",
+        "thumbnail": "/assets/outfit/蓝马甲牛仔裤雪人套装.gif",
+        "image": "/assets/outfit/蓝马甲牛仔裤雪人套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
         "id": "outfit_蓝色背心黄色长裙套装",
         "name": "蓝色背心黄色长裙套装",
         "thumbnail": "/assets/outfit/蓝色背心黄色长裙套装.gif",
@@ -7456,6 +8904,14 @@ export const categories = [
         "name": "破洞牛仔裤叠穿套装",
         "thumbnail": "/assets/outfit/破洞牛仔裤叠穿套装.gif",
         "image": "/assets/outfit/破洞牛仔裤叠穿套装.gif",
+        "category": "outfit",
+        "layer": 7
+      },
+      {
+        "id": "outfit_七彩蝶翼仙子魔杖套装",
+        "name": "七彩蝶翼仙子魔杖套装",
+        "thumbnail": "/assets/outfit/七彩蝶翼仙子魔杖套装.gif",
+        "image": "/assets/outfit/七彩蝶翼仙子魔杖套装.gif",
         "category": "outfit",
         "layer": 7
       },
@@ -10052,12 +11508,36 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_爱心小狗",
+        "name": "爱心小狗",
+        "thumbnail": "/assets/frame/爱心小狗.gif",
+        "image": "/assets/frame/爱心小狗.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_巴洛克",
         "name": "巴洛克",
         "thumbnail": "/assets/frame/巴洛克.gif",
         "image": "/assets/frame/巴洛克.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_彩虹弯月",
+        "name": "彩虹弯月",
+        "thumbnail": "/assets/frame/彩虹弯月.gif",
+        "image": "/assets/frame/彩虹弯月.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_雏菊花园",
+        "name": "雏菊花园",
+        "thumbnail": "/assets/frame/雏菊花园.gif",
+        "image": "/assets/frame/雏菊花园.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_典雅花框",
@@ -10084,6 +11564,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_粉色花雨",
+        "name": "粉色花雨",
+        "thumbnail": "/assets/frame/粉色花雨.gif",
+        "image": "/assets/frame/粉色花雨.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_粉丝",
         "name": "粉丝",
         "thumbnail": "/assets/frame/粉丝.gif",
@@ -10096,6 +11584,14 @@ export const categories = [
         "name": "黑色星星",
         "thumbnail": "/assets/frame/黑色星星.gif",
         "image": "/assets/frame/黑色星星.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_红唇飞吻",
+        "name": "红唇飞吻",
+        "thumbnail": "/assets/frame/红唇飞吻.gif",
+        "image": "/assets/frame/红唇飞吻.gif",
         "category": "frame",
         "layer": 16
       },
@@ -10156,6 +11652,14 @@ export const categories = [
         "layer": 16
       },
       {
+        "id": "frame_金心垂帘",
+        "name": "金心垂帘",
+        "thumbnail": "/assets/frame/金心垂帘.gif",
+        "image": "/assets/frame/金心垂帘.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_经典玫瑰",
         "name": "经典玫瑰",
         "thumbnail": "/assets/frame/经典玫瑰.gif",
@@ -10172,12 +11676,28 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_鲸鱼泡泡",
+        "name": "鲸鱼泡泡",
+        "thumbnail": "/assets/frame/鲸鱼泡泡.gif",
+        "image": "/assets/frame/鲸鱼泡泡.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_卡通星星",
         "name": "卡通星星",
         "thumbnail": "/assets/frame/卡通星星.gif",
         "image": "/assets/frame/卡通星星.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_快乐彩虹",
+        "name": "快乐彩虹",
+        "thumbnail": "/assets/frame/快乐彩虹.gif",
+        "image": "/assets/frame/快乐彩虹.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_蓝色十字花",
@@ -10244,6 +11764,30 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_七夕蝴蝶",
+        "name": "七夕蝴蝶",
+        "thumbnail": "/assets/frame/七夕蝴蝶.gif",
+        "image": "/assets/frame/七夕蝴蝶.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_七夕玫瑰",
+        "name": "七夕玫瑰",
+        "thumbnail": "/assets/frame/七夕玫瑰.gif",
+        "image": "/assets/frame/七夕玫瑰.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_千年承诺",
+        "name": "千年承诺",
+        "thumbnail": "/assets/frame/千年承诺.gif",
+        "image": "/assets/frame/千年承诺.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_情人节",
         "name": "情人节",
         "thumbnail": "/assets/frame/情人节.gif",
@@ -10258,6 +11802,14 @@ export const categories = [
         "image": "/assets/frame/晴空.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_丘比特",
+        "name": "丘比特",
+        "thumbnail": "/assets/frame/丘比特.gif",
+        "image": "/assets/frame/丘比特.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_人民币鼠鼠",
@@ -10284,6 +11836,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_天使花环",
+        "name": "天使花环",
+        "thumbnail": "/assets/frame/天使花环.gif",
+        "image": "/assets/frame/天使花环.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_天使心星",
         "name": "天使心星",
         "thumbnail": "/assets/frame/天使心星.gif",
@@ -10296,6 +11856,14 @@ export const categories = [
         "name": "天使熊爱心",
         "thumbnail": "/assets/frame/天使熊爱心.gif",
         "image": "/assets/frame/天使熊爱心.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_甜心垂帘",
+        "name": "甜心垂帘",
+        "thumbnail": "/assets/frame/甜心垂帘.gif",
+        "image": "/assets/frame/甜心垂帘.gif",
         "category": "frame",
         "layer": 16
       },
@@ -10316,6 +11884,14 @@ export const categories = [
         "layer": 16
       },
       {
+        "id": "frame_顽皮小猴",
+        "name": "顽皮小猴",
+        "thumbnail": "/assets/frame/顽皮小猴.gif",
+        "image": "/assets/frame/顽皮小猴.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_万圣节",
         "name": "万圣节",
         "thumbnail": "/assets/frame/万圣节.gif",
@@ -10330,6 +11906,14 @@ export const categories = [
         "image": "/assets/frame/围栏信箱.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_舞狮贺岁",
+        "name": "舞狮贺岁",
+        "thumbnail": "/assets/frame/舞狮贺岁.gif",
+        "image": "/assets/frame/舞狮贺岁.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_小狗家园",
@@ -10348,6 +11932,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "frame_熊猫爱心",
+        "name": "熊猫爱心",
+        "thumbnail": "/assets/frame/熊猫爱心.gif",
+        "image": "/assets/frame/熊猫爱心.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
         "id": "frame_雪花爱心",
         "name": "雪花爱心",
         "thumbnail": "/assets/frame/雪花爱心.gif",
@@ -10362,6 +11954,22 @@ export const categories = [
         "image": "/assets/frame/摇滚爱心.gif",
         "category": "frame",
         "layer": 1
+      },
+      {
+        "id": "frame_友情礼盒",
+        "name": "友情礼盒",
+        "thumbnail": "/assets/frame/友情礼盒.gif",
+        "image": "/assets/frame/友情礼盒.gif",
+        "category": "frame",
+        "layer": 16
+      },
+      {
+        "id": "frame_紫晶珠链",
+        "name": "紫晶珠链",
+        "thumbnail": "/assets/frame/紫晶珠链.gif",
+        "image": "/assets/frame/紫晶珠链.gif",
+        "category": "frame",
+        "layer": 16
       },
       {
         "id": "frame_紫牵牛藤",
@@ -11116,6 +12724,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "companion_烟花娃娃",
+        "name": "烟花娃娃",
+        "thumbnail": "/assets/companion/烟花娃娃.gif",
+        "image": "/assets/companion/烟花娃娃.gif",
+        "category": "companion",
+        "layer": 18
+      },
+      {
         "id": "companion_云朵钓鱼狗",
         "name": "云朵钓鱼狗",
         "thumbnail": "/assets/companion/云朵钓鱼狗.gif",
@@ -11148,6 +12764,14 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_爱的力量",
+        "name": "爱的力量",
+        "thumbnail": "/assets/text/爱的力量.gif",
+        "image": "/assets/text/爱的力量.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_爱上你了爱心泡泡",
         "name": "爱上你了爱心泡泡",
         "thumbnail": "/assets/text/爱上你了爱心泡泡.gif",
@@ -11160,6 +12784,22 @@ export const categories = [
         "name": "爱我请举手",
         "thumbnail": "/assets/text/爱我请举手.gif",
         "image": "/assets/text/爱我请举手.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_爱之花语",
+        "name": "爱之花语",
+        "thumbnail": "/assets/text/爱之花语.gif",
+        "image": "/assets/text/爱之花语.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_缤纷气球",
+        "name": "缤纷气球",
+        "thumbnail": "/assets/text/缤纷气球.gif",
+        "image": "/assets/text/缤纷气球.gif",
         "category": "text",
         "layer": 17
       },
@@ -11210,6 +12850,14 @@ export const categories = [
         "image": "/assets/text/绯闻杂志.gif",
         "category": "text",
         "layer": 1
+      },
+      {
+        "id": "text_父亲节",
+        "name": "父亲节",
+        "thumbnail": "/assets/text/父亲节.gif",
+        "image": "/assets/text/父亲节.gif",
+        "category": "text",
+        "layer": 17
       },
       {
         "id": "text_格调杂志",
@@ -11308,6 +12956,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_流行少女",
+        "name": "流行少女",
+        "thumbnail": "/assets/text/流行少女.gif",
+        "image": "/assets/text/流行少女.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_绿色家园",
+        "name": "绿色家园",
+        "thumbnail": "/assets/text/绿色家园.gif",
+        "image": "/assets/text/绿色家园.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_明星杂志",
         "name": "明星杂志",
         "thumbnail": "/assets/text/明星杂志.gif",
@@ -11372,6 +13036,22 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_秋日风尚",
+        "name": "秋日风尚",
+        "thumbnail": "/assets/text/秋日风尚.gif",
+        "image": "/assets/text/秋日风尚.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_日系少女",
+        "name": "日系少女",
+        "thumbnail": "/assets/text/日系少女.gif",
+        "image": "/assets/text/日系少女.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_融化你的爱",
         "name": "融化你的爱",
         "thumbnail": "/assets/text/融化你的爱.gif",
@@ -11420,6 +13100,14 @@ export const categories = [
         "layer": 17
       },
       {
+        "id": "text_时尚生活",
+        "name": "时尚生活",
+        "thumbnail": "/assets/text/时尚生活.gif",
+        "image": "/assets/text/时尚生活.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_时尚制造",
         "name": "时尚制造",
         "thumbnail": "/assets/text/时尚制造.gif",
@@ -11464,6 +13152,22 @@ export const categories = [
         "name": "甜妹杂志",
         "thumbnail": "/assets/text/甜妹杂志.gif",
         "image": "/assets/text/甜妹杂志.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_甜品时光",
+        "name": "甜品时光",
+        "thumbnail": "/assets/text/甜品时光.gif",
+        "image": "/assets/text/甜品时光.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_甜心杂志",
+        "name": "甜心杂志",
+        "thumbnail": "/assets/text/甜心杂志.gif",
+        "image": "/assets/text/甜心杂志.gif",
         "category": "text",
         "layer": 17
       },
@@ -11580,6 +13284,14 @@ export const categories = [
         "layer": 17
       },
       {
+        "id": "text_星星物语",
+        "name": "星星物语",
+        "thumbnail": "/assets/text/星星物语.gif",
+        "image": "/assets/text/星星物语.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_幸福的生活",
         "name": "幸福的生活",
         "thumbnail": "/assets/text/幸福的生活.gif",
@@ -11676,10 +13388,34 @@ export const categories = [
         "layer": 1
       },
       {
+        "id": "text_缘定七夕",
+        "name": "缘定七夕",
+        "thumbnail": "/assets/text/缘定七夕.gif",
+        "image": "/assets/text/缘定七夕.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_摘朵玫瑰",
+        "name": "摘朵玫瑰",
+        "thumbnail": "/assets/text/摘朵玫瑰.gif",
+        "image": "/assets/text/摘朵玫瑰.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
         "id": "text_真的好想你",
         "name": "真的好想你",
         "thumbnail": "/assets/text/真的好想你.gif",
         "image": "/assets/text/真的好想你.gif",
+        "category": "text",
+        "layer": 17
+      },
+      {
+        "id": "text_知己难寻",
+        "name": "知己难寻",
+        "thumbnail": "/assets/text/知己难寻.gif",
+        "image": "/assets/text/知己难寻.gif",
         "category": "text",
         "layer": 17
       },
