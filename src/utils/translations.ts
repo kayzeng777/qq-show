@@ -4953,6 +4953,870 @@ export const itemNameTranslations: Record<string, Record<Language, string>> = {
   "爱心氛围": {
     "zh": "爱心氛围",
     "en": ""
+  },
+  "世界杯赛": {
+    "zh": "世界杯赛",
+    "en": "World Cup"
+  },
+  "仙境白兔": {
+    "zh": "仙境白兔",
+    "en": "Wonderland Rabbit"
+  },
+  "伞下猫咪": {
+    "zh": "伞下猫咪",
+    "en": "Umbrella Cats"
+  },
+  "公主高塔": {
+    "zh": "公主高塔",
+    "en": "Princess Tower"
+  },
+  "冬夜爱心": {
+    "zh": "冬夜爱心",
+    "en": "Winter Night Hearts"
+  },
+  "冰晶城堡": {
+    "zh": "冰晶城堡",
+    "en": "Ice Crystal Castle"
+  },
+  "冰雕之心": {
+    "zh": "冰雕之心",
+    "en": "Ice Heart"
+  },
+  "冰雪城堡": {
+    "zh": "冰雪城堡",
+    "en": "Ice Castle"
+  },
+  "冰雪宫殿": {
+    "zh": "冰雪宫殿",
+    "en": "Ice Palace"
+  },
+  "北欧街头": {
+    "zh": "北欧街头",
+    "en": "Nordic Street"
+  },
+  "午后茶室": {
+    "zh": "午后茶室",
+    "en": "Afternoon Tea Room"
+  },
+  "华丽客厅": {
+    "zh": "华丽客厅",
+    "en": "Luxury Parlor"
+  },
+  "单车小屋": {
+    "zh": "单车小屋",
+    "en": "Bicycle Cottage"
+  },
+  "双子高塔": {
+    "zh": "双子高塔",
+    "en": "Twin Towers"
+  },
+  "古树神殿": {
+    "zh": "古树神殿",
+    "en": "Ancient Tree Temple"
+  },
+  "圣光阶梯": {
+    "zh": "圣光阶梯",
+    "en": "Radiant Stairway"
+  },
+  "圣家教堂": {
+    "zh": "圣家教堂",
+    "en": "Sagrada Familia"
+  },
+  "圣诞壁炉": {
+    "zh": "圣诞壁炉",
+    "en": "Christmas Fireplace"
+  },
+  "圣诞花环": {
+    "zh": "圣诞花环",
+    "en": "Christmas Wreath"
+  },
+  "圣诞雪娃": {
+    "zh": "圣诞雪娃",
+    "en": "Christmas Snowmen"
+  },
+  "圣诞雪村": {
+    "zh": "圣诞雪村",
+    "en": "Christmas Snow Village"
+  },
+  "圣诞雪橇": {
+    "zh": "圣诞雪橇",
+    "en": "Santa's Sleigh"
+  },
+  "城市灯会": {
+    "zh": "城市灯会",
+    "en": "Light Festival"
+  },
+  "夜海流星": {
+    "zh": "夜海流星",
+    "en": "Night Sea Meteor"
+  },
+  "夜空花语": {
+    "zh": "夜空花语",
+    "en": "Night Blossoms"
+  },
+  "天使铃兰": {
+    "zh": "天使铃兰",
+    "en": "Angel Bellflowers"
+  },
+  "天空之城": {
+    "zh": "天空之城",
+    "en": "Castle in the Sky"
+  },
+  "天鹅仙子": {
+    "zh": "天鹅仙子",
+    "en": "Swan Fairy"
+  },
+  "威尼斯河": {
+    "zh": "威尼斯河",
+    "en": "Venice Canal"
+  },
+  "射手星座": {
+    "zh": "射手星座",
+    "en": "Sagittarius"
+  },
+  "小桥木屋": {
+    "zh": "小桥木屋",
+    "en": "Bridge Cabin"
+  },
+  "小猪衣坊": {
+    "zh": "小猪衣坊",
+    "en": "Piggy Boutique"
+  },
+  "小镇阶梯": {
+    "zh": "小镇阶梯",
+    "en": "Town Steps"
+  },
+  "山间木屋": {
+    "zh": "山间木屋",
+    "en": "Mountain Cabin"
+  },
+  "张灯结彩": {
+    "zh": "张灯结彩",
+    "en": "Festive Lanterns"
+  },
+  "弯月云梯": {
+    "zh": "弯月云梯",
+    "en": "Moon Ladder"
+  },
+  "彩虹仙境": {
+    "zh": "彩虹仙境",
+    "en": "Rainbow Wonderland"
+  },
+  "彩虹瀑布": {
+    "zh": "彩虹瀑布",
+    "en": "Rainbow Waterfall"
+  },
+  "彩虹糖堡": {
+    "zh": "彩虹糖堡",
+    "en": "Rainbow Candy Castle"
+  },
+  "彩虹花径": {
+    "zh": "彩虹花径",
+    "en": "Rainbow Flower Path"
+  },
+  "彩虹葵田": {
+    "zh": "彩虹葵田",
+    "en": "Rainbow Sunflowers"
+  },
+  "微笑暖阳": {
+    "zh": "微笑暖阳",
+    "en": "Smiling Sun"
+  },
+  "心云公园": {
+    "zh": "心云公园",
+    "en": "Heart Cloud Park"
+  },
+  "心属于你": {
+    "zh": "心属于你",
+    "en": "Heart For You"
+  },
+  "恋爱之日": {
+    "zh": "恋爱之日",
+    "en": "Love Day"
+  },
+  "扬帆起航": {
+    "zh": "扬帆起航",
+    "en": "Setting Sail"
+  },
+  "摇滚舞台": {
+    "zh": "摇滚舞台",
+    "en": "Rock Stage"
+  },
+  "数码漩涡": {
+    "zh": "数码漩涡",
+    "en": "Digital Vortex"
+  },
+  "新芽小熊": {
+    "zh": "新芽小熊",
+    "en": "Sprout Bear"
+  },
+  "旋转楼梯": {
+    "zh": "旋转楼梯",
+    "en": "Spiral Staircase"
+  },
+  "星光之心": {
+    "zh": "星光之心",
+    "en": "Starlight Heart"
+  },
+  "星光圣诞": {
+    "zh": "星光圣诞",
+    "en": "Starlight Christmas"
+  },
+  "星海航船": {
+    "zh": "星海航船",
+    "en": "Starry Sky Galleon"
+  },
+  "春日洋楼": {
+    "zh": "春日洋楼",
+    "en": "Spring Villa"
+  },
+  "春日湖畔": {
+    "zh": "春日湖畔",
+    "en": "Spring Lakeside"
+  },
+  "春湖栈桥": {
+    "zh": "春湖栈桥",
+    "en": "Spring Lake Pier"
+  },
+  "春花烂漫": {
+    "zh": "春花烂漫",
+    "en": "Spring Blossoms"
+  },
+  "晨光莲花": {
+    "zh": "晨光莲花",
+    "en": "Morning Lotus"
+  },
+  "暖阳彩虹": {
+    "zh": "暖阳彩虹",
+    "en": "Sunny Rainbow"
+  },
+  "暮光小镇": {
+    "zh": "暮光小镇",
+    "en": "Twilight Town"
+  },
+  "月下神殿": {
+    "zh": "月下神殿",
+    "en": "Moonlit Temple"
+  },
+  "月下雪人": {
+    "zh": "月下雪人",
+    "en": "Moonlit Snowman"
+  },
+  "月圆雪村": {
+    "zh": "月圆雪村",
+    "en": "Moonlit Snow Village"
+  },
+  "月夜天鹅": {
+    "zh": "月夜天鹅",
+    "en": "Moonlit Swans"
+  },
+  "月夜海滩": {
+    "zh": "月夜海滩",
+    "en": "Moonlit Beach"
+  },
+  "月夜港湾": {
+    "zh": "月夜港湾",
+    "en": "Moonlit Harbor"
+  },
+  "月夜雪屋": {
+    "zh": "月夜雪屋",
+    "en": "Moonlit Snow House"
+  },
+  "林间小径": {
+    "zh": "林间小径",
+    "en": "Forest Path"
+  },
+  "林间木屋": {
+    "zh": "林间木屋",
+    "en": "Forest Cabin"
+  },
+  "林间木阶": {
+    "zh": "林间木阶",
+    "en": "Wooden Forest Steps"
+  },
+  "林间碧湖": {
+    "zh": "林间碧湖",
+    "en": "Forest Lake"
+  },
+  "梦幻城堡": {
+    "zh": "梦幻城堡",
+    "en": "Dream Castle"
+  },
+  "椰林沙滩": {
+    "zh": "椰林沙滩",
+    "en": "Palm Beach"
+  },
+  "樱花大道": {
+    "zh": "樱花大道",
+    "en": "Cherry Blossom Avenue"
+  },
+  "樱花小桥": {
+    "zh": "樱花小桥",
+    "en": "Sakura Bridge"
+  },
+  "樱花庭院": {
+    "zh": "樱花庭院",
+    "en": "Sakura Courtyard"
+  },
+  "河畔红屋": {
+    "zh": "河畔红屋",
+    "en": "Riverside House"
+  },
+  "泡泡爱心": {
+    "zh": "泡泡爱心",
+    "en": "Bubble Hearts"
+  },
+  "泳池豪宅": {
+    "zh": "泳池豪宅",
+    "en": "Poolside Mansion"
+  },
+  "海上飞机": {
+    "zh": "海上飞机",
+    "en": "Seaplane Beach"
+  },
+  "海岛木屋": {
+    "zh": "海岛木屋",
+    "en": "Island Cabin"
+  },
+  "海底宝藏": {
+    "zh": "海底宝藏",
+    "en": "Undersea Treasure"
+  },
+  "海景拱门": {
+    "zh": "海景拱门",
+    "en": "Seaside Archway"
+  },
+  "海景餐桌": {
+    "zh": "海景餐桌",
+    "en": "Seaside Dining"
+  },
+  "海滨灯塔": {
+    "zh": "海滨灯塔",
+    "en": "Seaside Lighthouse"
+  },
+  "海滨阳伞": {
+    "zh": "海滨阳伞",
+    "en": "Seaside Parasol"
+  },
+  "海边樱树": {
+    "zh": "海边樱树",
+    "en": "Seaside Sakura"
+  },
+  "温馨厨房": {
+    "zh": "温馨厨房",
+    "en": "Cozy Kitchen"
+  },
+  "湖畔城堡": {
+    "zh": "湖畔城堡",
+    "en": "Lakeside Castle"
+  },
+  "湖畔机车": {
+    "zh": "湖畔机车",
+    "en": "Lakeside Motorbike"
+  },
+  "湖畔露台": {
+    "zh": "湖畔露台",
+    "en": "Lakeside Terrace"
+  },
+  "滨水都市": {
+    "zh": "滨水都市",
+    "en": "Waterfront City"
+  },
+  "爱意满天": {
+    "zh": "爱意满天",
+    "en": "Love in the Sky"
+  },
+  "爱的告白": {
+    "zh": "爱的告白",
+    "en": "Love Confession"
+  },
+  "玩偶之家": {
+    "zh": "玩偶之家",
+    "en": "Teddy Bear Home"
+  },
+  "玫瑰彩虹": {
+    "zh": "玫瑰彩虹",
+    "en": "Rose Rainbow"
+  },
+  "玫瑰洋房": {
+    "zh": "玫瑰洋房",
+    "en": "Rose Garden House"
+  },
+  "玫瑰花园": {
+    "zh": "玫瑰花园",
+    "en": "Rose Garden"
+  },
+  "甜品小街": {
+    "zh": "甜品小街",
+    "en": "Dessert Street"
+  },
+  "甜心客厅": {
+    "zh": "甜心客厅",
+    "en": "Sweetheart Lounge"
+  },
+  "神殿花园": {
+    "zh": "神殿花园",
+    "en": "Temple Garden"
+  },
+  "福袋祥云": {
+    "zh": "福袋祥云",
+    "en": "Lucky Fortune Bags"
+  },
+  "秋日绿屋": {
+    "zh": "秋日绿屋",
+    "en": "Autumn Green House"
+  },
+  "秋湖夕照": {
+    "zh": "秋湖夕照",
+    "en": "Autumn Lake Sunset"
+  },
+  "童话山谷": {
+    "zh": "童话山谷",
+    "en": "Fairytale Valley"
+  },
+  "粉紫花帘": {
+    "zh": "粉紫花帘",
+    "en": "Pink Flower Curtain"
+  },
+  "粉色圣诞": {
+    "zh": "粉色圣诞",
+    "en": "Pink Christmas"
+  },
+  "粉色情书": {
+    "zh": "粉色情书",
+    "en": "Pink Love Letter"
+  },
+  "粉色梦境": {
+    "zh": "粉色梦境",
+    "en": "Pink Dreamland"
+  },
+  "粉色闺房": {
+    "zh": "粉色闺房",
+    "en": "Pink Boudoir"
+  },
+  "粉雪之心": {
+    "zh": "粉雪之心",
+    "en": "Pink Snow Heart"
+  },
+  "粉雪飘飘": {
+    "zh": "粉雪飘飘",
+    "en": "Pink Snowfall"
+  },
+  "精灵星夜": {
+    "zh": "精灵星夜",
+    "en": "Fairy Starry Night"
+  },
+  "糖果小屋": {
+    "zh": "糖果小屋",
+    "en": "Candy Cottage"
+  },
+  "紫夜城堡": {
+    "zh": "紫夜城堡",
+    "en": "Purple Night Castle"
+  },
+  "紫夜星座": {
+    "zh": "紫夜星座",
+    "en": "Purple Constellation"
+  },
+  "紫暮街灯": {
+    "zh": "紫暮街灯",
+    "en": "Dusk Streetlamp"
+  },
+  "紫树小屋": {
+    "zh": "紫树小屋",
+    "en": "Purple Treehouse"
+  },
+  "紫梦叶影": {
+    "zh": "紫梦叶影",
+    "en": "Dreamy Purple Leaves"
+  },
+  "紫纱花廊": {
+    "zh": "紫纱花廊",
+    "en": "Purple Flower Gallery"
+  },
+  "紫蒲公英": {
+    "zh": "紫蒲公英",
+    "en": "Purple Dandelion"
+  },
+  "繁华广场": {
+    "zh": "繁华广场",
+    "en": "Bustling Plaza"
+  },
+  "繁华都市": {
+    "zh": "繁华都市",
+    "en": "Bustling City"
+  },
+  "红毯宫殿": {
+    "zh": "红毯宫殿",
+    "en": "Red Carpet Palace"
+  },
+  "红色跑车": {
+    "zh": "红色跑车",
+    "en": "Red Sports Car"
+  },
+  "绵羊牧场": {
+    "zh": "绵羊牧场",
+    "en": "Sheep Farm"
+  },
+  "绿叶仙境": {
+    "zh": "绿叶仙境",
+    "en": "Leafy Wonderland"
+  },
+  "绿叶小屋": {
+    "zh": "绿叶小屋",
+    "en": "Leaf Cottage"
+  },
+  "绿梦精灵": {
+    "zh": "绿梦精灵",
+    "en": "Green Dream Fairy"
+  },
+  "缤纷莓果": {
+    "zh": "缤纷莓果",
+    "en": "Berry Medley"
+  },
+  "缤纷雏菊": {
+    "zh": "缤纷雏菊",
+    "en": "Colorful Daisies"
+  },
+  "花园洋房": {
+    "zh": "花园洋房",
+    "en": "Garden Villa"
+  },
+  "花园砖屋": {
+    "zh": "花园砖屋",
+    "en": "Garden Brick House"
+  },
+  "苜蓿花开": {
+    "zh": "苜蓿花开",
+    "en": "Clover Blossoms"
+  },
+  "苹果小屋": {
+    "zh": "苹果小屋",
+    "en": "Apple Tree Cottage"
+  },
+  "荷叶彩虹": {
+    "zh": "荷叶彩虹",
+    "en": "Lotus Leaf Rainbow"
+  },
+  "蓝光绽放": {
+    "zh": "蓝光绽放",
+    "en": "Blue Radiance"
+  },
+  "蓝焰之心": {
+    "zh": "蓝焰之心",
+    "en": "Blue Flame Heart"
+  },
+  "蘑菇花田": {
+    "zh": "蘑菇花田",
+    "en": "Mushroom Meadow"
+  },
+  "蝶舞花丛": {
+    "zh": "蝶舞花丛",
+    "en": "Butterfly Garden"
+  },
+  "螃蟹海滩": {
+    "zh": "螃蟹海滩",
+    "en": "Crab Beach"
+  },
+  "街角跑车": {
+    "zh": "街角跑车",
+    "en": "Corner Sports Car"
+  },
+  "路灯阶梯": {
+    "zh": "路灯阶梯",
+    "en": "Lamppost Steps"
+  },
+  "都市大桥": {
+    "zh": "都市大桥",
+    "en": "City Bridge"
+  },
+  "都市樱园": {
+    "zh": "都市樱园",
+    "en": "City Sakura Park"
+  },
+  "都市江畔": {
+    "zh": "都市江畔",
+    "en": "City Riverside"
+  },
+  "都市高楼": {
+    "zh": "都市高楼",
+    "en": "City Skyline"
+  },
+  "金树海湾": {
+    "zh": "金树海湾",
+    "en": "Golden Tree Bay"
+  },
+  "金秋夕照": {
+    "zh": "金秋夕照",
+    "en": "Golden Autumn Sunset"
+  },
+  "金秋大道": {
+    "zh": "金秋大道",
+    "en": "Golden Autumn Avenue"
+  },
+  "金秋小屋": {
+    "zh": "金秋小屋",
+    "en": "Golden Autumn Cottage"
+  },
+  "金秋湖畔": {
+    "zh": "金秋湖畔",
+    "en": "Autumn Lakeside"
+  },
+  "金色大堂": {
+    "zh": "金色大堂",
+    "en": "Golden Lobby"
+  },
+  "闹市街头": {
+    "zh": "闹市街头",
+    "en": "Busy Street"
+  },
+  "阳光书房": {
+    "zh": "阳光书房",
+    "en": "Sunny Study"
+  },
+  "阳光校园": {
+    "zh": "阳光校园",
+    "en": "Sunny Campus"
+  },
+  "阳光池塘": {
+    "zh": "阳光池塘",
+    "en": "Sunny Pond"
+  },
+  "阳光琴房": {
+    "zh": "阳光琴房",
+    "en": "Sunny Piano Room"
+  },
+  "阳光草坡": {
+    "zh": "阳光草坡",
+    "en": "Sunny Hillside"
+  },
+  "雪人彩虹": {
+    "zh": "雪人彩虹",
+    "en": "Snowman Rainbow"
+  },
+  "雪人贺岁": {
+    "zh": "雪人贺岁",
+    "en": "New Year Snowmen"
+  },
+  "雪夜木屋": {
+    "zh": "雪夜木屋",
+    "en": "Snowy Night Cabins"
+  },
+  "雪夜金殿": {
+    "zh": "雪夜金殿",
+    "en": "Snowy Golden Palace"
+  },
+  "雪山冰河": {
+    "zh": "雪山冰河",
+    "en": "Snowy Mountain River"
+  },
+  "雪山教堂": {
+    "zh": "雪山教堂",
+    "en": "Alpine Chapel"
+  },
+  "雪山樱花": {
+    "zh": "雪山樱花",
+    "en": "Snowy Mountain Sakura"
+  },
+  "霓虹夜街": {
+    "zh": "霓虹夜街",
+    "en": "Neon Night"
+  },
+  "霓虹爱心": {
+    "zh": "霓虹爱心",
+    "en": "Neon Hearts"
+  },
+  "风车气球": {
+    "zh": "风车气球",
+    "en": "Windmills and Balloons"
+  },
+  "飞瀑圣殿": {
+    "zh": "飞瀑圣殿",
+    "en": "Waterfall Sanctuary"
+  },
+  "飞翼爱心": {
+    "zh": "飞翼爱心",
+    "en": "Winged Hearts"
+  },
+  "黑猫钢琴": {
+    "zh": "黑猫钢琴",
+    "en": "Black Cat Piano"
+  },
+  "七夕玫瑰": {
+    "zh": "七夕玫瑰",
+    "en": "Qixi Roses"
+  },
+  "丘比特": {
+    "zh": "丘比特",
+    "en": "Cupid"
+  },
+  "千年承诺": {
+    "zh": "千年承诺",
+    "en": "Thousand Year Promise"
+  },
+  "友情礼盒": {
+    "zh": "友情礼盒",
+    "en": "Friendship Gifts"
+  },
+  "天使花环": {
+    "zh": "天使花环",
+    "en": "Angel Garland"
+  },
+  "彩虹弯月": {
+    "zh": "彩虹弯月",
+    "en": "Rainbow Crescent"
+  },
+  "快乐彩虹": {
+    "zh": "快乐彩虹",
+    "en": "Happy Rainbow"
+  },
+  "摘朵玫瑰": {
+    "zh": "摘朵玫瑰",
+    "en": "A Rose for You"
+  },
+  "日系少女": {
+    "zh": "日系少女",
+    "en": "Japanese Style Girl"
+  },
+  "时尚生活": {
+    "zh": "时尚生活",
+    "en": "Fashion Life"
+  },
+  "星星物语": {
+    "zh": "星星物语",
+    "en": "Star Story"
+  },
+  "流行少女": {
+    "zh": "流行少女",
+    "en": "Pop Teen"
+  },
+  "熊猫爱心": {
+    "zh": "熊猫爱心",
+    "en": "Panda Hearts"
+  },
+  "爱之花语": {
+    "zh": "爱之花语",
+    "en": "Flowers of Love"
+  },
+  "爱心小狗": {
+    "zh": "爱心小狗",
+    "en": "Heart Puppy"
+  },
+  "爱的力量": {
+    "zh": "爱的力量",
+    "en": "Power of Love"
+  },
+  "父亲节": {
+    "zh": "父亲节",
+    "en": "Father's Day"
+  },
+  "甜品时光": {
+    "zh": "甜品时光",
+    "en": "Sweet Day"
+  },
+  "甜心垂帘": {
+    "zh": "甜心垂帘",
+    "en": "Sweet Heart Drapes"
+  },
+  "甜心杂志": {
+    "zh": "甜心杂志",
+    "en": "Sweet Girl Magazine"
+  },
+  "知己难寻": {
+    "zh": "知己难寻",
+    "en": "Rare Soulmate"
+  },
+  "秋日风尚": {
+    "zh": "秋日风尚",
+    "en": "Autumn Style"
+  },
+  "粉色花雨": {
+    "zh": "粉色花雨",
+    "en": "Pink Flower Rain"
+  },
+  "紫晶珠链": {
+    "zh": "紫晶珠链",
+    "en": "Amethyst Beads"
+  },
+  "红唇飞吻": {
+    "zh": "红唇飞吻",
+    "en": "Flying Kiss"
+  },
+  "绿色家园": {
+    "zh": "绿色家园",
+    "en": "Green Home"
+  },
+  "缘定七夕": {
+    "zh": "缘定七夕",
+    "en": "Qixi Destiny"
+  },
+  "缤纷气球": {
+    "zh": "缤纷气球",
+    "en": "Colorful Balloons"
+  },
+  "舞狮贺岁": {
+    "zh": "舞狮贺岁",
+    "en": "Lion Dance Festival"
+  },
+  "金心垂帘": {
+    "zh": "金心垂帘",
+    "en": "Golden Heart Curtain"
+  },
+  "雏菊花园": {
+    "zh": "雏菊花园",
+    "en": "Daisy Garden"
+  },
+  "顽皮小猴": {
+    "zh": "顽皮小猴",
+    "en": "Playful Monkey"
+  },
+  "鲸鱼泡泡": {
+    "zh": "鲸鱼泡泡",
+    "en": "Whale Bubbles"
+  },
+  "七彩蝶翼仙子魔杖套装": {
+    "zh": "七彩蝶翼仙子魔杖套装",
+    "en": "Rainbow Fairy Wand Set"
+  },
+  "粉色爱心魔法少女套装": {
+    "zh": "粉色爱心魔法少女套装",
+    "en": "Pink Heart Magical Girl"
+  },
+  "红衣绿裙圣诞树套装": {
+    "zh": "红衣绿裙圣诞树套装",
+    "en": "Red Green Christmas Tree Set"
+  },
+  "蓝马甲牛仔裤雪人套装": {
+    "zh": "蓝马甲牛仔裤雪人套装",
+    "en": "Blue Vest Snowman Set"
+  },
+  "烟花娃娃": {
+    "zh": "烟花娃娃",
+    "en": "Fireworks Doll"
+  },
+  "云中宫殿": {
+    "zh": "云中宫殿",
+    "en": "Cloud Palace"
+  },
+  "威尼斯雨": {
+    "zh": "威尼斯雨",
+    "en": "Venice Rain"
+  },
+  "猫咪客厅": {
+    "zh": "猫咪客厅",
+    "en": "Kitty Living Room"
+  },
+  "童话村庄": {
+    "zh": "童话村庄",
+    "en": "Fairytale Village"
+  },
+  "草地晴空": {
+    "zh": "草地晴空",
+    "en": "Meadow Sky"
+  },
+  "七夕蝴蝶": {
+    "zh": "七夕蝴蝶",
+    "en": "Qixi Butterflies"
   }
 };
 
