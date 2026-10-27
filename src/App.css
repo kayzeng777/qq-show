@@ -590,6 +590,87 @@
   gap: 4px;
 }
 
+.gif-export-row {
+  width: 212px;
+  margin: 8px auto 0;
+}
+
+.share-gif-export-row {
+  width: 212px;
+}
+
+.gif-export-control {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 3px;
+  width: 100%;
+}
+
+.gif-export-button {
+  width: 100%;
+  min-height: 28px;
+  padding: 5px 8px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Unifont", monospace;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 #cccccc;
+  box-shadow:
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gif-export-button:hover:not(:disabled),
+.gif-export-button:focus-visible {
+  background: #433ae7;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #333333;
+}
+
+.gif-export-button:disabled {
+  background: #c0c0c0;
+  color: #808080;
+  cursor: progress;
+  opacity: 0.75;
+}
+
+.gif-export-status {
+  min-height: 12px;
+  color: #333;
+  font-family: "Unifont", monospace;
+  font-size: 9px;
+  line-height: 1.35;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.gif-export-status:empty {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .qq-window:not(.share-page) .gif-export-row {
+    width: 192px;
+  }
+}
+
+@media (max-width: 900px) and (max-height: 670px) {
+  .qq-window:not(.share-page) .gif-export-row {
+    width: 172px;
+  }
+}
+
+@media (max-width: 900px) and (max-height: 640px) {
+  .qq-window:not(.share-page) .gif-export-row {
+    width: 157px;
+  }
+}
+
 .clear-button {
   padding: 8px 8px;
   border: 1px solid #c0c0c0;

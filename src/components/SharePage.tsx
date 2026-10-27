@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import ShareQQShow from "./ShareQQShow";
+import DownloadGifButton from "./DownloadGifButton";
 import type { QQShowOutfit } from "../types/qqShow";
 import { useLanguage } from "../contexts/LanguageContext";
 import { supabase } from "../lib/supabase";
@@ -17,6 +18,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
   const [hasUserInput, setHasUserInput] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const inputRef = useRef<HTMLInputElement>(null);
+  const displayRef = useRef<HTMLDivElement>(null);
 
   const handleCreateYourOwn = () => {
     window.location.href = "https://qqshow2000.com";
@@ -315,7 +317,7 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 加载中...
               </div>
             ) : (
-              <ShareQQShow outfit={outfit} />
+              <ShareQQShow outfit={outfit} displayRef={displayRef} />
             )}
 
             {/* 装扮名称编辑区域 */}
@@ -419,6 +421,15 @@ const SharePage: React.FC<SharePageProps> = ({ outfit }) => {
                 </button>
               </div>
             </div>
+            {!isLoading && (
+              <div className="gif-export-row share-gif-export-row">
+                <DownloadGifButton
+                  displayRef={displayRef}
+                  outfit={outfit}
+                  fileName={outfitName}
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>

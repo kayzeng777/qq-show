@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && cp -R assets dist",
+    "build": "tsc -b && vite build && node -e \"require('node:fs').cpSync('assets', 'dist/assets', { recursive: true })\"",
     "lint": "eslint .",
     "preview": "vite preview",
     "upload-new-assets": "node scripts/uploadNewAssets.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
+    "gifenc": "1.0.3",
+    "omggif": "1.0.10",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

@@ -1,5 +1,6 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import QQShow from "./components/QQShow";
+import DownloadGifButton from "./components/DownloadGifButton";
 import CategorySelector from "./components/CategorySelector";
 import ItemSelector from "./components/ItemSelector";
 import SharePage from "./components/SharePage";
@@ -52,6 +53,7 @@ function AppContent() {
   const [showAbout, setShowAbout] = useState(false);
   const [isSharePage, setIsSharePage] = useState(false);
   const [shouldAutoScroll, setShouldAutoScroll] = useState(false); // 控制是否应该自动滚动
+  const displayRef = useRef<HTMLDivElement>(null);
   const { language, setLanguage, t } = useLanguage();
 
   // 重置自动滚动状态（延迟重置，确保ItemSelector有时间处理）
@@ -539,6 +541,7 @@ function AppContent() {
             </div>
             <QQShow
               outfit={outfit}
+              displayRef={displayRef}
               onItemChange={(_category, item) => {
                 if (item) {
                   handleItemSelect(item);
@@ -547,6 +550,13 @@ function AppContent() {
                 }
               }}
             />
+            <div className="gif-export-row">
+              <DownloadGifButton
+                displayRef={displayRef}
+                outfit={outfit}
+                fileName={t.app.defaultOutfitName}
+              />
+            </div>
           </div>
 
           <div className="menus-container">

@@ -25,6 +25,11 @@ const translations = {
       categoryTitle: "装扮分类",
       defaultOutfitName: "我的装扮",
       save: "保存",
+      downloadGif: "下载最终 GIF",
+      generatingGif: "正在合成 GIF…",
+      gifDownloadComplete: "GIF 已下载",
+      gifDownloadFailed: "GIF 导出失败，请重试",
+      gifLoopCapped: "GIF 已下载；部分动画周期超过 12 秒导出上限",
     },
     categories: {
       backgrounds: "背景",
@@ -76,6 +81,11 @@ const translations = {
       categoryTitle: "Categories",
       defaultOutfitName: "My Outfit",
       save: "Save",
+      downloadGif: "Download final GIF",
+      generatingGif: "Compositing GIF…",
+      gifDownloadComplete: "GIF downloaded",
+      gifDownloadFailed: "GIF export failed. Please try again.",
+      gifLoopCapped: "GIF downloaded; some animation cycles exceeded the 12-second export limit",
     },
     categories: {
       backgrounds: "Background",
